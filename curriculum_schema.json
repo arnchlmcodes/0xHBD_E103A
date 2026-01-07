@@ -1,0 +1,22 @@
+{
+  "type": "object",
+  "required": ["document_id", "source", "unit", "chunks"],
+  "properties": {
+    "document_id": { "type": "string" },
+    "source": { "type": "string" },
+    "unit": { "type": "string" },
+    "chunks": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["chunk_id", "topic", "learning_objective", "text"],
+        "properties": {
+          "chunk_id": { "type": "string" },
+          "topic": { "type": "string" },
+          "learning_objective": { "type": "string" },
+          "text": { "type": "string" }
+        }
+      }
+    }
+  }
+}
