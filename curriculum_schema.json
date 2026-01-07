@@ -1,19 +1,41 @@
 {
   "type": "object",
-  "required": ["document_id", "source", "unit", "chunks"],
+  "required": [
+    "topic_id",
+    "topic_name",
+    "unit",
+    "learning_objectives",
+    "allowed_concepts",
+    "disallowed_concepts",
+    "content_blocks"
+  ],
   "properties": {
-    "document_id": { "type": "string" },
-    "source": { "type": "string" },
+    "topic_id": { "type": "string" },
+    "topic_name": { "type": "string" },
     "unit": { "type": "string" },
-    "chunks": {
+    "learning_objectives": {
+      "type": "array",
+      "items": { "type": "string" }
+    },
+    "allowed_concepts": {
+      "type": "array",
+      "items": { "type": "string" }
+    },
+    "disallowed_concepts": {
+      "type": "array",
+      "items": { "type": "string" }
+    },
+    "content_blocks": {
       "type": "array",
       "items": {
         "type": "object",
-        "required": ["chunk_id", "topic", "learning_objective", "text"],
+        "required": ["block_id", "type", "text"],
         "properties": {
-          "chunk_id": { "type": "string" },
-          "topic": { "type": "string" },
-          "learning_objective": { "type": "string" },
+          "block_id": { "type": "string" },
+          "type": {
+            "type": "string",
+            "enum": ["definition", "explanation", "example"]
+          },
           "text": { "type": "string" }
         }
       }
