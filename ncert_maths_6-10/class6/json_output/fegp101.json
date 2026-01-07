@@ -1,0 +1,707 @@
+[
+  {
+    "topic_id": "topic_1",
+    "topic_name": "Patterns in Mathematics",
+    "unit": "fegp101",
+    "learning_objectives": [
+      "Students will understand the concept of patterns in mathematics and their importance in everyday life.",
+      "Students will be able to identify and describe various types of number sequences.",
+      "Students will learn to recognize the applications of number theory in mathematics.",
+      "Students will understand the concept of patterns in mathematics and their importance.",
+      "Students will be able to identify and create various types of patterns, including numerical and shape patterns.",
+      "Students will learn to recognize and explain the relationships between different patterns.",
+      "Students will be able to recognize and identify different types of patterns, including number sequences and shape sequences.",
+      "Students will learn to visualize and understand the relationships between different patterns."
+    ],
+    "allowed_concepts": [
+      "patterns in mathematics",
+      "number theory",
+      "number sequences",
+      "whole numbers",
+      "counting numbers",
+      "odd numbers",
+      "even numbers",
+      "triangular numbers",
+      "squares",
+      "cubes",
+      "Virahānka numbers",
+      "powers of 2",
+      "powers of 3",
+      "Numerical patterns",
+      "Shape patterns",
+      "Hexagonal numbers",
+      "Consecutive numbers",
+      "Sequences",
+      "shape sequences",
+      "regular polygons",
+      "complete graphs",
+      "stacked triangles and squares",
+      "Koch snowflake iterations",
+      "square numbers",
+      "cube numbers"
+    ],
+    "disallowed_concepts": [
+      "Advanced calculus",
+      "Topology",
+      "Fractals",
+      "linear algebra",
+      "differential equations"
+    ],
+    "content_blocks": [
+      {
+        "block_id": "block_1",
+        "type": "explanation",
+        "text": "Mathematics is, in large part, the search for patterns, and for the explanations as to why those patterns exist. Such patterns indeed exist all around us — in nature, in our homes and schools, and in the motion of the sun, moon, and stars."
+      },
+      {
+        "block_id": "block_2",
+        "type": "definition",
+        "text": "The branch of Mathematics that studies patterns in whole numbers is called number theory."
+      },
+      {
+        "block_id": "block_3",
+        "type": "example",
+        "text": "Table 1 shows some key number sequences that are studied in Mathematics."
+      },
+      {
+        "block_id": "block_4",
+        "type": "explanation",
+        "text": "Number sequences are the most basic and among the most fascinating types of patterns that mathematicians study."
+      },
+      {
+        "block_id": "block_5",
+        "type": "example",
+        "text": "1, 1, 1, 1, 1, 1, 1, ... (All 1’s) 1, 2, 3, 4, 5, 6, 7, ... (Counting numbers) 1, 3, 5, 7, 9, 11, 13, ... (Odd numbers) 2, 4, 6, 8, 10, 12, 14, ... (Even numbers) 1, 3, 6, 10, 15, 21, 28, ... (Triangular numbers) 1, 4, 9, 16, 25, 36, 49, ... (Squares) 1, 8, 27, 64, 125, 216, ... (Cubes) 1, 2, 3, 5, 8, 13, 21, ... (Virahānka numbers) 1, 2, 4, 8, 16, 32, 64, ... (Powers of 2) 1, 3, 9, 27, 81, 243, 729, ... (Powers of 3)"
+      },
+      {
+        "block_id": "block_6",
+        "type": "definition",
+        "text": "Patterns in mathematics refer to the repetition of a specific shape, number, or design in a predictable and consistent manner."
+      },
+      {
+        "block_id": "block_7",
+        "type": "explanation",
+        "text": "Numerical patterns can be created by adding or multiplying numbers in a specific way, such as adding consecutive numbers or multiplying triangular numbers by 6 and adding 1."
+      },
+      {
+        "block_id": "block_8",
+        "type": "example",
+        "text": "For example, the sequence 1, 1 + 2 + 1, 1 + 2 + 3 + 2 + 1, … gives square numbers when adding counting numbers up and down."
+      },
+      {
+        "block_id": "block_9",
+        "type": "explanation",
+        "text": "Shape patterns can be created by arranging shapes in a specific way, such as creating a triangle by arranging dots in a triangular pattern."
+      },
+      {
+        "block_id": "block_10",
+        "type": "example",
+        "text": "For example, the sequence 1, 1 + 7, 1 + 7 + 19, 1 + 7 + 19 + 37, … gives hexagonal numbers when adding hexagonal numbers."
+      },
+      {
+        "block_id": "block_11",
+        "type": "definition",
+        "text": "Sequences are a series of numbers or shapes that follow a specific pattern or rule."
+      },
+      {
+        "block_id": "block_12",
+        "type": "explanation",
+        "text": "Powers of 2 can be created by multiplying 2 by itself a specific number of times, such as 2^1, 2^2, 2^3, …"
+      },
+      {
+        "block_id": "block_13",
+        "type": "example",
+        "text": "For example, the sequence 1, 1 + 2, 1 + 2 + 4, 1 + 2 + 4 + 8, … gives powers of 2 when adding powers of 2 starting with 1."
+      },
+      {
+        "block_id": "block_14",
+        "type": "definition",
+        "text": "Mathematics may be viewed as the search for patterns and for the explanations as to why those patterns exist."
+      },
+      {
+        "block_id": "block_15",
+        "type": "explanation",
+        "text": "Some important examples of number sequences include the counting numbers, odd numbers, even numbers, square numbers, triangular numbers, cube numbers, Virahānka numbers, and powers of 2."
+      },
+      {
+        "block_id": "block_16",
+        "type": "example",
+        "text": "Adding up the sequence of odd numbers starting with 1 gives square numbers."
+      },
+      {
+        "block_id": "block_17",
+        "type": "definition",
+        "text": "Shape sequences are another basic type of pattern in mathematics."
+      },
+      {
+        "block_id": "block_18",
+        "type": "explanation",
+        "text": "Some important examples of shape sequences include regular polygons, complete graphs, stacked triangles and squares, and Koch snowflake iterations."
+      },
+      {
+        "block_id": "block_19",
+        "type": "example",
+        "text": "Visualising number sequences using pictures can help to understand sequences and the relationships between them."
+      }
+    ]
+  },
+  {
+    "topic_id": "topic_1",
+    "topic_name": "Visualising Number Sequences",
+    "unit": "fegp101",
+    "learning_objectives": [
+      "Students will understand the concept of number sequences and their pictorial representation.",
+      "Students will be able to identify and describe different types of number sequences.",
+      "Students will learn to visualise mathematical objects through pictures or diagrams."
+    ],
+    "allowed_concepts": [
+      "number sequences",
+      "pictorial representation",
+      "triangular numbers",
+      "square numbers",
+      "cubes",
+      "hexagonal numbers",
+      "powers of 2",
+      "powers of 3"
+    ],
+    "disallowed_concepts": [
+      "Advanced calculus",
+      "Complex numbers"
+    ],
+    "content_blocks": [
+      {
+        "block_id": "block_1",
+        "type": "explanation",
+        "text": "Many number sequences can be visualised using pictures. Visualising mathematical objects through pictures or diagrams can be a very fruitful way to understand mathematical patterns and concepts."
+      },
+      {
+        "block_id": "block_2",
+        "type": "definition",
+        "text": "Triangular numbers are numbers that can be represented as dots arranged in the shape of an equilateral triangle."
+      },
+      {
+        "block_id": "block_3",
+        "type": "example",
+        "text": "1, 3, 6, 10, 15, … are triangular numbers because they can be represented as dots arranged in the shape of an equilateral triangle."
+      },
+      {
+        "block_id": "block_4",
+        "type": "explanation",
+        "text": "Square numbers are numbers that can be represented as dots arranged in the shape of a square grid."
+      },
+      {
+        "block_id": "block_5",
+        "type": "example",
+        "text": "1, 4, 9, 16, 25, … are square numbers because they can be represented as dots arranged in the shape of a square grid."
+      },
+      {
+        "block_id": "block_6",
+        "type": "explanation",
+        "text": "Cubes are numbers that can be represented as dots arranged in the shape of a cube."
+      },
+      {
+        "block_id": "block_7",
+        "type": "example",
+        "text": "1, 8, 27, 64, 125, … are cubes because they can be represented as dots arranged in the shape of a cube."
+      },
+      {
+        "block_id": "block_8",
+        "type": "explanation",
+        "text": "Hexagonal numbers are numbers that can be represented as dots arranged in the shape of a hexagon."
+      },
+      {
+        "block_id": "block_9",
+        "type": "example",
+        "text": "1, 7, 19, 37 are hexagonal numbers because they can be represented as dots arranged in the shape of a hexagon."
+      },
+      {
+        "block_id": "block_10",
+        "type": "explanation",
+        "text": "Powers of 2 are numbers that can be represented as 2 raised to a power."
+      },
+      {
+        "block_id": "block_11",
+        "type": "example",
+        "text": "1, 2, 4, 8, 16, … are powers of 2 because they can be represented as 2 raised to a power."
+      },
+      {
+        "block_id": "block_12",
+        "type": "explanation",
+        "text": "Powers of 3 are numbers that can be represented as 3 raised to a power."
+      },
+      {
+        "block_id": "block_13",
+        "type": "example",
+        "text": "1, 3, 9, 27, 81, … are powers of 3 because they can be represented as 3 raised to a power."
+      }
+    ]
+  },
+  {
+    "topic_id": "topic_1",
+    "topic_name": "Shape Sequences",
+    "unit": "fegp101",
+    "learning_objectives": [
+      "Students will understand the concept of shape sequences and their importance in mathematics.",
+      "Students will be able to identify and describe different types of shape sequences.",
+      "Students will learn to recognize patterns and relationships between shape sequences and number sequences."
+    ],
+    "allowed_concepts": [
+      "shape sequences",
+      "regular polygons",
+      "number sequences",
+      "patterns",
+      "relationships between shape sequences and number sequences"
+    ],
+    "disallowed_concepts": [
+      "Advanced calculus",
+      "Complex numbers"
+    ],
+    "content_blocks": [
+      {
+        "block_id": "block_1",
+        "type": "definition",
+        "text": "Shape sequences are one important type of shape pattern that mathematicians study."
+      },
+      {
+        "block_id": "block_2",
+        "type": "explanation",
+        "text": "Table 3 shows a few key shape sequences that are studied in Mathematics."
+      },
+      {
+        "block_id": "block_3",
+        "type": "example",
+        "text": "The number of sides in the shape sequence of Regular Polygons is given by the counting numbers starting at 3, i.e., 3, 4, 5, 6, 7, 8, 9, 10, ...."
+      },
+      {
+        "block_id": "block_4",
+        "type": "explanation",
+        "text": "The other shape sequences in Table 3 also have beautiful relationships with number sequences."
+      },
+      {
+        "block_id": "block_5",
+        "type": "example",
+        "text": "Count the number of sides in each shape in the sequence Try of Regular Polygons. Which number sequence do you get?"
+      },
+      {
+        "block_id": "block_6",
+        "type": "explanation",
+        "text": "This What about the number of corners in each shape in the sequence of Regular Polygons? Do you get the same number sequence?"
+      },
+      {
+        "block_id": "block_7",
+        "type": "example",
+        "text": "Count the number of lines in each shape in the sequence of Complete Graphs. Which number sequence do you get?"
+      },
+      {
+        "block_id": "block_8",
+        "type": "explanation",
+        "text": "Can you explain why this happens?"
+      },
+      {
+        "block_id": "block_9",
+        "type": "example",
+        "text": "How many little squares are there in each shape of the sequence of Stacked Squares?"
+      },
+      {
+        "block_id": "block_10",
+        "type": "explanation",
+        "text": "Which number sequence does this give?"
+      },
+      {
+        "block_id": "block_11",
+        "type": "example",
+        "text": "How many little triangles are there in each shape of the sequence of Stacked Triangles?"
+      },
+      {
+        "block_id": "block_12",
+        "type": "explanation",
+        "text": "Can you explain why?"
+      },
+      {
+        "block_id": "block_13",
+        "type": "example",
+        "text": "To get from one shape to the next shape in the Koch Snowflake sequence, one replaces each line segment ‘—’ by a ‘speed bump’ ."
+      }
+    ]
+  },
+  {
+    "topic_id": "topic_1",
+    "topic_name": "Visualizing Sequences",
+    "unit": "fegp101",
+    "learning_objectives": [
+      "Students will understand how to visualize sequences of powers of 2 and 3.",
+      "Students will be able to identify patterns in sequences of powers of 2 and 3.",
+      "Students will learn to recognize and explain the relationship between sequences and their corresponding geometric shapes."
+    ],
+    "allowed_concepts": [
+      "Sequences of powers of 2 and 3",
+      "Geometric shapes",
+      "Patterns in sequences",
+      "Relationship between sequences and geometric shapes"
+    ],
+    "disallowed_concepts": [
+      "Advanced calculus",
+      "Complex numbers"
+    ],
+    "content_blocks": [
+      {
+        "block_id": "block_1",
+        "type": "definition",
+        "text": "Sequences of powers of 2 and 3 can be visualized using geometric shapes such as squares and cubes."
+      },
+      {
+        "block_id": "block_2",
+        "type": "explanation",
+        "text": "To visualize a sequence of powers of 2, start with a square with side length 2 and add another square with side length 4, then another square with side length 8, and so on."
+      },
+      {
+        "block_id": "block_3",
+        "type": "example",
+        "text": "For example, the sequence of powers of 2 is 2, 4, 8, 16, 32, ... ."
+      },
+      {
+        "block_id": "block_4",
+        "type": "definition",
+        "text": "A sequence of powers of 3 can be visualized using a cube with side length 3 and adding another cube with side length 9, then another cube with side length 27, and so on."
+      },
+      {
+        "block_id": "block_5",
+        "type": "explanation",
+        "text": "To visualize a sequence of powers of 3, start with a cube with side length 3 and add another cube with side length 9, then another cube with side length 27, and so on."
+      },
+      {
+        "block_id": "block_6",
+        "type": "example",
+        "text": "For example, the sequence of powers of 3 is 3, 9, 27, 81, ... ."
+      },
+      {
+        "block_id": "block_7",
+        "type": "definition",
+        "text": "The sum of the first n odd numbers is given by the formula n^2."
+      },
+      {
+        "block_id": "block_8",
+        "type": "explanation",
+        "text": "To find the sum of the first n odd numbers, we can use the formula n^2."
+      },
+      {
+        "block_id": "block_9",
+        "type": "example",
+        "text": "For example, the sum of the first 10 odd numbers is 100."
+      },
+      {
+        "block_id": "block_10",
+        "type": "definition",
+        "text": "The sum of the first n odd numbers can also be visualized using a sequence of squares."
+      },
+      {
+        "block_id": "block_11",
+        "type": "explanation",
+        "text": "To visualize the sum of the first n odd numbers, start with a square with side length 1 and add another square with side length 3, then another square with side length 5, and so on."
+      },
+      {
+        "block_id": "block_12",
+        "type": "example",
+        "text": "For example, the sum of the first 10 odd numbers is 100, which can be visualized using a sequence of 10 squares."
+      }
+    ]
+  },
+  {
+    "topic_id": "topic_2",
+    "topic_name": "Patterns in Sequences",
+    "unit": "fegp101",
+    "learning_objectives": [
+      "Students will understand how to identify patterns in sequences.",
+      "Students will be able to recognize and explain the relationship between sequences and their corresponding geometric shapes.",
+      "Students will learn to use patterns in sequences to solve problems."
+    ],
+    "allowed_concepts": [
+      "Patterns in sequences",
+      "Relationship between sequences and geometric shapes",
+      "Using patterns in sequences to solve problems"
+    ],
+    "disallowed_concepts": [
+      "Advanced calculus",
+      "Complex numbers"
+    ],
+    "content_blocks": [
+      {
+        "block_id": "block_1",
+        "type": "definition",
+        "text": "A pattern in a sequence is a regular or repeating arrangement of numbers or shapes."
+      },
+      {
+        "block_id": "block_2",
+        "type": "explanation",
+        "text": "To identify a pattern in a sequence, look for a regular or repeating arrangement of numbers or shapes."
+      },
+      {
+        "block_id": "block_3",
+        "type": "example",
+        "text": "For example, the sequence 2, 4, 8, 16, 32, ... has a pattern of powers of 2."
+      },
+      {
+        "block_id": "block_4",
+        "type": "definition",
+        "text": "A geometric shape can be used to visualize a sequence and its pattern."
+      },
+      {
+        "block_id": "block_5",
+        "type": "explanation",
+        "text": "To visualize a sequence and its pattern, use a geometric shape such as a square or a cube."
+      },
+      {
+        "block_id": "block_6",
+        "type": "example",
+        "text": "For example, the sequence 3, 9, 27, 81, ... can be visualized using a cube with side length 3 and adding another cube with side length 9, then another cube with side length 27, and so on."
+      }
+    ]
+  },
+  {
+    "topic_id": "topic_3",
+    "topic_name": "Relationship between Sequences and Geometric Shapes",
+    "unit": "fegp101",
+    "learning_objectives": [
+      "Students will understand how to recognize and explain the relationship between sequences and their corresponding geometric shapes.",
+      "Students will be able to use the relationship between sequences and geometric shapes to solve problems.",
+      "Students will learn to visualize sequences and their patterns using geometric shapes."
+    ],
+    "allowed_concepts": [
+      "Relationship between sequences and geometric shapes",
+      "Using the relationship between sequences and geometric shapes to solve problems",
+      "Visualizing sequences and their patterns using geometric shapes"
+    ],
+    "disallowed_concepts": [
+      "Advanced calculus",
+      "Complex numbers"
+    ],
+    "content_blocks": [
+      {
+        "block_id": "block_1",
+        "type": "definition",
+        "text": "The relationship between a sequence and its corresponding geometric shape is a regular or repeating arrangement of numbers or shapes."
+      },
+      {
+        "block_id": "block_2",
+        "type": "explanation",
+        "text": "To recognize and explain the relationship between a sequence and its corresponding geometric shape, look for a regular or repeating arrangement of numbers or shapes."
+      },
+      {
+        "block_id": "block_3",
+        "type": "example",
+        "text": "For example, the sequence 2, 4, 8, 16, 32, ... has a relationship with a square with side length 2 and adding another square with side length 4, then another square with side length 8, and so on."
+      },
+      {
+        "block_id": "block_4",
+        "type": "definition",
+        "text": "A geometric shape can be used to visualize a sequence and its pattern."
+      },
+      {
+        "block_id": "block_5",
+        "type": "explanation",
+        "text": "To visualize a sequence and its pattern, use a geometric shape such as a square or a cube."
+      },
+      {
+        "block_id": "block_6",
+        "type": "example",
+        "text": "For example, the sequence 3, 9, 27, 81, ... can be visualized using a cube with side length 3 and adding another cube with side length 9, then another cube with side length 27, and so on."
+      }
+    ]
+  },
+  {
+    "topic_id": "topic_1",
+    "topic_name": "Regular Polygons",
+    "unit": "fegp101",
+    "learning_objectives": [
+      "Students will understand the relationship between the number of sides and corners in regular polygons.",
+      "Students will be able to identify and count the number of sides and corners in different regular polygons.",
+      "Students will learn to recognize the pattern of counting numbers in the sequence of regular polygons."
+    ],
+    "allowed_concepts": [
+      "Regular Polygons",
+      "Number of Sides",
+      "Number of Corners",
+      "Counting Numbers",
+      "Pattern Recognition"
+    ],
+    "disallowed_concepts": [
+      "Advanced calculus",
+      "Complex numbers"
+    ],
+    "content_blocks": [
+      {
+        "block_id": "block_1",
+        "type": "definition",
+        "text": "Regular Polygons are shapes with equal sides and equal angles."
+      },
+      {
+        "block_id": "block_2",
+        "type": "explanation",
+        "text": "In any closed figure, the number of sides is equal to the number of corners (vertices)."
+      },
+      {
+        "block_id": "block_3",
+        "type": "example",
+        "text": "Count the number of sides in each shape in the sequence of Regular Polygons. Which number sequence do you get?"
+      },
+      {
+        "block_id": "block_4",
+        "type": "example",
+        "text": "Count the number of corners in each shape in the sequence of Regular Polygons. Do you get the same number sequence?"
+      },
+      {
+        "block_id": "block_5",
+        "type": "example",
+        "text": "Can you explain why the number of sides is equal to the number of corners in regular polygons?"
+      }
+    ]
+  },
+  {
+    "topic_id": "topic_2",
+    "topic_name": "Complete Graphs",
+    "unit": "fegp101",
+    "learning_objectives": [
+      "Students will understand the concept of Complete Graphs.",
+      "Students will be able to count the number of lines in different Complete Graphs.",
+      "Students will learn to recognize the pattern of triangle numbers in the sequence of Complete Graphs."
+    ],
+    "allowed_concepts": [
+      "Complete Graphs",
+      "Number of Lines",
+      "Triangle Numbers",
+      "Pattern Recognition"
+    ],
+    "disallowed_concepts": [
+      "Advanced calculus",
+      "Complex numbers"
+    ],
+    "content_blocks": [
+      {
+        "block_id": "block_1",
+        "type": "definition",
+        "text": "Complete Graphs are shapes with all possible lines connecting the vertices."
+      },
+      {
+        "block_id": "block_2",
+        "type": "explanation",
+        "text": "The number of lines in a Complete Graph is a triangle number sequence."
+      },
+      {
+        "block_id": "block_3",
+        "type": "example",
+        "text": "Count the number of lines in each shape in the sequence of Complete Graphs. Which number sequence do you get?"
+      }
+    ]
+  },
+  {
+    "topic_id": "topic_3",
+    "topic_name": "Stacked Squares",
+    "unit": "fegp101",
+    "learning_objectives": [
+      "Students will understand the concept of Stacked Squares.",
+      "Students will be able to count the number of little squares in different Stacked Squares.",
+      "Students will learn to recognize the pattern of square numbers in the sequence of Stacked Squares."
+    ],
+    "allowed_concepts": [
+      "Stacked Squares",
+      "Number of Little Squares",
+      "Square Numbers",
+      "Pattern Recognition"
+    ],
+    "disallowed_concepts": [
+      "Advanced calculus",
+      "Complex numbers"
+    ],
+    "content_blocks": [
+      {
+        "block_id": "block_1",
+        "type": "definition",
+        "text": "Stacked Squares are shapes made by stacking squares on top of each other."
+      },
+      {
+        "block_id": "block_2",
+        "type": "explanation",
+        "text": "The number of little squares in a Stacked Square is a square number sequence."
+      },
+      {
+        "block_id": "block_3",
+        "type": "example",
+        "text": "Count the number of little squares in each shape in the sequence of Stacked Squares. Which number sequence do you get?"
+      }
+    ]
+  },
+  {
+    "topic_id": "topic_4",
+    "topic_name": "Stacked Triangles",
+    "unit": "fegp101",
+    "learning_objectives": [
+      "Students will understand the concept of Stacked Triangles.",
+      "Students will be able to count the number of little triangles in different Stacked Triangles.",
+      "Students will learn to recognize the pattern of square numbers in the sequence of Stacked Triangles."
+    ],
+    "allowed_concepts": [
+      "Stacked Triangles",
+      "Number of Little Triangles",
+      "Square Numbers",
+      "Pattern Recognition"
+    ],
+    "disallowed_concepts": [
+      "Advanced calculus",
+      "Complex numbers"
+    ],
+    "content_blocks": [
+      {
+        "block_id": "block_1",
+        "type": "definition",
+        "text": "Stacked Triangles are shapes made by stacking triangles on top of each other."
+      },
+      {
+        "block_id": "block_2",
+        "type": "explanation",
+        "text": "The number of little triangles in a Stacked Triangle is a square number sequence."
+      },
+      {
+        "block_id": "block_3",
+        "type": "example",
+        "text": "Count the number of little triangles in each shape in the sequence of Stacked Triangles. Which number sequence do you get?"
+      }
+    ]
+  },
+  {
+    "topic_id": "topic_5",
+    "topic_name": "Koch Snowflake",
+    "unit": "fegp101",
+    "learning_objectives": [
+      "Students will understand the concept of Koch Snowflake.",
+      "Students will be able to count the total number of line segments in different Koch Snowflakes.",
+      "Students will learn to recognize the pattern of powers of 4 in the sequence of Koch Snowflakes."
+    ],
+    "allowed_concepts": [
+      "Koch Snowflake",
+      "Total Number of Line Segments",
+      "Powers of 4",
+      "Pattern Recognition"
+    ],
+    "disallowed_concepts": [
+      "Advanced calculus",
+      "Complex numbers"
+    ],
+    "content_blocks": [
+      {
+        "block_id": "block_1",
+        "type": "definition",
+        "text": "Koch Snowflake is a shape made by replacing each line segment with a 'speed bump'."
+      },
+      {
+        "block_id": "block_2",
+        "type": "explanation",
+        "text": "The total number of line segments in a Koch Snowflake is a sequence of powers of 4."
+      },
+      {
+        "block_id": "block_3",
+        "type": "example",
+        "text": "Count the total number of line segments in each shape in the sequence of Koch Snowflakes. What is the corresponding number sequence?"
+      }
+    ]
+  }
+]
