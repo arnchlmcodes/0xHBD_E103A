@@ -1,0 +1,800 @@
+[
+  {
+    "topic_id": "topic_1",
+    "topic_name": "Multiplication of Fractions",
+    "unit": "gegp108",
+    "learning_objectives": [
+      "Students will understand how to multiply fractions and whole numbers.",
+      "Students will be able to find the product of a fraction and a whole number.",
+      "Students will learn to apply the concept of multiplication of fractions to real-life problems.",
+      "Students will understand the concept of multiplying fractions.",
+      "Students will be able to multiply fractions by following a specific method.",
+      "Students will learn to apply the concept of multiplication of fractions to solve real-world problems.",
+      "Students will understand the concept of multiplying fractions and its application in real-life scenarios.",
+      "Students will be able to multiply fractions using the formula and simplify the product to its lowest form.",
+      "Students will learn to identify and cancel common factors in the numerator and denominator before multiplying fractions.",
+      "Students will be able to multiply fractions using Brahmagupta's formula and simplify the resulting fraction.",
+      "Students will learn to identify and cancel common factors in the numerators and denominators before multiplying fractions."
+    ],
+    "allowed_concepts": [
+      "Multiplication of fractions",
+      "Whole numbers",
+      "Fractions",
+      "Real-life applications of multiplication of fractions",
+      "unit square",
+      "whole number",
+      "equal parts",
+      "area of a rectangle",
+      "Simplifying fractions to lowest form",
+      "Cancelling common factors",
+      "Real-life applications of fractions",
+      "Brahmagupta's formula",
+      "Cancellation of common factors",
+      "Simplifying fractions"
+    ],
+    "disallowed_concepts": [
+      "advanced algebra",
+      "calculus",
+      "Advanced algebraic manipulations",
+      "Fractional exponents",
+      "Rational expressions"
+    ],
+    "content_blocks": [
+      {
+        "block_id": "block_1",
+        "type": "definition",
+        "text": "Distance covered in 1 hour = 3 km. Therefore, Distance covered in 5 hours = 5 × 3 km = 3 + 3 + 3 + 3 + 3 km = 15 km."
+      },
+      {
+        "block_id": "block_2",
+        "type": "explanation",
+        "text": "We continue to calculate the total distance covered through multiplication. Distance in 1 hour 0 3 km 1 Distance in 5 hour 1 1 Distance covered in hours = × 3 km. 5 5 Finding the product: Distance covered in 1 hour = 3 km. 1 In hours, distance covered is equal to the length we get by dividing 5 3 3 km into 5 equal parts, which is km. 5 1 3 This tells us that × 3 = . 5 5 2"
+      },
+      {
+        "block_id": "block_3",
+        "type": "example",
+        "text": "Example 1: A farmer had 5 5 2 2 3 6 grandchildren. She distributed acre 2 × = 5 5 5 3 of land to each of her grandchildren. How much land in all did she give to her grandchildren? 2 2 2 2 2 2 10 5 × = + + + + = . 3 3 3 3 3 3 3 1"
+      },
+      {
+        "block_id": "block_4",
+        "type": "example",
+        "text": "Example 2: 1 hour of internet time costs ₹8. How much will 1 hours 4 of internet time cost? 1 5 1 hours is hours (converting from a mixed fraction). 4 4 5 5 Cost of hour of internet time = × 8 4 4 8 = 5 × 4 = 5 × 2 = 10. 1 It costs ₹10 for 1 hours of internet time. 4"
+      },
+      {
+        "block_id": "block_5",
+        "type": "definition",
+        "text": "Multiplying two fractions involves multiplying the numerators and denominators separately and then simplifying the result."
+      },
+      {
+        "block_id": "block_6",
+        "type": "explanation",
+        "text": "To multiply fractions, we follow a method similar to multiplying a fraction by a whole number. We divide the multiplicand by the denominator and then multiply the result by the numerator."
+      },
+      {
+        "block_id": "block_7",
+        "type": "example",
+        "text": "For example, to multiply 3/2 and 4/5, we first divide 3/2 by 5, which gives us 6/10. Then we multiply 6/10 by 4, which gives us 24/10. We can simplify this to 12/5."
+      },
+      {
+        "block_id": "block_8",
+        "type": "example",
+        "text": "Another example is multiplying 1/4 and 3/2. We first divide 1/4 by 2, which gives us 1/8. Then we multiply 1/8 by 3, which gives us 3/8."
+      },
+      {
+        "block_id": "block_9",
+        "type": "explanation",
+        "text": "We can also use the concept of area of a rectangle to understand multiplication of fractions. For example, if we have a rectangle with a length of 1 unit and a breadth of 1/2 unit, its area is 1/2 square units. If we multiply this rectangle by 3, the area becomes 3/2 square units."
+      },
+      {
+        "block_id": "block_10",
+        "type": "definition",
+        "text": "The area of a rectangle of fractional sides equals the product of its sides."
+      },
+      {
+        "block_id": "block_11",
+        "type": "explanation",
+        "text": "To find the product of two fractions, we can find the area of the rectangle formed with the two fractions as its sides."
+      },
+      {
+        "block_id": "block_12",
+        "type": "example",
+        "text": "Find the following products. Use a unit square as a whole for representing the fractions: 1 1 (a) × 3 5 1 1 (b) × 4 3 1 1 (c) × 5 2 1 1 (d) × 6 5 1 1 Now, find × . 12 18"
+      },
+      {
+        "block_id": "block_13",
+        "type": "definition",
+        "text": "The formula for multiplying fractions is: a c a × c × = . b d b × d"
+      },
+      {
+        "block_id": "block_14",
+        "type": "explanation",
+        "text": "This formula works even when the multiplier or multiplicand is a whole number. We can simply rewrite the whole number as a fraction with denominator 1."
+      },
+      {
+        "block_id": "block_15",
+        "type": "example",
+        "text": "Multiply the following fractions and express the product in its lowest form: 12 5 × 7 24"
+      },
+      {
+        "block_id": "block_16",
+        "type": "definition",
+        "text": "When multiplying fractions, we can first divide the numerator and denominator by their common factors before multiplying the numerators and denominators. This is called cancelling the common factors."
+      },
+      {
+        "block_id": "block_17",
+        "type": "explanation",
+        "text": "A Pinch of History In India, the process of reducing a fraction to its lowest terms — known as apavartana — is so well known that it finds mention even in a non-mathematical work."
+      },
+      {
+        "block_id": "block_18",
+        "type": "example",
+        "text": "A water tank is filled from a tap. If the tap is open for 1 hour, of 10 the tank gets filled. How much of the tank is filled if the tap is open for 1 (a) hour ____________ 3 2 (b) hour ____________ 3 3 (c) hour ____________ 4 7 (d) hour ____________ 10"
+      },
+      {
+        "block_id": "block_19",
+        "type": "definition",
+        "text": "Brahmagupta's formula for multiplication of fractions: a c a × c × = . b d b × d"
+      },
+      {
+        "block_id": "block_20",
+        "type": "explanation",
+        "text": "When multiplying fractions, if the numerators and denominators have some common factors, we can cancel them first before multiplying the numerators and denominators."
+      },
+      {
+        "block_id": "block_21",
+        "type": "example",
+        "text": "Evaluate the following: 7 14 2 2 14 7 3 ÷ ÷ 2 ÷ ÷ 9 4 3 3 6 3 4 3 7 1 8 4 ÷ ÷ ÷ 3 4 4 7 2 15 1 1 1 11 2 3 ÷ ÷ 3 ÷ 1 5 9 6 12 3 8"
+      },
+      {
+        "block_id": "block_22",
+        "type": "explanation",
+        "text": "In multiplication — when one of the numbers being multiplied is between 0 and 1, the product is less than the other number. If one of the numbers being multiplied is greater than 1, then the product is greater than the other number."
+      },
+      {
+        "block_id": "block_23",
+        "type": "definition",
+        "text": "The reciprocal of a fraction is . When we multiply a fraction by its b a reciprocal, the product is 1."
+      },
+      {
+        "block_id": "block_24",
+        "type": "explanation",
+        "text": "Brahmagupta's formula for division of fractions: a c a d a × d ÷ = × = . b d b c b × c"
+      },
+      {
+        "block_id": "block_25",
+        "type": "example",
+        "text": "Evaluate the following: 1 ÷ , 1 ÷ , 1 ÷ , 1 ÷ , and 6 10 13 9 1 1 ÷ ."
+      },
+      {
+        "block_id": "block_26",
+        "type": "explanation",
+        "text": "In division — when the divisor is between 0 and 1, the quotient is greater than the dividend. When the divisor is greater than 1, the quotient is less than the dividend."
+      }
+    ]
+  },
+  {
+    "topic_id": "topic_1",
+    "topic_name": "Sharing of Land",
+    "unit": "gegp108",
+    "learning_objectives": [
+      "Students will understand how to divide a land among family members.",
+      "Students will be able to calculate the share of each family member.",
+      "Students will learn to represent the remaining land as a fraction."
+    ],
+    "allowed_concepts": [
+      "fractions",
+      "division",
+      "sharing of land",
+      "representation of remaining land as a fraction"
+    ],
+    "disallowed_concepts": [
+      "Advanced calculus",
+      "Complex numbers"
+    ],
+    "content_blocks": [
+      {
+        "block_id": "block_1",
+        "type": "explanation",
+        "text": "The government has taken of Somu’s land to build a road. 6 What part of the land remains with Somu now? She gives half of 183 CChhaapptteerr--88..iinndddd 118833 44//1122//22002255 1122::4411::3333 PPMM Ganita Prakash | Grade 7 1 the remaining part of the land to her daughter Krishna and of 3 it to her son Bora. After giving them their shares, she keeps the remaining land for herself."
+      },
+      {
+        "block_id": "block_2",
+        "type": "example",
+        "text": "(a) What part of the original land did Krishna get? (b) What part of the original land did Bora get? (c) What part of the original land did Somu keep for herself?"
+      }
+    ]
+  },
+  {
+    "topic_id": "topic_2",
+    "topic_name": "Area of a Rectangle",
+    "unit": "gegp108",
+    "learning_objectives": [
+      "Students will understand how to calculate the area of a rectangle.",
+      "Students will be able to find the area of a rectangle with given sides.",
+      "Students will learn to represent the area as a product of length and breadth."
+    ],
+    "allowed_concepts": [
+      "area of a rectangle",
+      "product of length and breadth",
+      "representation of area as a product"
+    ],
+    "disallowed_concepts": [
+      "Advanced calculus",
+      "Complex numbers"
+    ],
+    "content_blocks": [
+      {
+        "block_id": "block_1",
+        "type": "explanation",
+        "text": "Find the area of a rectangle of sides 3 ft and 9 ft."
+      },
+      {
+        "block_id": "block_2",
+        "type": "example",
+        "text": "3 3 3. Find the area of a rectangle of sides 3 ft and 9 ft."
+      }
+    ]
+  },
+  {
+    "topic_id": "topic_3",
+    "topic_name": "Distance Between Saplings",
+    "unit": "gegp108",
+    "learning_objectives": [
+      "Students will understand how to find the distance between two saplings.",
+      "Students will be able to calculate the distance between the first and last sapling.",
+      "Students will learn to represent the distance as a sum of equal parts."
+    ],
+    "allowed_concepts": [
+      "distance between saplings",
+      "sum of equal parts",
+      "representation of distance as a sum"
+    ],
+    "disallowed_concepts": [
+      "Advanced calculus",
+      "Complex numbers"
+    ],
+    "content_blocks": [
+      {
+        "block_id": "block_1",
+        "type": "explanation",
+        "text": "Tsewang plants four saplings in a row in his garden. The distance 3 between two saplings is m. Find the distance between the first 4 and last sapling."
+      },
+      {
+        "block_id": "block_2",
+        "type": "example",
+        "text": "[Hint: Draw a rough diagram with four saplings 3 with distance between two saplings as m]"
+      }
+    ]
+  },
+  {
+    "topic_id": "topic_4",
+    "topic_name": "Comparing Products",
+    "unit": "gegp108",
+    "learning_objectives": [
+      "Students will understand how to compare the product of two numbers.",
+      "Students will be able to determine when the product is greater than, less than, or equal to both numbers.",
+      "Students will learn to represent the product as a sum of equal parts."
+    ],
+    "allowed_concepts": [
+      "comparing products",
+      "representation of product as a sum of equal parts",
+      "determining when the product is greater than, less than, or equal to both numbers"
+    ],
+    "disallowed_concepts": [
+      "Advanced calculus",
+      "Complex numbers"
+    ],
+    "content_blocks": [
+      {
+        "block_id": "block_1",
+        "type": "explanation",
+        "text": "Since, we know that when a number is multiplied by 1, the product remains unchanged, we will look at multiplying pairs of numbers where neither of them is 1."
+      },
+      {
+        "block_id": "block_2",
+        "type": "example",
+        "text": "When we multiply two counting numbers greater than 1, say 3 and 5, the product is greater than both the numbers being multiplied."
+      }
+    ]
+  },
+  {
+    "topic_id": "topic_5",
+    "topic_name": "Order of Multiplication",
+    "unit": "gegp108",
+    "learning_objectives": [
+      "Students will understand how to determine the order of multiplication.",
+      "Students will be able to represent the area of a rectangle as a product of length and breadth.",
+      "Students will learn to interchange the length and breadth without changing the area."
+    ],
+    "allowed_concepts": [
+      "order of multiplication",
+      "representation of area as a product of length and breadth",
+      "interchanging length and breadth without changing the area"
+    ],
+    "disallowed_concepts": [
+      "Advanced calculus",
+      "Complex numbers"
+    ],
+    "content_blocks": [
+      {
+        "block_id": "block_1",
+        "type": "explanation",
+        "text": "We know that × = . 2 4 8 1 4 1 1 2 8 1 1 Now, what is × ? 4 2 1 That is too. 8 In general, note that the area of a rectangle remains the same even if the length and breadth are interchanged."
+      },
+      {
+        "block_id": "block_2",
+        "type": "example",
+        "text": "Thus, a c c a × = × . b d d b This can also be seen from Brahmagupta’s formula for multiplying fractions."
+      }
+    ]
+  },
+  {
+    "topic_id": "topic_6",
+    "topic_name": "Division of Fractions",
+    "unit": "gegp108",
+    "learning_objectives": [
+      "Students will understand how to divide fractions.",
+      "Students will be able to represent the dividend as a product of the divisor and the quotient.",
+      "Students will learn to interchange the dividend and the divisor without changing the quotient.",
+      "Students will understand the concept of dividing fractions and its application in real-life scenarios.",
+      "Students will be able to divide fractions using Brahmagupta's formula and simplify the resulting fraction.",
+      "Students will learn to identify and cancel common factors in the numerators and denominators before dividing fractions."
+    ],
+    "allowed_concepts": [
+      "division of fractions",
+      "representation of dividend as a product of divisor and quotient",
+      "interchanging dividend and divisor without changing the quotient",
+      "Brahmagupta's formula",
+      "Cancellation of common factors",
+      "Simplifying fractions",
+      "Real-life applications of fractions"
+    ],
+    "disallowed_concepts": [
+      "Advanced algebraic manipulations",
+      "Fractional exponents",
+      "Rational expressions"
+    ],
+    "content_blocks": [
+      {
+        "block_id": "block_1",
+        "type": "explanation",
+        "text": "What is 12 ÷ 4? You know this already. Dividend Divisor But can this problem be restated as a multiplication problem?"
+      },
+      {
+        "block_id": "block_2",
+        "type": "example",
+        "text": "12 ÷ 4 = 3 What should be multiplied by 4 to get Quotient 12? That is, 4 × ? = 12"
+      },
+      {
+        "block_id": "block_3",
+        "type": "definition",
+        "text": "Brahmagupta's formula for division of fractions: a c a d a × d ÷ = × = . b d b c b × c"
+      },
+      {
+        "block_id": "block_4",
+        "type": "explanation",
+        "text": "When dividing fractions, if the numerators and denominators have some common factors, we can cancel them first before dividing the numerators and denominators."
+      },
+      {
+        "block_id": "block_5",
+        "type": "example",
+        "text": "Evaluate the following: 1 ÷ ÷ 2 ÷ ÷ 9 4 3 3 6 3 4 3 7 1 8 4 ÷ ÷ ÷ 3 4 4 7 2 15 1 1 1 11 2 3 ÷ ÷ 3 ÷ 1 5 9 6 12 3 8"
+      },
+      {
+        "block_id": "block_6",
+        "type": "explanation",
+        "text": "In division — when the divisor is between 0 and 1, the quotient is greater than the dividend. When the divisor is greater than 1, the quotient is less than the dividend."
+      }
+    ]
+  },
+  {
+    "topic_id": "topic_1",
+    "topic_name": "Working with Fractions",
+    "unit": "gegp108",
+    "learning_objectives": [
+      "Students will understand how to convert division into multiplication problems to divide fractions.",
+      "Students will be able to find the reciprocal of the divisor and multiply it by the dividend to get the quotient.",
+      "Students will learn the method and formula for division of fractions as per Brahmagupta's method.",
+      "Students will understand the concept of fractions and their representation.",
+      "Students will be able to add, subtract, multiply, and divide fractions.",
+      "Students will learn to solve problems involving fractions in real-life situations."
+    ],
+    "allowed_concepts": [
+      "fractions",
+      "division of fractions",
+      "reciprocal of a number",
+      "multiplication of fractions",
+      "Brahmagupta's method",
+      "Decimals",
+      "Percentages",
+      "Equivalent ratios",
+      "Addition, subtraction, multiplication, and division of fractions",
+      "Equivalent Fractions",
+      "Comparing Fractions"
+    ],
+    "disallowed_concepts": [
+      "Advanced algebraic manipulations",
+      "Calculus",
+      "Trigonometry",
+      "Advanced Algebra"
+    ],
+    "content_blocks": [
+      {
+        "block_id": "block_1",
+        "type": "definition",
+        "text": "We can use this technique of converting division into multiplication problems to divide fractions."
+      },
+      {
+        "block_id": "block_2",
+        "type": "explanation",
+        "text": "Let us rewrite this as a multiplication problem 2 × ? = 1 3 2 What should be multiplied by to get the product 1?"
+      },
+      {
+        "block_id": "block_3",
+        "type": "example",
+        "text": "So, 2 3 1 ÷ = . 3 2"
+      },
+      {
+        "block_id": "block_4",
+        "type": "explanation",
+        "text": "Summarising, to divide two fractions: • Find the reciprocal of the divisor • Multiply this by the dividend to get the quotient."
+      },
+      {
+        "block_id": "block_5",
+        "type": "definition",
+        "text": "a c d a d × a So, ÷ = × = . b d c b c × b"
+      },
+      {
+        "block_id": "block_6",
+        "type": "example",
+        "text": "2 3 2 5 2 × 5 10 ÷ = × = = . 3 5 3 3 3 × 3 9"
+      },
+      {
+        "block_id": "block_7",
+        "type": "explanation",
+        "text": "When we divide two whole numbers, say 6 ÷ 3, we get the quotient 2. Here the quotient is less than the dividend."
+      },
+      {
+        "block_id": "block_8",
+        "type": "example",
+        "text": "6 ÷ 3 = 2, 2 < 6 1 But what happens when we divide 6 by ? 4 1 6 ÷ = 24. 4"
+      },
+      {
+        "block_id": "block_9",
+        "type": "explanation",
+        "text": "When do you think the quotient is less than the dividend and when is it greater than the dividend?"
+      },
+      {
+        "block_id": "block_10",
+        "type": "example",
+        "text": "1 Example 3: Leena made 5 cups of tea. She used litre of milk for this. 4 How much milk is there in each cup of tea?"
+      },
+      {
+        "block_id": "block_11",
+        "type": "example",
+        "text": "1 litres of 5 cups 4 Milk in 1 cup 1 Leena used litres of milk in 5 cups of tea. So, in 1 cup of tea the 4 volume of milk should be: 1 ÷ 5. 4"
+      },
+      {
+        "block_id": "block_12",
+        "type": "example",
+        "text": "1 The reciprocal of 5 (the divisor) is . 5 1 Multiplying this reciprocal by the dividend ( ), we get 4 1 1 1 × = . 5 4 20 1"
+      },
+      {
+        "block_id": "block_13",
+        "type": "definition",
+        "text": "Fractions are used to represent a part of a whole. They are written in the form a/b, where a is the numerator and b is the denominator."
+      },
+      {
+        "block_id": "block_14",
+        "type": "explanation",
+        "text": "To add fractions, we need to have the same denominator. We can do this by finding the least common multiple (LCM) of the denominators."
+      },
+      {
+        "block_id": "block_15",
+        "type": "example",
+        "text": "Example 4: Some of the oldest examples of working with non-unit fractions occur in humanity’s oldest geometry texts, the Śhulbasūtra. Here is an example from Baudhāyana’s Śhulbasūtra (c. 800 BCE). 1 Cover an area of 7 square units with square bricks each of whose sides is 2 units. 5 190 CChhaapptteerr--88..iinndddd 119900 44//1122//22002255 1122::4411::3344 PPMM Working with Fractions How many such square bricks are needed? 1 1 1 Each square brick has an area of × = square units. 5 5 25 1 15 The total area to be covered is 7 sq. units = sq. units. 2 2 As (Number of bricks) × (Area of a brick) = Total Area, 15 1 Number of bricks = ÷ . 2 25 The reciprocal of the divisor is 25. Multiplying the reciprocal by the dividend, we get 15 25 × 15 375 25 × = = . 2 2 2"
+      },
+      {
+        "block_id": "block_16",
+        "type": "example",
+        "text": "Example 5: This problem was posed by Chaturveda Pṛithūdakasvāmī (c. 860 CE) in his commentary on Brahmagupta’s book Brāhmasphuṭasiddhānta. Four fountains fill a cistern. The first fountain can fill the cistern in a day. The second can fill it in half a day. The third can fill it in a quarter of a day. The fourth can fill the cistern in one fifth of a day. If they all flow together, in how much time will they fill the cistern?"
+      },
+      {
+        "block_id": "block_17",
+        "type": "example",
+        "text": "Let us solve this problem step by step. In a day, the number of times — • the first fountain will fill the cistern is 1÷ 1 = 1 1 • the second fountain will fill the cistern is 1 ÷ = _____ 2 1 • the third fountain will fill the cistern is 1 ÷ = _____ 4 1 • the fourth fountain will fill the cistern is 1 ÷ = _____ 5 The number of times the four fountains together will fill the cistern in a day is ___ + ____ + ___ + ____ = 12. Thus, the total time needed by the four fountains to fill the cistern 1 together is days. 12 191 CChhaapptteerr--88..iinndddd 119911 44//1122//22002255 1122::4411::3344 PPMM Ganita Prakash | Grade 7 Fractional Relations"
+      },
+      {
+        "block_id": "block_18",
+        "type": "example",
+        "text": "Here is a square with some lines drawn inside. Fig. 8.4 What fraction of area of the whole square does the shaded region Math occupy? Talk There are different ways to solve this problem. Here is one of them: Let the area of the whole square be 1 square unit. 1 We can see that the top right square (in Fig. 8.5), occupies of the 4 area of the whole square. Fig. 8.5 1 Area of red square = square units. 4 Fig, 8.6 192 CChhaapptteerr--88..iinndddd 119922 44//1122//22002255 1122::4411::3355 PPMM Working with Fractions"
+      },
+      {
+        "block_id": "block_19",
+        "type": "example",
+        "text": "Let us look at this red square. The area of the triangle inside it (coloured yellow) is half the area of the red square. So, 1 1 1 the area of the yellow triangle = × = square units. 2 4 8 What fraction of this yellow triangle is shaded? 3 The shaded region occupies of the area of the 4 yellow triangle. Are you able to see why? 3 1 3 The area of shaded part = × = square units. 4 8 32 3 Thus, the shaded region occupies of the area of the whole square. 32"
+      },
+      {
+        "block_id": "block_20",
+        "type": "example",
+        "text": "In each of the figures given below, find the fraction of the big square that the shaded region occupies. We will solve more interesting problems of this kind in a later chapter."
+      },
+      {
+        "block_id": "block_21",
+        "type": "example",
+        "text": "A Dramma-tic Donation The following problem is translated from Bhāskarāchārya’s (Bhāskara II’s) book, Līlāvatī, written in 1150 CE. 1 1 1 1 2 3 “O wise one! A miser gave to a beggar of of of of of of 5 16 4 2 3 4 a dramma. If you know the mathematics of fractions well, tell me O child, how many cowrie shells were given by the miser to the beggar.” Dramma refers to a silver coin used in those times. The tale says that 1 dramma was equivalent to 1280 cowrie shells. Let’s see what fraction of a dramma the person gave: (1 2 3 1 1 1)th × × × × × part of a dramma. 2 3 4 5 16 4 193 CChhaapptteerr--88..iinndddd 119933 44//1122//22002255 1122::4411::3366 PPMM Ganita Prakash | Grade 7"
+      },
+      {
+        "block_id": "block_22",
+        "type": "example",
+        "text": "Evaluating it gives . 7680 Upon simplifying to its lowest form, we get 6 1 = . 7680 1280 So, one cowrie shell was given to the beggar. You can see in the answer Bhāskarāchārya’s humour! The miser had given the beggar only one coin of the least value (cowrie)."
+      },
+      {
+        "block_id": "block_23",
+        "type": "definition",
+        "text": "Fractions are used to represent a part of a whole. They are written in the form a/b, where a is the numerator and b is the denominator."
+      },
+      {
+        "block_id": "block_24",
+        "type": "explanation",
+        "text": "To add fractions, we need to have the same denominator. We can do this by finding the least common multiple (LCM) of the denominators."
+      },
+      {
+        "block_id": "block_25",
+        "type": "example",
+        "text": "Example: 1/2 + 1/4 = ? To solve this, we need to find the LCM of 2 and 4, which is 4. Then, we can rewrite the fractions with the same denominator: 1/2 = 2/4 and 1/4 = 1/4. Now, we can add the fractions: 2/4 + 1/4 = 3/4."
+      },
+      {
+        "block_id": "block_26",
+        "type": "definition",
+        "text": "A unit square is a square with an area of 1 square unit. It can be used to represent fractions and carry out operations."
+      },
+      {
+        "block_id": "block_27",
+        "type": "explanation",
+        "text": "To multiply fractions, we simply multiply the numerators and denominators: a/b × c/d = (a × c)/(b × d)."
+      },
+      {
+        "block_id": "block_28",
+        "type": "example",
+        "text": "Example: 1/2 × 3/4 = ? To solve this, we multiply the numerators and denominators: (1 × 3)/(2 × 4) = 3/8."
+      },
+      {
+        "block_id": "block_29",
+        "type": "definition",
+        "text": "A fraction can be converted to a decimal by dividing the numerator by the denominator."
+      },
+      {
+        "block_id": "block_30",
+        "type": "explanation",
+        "text": "To convert a fraction to a percentage, we can divide the numerator by the denominator and multiply by 100."
+      },
+      {
+        "block_id": "block_31",
+        "type": "example",
+        "text": "Example: 1/2 = ? To solve this, we divide the numerator by the denominator: 1/2 = 0.5. Then, we multiply by 100: 0.5 × 100 = 50%."
+      }
+    ]
+  },
+  {
+    "topic_id": "topic_1",
+    "topic_name": "Rational Numbers",
+    "unit": "gegp108",
+    "learning_objectives": [
+      "Students will understand the concept of rational numbers and their importance in everyday life.",
+      "Students will be able to identify and work with rational numbers in various forms.",
+      "Students will learn to perform arithmetic operations on rational numbers."
+    ],
+    "allowed_concepts": [
+      "Rational numbers",
+      "Fractions",
+      "Decimals",
+      "Percentages",
+      "Equivalent ratios"
+    ],
+    "disallowed_concepts": [
+      "Irrational numbers",
+      "Complex numbers",
+      "Transcendental numbers"
+    ],
+    "content_blocks": [
+      {
+        "block_id": "block_1",
+        "type": "definition",
+        "text": "Rational numbers are numbers that can be expressed as the ratio of two integers, i.e., in the form a/b where a and b are integers and b is non-zero."
+      },
+      {
+        "block_id": "block_2",
+        "type": "explanation",
+        "text": "Rational numbers are used to represent quantities that can be expressed as a fraction of a whole, such as 1/2 or 3/4."
+      },
+      {
+        "block_id": "block_3",
+        "type": "example",
+        "text": "For example, the fraction 3/4 can be written as a decimal 0.75, which is a rational number."
+      }
+    ]
+  },
+  {
+    "topic_id": "topic_2",
+    "topic_name": "Arithmetic Operations on Rational Numbers",
+    "unit": "gegp108",
+    "learning_objectives": [
+      "Students will understand the rules for adding, subtracting, multiplying, and dividing rational numbers.",
+      "Students will be able to perform arithmetic operations on rational numbers in various forms.",
+      "Students will learn to simplify rational numbers after performing arithmetic operations."
+    ],
+    "allowed_concepts": [
+      "Addition of rational numbers",
+      "Subtraction of rational numbers",
+      "Multiplication of rational numbers",
+      "Division of rational numbers",
+      "Simplifying rational numbers"
+    ],
+    "disallowed_concepts": [
+      "Exponents and logarithms",
+      "Trigonometry",
+      "Statistics and probability"
+    ],
+    "content_blocks": [
+      {
+        "block_id": "block_1",
+        "type": "definition",
+        "text": "The sum of two rational numbers a/b and c/d is (ad + bc)/bd."
+      },
+      {
+        "block_id": "block_2",
+        "type": "explanation",
+        "text": "To add rational numbers, we need to have a common denominator, which is the product of the denominators of the two numbers."
+      },
+      {
+        "block_id": "block_3",
+        "type": "example",
+        "text": "For example, 1/2 + 1/4 = (2*4 + 1*4)/(2*4) = 6/8 = 3/4."
+      }
+    ]
+  },
+  {
+    "topic_id": "topic_3",
+    "topic_name": "Conversion between Rational Numbers and Other Forms",
+    "unit": "gegp108",
+    "learning_objectives": [
+      "Students will understand the relationship between rational numbers and other forms such as decimals and percentages.",
+      "Students will be able to convert rational numbers to decimals and percentages.",
+      "Students will learn to convert decimals and percentages to rational numbers."
+    ],
+    "allowed_concepts": [
+      "Conversion of rational numbers to decimals",
+      "Conversion of rational numbers to percentages",
+      "Conversion of decimals to rational numbers",
+      "Conversion of percentages to rational numbers"
+    ],
+    "disallowed_concepts": [
+      "Exponents and logarithms",
+      "Trigonometry",
+      "Statistics and probability"
+    ],
+    "content_blocks": [
+      {
+        "block_id": "block_1",
+        "type": "definition",
+        "text": "A rational number can be expressed as a decimal by dividing the numerator by the denominator."
+      },
+      {
+        "block_id": "block_2",
+        "type": "explanation",
+        "text": "To convert a rational number to a decimal, we need to divide the numerator by the denominator."
+      },
+      {
+        "block_id": "block_3",
+        "type": "example",
+        "text": "For example, 1/2 = 0.5, which is a decimal representation of the rational number 1/2."
+      }
+    ]
+  },
+  {
+    "topic_id": "topic_1",
+    "topic_name": "Measurement and Conversion",
+    "unit": "gegp108",
+    "learning_objectives": [
+      "Students will understand the concept of measurement and conversion.",
+      "Students will be able to convert between different units of measurement.",
+      "Students will learn to apply conversion factors to solve problems."
+    ],
+    "allowed_concepts": [
+      "Measurement",
+      "Conversion",
+      "Units of measurement",
+      "Conversion factors",
+      "Length",
+      "Mass",
+      "Capacity"
+    ],
+    "disallowed_concepts": [
+      "Advanced calculus",
+      "Complex numbers"
+    ],
+    "content_blocks": [
+      {
+        "block_id": "block_1",
+        "type": "definition",
+        "text": "somu = 6 5 (a) 12 5 (b) 18 5 (c) 36 Page No. 184"
+      },
+      {
+        "block_id": "block_2",
+        "type": "example",
+        "text": "3. Find the area of a rectangle of sides 3 ft and 9 ft. 𝟑 𝟑 3. Ans: 36 sq. ft."
+      },
+      {
+        "block_id": "block_3",
+        "type": "explanation",
+        "text": "4. Tsewang plants four saplings in a row in his garden. The distance 𝟑 between two saplings is m. Find the distance between the first and 𝟒 last sapling."
+      },
+      {
+        "block_id": "block_4",
+        "type": "example",
+        "text": "5. Which is heavier: of 500 grams or of 4 kg? 𝟏𝟓 𝟐𝟎 3 12 Ans: of 4 kg is heavier than of 500 gm."
+      },
+      {
+        "block_id": "block_5",
+        "type": "explanation",
+        "text": "Page No. 191 In a day, the number of times — (a) the first fountain will fill the cistern is 1÷ 1 = 1 𝟏 (b) the second fountain will fill the cistern is 1 ÷ = _____ 𝟐 Ans: 2 times"
+      },
+      {
+        "block_id": "block_6",
+        "type": "example",
+        "text": "3. If kg of flour is used to make 12 rotis, how much flour is used to make 𝟒 6 rotis? 1 Ans: kg 8 4."
+      },
+      {
+        "block_id": "block_7",
+        "type": "explanation",
+        "text": "4. Patiganita, a book written by Sridharacharya in the 9th century C.E., mentions this problem: “Friend, after thinking, what sum will be obtained by adding together 𝟏 𝟏 𝟏 𝟏 𝟏 1 ÷ , 1 ÷ , 1 ÷ , 1 ÷ , and 1 ÷ ”. What should the friend say? 𝟔 𝟏𝟎 𝟏𝟐 𝟗 𝟐 Ans: 40 𝟏"
+      },
+      {
+        "block_id": "block_8",
+        "type": "example",
+        "text": "5. Mira is reading a novel that has 400 pages. She read of the pages 𝟓 𝟑 yesterday and of the pages today. How many more pages does she 𝟏𝟎 need to read to finish the novel? Ans: 200 pages."
+      },
+      {
+        "block_id": "block_9",
+        "type": "explanation",
+        "text": "6. A car runs 16 km using 1 litre of petrol. How far will it go using 2 𝟒 litres of petrol? Ans: 44 km."
+      },
+      {
+        "block_id": "block_10",
+        "type": "example",
+        "text": "7. Amritpal decides on a destination for his vacation. If he takes a train, 𝟏 it will take him 5 hours to get there. If he takes a plane, it will take 𝟔 𝟏 him hour. How many hours does the plane save? 𝟐 2 Ans: 4 hour"
+      },
+      {
+        "block_id": "block_11",
+        "type": "explanation",
+        "text": "8. Mariam’s grandmother made a cake. Mariam and her cousins finished 𝟒 of the cake. The remaining cake was shared equally by Mariam’s 𝟓 three friends. How much of the cake did each friend get? 1 Ans: of the whole cake."
+      },
+      {
+        "block_id": "block_12",
+        "type": "example",
+        "text": "9. Choose the option(s) describing the product of ( × ): 𝟒𝟔𝟓 𝟔𝟕𝟔 Ans: (a), (c) and (e) are correct."
+      },
+      {
+        "block_id": "block_13",
+        "type": "explanation",
+        "text": "10. What fraction of the whole square is shaded? 3 Ans: of the whole square."
+      },
+      {
+        "block_id": "block_14",
+        "type": "example",
+        "text": "11. A colony of ants set out in search of food. As they search, they keep splitting equally at each point (as shown in the figure 8.7) and reach two food sources, one near a mango tree and another near a sugarcane field. What fraction of the original group reached each food source? 29 3 Ans: Mango trees = and Sugarcane trees = 32 32"
+      },
+      {
+        "block_id": "block_15",
+        "type": "explanation",
+        "text": "12. What is 1 – ? 𝟐 1 (1 − ) 2 1 Ans: 2 1 1 (1 − ) × (1 − ) ? 2 3 1 Ans: 3 1"
+      },
+      {
+        "block_id": "block_16",
+        "type": "example",
+        "text": "1 1 1 1 1 1 Ans: (1 − ) × (1 − ) × (1 − ) × (1 − ) ...........(1 − ) = 2 3 4 5 𝑛 𝑛"
+      }
+    ]
+  }
+]

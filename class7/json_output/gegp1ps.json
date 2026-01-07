@@ -1,0 +1,944 @@
+[
+  {
+    "topic_id": "topic_1",
+    "topic_name": "Introduction to Mathematics",
+    "unit": "gegp1ps",
+    "learning_objectives": [
+      "Students will understand the importance of mathematics in everyday life.",
+      "Students will be able to identify the different branches of mathematics.",
+      "Students will learn about the role of mathematics in science and technology.",
+      "Students will understand the dual role of mathematics in enhancing critical and logical thinking while developing artistry and creativity.",
+      "Students will be able to appreciate the importance of exploration and discovery of concepts in mathematics.",
+      "Students will learn to strike a balance between informal and formal definitions and methods in mathematics.",
+      "Students will understand the importance of mathematics in daily life",
+      "Students will be able to appreciate the connectedness and unity of mathematics",
+      "Students will learn to link concepts in initial chapters with ideas in subsequent chapters",
+      "Students will be able to identify and explain the relevance of mathematics in various fields.",
+      "Students will learn to appreciate the beauty and complexity of mathematics."
+    ],
+    "allowed_concepts": [
+      "mathematics in everyday life",
+      "branches of mathematics",
+      "mathematics in science and technology",
+      "critical thinking",
+      "logical thinking",
+      "artistry",
+      "creativity",
+      "elegance",
+      "aesthetics",
+      "exploration",
+      "discovery",
+      "informal definitions",
+      "formal definitions",
+      "methods",
+      "mathematics in daily life",
+      "connectedness and unity of mathematics",
+      "linking concepts in initial chapters with ideas in subsequent chapters",
+      "relevance of mathematics",
+      "importance of mathematics"
+    ],
+    "disallowed_concepts": [
+      "Advanced calculus",
+      "Complex numbers"
+    ],
+    "content_blocks": [
+      {
+        "block_id": "block_1",
+        "type": "definition",
+        "text": "The National Education Policy 2020 envisages a system of education in the country that is rooted in an Indian ethos and its civilisational accomplishments in all fields of knowledge and human endeavour."
+      },
+      {
+        "block_id": "block_2",
+        "type": "explanation",
+        "text": "At the same time, it aims to prepare students to engage constructively with the opportunities and challenges of the 21st century."
+      },
+      {
+        "block_id": "block_3",
+        "type": "example",
+        "text": "The basis for this aspirational vision has been well laid out by the National Curriculum Framework for School Education (NCF-SE) 2023 across curricular areas at all stages."
+      },
+      {
+        "block_id": "block_4",
+        "type": "explanation",
+        "text": "Mathematics must perform the dual role of enhancing critical and logical thinking while also developing artistry and creativity and a sense of elegance and aesthetics."
+      },
+      {
+        "block_id": "block_5",
+        "type": "definition",
+        "text": "The present textbook has made an attempt to address the above mentioned goals and challenges of learning mathematics."
+      },
+      {
+        "block_id": "block_6",
+        "type": "example",
+        "text": "The writers of this book have aimed to strike a judicious balance between informal and formal definitions and methods to develop in students both intuition and rigour."
+      },
+      {
+        "block_id": "block_7",
+        "type": "explanation",
+        "text": "An attempt has been made to use contexts and materials with which the students are familiar. Learning material sheets have been given at the back of the book that may be photocopied and used."
+      },
+      {
+        "block_id": "block_8",
+        "type": "example",
+        "text": "At many places, exercises or activities are given to encourage peer group efforts and discussions."
+      },
+      {
+        "block_id": "block_9",
+        "type": "definition",
+        "text": "The textbook intends to address the learning needs of a diverse group of students in the classroom."
+      },
+      {
+        "block_id": "block_10",
+        "type": "explanation",
+        "text": "The National Council of Educational Research and Training (NCERT) acknowledges the guidance and support of the esteemed Chairperson and members of the Curricular Area Group (CAG): Mathematics and other concerned CAGs for their guidelines on cross-cutting themes in developing this textbook."
+      },
+      {
+        "block_id": "block_11",
+        "type": "definition",
+        "text": "The NCERT acknowledges the valuable views and inputs given by subject experts — Shailesh A. Shirali, Director, Teacher Education Program, a Valley School, KFI; Sadik Ali Shaikh, Head, Department of Mathematics, Maulana Azad College of Arts, Science and Commerce, Aurangabad, Maharashtra; Jaspal Kaur, TGT (Maths), School of Excellence, Delhi; Bina Prakash, Senior PGT Mathematics, Campion School, Bhopal; Mahendra Shankar, Senior Lecturer (Retd.), NCERT, New Delhi; Shaily Choudhary, TGT Mathematics, GGSSS, Khajoori Khas, Delhi; Ravi Raxit Sharma, TGT Mathematics, GCMS, New Seelampur, Delhi; Poonam Arora, PGT Mathematics, Mentor Teacher, SBV, West Patel Nagar, New Delhi; Shalini Arora Bahri, TGT Maths, SKV No.1, Narela, Delhi; Sangeeta Solanki, TGT Mathematics, The Heritage School, Delhi; Sunita Sharma, TGT Mathematics, The Heritage School, Delhi, Rishikesh Kumar, Assistant Professor, DESM, NCERT, New Delhi; Ishita Mukherjee, CBSE Resourse Person, Delhi; Tarun Choubisa, Programme Office, NSTC — for improving the content and pedagogy of the textbook."
+      },
+      {
+        "block_id": "block_12",
+        "type": "example",
+        "text": "The Council acknowledges the efforts of Nidhi M. Shastri and Bhawana Upadhyay from the Programme Office. The page number design draws inspiration from the Prime Climb game by Math For Love."
+      }
+    ]
+  },
+  {
+    "topic_id": "topic_1",
+    "topic_name": "Mathematical Thinking and Problem Solving",
+    "unit": "gegp1ps",
+    "learning_objectives": [
+      "Students will understand the importance of mathematical thinking and problem-solving skills.",
+      "Students will be able to relate mathematical concepts to real-life situations.",
+      "Students will learn to observe and explore patterns around them.",
+      "Students will understand the importance of mathematical thinking and problem-solving in the classroom.",
+      "Students will be able to pose problems to each other and discuss possible solutions.",
+      "Students will learn to create a fertile environment for mathematical thinking and exploration.",
+      "Students will be able to appreciate the art of mathematics and immerse themselves in its process.",
+      "Students will learn to work out questions and understand patterns using their creativity.",
+      "Students will be able to solve problems and appreciate the beauty of mathematics."
+    ],
+    "allowed_concepts": [
+      "patterns",
+      "mathematical concepts",
+      "problem-solving skills",
+      "logical reasoning",
+      "creative problem solving",
+      "mathematical thinking",
+      "problem-solving",
+      "classroom environment",
+      "exploration",
+      "problem solving",
+      "creativity",
+      "mathematical process"
+    ],
+    "disallowed_concepts": [
+      "Advanced calculus",
+      "Complex numbers"
+    ],
+    "content_blocks": [
+      {
+        "block_id": "block_1",
+        "type": "explanation",
+        "text": "are crucial to establish conceptual connections both within and across curricular areas."
+      },
+      {
+        "block_id": "block_2",
+        "type": "definition",
+        "text": "Mathematics helps students develop not only basic arithmetic skills, but also the crucial capacities of logical reasoning, creative problem solving, and clear and precise communication (both oral and written)."
+      },
+      {
+        "block_id": "block_3",
+        "type": "example",
+        "text": "Throughout the book, stories, conversations and anecdotes have been incorporated to make abstract mathematical concepts more relatable and accessible to young learners."
+      },
+      {
+        "block_id": "block_4",
+        "type": "explanation",
+        "text": "Classrooms need to be places where students are engaged in playing with mathematical concepts, finding and discussing patterns, and developing creative strategies together to solve problems."
+      },
+      {
+        "block_id": "block_5",
+        "type": "example",
+        "text": "Students should also be posing problems to each other and discussing possible solutions with each other."
+      },
+      {
+        "block_id": "block_6",
+        "type": "definition",
+        "text": "Mathematical thinking and problem-solving are essential for developing a fertile environment for learning mathematics."
+      },
+      {
+        "block_id": "block_7",
+        "type": "explanation",
+        "text": "To be able to appreciate the art of mathematics, it is not enough to just be a passive spectator. You need to immerse yourself in its process like a detective getting into action to solve a mystery."
+      },
+      {
+        "block_id": "block_8",
+        "type": "example",
+        "text": "When you encounter these, pause your reading, and use your creativity to work out the question or understand and appreciate the pattern."
+      },
+      {
+        "block_id": "block_9",
+        "type": "definition",
+        "text": "Math Talk Some questions are marked . These questions are meant to be discussed and worked out with your friends."
+      }
+    ]
+  },
+  {
+    "topic_id": "topic_2",
+    "topic_name": "Integration of Mathematics with Other Subjects",
+    "unit": "gegp1ps",
+    "learning_objectives": [
+      "Students will understand the importance of integrating mathematics with other subjects.",
+      "Students will be able to relate mathematical concepts to science, social science, and other subjects.",
+      "Students will learn to explore the connections between mathematics and other subjects."
+    ],
+    "allowed_concepts": [
+      "integration of mathematics with other subjects",
+      "mathematics and science",
+      "mathematics and social science",
+      "mathematics and arts",
+      "mathematics and vocational education"
+    ],
+    "disallowed_concepts": [
+      "Advanced calculus",
+      "Complex numbers"
+    ],
+    "content_blocks": [
+      {
+        "block_id": "block_1",
+        "type": "explanation",
+        "text": "The content attempts to integrate mathematics with other subject areas such as science, social science with cross-cutting themes like environmental education, value education, inclusive education, and Indian Knowledge Systems (IKS)."
+      },
+      {
+        "block_id": "block_2",
+        "type": "example",
+        "text": "Throughout the book, stories, conversations and anecdotes have been incorporated to make abstract mathematical concepts more relatable and accessible to young learners."
+      }
+    ]
+  },
+  {
+    "topic_id": "topic_3",
+    "topic_name": "Collaboration and Active Engagement",
+    "unit": "gegp1ps",
+    "learning_objectives": [
+      "Students will understand the importance of collaboration and active engagement in learning mathematics.",
+      "Students will be able to work collaboratively with peers to solve mathematical problems.",
+      "Students will learn to engage actively in mathematical activities."
+    ],
+    "allowed_concepts": [
+      "collaboration",
+      "active engagement",
+      "student-centered approach",
+      "problem-solving skills",
+      "critical thinking"
+    ],
+    "disallowed_concepts": [
+      "Advanced calculus",
+      "Complex numbers"
+    ],
+    "content_blocks": [
+      {
+        "block_id": "block_1",
+        "type": "explanation",
+        "text": "The focus is on collaboration and active engagement through student-centered approach to education."
+      },
+      {
+        "block_id": "block_2",
+        "type": "example",
+        "text": "Puzzles and innovative problems will not only engage the students in thoughtfully relating the mathematical concepts to the world around them and help them in deepening their understanding of mathematics,"
+      }
+    ]
+  },
+  {
+    "topic_id": "topic_2",
+    "topic_name": "Large Numbers Around Us",
+    "unit": "gegp1ps",
+    "learning_objectives": [
+      "Students will understand the concept of lakhs and crores, and millions and billions.",
+      "Students will be able to appreciate the importance of exploration and discovery of concepts in mathematics.",
+      "Students will learn to use large numbers in real-life contexts."
+    ],
+    "allowed_concepts": [
+      "lakhs",
+      "crores",
+      "millions",
+      "billions",
+      "exploration",
+      "discovery",
+      "real-life contexts"
+    ],
+    "disallowed_concepts": [
+      "Advanced calculus",
+      "Complex numbers"
+    ],
+    "content_blocks": [
+      {
+        "block_id": "block_1",
+        "type": "explanation",
+        "text": "The first chapter of this book, ‘Large Numbers Around Us’, is an introduction to the world of lakhs and crores, and millions and billions through engaging explorations and contexts."
+      },
+      {
+        "block_id": "block_2",
+        "type": "example",
+        "text": "Chapter 1, ‘Large Numbers Around Us’, introduces the concept of lakhs and crores, and millions and billions through engaging explorations and contexts."
+      }
+    ]
+  },
+  {
+    "topic_id": "topic_3",
+    "topic_name": "Arithmetic Expressions",
+    "unit": "gegp1ps",
+    "learning_objectives": [
+      "Students will understand the concept of arithmetic expressions.",
+      "Students will be able to write and read arithmetic expressions without ambiguity.",
+      "Students will learn to simplify arithmetic expressions."
+    ],
+    "allowed_concepts": [
+      "arithmetic expressions",
+      "writing and reading expressions",
+      "simplifying expressions",
+      "ambiguity"
+    ],
+    "disallowed_concepts": [
+      "Advanced calculus",
+      "Complex numbers"
+    ],
+    "content_blocks": [
+      {
+        "block_id": "block_1",
+        "type": "definition",
+        "text": "Chapter 2, ‘Arithmetic Expressions’, considers expressions having multiple operations and discusses how they can be written and read without ambiguity."
+      },
+      {
+        "block_id": "block_2",
+        "type": "example",
+        "text": "Chapter 2, ‘Arithmetic Expressions’, introduces the concept of arithmetic expressions and discusses how they can be written and read without ambiguity."
+      }
+    ]
+  },
+  {
+    "topic_id": "topic_4",
+    "topic_name": "A Peek Beyond the Point",
+    "unit": "gegp1ps",
+    "learning_objectives": [
+      "Students will understand the concept of decimal numbers.",
+      "Students will be able to add and subtract decimal numbers.",
+      "Students will learn to use decimal numbers in real-life contexts."
+    ],
+    "allowed_concepts": [
+      "decimal numbers",
+      "adding and subtracting decimals",
+      "real-life contexts"
+    ],
+    "disallowed_concepts": [
+      "Advanced calculus",
+      "Complex numbers"
+    ],
+    "content_blocks": [
+      {
+        "block_id": "block_1",
+        "type": "explanation",
+        "text": "Chapter 3, ‘A Peek Beyond the Point’, introduces the usage of the decimal point and additions and subtractions involving decimal numbers."
+      },
+      {
+        "block_id": "block_2",
+        "type": "example",
+        "text": "Chapter 3, ‘A Peek Beyond the Point’, introduces the concept of decimal numbers and discusses how to add and subtract them."
+      }
+    ]
+  },
+  {
+    "topic_id": "topic_5",
+    "topic_name": "Expressions using Letter-Numbers",
+    "unit": "gegp1ps",
+    "learning_objectives": [
+      "Students will understand the concept of letter-numbers.",
+      "Students will be able to use letter-numbers in algebraic expressions.",
+      "Students will learn to simplify algebraic expressions.",
+      "Students will learn to represent numbers using letters and numbers.",
+      "Students will understand the concept of expressions and their simplification.",
+      "Students will be able to evaluate expressions using letter-number representation."
+    ],
+    "allowed_concepts": [
+      "letter-numbers",
+      "algebraic expressions",
+      "simplifying expressions",
+      "Letter-number representation",
+      "Expressions",
+      "Simplification of expressions",
+      "Evaluation of expressions"
+    ],
+    "disallowed_concepts": [
+      "Advanced calculus",
+      "Complex numbers"
+    ],
+    "content_blocks": [
+      {
+        "block_id": "block_1",
+        "type": "definition",
+        "text": "Chapter 4, ‘Expressions using Letter-Numbers’, builds on the chapter on Arithmetic Expressions to guide students to take the first steps into the world of algebra."
+      },
+      {
+        "block_id": "block_2",
+        "type": "example",
+        "text": "Chapter 4, ‘Expressions using Letter-Numbers’, introduces the concept of letter-numbers and discusses how to use them in algebraic expressions."
+      },
+      {
+        "block_id": "block_3",
+        "type": "definition",
+        "text": "Expressions using letter-numbers are used to represent numbers in a more convenient way."
+      },
+      {
+        "block_id": "block_4",
+        "type": "explanation",
+        "text": "To simplify an expression, we need to combine like terms and perform the operations in the correct order."
+      },
+      {
+        "block_id": "block_5",
+        "type": "example",
+        "text": "Simplify the expression 2x + 5 + 3x using letter-number representation."
+      }
+    ]
+  },
+  {
+    "topic_id": "topic_6",
+    "topic_name": "Parallel and Intersecting Lines",
+    "unit": "gegp1ps",
+    "learning_objectives": [
+      "Students will understand the concept of parallel and intersecting lines.",
+      "Students will be able to identify and draw parallel and intersecting lines.",
+      "Students will learn to use parallel and intersecting lines in geometry.",
+      "Students will learn to identify parallel and intersecting lines in different situations.",
+      "Students will be able to draw parallel and intersecting lines using a ruler and compass."
+    ],
+    "allowed_concepts": [
+      "parallel lines",
+      "intersecting lines",
+      "geometry",
+      "Ruler and compass construction"
+    ],
+    "disallowed_concepts": [
+      "Advanced calculus",
+      "Complex numbers"
+    ],
+    "content_blocks": [
+      {
+        "block_id": "block_1",
+        "type": "explanation",
+        "text": "Chapter 5, ‘Parallel and Intersecting Lines’, introduces some fundamental building blocks of geometry and has a balance of engaging activities like paper folding and rigorous mathematical reasoning."
+      },
+      {
+        "block_id": "block_2",
+        "type": "example",
+        "text": "Chapter 5, ‘Parallel and Intersecting Lines’, introduces the concept of parallel and intersecting lines and discusses how to identify and draw them."
+      },
+      {
+        "block_id": "block_3",
+        "type": "definition",
+        "text": "Parallel lines are lines that lie in the same plane and never intersect, no matter how far they are extended."
+      },
+      {
+        "block_id": "block_4",
+        "type": "explanation",
+        "text": "To draw a line parallel to a given line, we can use a ruler and compass to create a line that is always the same distance away from the given line."
+      },
+      {
+        "block_id": "block_5",
+        "type": "example",
+        "text": "Draw a line parallel to the given line AB using a ruler and compass."
+      }
+    ]
+  },
+  {
+    "topic_id": "topic_7",
+    "topic_name": "Number Play",
+    "unit": "gegp1ps",
+    "learning_objectives": [
+      "Students will understand the concept of computational thinking.",
+      "Students will be able to apply computational thinking in problem-solving.",
+      "Students will learn to use computational thinking in mathematics.",
+      "Students will learn to play with numbers and understand their properties.",
+      "Students will understand the concept of number patterns and sequences.",
+      "Students will be able to identify and create number patterns and sequences."
+    ],
+    "allowed_concepts": [
+      "computational thinking",
+      "problem-solving",
+      "mathematics",
+      "Number patterns",
+      "Number sequences",
+      "Properties of numbers"
+    ],
+    "disallowed_concepts": [
+      "Advanced calculus",
+      "Complex numbers"
+    ],
+    "content_blocks": [
+      {
+        "block_id": "block_1",
+        "type": "explanation",
+        "text": "Chapter 6, ‘Number Play’, covers aspects of computational thinking and problem solving through puzzles and concepts of parity, the Virahāṅka-Fibonacci sequence, and cryptarithms."
+      },
+      {
+        "block_id": "block_2",
+        "type": "example",
+        "text": "Chapter 6, ‘Number Play’, introduces the concept of computational thinking and discusses how to apply it in problem-solving."
+      },
+      {
+        "block_id": "block_3",
+        "type": "definition",
+        "text": "Number patterns are sequences of numbers that follow a specific rule or pattern."
+      },
+      {
+        "block_id": "block_4",
+        "type": "explanation",
+        "text": "To identify a number pattern, we need to look for a consistent rule or relationship between the numbers in the sequence."
+      },
+      {
+        "block_id": "block_5",
+        "type": "example",
+        "text": "Identify the number pattern in the sequence 2, 5, 8, 11, 14."
+      }
+    ]
+  },
+  {
+    "topic_id": "topic_8",
+    "topic_name": "A Tale of Three Intersecting Lines",
+    "unit": "gegp1ps",
+    "learning_objectives": [
+      "Students will understand the concept of intersecting lines.",
+      "Students will be able to identify and draw intersecting lines.",
+      "Students will learn to use intersecting lines in geometry.",
+      "Students will understand the concept of intersecting lines and their properties.",
+      "Students will learn to identify and create intersecting lines in different situations.",
+      "Students will be able to draw intersecting lines using a ruler and compass."
+    ],
+    "allowed_concepts": [
+      "intersecting lines",
+      "geometry",
+      "Properties of intersecting lines",
+      "Ruler and compass construction"
+    ],
+    "disallowed_concepts": [
+      "Advanced calculus",
+      "Complex numbers"
+    ],
+    "content_blocks": [
+      {
+        "block_id": "block_1",
+        "type": "explanation",
+        "text": "Chapter 7, ‘A Tale of Three Intersecting Lines’, explores, through construction, some of the striking properties of a triangle related to the lengths of their sides and angles."
+      },
+      {
+        "block_id": "block_2",
+        "type": "example",
+        "text": "Chapter 7, ‘A Tale of Three Intersecting Lines’, introduces the concept of intersecting lines and discusses how to identify and draw them."
+      },
+      {
+        "block_id": "block_3",
+        "type": "definition",
+        "text": "Intersecting lines are lines that lie in the same plane and intersect at a single point."
+      },
+      {
+        "block_id": "block_4",
+        "type": "explanation",
+        "text": "To draw a line that intersects a given line, we can use a ruler and compass to create a line that crosses the given line at a single point."
+      },
+      {
+        "block_id": "block_5",
+        "type": "example",
+        "text": "Draw a line that intersects the given line AB using a ruler and compass."
+      }
+    ]
+  },
+  {
+    "topic_id": "topic_9",
+    "topic_name": "Working with Fractions",
+    "unit": "gegp1ps",
+    "learning_objectives": [
+      "Students will understand the concept of fractions.",
+      "Students will be able to add and subtract fractions.",
+      "Students will learn to use fractions in real-life contexts.",
+      "Students will learn to work with fractions and understand their properties.",
+      "Students will understand the concept of equivalent fractions and their simplification.",
+      "Students will be able to add and subtract fractions with like and unlike denominators."
+    ],
+    "allowed_concepts": [
+      "fractions",
+      "adding and subtracting fractions",
+      "real-life contexts",
+      "Equivalent fractions",
+      "Simplification of fractions",
+      "Addition and subtraction of fractions"
+    ],
+    "disallowed_concepts": [
+      "Advanced calculus",
+      "Complex numbers"
+    ],
+    "content_blocks": [
+      {
+        "block_id": "block_1",
+        "type": "explanation",
+        "text": "Chapter 8, ‘Working with Fractions’, builds on the students’ understanding of fractions, and explores the multiplication and division of fractions."
+      },
+      {
+        "block_id": "block_2",
+        "type": "example",
+        "text": "Chapter 8, ‘Working with Fractions’, introduces the concept of fractions and discusses how to add and subtract them."
+      },
+      {
+        "block_id": "block_3",
+        "type": "definition",
+        "text": "Fractions are used to represent part of a whole or a part of a group."
+      },
+      {
+        "block_id": "block_4",
+        "type": "explanation",
+        "text": "To simplify a fraction, we need to find the greatest common divisor (GCD) of the numerator and denominator and divide both numbers by the GCD."
+      },
+      {
+        "block_id": "block_5",
+        "type": "example",
+        "text": "Simplify the fraction 6/8 using the GCD method."
+      }
+    ]
+  },
+  {
+    "topic_id": "topic_2",
+    "topic_name": "Mathematics as a Passport to Discovery",
+    "unit": "gegp1ps",
+    "learning_objectives": [
+      "Students will understand the role of mathematics in exploration and discovery",
+      "Students will be able to appreciate the beauty and relevance of mathematics in everything around them",
+      "Students will learn to see the world from a mathematical perspective"
+    ],
+    "allowed_concepts": [
+      "mathematics as a passport to discovery",
+      "beauty and relevance of mathematics",
+      "mathematical perspective"
+    ],
+    "disallowed_concepts": [
+      "Advanced calculus",
+      "Complex numbers"
+    ],
+    "content_blocks": [
+      {
+        "block_id": "block_1",
+        "type": "explanation",
+        "text": "Whether used in the classroom or at home, we hope that it may inspire students to embark on their own mathematical adventures, empowering them to see the beauty and relevance of mathematics in everything around them."
+      },
+      {
+        "block_id": "block_2",
+        "type": "example",
+        "text": "With its engaging approach and comprehensive coverage of Grade 7 mathematics concepts, this book hopes and aims to captivate young minds and set them on a lifelong journey of mathematical discovery."
+      },
+      {
+        "block_id": "block_3",
+        "type": "definition",
+        "text": "This book aims to be more than just a textbook—it’s a passport to a world of mathematical discovery and exploration."
+      }
+    ]
+  },
+  {
+    "topic_id": "topic_3",
+    "topic_name": "National Syllabus and Teaching Learning Material Committee (NSTC)",
+    "unit": "gegp1ps",
+    "learning_objectives": [
+      "Students will understand the role of NSTC in mathematics education",
+      "Students will be able to appreciate the importance of NSTC in shaping mathematics curriculum",
+      "Students will learn to recognize the contributions of NSTC members"
+    ],
+    "allowed_concepts": [
+      "NSTC",
+      "mathematics education",
+      "NSTC members"
+    ],
+    "disallowed_concepts": [
+      "Advanced calculus",
+      "Complex numbers"
+    ],
+    "content_blocks": [
+      {
+        "block_id": "block_1",
+        "type": "explanation",
+        "text": "NATIONAL SYLLABUS AND TEACHING LEARNING MATERIAL COMMITTEE (NSTC) 1. M.C. Pant, Chancellor, National Institute of Educational Planning and Administration (NIEPA), (Chairperson) 2. Manjul Bhargava, Professor, Princeton University, (Co-Chairperson) 3. Sudha Murty, Acclaimed Writer and Educationist"
+      },
+      {
+        "block_id": "block_2",
+        "type": "example",
+        "text": "We look forward to your comments and suggestions regarding the book and hope that you will send interesting exercises, activities and tasks that you develop during the course of teaching and learning, to be included in future editions."
+      },
+      {
+        "block_id": "block_3",
+        "type": "definition",
+        "text": "We thank again all the writers of and contributors to this textbook for this important and valuable contribution and service to the nation’s mathematics teachers, learners and enthusiasts."
+      }
+    ]
+  },
+  {
+    "topic_id": "topic_2",
+    "topic_name": "Creating a Supportive Classroom Environment",
+    "unit": "gegp1ps",
+    "learning_objectives": [
+      "Students will understand the importance of creating a supportive classroom environment.",
+      "Students will be able to create an environment that accepts mistakes and acknowledges their importance in learning.",
+      "Students will learn to provide sufficient time for students to play, discuss, and work on problems."
+    ],
+    "allowed_concepts": [
+      "classroom environment",
+      "supportive environment",
+      "mistakes",
+      "learning",
+      "problem-solving"
+    ],
+    "disallowed_concepts": [
+      "Advanced calculus",
+      "Complex numbers"
+    ],
+    "content_blocks": [
+      {
+        "block_id": "block_1",
+        "type": "explanation",
+        "text": "It just requires an interesting question, problem, pattern, or challenge to be thrown open to the students on a regular basis, and sufficient time to be given to them to play with, discuss, and work on it as a class or in pairs or groups."
+      },
+      {
+        "block_id": "block_2",
+        "type": "example",
+        "text": "An environment that accepts mistakes and acknowledges their importance in learning needs to be nurtured."
+      },
+      {
+        "block_id": "block_3",
+        "type": "definition",
+        "text": "Creating a supportive classroom environment is essential for promoting mathematical thinking and problem-solving."
+      }
+    ]
+  },
+  {
+    "topic_id": "topic_3",
+    "topic_name": "Using Problems to Promote Mathematical Thinking",
+    "unit": "gegp1ps",
+    "learning_objectives": [
+      "Students will understand the importance of using problems to promote mathematical thinking.",
+      "Students will be able to use problems to strengthen procedural fluency.",
+      "Students will learn to provide a sufficient number of problems for students to explore."
+    ],
+    "allowed_concepts": [
+      "problems",
+      "mathematical thinking",
+      "procedural fluency",
+      "exploration"
+    ],
+    "disallowed_concepts": [
+      "Advanced calculus",
+      "Complex numbers"
+    ],
+    "content_blocks": [
+      {
+        "block_id": "block_1",
+        "type": "explanation",
+        "text": "To develop students’ mathematical thinking and understanding of concepts, a sufficient number of problems are given."
+      },
+      {
+        "block_id": "block_2",
+        "type": "example",
+        "text": "Trying to “cover” all of them must not happen at the cost of students not getting to spend quality time on playing with and discussing them."
+      },
+      {
+        "block_id": "block_3",
+        "type": "definition",
+        "text": "Using problems to promote mathematical thinking is essential for developing a deep understanding of mathematical concepts."
+      }
+    ]
+  },
+  {
+    "topic_id": "topic_1",
+    "topic_name": "Independent Learning in Mathematics",
+    "unit": "gegp1ps",
+    "learning_objectives": [
+      "Students will understand the importance of independent learning in mathematics.",
+      "Students will be able to read and interpret mathematical text.",
+      "Students will learn to express their understanding of mathematical concepts to others."
+    ],
+    "allowed_concepts": [
+      "reading comprehension",
+      "mathematical literacy",
+      "problem-solving",
+      "critical thinking",
+      "communication skills"
+    ],
+    "disallowed_concepts": [
+      "Advanced calculus",
+      "Complex numbers"
+    ],
+    "content_blocks": [
+      {
+        "block_id": "block_1",
+        "type": "explanation",
+        "text": "One essential aspect required for independent learning is an ability to read and understand mathematical text."
+      },
+      {
+        "block_id": "block_2",
+        "type": "example",
+        "text": "Give opportunities to students to interpret what they read and express it to others."
+      },
+      {
+        "block_id": "block_3",
+        "type": "definition",
+        "text": "Independent learning in mathematics promotes problem-solving, critical thinking, and communication skills."
+      }
+    ]
+  },
+  {
+    "topic_id": "topic_2",
+    "topic_name": "Exploratory Problems in Mathematics",
+    "unit": "gegp1ps",
+    "learning_objectives": [
+      "Students will understand the importance of exploratory problems in mathematics.",
+      "Students will be able to pose and solve problems independently.",
+      "Students will learn to discuss and share their problem-solving strategies with others."
+    ],
+    "allowed_concepts": [
+      "problem-solving",
+      "critical thinking",
+      "communication skills",
+      "mathematical literacy",
+      "exploratory learning"
+    ],
+    "disallowed_concepts": [
+      "Advanced calculus",
+      "Complex numbers"
+    ],
+    "content_blocks": [
+      {
+        "block_id": "block_1",
+        "type": "explanation",
+        "text": "The exploratory problems in the book promote problem-solving and strengthen procedural fluency."
+      },
+      {
+        "block_id": "block_2",
+        "type": "example",
+        "text": "Give students sufficient time to play with, discuss, and work on the problems individually and in groups."
+      },
+      {
+        "block_id": "block_3",
+        "type": "definition",
+        "text": "Exploratory problems in mathematics encourage students to think critically and communicate their ideas effectively."
+      }
+    ]
+  },
+  {
+    "topic_id": "topic_3",
+    "topic_name": "Reading and Interpreting Mathematical Text",
+    "unit": "gegp1ps",
+    "learning_objectives": [
+      "Students will understand the importance of reading and interpreting mathematical text.",
+      "Students will be able to read and interpret mathematical text independently.",
+      "Students will learn to express their understanding of mathematical concepts to others."
+    ],
+    "allowed_concepts": [
+      "reading comprehension",
+      "mathematical literacy",
+      "problem-solving",
+      "critical thinking",
+      "communication skills"
+    ],
+    "disallowed_concepts": [
+      "Advanced calculus",
+      "Complex numbers"
+    ],
+    "content_blocks": [
+      {
+        "block_id": "block_1",
+        "type": "explanation",
+        "text": "Encourage students to read the book by themselves and in groups."
+      },
+      {
+        "block_id": "block_2",
+        "type": "example",
+        "text": "Give opportunities to students to interpret what they read and express it to others."
+      },
+      {
+        "block_id": "block_3",
+        "type": "definition",
+        "text": "Reading and interpreting mathematical text promotes mathematical literacy and problem-solving skills."
+      }
+    ]
+  },
+  {
+    "topic_id": "topic_4",
+    "topic_name": "Right to Education",
+    "unit": "gegp1ps",
+    "learning_objectives": [
+      "Students will understand the importance of education as a fundamental right.",
+      "Students will be able to explain the significance of education in promoting individual and societal development.",
+      "Students will learn to appreciate the value of education in achieving personal and social goals."
+    ],
+    "allowed_concepts": [
+      "education",
+      "fundamental rights",
+      "individual development",
+      "societal development",
+      "personal goals"
+    ],
+    "disallowed_concepts": [
+      "Advanced calculus",
+      "Complex numbers"
+    ],
+    "content_blocks": [
+      {
+        "block_id": "block_1",
+        "type": "explanation",
+        "text": "The Constitution of India guarantees the right to education as a fundamental right."
+      },
+      {
+        "block_id": "block_2",
+        "type": "example",
+        "text": "The right to education promotes individual and societal development, and helps individuals achieve their personal and social goals."
+      },
+      {
+        "block_id": "block_3",
+        "type": "definition",
+        "text": "Education is a fundamental right that enables individuals to develop their skills, knowledge, and values, and contribute to the betterment of society."
+      }
+    ]
+  },
+  {
+    "topic_id": "topic_2",
+    "topic_name": "Fundamental Duties",
+    "unit": "gegp1ps",
+    "learning_objectives": [
+      "Students will understand the Fundamental Duties of a citizen of India.",
+      "Students will learn to abide by the Constitution and respect its ideals and institutions.",
+      "Students will be able to promote harmony and the spirit of common brotherhood amongst all the people of India."
+    ],
+    "allowed_concepts": [
+      "Fundamental Duties",
+      "Constitution of India",
+      "harmony",
+      "common brotherhood"
+    ],
+    "disallowed_concepts": [
+      "Advanced calculus",
+      "Complex numbers"
+    ],
+    "content_blocks": [
+      {
+        "block_id": "block_1",
+        "type": "explanation",
+        "text": "It shall be the duty of every citizen of India — (a) to abide by the Constitution and respect its ideals and institutions, the National Flag and the National Anthem;"
+      },
+      {
+        "block_id": "block_2",
+        "type": "example",
+        "text": "to promote harmony and the spirit of common brotherhood amongst all the people of India transcending religious, linguistic and regional or sectional diversities;"
+      },
+      {
+        "block_id": "block_3",
+        "type": "definition",
+        "text": "to renounce practices derogatory to the dignity of women;"
+      }
+    ]
+  }
+]

@@ -1,0 +1,1823 @@
+[
+  {
+    "topic_id": "topic_1",
+    "topic_name": "Large Numbers",
+    "unit": "gegp101",
+    "learning_objectives": [
+      "Students will understand the concept of large numbers and their representation.",
+      "Students will be able to compare and order large numbers.",
+      "Students will learn to estimate and calculate with large numbers.",
+      "Students will understand the concept of large numbers and their representation in the Indian and American systems.",
+      "Students will be able to convert numbers between the Indian and American systems.",
+      "Students will learn to identify the number of zeroes in large numbers and their place value notation.",
+      "Students will be able to read and write large numbers in the Indian and American/International naming systems.",
+      "Students will learn to compare and round large numbers."
+    ],
+    "allowed_concepts": [
+      "place value",
+      "magnitude of numbers",
+      "estimation",
+      "comparison of numbers",
+      "large numbers",
+      "Indian system of naming numerals",
+      "American system of naming numerals",
+      "Place value notation",
+      "Lakhs",
+      "Crores",
+      "Arab",
+      "Lakhs, crores, and arabs",
+      "Millions and billions",
+      "Rounding numbers",
+      "Comparing large numbers"
+    ],
+    "disallowed_concepts": [
+      "advanced algebra",
+      "calculus",
+      "number theory",
+      "Advanced calculus",
+      "Linear algebra"
+    ],
+    "content_blocks": [
+      {
+        "block_id": "block_1",
+        "type": "definition",
+        "text": "A large number is a number that is greater than 10,000."
+      },
+      {
+        "block_id": "block_2",
+        "type": "explanation",
+        "text": "Large numbers can be represented in different ways, such as in words, digits, or using scientific notation."
+      },
+      {
+        "block_id": "block_3",
+        "type": "example",
+        "text": "For example, the number 1,00,000 can be read as 'one lakh' or written as 1,00,000 in digits."
+      },
+      {
+        "block_id": "block_4",
+        "type": "explanation",
+        "text": "To compare large numbers, we can use estimation and rounding techniques."
+      },
+      {
+        "block_id": "block_5",
+        "type": "example",
+        "text": "For instance, if we have two numbers, 1,00,000 and 1,50,000, we can estimate that 1,50,000 is greater than 1,00,000."
+      },
+      {
+        "block_id": "block_6",
+        "type": "definition",
+        "text": "A lakh is a unit of measurement for large numbers, equal to 100,000."
+      },
+      {
+        "block_id": "block_7",
+        "type": "explanation",
+        "text": "We can use the concept of a lakh to estimate and calculate with large numbers."
+      },
+      {
+        "block_id": "block_8",
+        "type": "example",
+        "text": "For example, if we have a number like 1,50,000, we can break it down into lakhs and estimate its value."
+      },
+      {
+        "block_id": "block_9",
+        "type": "definition",
+        "text": "Large numbers are numbers that have many digits. In the Indian system, commas are placed to group the digits in a 3-2-2-2... pattern from right to left (thousands, lakhs, crores, etc.)."
+      },
+      {
+        "block_id": "block_10",
+        "type": "explanation",
+        "text": "The Indian system of naming numbers is also followed in Bhutan, Nepal, Sri Lanka, Pakistan, Bangladesh, Maldives, Afghanistan, and Myanmar. The words lakh and crore originate from the Sanskrit words lakṣha (लक्ष) and koṭi (कोटि‍)."
+      },
+      {
+        "block_id": "block_11",
+        "type": "example",
+        "text": "1 lakh, written in numbers would be 1 followed by 5 zeroes. 1 crore, written in numbers would be 1 followed by 7 zeroes."
+      },
+      {
+        "block_id": "block_12",
+        "type": "explanation",
+        "text": "A lakh is a hundred times a thousand, a crore is a hundred times a lakh and an arab is a hundred times a crore (i.e., a hundred thousand is 1 lakh, 100 lakhs is 1 crore, and 100 crores is 1 arab)."
+      },
+      {
+        "block_id": "block_13",
+        "type": "example",
+        "text": "The number 9876501234 can be easily read by placing commas first: (a) 9,87,65,01,234 → 9 arab 87 crore 65 lakhs 1 thousand and 234."
+      },
+      {
+        "block_id": "block_14",
+        "type": "definition",
+        "text": "1 lakh is 1 followed by 5 zeroes: 1,00,000"
+      },
+      {
+        "block_id": "block_15",
+        "type": "explanation",
+        "text": "We generally round up or round down large numbers. Many times it is enough just to know roughly how big or small something is."
+      },
+      {
+        "block_id": "block_16",
+        "type": "example",
+        "text": "75,000 is 25,000 less than 1 lakh."
+      },
+      {
+        "block_id": "block_17",
+        "type": "definition",
+        "text": "1 crore is 1 followed by 7 zeroes: 1,00,00,000"
+      },
+      {
+        "block_id": "block_18",
+        "type": "explanation",
+        "text": "To get a sense of large numbers or quantities, we can check how many times bigger they are compared to numbers or quantities that are more familiar."
+      },
+      {
+        "block_id": "block_19",
+        "type": "example",
+        "text": "1,06,000 is 6,000 more than 1 lakh."
+      },
+      {
+        "block_id": "block_20",
+        "type": "definition",
+        "text": "1 million is 1 followed by 6 zeroes: 1,000,000 (which is also ten lakhs)"
+      },
+      {
+        "block_id": "block_21",
+        "type": "explanation",
+        "text": "We saw how to factorise numbers and regroup them to make multiplications simpler."
+      },
+      {
+        "block_id": "block_22",
+        "type": "example",
+        "text": "The estimated population of Chintamani in the year 2024 is 1,06,000."
+      },
+      {
+        "block_id": "block_23",
+        "type": "definition",
+        "text": "1 arab is 1 followed by 9 zeroes: 1,000,000,000 (which is also 100 crore or 1 billion)"
+      },
+      {
+        "block_id": "block_24",
+        "type": "explanation",
+        "text": "We can write digits as shown in the image below: 0123456789"
+      },
+      {
+        "block_id": "block_25",
+        "type": "example",
+        "text": "To make the digit 7, three sticks are needed."
+      },
+      {
+        "block_id": "block_26",
+        "type": "definition",
+        "text": "The approximate height of the building is 40 m."
+      },
+      {
+        "block_id": "block_27",
+        "type": "explanation",
+        "text": "The Statue of Unity is 140 m taller than the building."
+      },
+      {
+        "block_id": "block_28",
+        "type": "example",
+        "text": "The Kunchikal waterfall is 410 m tall."
+      }
+    ]
+  },
+  {
+    "topic_id": "topic_2",
+    "topic_name": "Population and Large Numbers",
+    "unit": "gegp101",
+    "learning_objectives": [
+      "Students will understand how large numbers are used in real-life scenarios, such as population and measurements.",
+      "Students will be able to calculate and compare large numbers in the context of population and measurements.",
+      "Students will learn to apply the concept of large numbers to solve problems."
+    ],
+    "allowed_concepts": [
+      "population",
+      "measurements",
+      "large numbers",
+      "estimation",
+      "comparison of numbers"
+    ],
+    "disallowed_concepts": [
+      "advanced statistics",
+      "calculus",
+      "number theory"
+    ],
+    "content_blocks": [
+      {
+        "block_id": "block_1",
+        "type": "definition",
+        "text": "The population of a town can be represented as a large number, such as 75,000 or 1,06,000."
+      },
+      {
+        "block_id": "block_2",
+        "type": "explanation",
+        "text": "We can use large numbers to compare and order populations, as well as to estimate and calculate with them."
+      },
+      {
+        "block_id": "block_3",
+        "type": "example",
+        "text": "For instance, if we have two populations, 75,000 and 1,06,000, we can estimate that 1,06,000 is greater than 75,000."
+      },
+      {
+        "block_id": "block_4",
+        "type": "definition",
+        "text": "The concept of a lakh can be used to represent and compare large numbers in the context of population and measurements."
+      },
+      {
+        "block_id": "block_5",
+        "type": "explanation",
+        "text": "We can apply the concept of large numbers to solve problems, such as calculating the difference between two populations or estimating the size of a population."
+      },
+      {
+        "block_id": "block_6",
+        "type": "example",
+        "text": "For example, if we have two populations, 75,000 and 1,06,000, we can calculate the difference between them using large numbers."
+      }
+    ]
+  },
+  {
+    "topic_id": "topic_1",
+    "topic_name": "Reading and Writing Numbers",
+    "unit": "gegp101",
+    "learning_objectives": [
+      "Students will understand the concept of reading and writing numbers in the Indian place value system.",
+      "Students will be able to write numbers in words up to one lakh.",
+      "Students will learn to use commas to separate digits in numbers greater than 5 digits."
+    ],
+    "allowed_concepts": [
+      "Indian place value system",
+      "reading numbers",
+      "writing numbers",
+      "commas in numbers",
+      "one lakh"
+    ],
+    "disallowed_concepts": [
+      "Advanced calculus",
+      "Complex numbers"
+    ],
+    "content_blocks": [
+      {
+        "block_id": "block_1",
+        "type": "explanation",
+        "text": "We have already been using commas for 5-digit numbers like 45,830 in the Indian place value system. As numbers grow bigger, using commas helps in reading the numbers easily."
+      },
+      {
+        "block_id": "block_2",
+        "type": "definition",
+        "text": "The number name of 12,78,830 is twelve lakh seventy eight thousand eight hundred thirty."
+      },
+      {
+        "block_id": "block_3",
+        "type": "example",
+        "text": "Write each of the numbers given below in words: (a) 3,00,600 (b) 5,04,085 (c) 27,30,000 (d) 70,53,138"
+      }
+    ]
+  },
+  {
+    "topic_id": "topic_2",
+    "topic_name": "Large Numbers Around Us",
+    "unit": "gegp101",
+    "learning_objectives": [
+      "Students will understand the concept of large numbers and their representation in the Indian place value system.",
+      "Students will be able to write large numbers in words up to one lakh.",
+      "Students will learn to make connections between large numbers and real-life situations.",
+      "Students will understand the concept of large numbers and their representation.",
+      "Students will be able to compare and order large numbers.",
+      "Students will learn to approximate the population of cities using large numbers."
+    ],
+    "allowed_concepts": [
+      "large numbers",
+      "Indian place value system",
+      "writing numbers",
+      "one lakh",
+      "real-life situations",
+      "population of cities",
+      "approximation",
+      "comparing and ordering large numbers"
+    ],
+    "disallowed_concepts": [
+      "Advanced calculus",
+      "Complex numbers"
+    ],
+    "content_blocks": [
+      {
+        "block_id": "block_1",
+        "type": "explanation",
+        "text": "Write the corresponding number in the Indian place value system for each of the following: (a) One lakh twenty three thousand four hundred and fifty six (b) Four lakh seven thousand seven hundred and four (c) Fifty lakhs five thousand and fifty (d) Ten lakhs two hundred and thirty five"
+      },
+      {
+        "block_id": "block_2",
+        "type": "example",
+        "text": "Note to the Teacher: Encourage students to make connections between these facts. For example, can the whole population of Chintamani fit in the stadium?"
+      },
+      {
+        "block_id": "block_3",
+        "type": "explanation",
+        "text": "Observe the populations of some Indian cities in the table below. Rank City Population (2011) Population (2001) 1 Mumbai 1,24,42,373 1,19,78,450 2 New Delhi 1,10,07,835 98,79,172 3 Bengaluru 84,25,970 43,01,326 4 Hyderabad 68,09,970 36,37,483 5 Ahmedabad 55,70,585 35,20,085 6 Chennai 46,81,087 43,43,645 7 Kolkata 44,86,679 45,72,876 8 Surat 44,67,797 24,33,835 9 Vadodara 35,52,371 16,90,000 10 Pune 31,15,431 25,38,473 11 Jaipur 30,46,163 23,22,575 12 Lucknow 28,15,601 21,85,927 13 Kanpur 27,67,031 25,51,337 14 Nagpur 24,05,665 20,52,066 12 CChhaapptteerr--11..iinndddd 1122 44//1122//22002255 1122::1133::5544 PPMM"
+      },
+      {
+        "block_id": "block_4",
+        "type": "example",
+        "text": "From the information given in the table, answer the following questions by approximation: 1. What is your general observation about this data? Share it with the class."
+      },
+      {
+        "block_id": "block_5",
+        "type": "definition",
+        "text": "Large Numbers Around Us"
+      }
+    ]
+  },
+  {
+    "topic_id": "topic_3",
+    "topic_name": "Land of Tens",
+    "unit": "gegp101",
+    "learning_objectives": [
+      "Students will understand the concept of the Land of Tens and its special calculators.",
+      "Students will be able to use the +10 button to show numbers up to one lakh.",
+      "Students will learn to make connections between the Land of Tens and real-life situations."
+    ],
+    "allowed_concepts": [
+      "Land of Tens",
+      "special calculators",
+      "+10 button",
+      "one lakh",
+      "real-life situations"
+    ],
+    "disallowed_concepts": [
+      "Advanced calculus",
+      "Complex numbers"
+    ],
+    "content_blocks": [
+      {
+        "block_id": "block_1",
+        "type": "explanation",
+        "text": "In the Land of Tens, there are special calculators with special buttons."
+      },
+      {
+        "block_id": "block_2",
+        "type": "example",
+        "text": "How many times should it be pressed to show: (a) Three thousand? 3 times (b) 10,000? ____________ (c) Fifty three thousand? ___________ (d) 90,000? ______________ (e) O ne Lakh? ________________"
+      }
+    ]
+  },
+  {
+    "topic_id": "topic_4",
+    "topic_name": "Thoughtful Thousands",
+    "unit": "gegp101",
+    "learning_objectives": [
+      "Students will understand the concept of the Thoughtful Thousands and its special button.",
+      "Students will be able to use the +1000 button to show numbers up to one lakh.",
+      "Students will learn to make connections between the Thoughtful Thousands and real-life situations."
+    ],
+    "allowed_concepts": [
+      "Thoughtful Thousands",
+      "special button",
+      "+1000 button",
+      "one lakh",
+      "real-life situations"
+    ],
+    "disallowed_concepts": [
+      "Advanced calculus",
+      "Complex numbers"
+    ],
+    "content_blocks": [
+      {
+        "block_id": "block_1",
+        "type": "explanation",
+        "text": "The Thoughtful Thousands only has a +1000 button."
+      },
+      {
+        "block_id": "block_2",
+        "type": "example",
+        "text": "How many times should it be pressed to show: (a) Three thousand? 3 times (b) 10,000? ____________ (c) Fifty three thousand? ___________ (d) 90,000? ______________ (e) O ne Lakh? ________________"
+      }
+    ]
+  },
+  {
+    "topic_id": "topic_5",
+    "topic_name": "Tedious Tens",
+    "unit": "gegp101",
+    "learning_objectives": [
+      "Students will understand the concept of the Tedious Tens and its special button.",
+      "Students will be able to use the +10 button to show numbers up to one lakh.",
+      "Students will learn to make connections between the Tedious Tens and real-life situations."
+    ],
+    "allowed_concepts": [
+      "Tedious Tens",
+      "special button",
+      "+10 button",
+      "one lakh",
+      "real-life situations"
+    ],
+    "disallowed_concepts": [
+      "Advanced calculus",
+      "Complex numbers"
+    ],
+    "content_blocks": [
+      {
+        "block_id": "block_1",
+        "type": "explanation",
+        "text": "The Tedious Tens only has a +10 button."
+      },
+      {
+        "block_id": "block_2",
+        "type": "example",
+        "text": "How many times should it be pressed to show: (a) Five hundred? _____________ (b) 780? _________ (c) 1000? _________ (d) 3700? ________ (e) 1 0,000? ___________ (f) One lakh? _____________"
+      }
+    ]
+  },
+  {
+    "topic_id": "topic_6",
+    "topic_name": "Handy Hundreds",
+    "unit": "gegp101",
+    "learning_objectives": [
+      "Students will understand the concept of the Handy Hundreds and its special button.",
+      "Students will be able to use the +100 button to show numbers up to one lakh.",
+      "Students will learn to make connections between the Handy Hundreds and real-life situations."
+    ],
+    "allowed_concepts": [
+      "Handy Hundreds",
+      "special button",
+      "+100 button",
+      "one lakh",
+      "real-life situations"
+    ],
+    "disallowed_concepts": [
+      "Advanced calculus",
+      "Complex numbers"
+    ],
+    "content_blocks": [
+      {
+        "block_id": "block_1",
+        "type": "explanation",
+        "text": "The Handy Hundreds only has a +100 button."
+      },
+      {
+        "block_id": "block_2",
+        "type": "example",
+        "text": "How many times should it be pressed to show: (a) Four hundred? ___________times (b) 3,700? __________ 5 CChhaapptteerr--11..iinndddd 55 44//1122//22002255 1122::1133::5511 PPMM"
+      }
+    ]
+  },
+  {
+    "topic_id": "topic_7",
+    "topic_name": "Creative Chitti",
+    "unit": "gegp101",
+    "learning_objectives": [
+      "Students will understand the concept of Creative Chitti and its special buttons.",
+      "Students will be able to use the +1, +10, +100, +1000, +10000, +100000, and +1000000 buttons to show numbers up to one lakh.",
+      "Students will learn to make connections between Creative Chitti and real-life situations."
+    ],
+    "allowed_concepts": [
+      "Creative Chitti",
+      "special buttons",
+      "+1, +10, +100, +1000, +10000, +100000, and +1000000 buttons",
+      "one lakh",
+      "real-life situations"
+    ],
+    "disallowed_concepts": [
+      "Advanced calculus",
+      "Complex numbers"
+    ],
+    "content_blocks": [
+      {
+        "block_id": "block_1",
+        "type": "explanation",
+        "text": "Creative Chitti is a different kind of calculator. It has the following buttons: +1, +10, +100, +1000, +10000, +100000 and +1000000."
+      },
+      {
+        "block_id": "block_2",
+        "type": "example",
+        "text": "To get the number 321, it presses +10 thirty two times and +1 once. Will it get 321?"
+      }
+    ]
+  },
+  {
+    "topic_id": "topic_1",
+    "topic_name": "Place Value and Large Numbers",
+    "unit": "gegp101",
+    "learning_objectives": [
+      "Students will understand the concept of place value and large numbers in the Indian and American systems.",
+      "Students will be able to read and write numbers in Indian place value notation and convert them to the American system.",
+      "Students will learn to compare and order large numbers using place value notation.",
+      "Students will understand the concept of place value and its importance in large numbers.",
+      "Students will be able to express large numbers in standard form and expanded form.",
+      "Students will learn to compare and order large numbers."
+    ],
+    "allowed_concepts": [
+      "place value",
+      "large numbers",
+      "Indian place value notation",
+      "American place value notation",
+      "comparing large numbers",
+      "ordering large numbers",
+      "standard form",
+      "expanded form",
+      "comparing numbers",
+      "ordering numbers"
+    ],
+    "disallowed_concepts": [
+      "Advanced calculus",
+      "Complex numbers"
+    ],
+    "content_blocks": [
+      {
+        "block_id": "block_1",
+        "type": "definition",
+        "text": "234 or 987 crore 65 lakh 1 thousand 234 (in the Indian system). (b) 9,876,501,234 → 9 billion 876 million 501 thousand 234 (in the American system)."
+      },
+      {
+        "block_id": "block_2",
+        "type": "explanation",
+        "text": "Figure it Out 1. Read the following numbers in Indian place value notation and write their number names in both the Indian and American systems: (a) 4050678 (b) 48121620 (c) 20022002 (d) 246813579 (e) 345000543 (f) 1020304050"
+      },
+      {
+        "block_id": "block_3",
+        "type": "example",
+        "text": "2. Write the following numbers in Indian place value notation: (a) One crore one lakh one thousand ten (b) O ne billion one million one thousand one (c) T en crore twenty lakh thirty thousand forty (d) Nine billion eighty million seven hundred thousand six hundred"
+      },
+      {
+        "block_id": "block_4",
+        "type": "explanation",
+        "text": "3. Compare and write ‘<’, ‘>’ or ‘=’: (a) 30 thousand ____ 3 lakhs (b) 5 00 lakhs ______ 5 million (c) 8 00 thousand ____ 8 million (d) 6 40 crore ______ 60 billion"
+      },
+      {
+        "block_id": "block_5",
+        "type": "definition",
+        "text": "We shall come across even bigger numbers in later grades."
+      },
+      {
+        "block_id": "block_6",
+        "type": "explanation",
+        "text": "1.4 Exact and Approximate Values 1 lakh people visited the book fair. If I had not gone, Ohh, so they would have many written “99,999 people! people visited the book fair last week”."
+      },
+      {
+        "block_id": "block_7",
+        "type": "example",
+        "text": "9 CChhaapptteerr--11..iinndddd 99 44//1122//22002255 1122::1133::5522 PPMM Ganita Prakash | Grade 7"
+      },
+      {
+        "block_id": "block_8",
+        "type": "explanation",
+        "text": "What do you think of this conversation? Have you read or heard such headlines or statements? Very often, exact numbers are not required and just an approximation is sufficient."
+      },
+      {
+        "block_id": "block_9",
+        "type": "example",
+        "text": "For example, according to the 2011 census, the population of Chintamani town is 76,068. Instead, saying that the population is about 75,000 is enough to give an idea of how big the quantity is."
+      },
+      {
+        "block_id": "block_10",
+        "type": "explanation",
+        "text": "Bappi, call and check if Toofan Express is on time. What number did you call? I called the rounded off number, of course! My teacher told us that efficient people deal with rounded off numbers."
+      },
+      {
+        "block_id": "block_11",
+        "type": "example",
+        "text": "There are situations where it makes sense to round up a number (rounding up is when the approximated number is more than the actual number). For example, if a school has 732 people including students, teachers and staff: the principal might order 750 sweets instead of 700 sweets."
+      },
+      {
+        "block_id": "block_12",
+        "type": "explanation",
+        "text": "There are situations where it is better to round down (rounding down is when the approximated number is less than the actual number). For example, if the cost of an item is ₹470, the shopkeeper may say that the cost is around ₹450 instead of saying it is around ₹500."
+      },
+      {
+        "block_id": "block_13",
+        "type": "example",
+        "text": "Think and share situations where it is appropriate to (a) round up, (b) round down, (c) either rounding up or rounding down is okay and (d) when exact numbers are needed."
+      },
+      {
+        "block_id": "block_14",
+        "type": "definition",
+        "text": "10 CChhaapptteerr--11..iinndddd 1100 44//1122//22002255"
+      },
+      {
+        "block_id": "block_15",
+        "type": "explanation",
+        "text": "Large Numbers Around Us Nearest Neighbours With large numbers it is useful to know the nearest thousand, lakh or crore."
+      },
+      {
+        "block_id": "block_16",
+        "type": "example",
+        "text": "For example, the nearest neighbours of the number 6,72,85,183 are shown in the table below."
+      },
+      {
+        "block_id": "block_17",
+        "type": "explanation",
+        "text": "Nearest thousand 6,72,85,000 Nearest ten thousand 6,72,90,000 Nearest lakh 6,73,00,000 Nearest ten lakh 6,70,00,000 Nearest crore 7,00,00,000"
+      },
+      {
+        "block_id": "block_18",
+        "type": "example",
+        "text": "Similarly, write the five nearest neighbours for these numbers: (a) 3,87,69,957 (b) 29,05,32,481"
+      },
+      {
+        "block_id": "block_19",
+        "type": "explanation",
+        "text": "I have a number for which all five nearest neighbours are Math 5,00,00,000. What could the number be? How many such numbers Talk are there?"
+      },
+      {
+        "block_id": "block_20",
+        "type": "example",
+        "text": "Roxie and Estu are estimating the values of simple expressions."
+      },
+      {
+        "block_id": "block_21",
+        "type": "explanation",
+        "text": "1. 4,63,128 + 4,19,682, Roxie: “The sum is near 8,00,000 and is more than 8,00,000.” Estu: “The sum is near 9,00,000 and is less than 9,00,000.”"
+      },
+      {
+        "block_id": "block_22",
+        "type": "example",
+        "text": "(a) Are these estimates correct? Whose estimate is closer to the sum?"
+      },
+      {
+        "block_id": "block_23",
+        "type": "explanation",
+        "text": "2. 14,63,128 – 4,90,020 Roxie: “The difference is near 10,00,000 and is less than 10,00,000.” Estu: “The difference is near 9,00,000 and is more than 9,00,000.”"
+      },
+      {
+        "block_id": "block_24",
+        "type": "example",
+        "text": "(a) Are these estimates correct? Whose estimate is closer to the difference?"
+      },
+      {
+        "block_id": "block_25",
+        "type": "definition",
+        "text": "The first 3-digit number is 100. The 270th 3-digit number is 100 + 270 – 1 = 369. The next number is 370. The first digit of 370, which is 3, is the 1000th digit."
+      },
+      {
+        "block_id": "block_26",
+        "type": "explanation",
+        "text": "The millionth digit occurs in the number 185184+1=1,85,185."
+      },
+      {
+        "block_id": "block_27",
+        "type": "example",
+        "text": "What number would contain the millionth digit?"
+      },
+      {
+        "block_id": "block_28",
+        "type": "definition",
+        "text": "A calculator has only ‘+10,000’ and ‘+100’ buttons."
+      },
+      {
+        "block_id": "block_29",
+        "type": "explanation",
+        "text": "Write an expression describing the number of button clicks to be made for the following numbers:"
+      },
+      {
+        "block_id": "block_30",
+        "type": "example",
+        "text": "20,800 = (2 × 10,000) + (8 × 100) Total clicks = 2 + 8 = 10 button clicks."
+      },
+      {
+        "block_id": "block_31",
+        "type": "example",
+        "text": "92,100 = (9 × 10,000) + (21 × 100) Total clicks = 9 + 21 = 30 button clicks."
+      },
+      {
+        "block_id": "block_32",
+        "type": "example",
+        "text": "1,20,500 = (12 × 10,000) + (5 × 100) Total clicks = 12 + 5 = 17 button clicks."
+      },
+      {
+        "block_id": "block_33",
+        "type": "example",
+        "text": "65,30,000 = (653 × 10,000) Total clicks = 653 button clicks."
+      },
+      {
+        "block_id": "block_34",
+        "type": "example",
+        "text": "70,25,700 = (702 × 10,000) + (57 × 100) Total clicks = 759 button clicks."
+      }
+    ]
+  },
+  {
+    "topic_id": "topic_2",
+    "topic_name": "Patterns in Products",
+    "unit": "gegp101",
+    "learning_objectives": [
+      "Students will understand the concept of patterns in products.",
+      "Students will be able to identify and extend patterns in products.",
+      "Students will learn to calculate products using shortcuts."
+    ],
+    "allowed_concepts": [
+      "patterns in products",
+      "multiplication shortcuts",
+      "calculating products"
+    ],
+    "disallowed_concepts": [
+      "Advanced calculus",
+      "Complex numbers"
+    ],
+    "content_blocks": [
+      {
+        "block_id": "block_1",
+        "type": "explanation",
+        "text": "Roxie and Estu are playing with multiplication. They encounter an interesting technique for multiplying a number by 10, 100, 1000, and so on."
+      },
+      {
+        "block_id": "block_2",
+        "type": "example",
+        "text": "Roxie evaluated 116 × 5 as follows: 58 10 116 × 5 = 116 × 2 = 58 × 10 = 580."
+      },
+      {
+        "block_id": "block_3",
+        "type": "definition",
+        "text": "Multiplication Shortcut"
+      }
+    ]
+  },
+  {
+    "topic_id": "topic_3",
+    "topic_name": "How Long is the Product?",
+    "unit": "gegp101",
+    "learning_objectives": [
+      "Students will understand the concept of the number of digits in the product.",
+      "Students will be able to identify the pattern in the number of digits in the product.",
+      "Students will learn to calculate the number of digits in the product."
+    ],
+    "allowed_concepts": [
+      "number of digits in the product",
+      "pattern in the number of digits in the product",
+      "calculating the number of digits in the product"
+    ],
+    "disallowed_concepts": [
+      "Advanced calculus",
+      "Complex numbers"
+    ],
+    "content_blocks": [
+      {
+        "block_id": "block_1",
+        "type": "explanation",
+        "text": "Observe the number of digits in the two numbers being multiplied and their product in each case. Is there any connection between the numbers being multiplied and the number of digits in their product?"
+      },
+      {
+        "block_id": "block_2",
+        "type": "example",
+        "text": "Roxie says that the product of two 2-digit numbers can only be a 3- or a 4-digit number. Is she correct?"
+      },
+      {
+        "block_id": "block_3",
+        "type": "definition",
+        "text": "How Long is the Product?"
+      }
+    ]
+  },
+  {
+    "topic_id": "topic_1",
+    "topic_name": "Multiplication of Large Numbers",
+    "unit": "gegp101",
+    "learning_objectives": [
+      "Students will understand the concept of multiplication of large numbers and its application in real-life scenarios.",
+      "Students will be able to identify patterns in multiplication of large numbers and extend them to other numbers.",
+      "Students will learn to calculate the product of large numbers using various methods.",
+      "Students will understand the concept of multiplying large numbers and its application in real-life scenarios.",
+      "Students will be able to calculate the product of two or more large numbers using various methods.",
+      "Students will learn to identify patterns and relationships between numbers in multiplication."
+    ],
+    "allowed_concepts": [
+      "Multiplication of large numbers",
+      "Patterns in multiplication",
+      "Real-life applications of multiplication",
+      "Calculation methods for large numbers",
+      "Patterns and relationships between numbers"
+    ],
+    "disallowed_concepts": [
+      "Advanced algebraic manipulations",
+      "Calculus",
+      "Number theory"
+    ],
+    "content_blocks": [
+      {
+        "block_id": "block_1",
+        "type": "definition",
+        "text": "Multiplication of large numbers is the process of finding the product of two or more large numbers."
+      },
+      {
+        "block_id": "block_2",
+        "type": "explanation",
+        "text": "To find the product of large numbers, we can use various methods such as the standard multiplication algorithm or the lattice method."
+      },
+      {
+        "block_id": "block_3",
+        "type": "example",
+        "text": "For example, to find the product of 1250 and 380, we can use the standard multiplication algorithm as follows: 1250 × 380 = 475,000."
+      },
+      {
+        "block_id": "block_4",
+        "type": "example",
+        "text": "Another example is to find the product of 2100 and 70,000, which is approximately 147,000,000."
+      },
+      {
+        "block_id": "block_5",
+        "type": "explanation",
+        "text": "We can also use patterns to find the product of large numbers. For example, we can observe that the product of two 2-digit numbers is always a 4-digit number."
+      },
+      {
+        "block_id": "block_6",
+        "type": "example",
+        "text": "For example, to find the product of 2-digit numbers 45 and 67, we can use the pattern as follows: 45 × 67 = 3,015."
+      },
+      {
+        "block_id": "block_7",
+        "type": "definition",
+        "text": "Multiplication of large numbers is the process of finding the product of two or more numbers that are too large to be multiplied using traditional methods."
+      },
+      {
+        "block_id": "block_8",
+        "type": "explanation",
+        "text": "To multiply large numbers, we can use various methods such as the standard multiplication method, the lattice method, or the partial products method."
+      },
+      {
+        "block_id": "block_9",
+        "type": "example",
+        "text": "For example, to multiply 40 × 8 × 25, we can use the standard multiplication method as follows: 40 × 8 = 320, 320 × 25 = 8000."
+      },
+      {
+        "block_id": "block_10",
+        "type": "example",
+        "text": "Another example is to multiply 25 × 12, which can be calculated as follows: 25 × 12 = 300."
+      },
+      {
+        "block_id": "block_11",
+        "type": "explanation",
+        "text": "We can also observe patterns and relationships between numbers in multiplication, such as the number of digits in the product being equal to the sum of the digits in the two numbers being multiplied."
+      },
+      {
+        "block_id": "block_12",
+        "type": "example",
+        "text": "For instance, in the multiplication statement 5-digit × 5-digit = 9, we can see that the number of digits in the product is equal to the sum of the digits in the two numbers being multiplied."
+      },
+      {
+        "block_id": "block_13",
+        "type": "example",
+        "text": "Similarly, in the multiplication statement 12-digit × 13-digit = 24, we can observe that the number of digits in the product is equal to the sum of the digits in the two numbers being multiplied."
+      },
+      {
+        "block_id": "block_14",
+        "type": "example",
+        "text": "We can also use real-life scenarios to demonstrate the application of multiplication, such as calculating the distance between the Earth and the Sun."
+      },
+      {
+        "block_id": "block_15",
+        "type": "example",
+        "text": "For example, if we travel 1000 kilometers every day, it would take approximately 403 years to reach the Sun."
+      },
+      {
+        "block_id": "block_16",
+        "type": "example",
+        "text": "We can also use real-life scenarios to demonstrate the application of multiplication, such as calculating the weight of one lakh sheets of paper."
+      },
+      {
+        "block_id": "block_17",
+        "type": "example",
+        "text": "For example, if a single sheet of paper weighs 5 grams, the weight of one lakh sheets of paper would be 500 kg."
+      }
+    ]
+  },
+  {
+    "topic_id": "topic_2",
+    "topic_name": "Large Numbers in Real-Life Scenarios",
+    "unit": "gegp101",
+    "learning_objectives": [
+      "Students will understand the importance of large numbers in real-life scenarios.",
+      "Students will be able to identify and calculate large numbers in various contexts.",
+      "Students will learn to apply mathematical concepts to solve problems involving large numbers."
+    ],
+    "allowed_concepts": [
+      "Large numbers in real-life scenarios",
+      "Calculation of large numbers",
+      "Mathematical concepts in problem-solving"
+    ],
+    "disallowed_concepts": [
+      "Advanced statistical analysis",
+      "Data visualization",
+      "Machine learning"
+    ],
+    "content_blocks": [
+      {
+        "block_id": "block_1",
+        "type": "definition",
+        "text": "Large numbers are used in various real-life scenarios such as measuring distances, calculating populations, and determining weights."
+      },
+      {
+        "block_id": "block_2",
+        "type": "explanation",
+        "text": "To calculate large numbers, we can use various mathematical concepts such as multiplication, division, and exponentiation."
+      },
+      {
+        "block_id": "block_3",
+        "type": "example",
+        "text": "For example, to calculate the distance between the Earth and the Sun, we can use the formula: distance = speed × time."
+      },
+      {
+        "block_id": "block_4",
+        "type": "example",
+        "text": "Another example is to calculate the population of Mumbai, which is more than 1 crore 24 lakhs."
+      },
+      {
+        "block_id": "block_5",
+        "type": "explanation",
+        "text": "We can also use mathematical concepts to solve problems involving large numbers. For example, to find the weight of a blue whale, we can use the formula: weight = mass × gravity."
+      },
+      {
+        "block_id": "block_6",
+        "type": "example",
+        "text": "For example, to find the weight of a blue whale, we can use the formula: weight = mass × gravity, where mass is the mass of the whale and gravity is the acceleration due to gravity."
+      }
+    ]
+  },
+  {
+    "topic_id": "topic_1",
+    "topic_name": "Real-World Applications of Mathematics",
+    "unit": "gegp101",
+    "learning_objectives": [
+      "Students will understand how to apply mathematical concepts to real-world problems",
+      "Students will be able to use mathematical reasoning to solve everyday problems",
+      "Students will learn to think creatively and critically about mathematical concepts"
+    ],
+    "allowed_concepts": [
+      "real-world applications of mathematics",
+      "mathematical reasoning",
+      "problem-solving",
+      "critical thinking",
+      "creative thinking"
+    ],
+    "disallowed_concepts": [
+      "Advanced calculus",
+      "Complex numbers"
+    ],
+    "content_blocks": [
+      {
+        "block_id": "block_1",
+        "type": "explanation",
+        "text": "earlier table). So, the entire population of Mumbai cannot fit in 1 lakh buses. The RMS Titanic ship carried about 2500 passengers. Can the population of Mumbai fit into 5000 such ships?"
+      },
+      {
+        "block_id": "block_2",
+        "type": "example",
+        "text": "Roxie wondered, “If I could travel 100 kilometers every day, could I reach the Moon in 10 years?” (The distance between the Earth and the Moon is 3,84,400 km.)"
+      },
+      {
+        "block_id": "block_3",
+        "type": "explanation",
+        "text": "How far would she have travelled in a year? How far would she have travelled in 10 years? Is it not easier to perform these calculations in stages?"
+      },
+      {
+        "block_id": "block_4",
+        "type": "example",
+        "text": "Find out if you can reach the Sun in a lifetime, if you travel 1000 kilometers every day. (You had written down the distance between the Earth and the Sun in a previous exercise.)"
+      },
+      {
+        "block_id": "block_5",
+        "type": "explanation",
+        "text": "Make necessary reasonable assumptions and answer the questions below: (a) If a single sheet of paper weighs 5 grams, could you lift one lakh sheets of paper together at the same time?"
+      },
+      {
+        "block_id": "block_6",
+        "type": "example",
+        "text": "If 250 babies are born every minute across the world, will a million babies be born in a day?"
+      },
+      {
+        "block_id": "block_7",
+        "type": "explanation",
+        "text": "Can you count 1 million coins in a day? Assume you can count 1 coin every second."
+      },
+      {
+        "block_id": "block_8",
+        "type": "example",
+        "text": "Think and create more such fun questions and share them with your class."
+      }
+    ]
+  },
+  {
+    "topic_id": "topic_2",
+    "topic_name": "Number Systems and Operations",
+    "unit": "gegp101",
+    "learning_objectives": [
+      "Students will understand the concept of number systems and operations",
+      "Students will be able to perform arithmetic operations on numbers",
+      "Students will learn to represent numbers in different forms"
+    ],
+    "allowed_concepts": [
+      "number systems",
+      "arithmetic operations",
+      "number representation"
+    ],
+    "disallowed_concepts": [
+      "Advanced calculus",
+      "Complex numbers"
+    ],
+    "content_blocks": [
+      {
+        "block_id": "block_1",
+        "type": "explanation",
+        "text": "Using all digits from 0 – 9 exactly once (the first digit cannot be 0) to create a 10-digit number, write the — 19 CChhaapptteerr--11..iinndddd 1199 44//1122//22002255 1122::1133::5555 PPMM"
+      },
+      {
+        "block_id": "block_2",
+        "type": "example",
+        "text": "The number 10,30,285 in words is Ten lakhs thirty thousand two hundred eighty five, which has 43 letters."
+      },
+      {
+        "block_id": "block_3",
+        "type": "explanation",
+        "text": "Give a 7-digit number name which has the maximum number of letters."
+      },
+      {
+        "block_id": "block_4",
+        "type": "example",
+        "text": "Write a 9-digit number where exchanging any two digits results in a bigger number."
+      },
+      {
+        "block_id": "block_5",
+        "type": "explanation",
+        "text": "How many such numbers exist?"
+      }
+    ]
+  },
+  {
+    "topic_id": "topic_3",
+    "topic_name": "Data Analysis and Interpretation",
+    "unit": "gegp101",
+    "learning_objectives": [
+      "Students will understand how to analyze and interpret data",
+      "Students will be able to collect and organize data",
+      "Students will learn to draw conclusions from data"
+    ],
+    "allowed_concepts": [
+      "data analysis",
+      "data interpretation",
+      "data collection"
+    ],
+    "disallowed_concepts": [
+      "Advanced calculus",
+      "Complex numbers"
+    ],
+    "content_blocks": [
+      {
+        "block_id": "block_1",
+        "type": "explanation",
+        "text": "Strike out 10 digits from the number 12345123451234512345 so that the remaining number is as large as possible."
+      },
+      {
+        "block_id": "block_2",
+        "type": "example",
+        "text": "The words ‘zero’ and ‘one’ share letters ‘e’ and ‘o’. The words ‘one’ and ‘two’ share a letter ‘o’, and the words ‘two’ and ‘three’ also share a letter ‘t’."
+      },
+      {
+        "block_id": "block_3",
+        "type": "explanation",
+        "text": "How far do you have to count to find two consecutive numbers which do not share an English letter in common?"
+      },
+      {
+        "block_id": "block_4",
+        "type": "example",
+        "text": "Suppose you write down all the numbers 1, 2, 3, 4, …, 9, 10, 11, ... Try This The tenth digit you write is ‘1’ and the eleventh digit is ‘0’, as part of the number 10."
+      },
+      {
+        "block_id": "block_5",
+        "type": "explanation",
+        "text": "What would the 1000th digit be? At which number would it occur?"
+      },
+      {
+        "block_id": "block_6",
+        "type": "example",
+        "text": "What number would contain the millionth digit?"
+      },
+      {
+        "block_id": "block_7",
+        "type": "explanation",
+        "text": "When would you have written the digit ‘5’ for the 5000th This time?"
+      }
+    ]
+  },
+  {
+    "topic_id": "topic_4",
+    "topic_name": "Mathematical Modeling and Problem-Solving",
+    "unit": "gegp101",
+    "learning_objectives": [
+      "Students will understand how to use mathematical modeling to solve problems",
+      "Students will be able to apply mathematical concepts to real-world problems",
+      "Students will learn to think critically and creatively about mathematical concepts"
+    ],
+    "allowed_concepts": [
+      "mathematical modeling",
+      "problem-solving",
+      "critical thinking",
+      "creative thinking"
+    ],
+    "disallowed_concepts": [
+      "Advanced calculus",
+      "Complex numbers"
+    ],
+    "content_blocks": [
+      {
+        "block_id": "block_1",
+        "type": "explanation",
+        "text": "A calculator has only ‘+10,000’ and ‘+100’ buttons. Write an expression describing the number of button clicks to be made for the following numbers: (a) 20,800 (b) 92,100 (c) 1 ,20,500 (d) 6 5,30,000 (e) 7 0,25,700"
+      },
+      {
+        "block_id": "block_2",
+        "type": "example",
+        "text": "How many lakhs make a billion?"
+      },
+      {
+        "block_id": "block_3",
+        "type": "explanation",
+        "text": "You are given two sets of number cards numbered from 1 – 9. Place a number card in each box below to get the (a) largest possible sum (b) smallest possible difference of the two resulting numbers."
+      },
+      {
+        "block_id": "block_4",
+        "type": "example",
+        "text": "You are given some number cards; 4000, 13000, 300, 70000, 150000, 20, 5. Using the cards get as close as you can to the numbers below using any operation you want."
+      },
+      {
+        "block_id": "block_5",
+        "type": "explanation",
+        "text": "Each card can be used only once for making a particular number."
+      },
+      {
+        "block_id": "block_6",
+        "type": "example",
+        "text": "Find out how many coins should be stacked to match the height of the Statue of Unity. Assume each coin is 1 mm thick."
+      },
+      {
+        "block_id": "block_7",
+        "type": "explanation",
+        "text": "Grey-headed albatrosses have a roughly 7-feet wide wingspan. They are known to migrate across several oceans."
+      },
+      {
+        "block_id": "block_8",
+        "type": "example",
+        "text": "Albatrosses can cover about 900 – 1000 km in a day."
+      },
+      {
+        "block_id": "block_9",
+        "type": "explanation",
+        "text": "One of the longest single trips recorded is about 12,000 km."
+      },
+      {
+        "block_id": "block_10",
+        "type": "example",
+        "text": "How many days would such a trip take to cross the Pacific Ocean approximately?"
+      },
+      {
+        "block_id": "block_11",
+        "type": "explanation",
+        "text": "A bar-tailed godwit holds the record for the longest recorded non-stop flight."
+      },
+      {
+        "block_id": "block_12",
+        "type": "example",
+        "text": "It travelled 13,560 km from Alaska to Australia without stopping."
+      }
+    ]
+  },
+  {
+    "topic_id": "topic_1",
+    "topic_name": "Place Value and Number System",
+    "unit": "gegp101",
+    "learning_objectives": [
+      "Students will understand the concept of place value and its importance in the number system.",
+      "Students will be able to express numbers in terms of lakhs and thousands.",
+      "Students will learn to convert numbers from one place value to another."
+    ],
+    "allowed_concepts": [
+      "place value",
+      "number system",
+      "lakhs",
+      "thousands",
+      "hundreds",
+      "tens",
+      "ones"
+    ],
+    "disallowed_concepts": [
+      "Advanced calculus",
+      "Complex numbers"
+    ],
+    "content_blocks": [
+      {
+        "block_id": "block_1",
+        "type": "definition",
+        "text": "Place value is the value of a digit in a number based on its position."
+      },
+      {
+        "block_id": "block_2",
+        "type": "explanation",
+        "text": "The number system is a way of representing numbers using digits and place values."
+      },
+      {
+        "block_id": "block_3",
+        "type": "example",
+        "text": "Express the number 123456 in terms of lakhs and thousands."
+      },
+      {
+        "block_id": "block_4",
+        "type": "example",
+        "text": "Convert the number 1000 to lakhs and thousands."
+      },
+      {
+        "block_id": "block_5",
+        "type": "explanation",
+        "text": "To convert a number from one place value to another, we can use the concept of place value."
+      },
+      {
+        "block_id": "block_6",
+        "type": "example",
+        "text": "Express the number 987654 in terms of lakhs and thousands."
+      },
+      {
+        "block_id": "block_7",
+        "type": "example",
+        "text": "Convert the number 5000 to lakhs and thousands."
+      }
+    ]
+  },
+  {
+    "topic_id": "topic_2",
+    "topic_name": "Button Presses and Number Representation",
+    "unit": "gegp101",
+    "learning_objectives": [
+      "Students will understand how to represent numbers using button presses.",
+      "Students will be able to find the smallest number of button clicks to represent a number.",
+      "Students will learn to express numbers in terms of button presses."
+    ],
+    "allowed_concepts": [
+      "button presses",
+      "number representation",
+      "smallest number of button clicks"
+    ],
+    "disallowed_concepts": [
+      "Advanced calculus",
+      "Complex numbers"
+    ],
+    "content_blocks": [
+      {
+        "block_id": "block_1",
+        "type": "definition",
+        "text": "Button presses are a way of representing numbers using a series of clicks."
+      },
+      {
+        "block_id": "block_2",
+        "type": "explanation",
+        "text": "The smallest number of button clicks to represent a number is the sum of its digits."
+      },
+      {
+        "block_id": "block_3",
+        "type": "example",
+        "text": "Find the smallest number of button clicks to represent the number 123."
+      },
+      {
+        "block_id": "block_4",
+        "type": "example",
+        "text": "Express the number 456 in terms of button presses."
+      },
+      {
+        "block_id": "block_5",
+        "type": "explanation",
+        "text": "To find the smallest number of button clicks to represent a number, we can use the concept of the sum of its digits."
+      },
+      {
+        "block_id": "block_6",
+        "type": "example",
+        "text": "Find the smallest number of button clicks to represent the number 987."
+      },
+      {
+        "block_id": "block_7",
+        "type": "example",
+        "text": "Express the number 654 in terms of button presses."
+      }
+    ]
+  },
+  {
+    "topic_id": "topic_3",
+    "topic_name": "Zeros in Numbers",
+    "unit": "gegp101",
+    "learning_objectives": [
+      "Students will understand how to count the number of zeros in a number.",
+      "Students will be able to find the number of zeros in a number.",
+      "Students will learn to express numbers with zeros."
+    ],
+    "allowed_concepts": [
+      "zeros in numbers",
+      "counting zeros",
+      "expressing numbers with zeros"
+    ],
+    "disallowed_concepts": [
+      "Advanced calculus",
+      "Complex numbers"
+    ],
+    "content_blocks": [
+      {
+        "block_id": "block_1",
+        "type": "definition",
+        "text": "Zeros are a way of representing the absence of a digit in a number."
+      },
+      {
+        "block_id": "block_2",
+        "type": "explanation",
+        "text": "To count the number of zeros in a number, we can look for the zeros in the number."
+      },
+      {
+        "block_id": "block_3",
+        "type": "example",
+        "text": "Count the number of zeros in the number 1000."
+      },
+      {
+        "block_id": "block_4",
+        "type": "example",
+        "text": "Express the number 10000 in terms of zeros."
+      },
+      {
+        "block_id": "block_5",
+        "type": "explanation",
+        "text": "To express a number in terms of zeros, we can use the concept of place value."
+      },
+      {
+        "block_id": "block_6",
+        "type": "example",
+        "text": "Count the number of zeros in the number 100000."
+      },
+      {
+        "block_id": "block_7",
+        "type": "example",
+        "text": "Express the number 1000000 in terms of zeros."
+      }
+    ]
+  },
+  {
+    "topic_id": "topic_1",
+    "topic_name": "Place Value and Number Systems",
+    "unit": "gegp101",
+    "learning_objectives": [
+      "Students will understand the concept of place value in Indian and American number systems.",
+      "Students will be able to write numbers in both Indian and American systems.",
+      "Students will learn to compare numbers in different place value systems."
+    ],
+    "allowed_concepts": [
+      "place value",
+      "Indian number system",
+      "American number system",
+      "number names",
+      "comparing numbers"
+    ],
+    "disallowed_concepts": [
+      "Advanced calculus",
+      "Complex numbers"
+    ],
+    "content_blocks": [
+      {
+        "block_id": "block_1",
+        "type": "definition",
+        "text": "The Indian number system uses a decimal system with a base of 10, where each digit has a place value. The place value of a digit depends on its position in the number."
+      },
+      {
+        "block_id": "block_2",
+        "type": "explanation",
+        "text": "In the Indian number system, the place value of a digit is determined by its position. The rightmost digit has a place value of 1, the next digit to the left has a place value of 10, and so on."
+      },
+      {
+        "block_id": "block_3",
+        "type": "example",
+        "text": "For example, the number 4050678 can be written as 40,50,678 in the Indian number system."
+      },
+      {
+        "block_id": "block_4",
+        "type": "explanation",
+        "text": "The American number system also uses a decimal system with a base of 10, but it uses a different notation for writing numbers."
+      },
+      {
+        "block_id": "block_5",
+        "type": "example",
+        "text": "For example, the number 4050678 can be written as 4,050,678 in the American number system."
+      },
+      {
+        "block_id": "block_6",
+        "type": "definition",
+        "text": "Comparing numbers in different place value systems involves understanding the place value of each digit and comparing the corresponding digits."
+      },
+      {
+        "block_id": "block_7",
+        "type": "example",
+        "text": "For example, 30 thousand is less than 3 lakhs."
+      }
+    ]
+  },
+  {
+    "topic_id": "topic_2",
+    "topic_name": "Rounding Numbers",
+    "unit": "gegp101",
+    "learning_objectives": [
+      "Students will understand the concept of rounding numbers.",
+      "Students will be able to round numbers to the nearest ten, hundred, thousand, and so on.",
+      "Students will learn to estimate numbers using rounding."
+    ],
+    "allowed_concepts": [
+      "rounding numbers",
+      "nearest ten",
+      "nearest hundred",
+      "nearest thousand",
+      "estimating numbers"
+    ],
+    "disallowed_concepts": [
+      "Advanced calculus",
+      "Complex numbers"
+    ],
+    "content_blocks": [
+      {
+        "block_id": "block_1",
+        "type": "definition",
+        "text": "Rounding numbers involves approximating a number to a certain place value."
+      },
+      {
+        "block_id": "block_2",
+        "type": "explanation",
+        "text": "To round a number to the nearest ten, we look at the digit in the ones place. If it is 5 or greater, we round up. If it is less than 5, we round down."
+      },
+      {
+        "block_id": "block_3",
+        "type": "example",
+        "text": "For example, 38769957 rounded to the nearest thousand is 38770000."
+      },
+      {
+        "block_id": "block_4",
+        "type": "explanation",
+        "text": "Rounding numbers can be used to estimate quantities in real-life situations."
+      },
+      {
+        "block_id": "block_5",
+        "type": "example",
+        "text": "For example, estimating the time remaining to leave for school by rounding up or down to the nearest ten minutes."
+      }
+    ]
+  },
+  {
+    "topic_id": "topic_3",
+    "topic_name": "Multiplication and Division",
+    "unit": "gegp101",
+    "learning_objectives": [
+      "Students will understand the concept of multiplication and division.",
+      "Students will be able to multiply and divide numbers using the meaning of multiplication and division.",
+      "Students will learn to simplify multiplication and division problems."
+    ],
+    "allowed_concepts": [
+      "multiplication",
+      "division",
+      "meaning of multiplication",
+      "meaning of division",
+      "simplifying multiplication and division problems"
+    ],
+    "disallowed_concepts": [
+      "Advanced calculus",
+      "Complex numbers"
+    ],
+    "content_blocks": [
+      {
+        "block_id": "block_1",
+        "type": "definition",
+        "text": "Multiplication is the repeated addition of a number. Division is the repeated subtraction of a number."
+      },
+      {
+        "block_id": "block_2",
+        "type": "explanation",
+        "text": "For example, 2 × 1768 can be thought of as 2 added to itself 1768 times."
+      },
+      {
+        "block_id": "block_3",
+        "type": "example",
+        "text": "For example, 2 × 1768 × 50 can be simplified as 100 × 1768."
+      },
+      {
+        "block_id": "block_4",
+        "type": "definition",
+        "text": "Division can be thought of as the repeated subtraction of a number."
+      },
+      {
+        "block_id": "block_5",
+        "type": "example",
+        "text": "For example, 10 ÷ 2 is the same as 5."
+      }
+    ]
+  },
+  {
+    "topic_id": "topic_2",
+    "topic_name": "Conversion of Numbers",
+    "unit": "gegp101",
+    "learning_objectives": [
+      "Students will understand the concept of conversion of numbers.",
+      "Students will be able to convert numbers from one form to another.",
+      "Students will learn to express numbers in different forms."
+    ],
+    "allowed_concepts": [
+      "conversion of numbers",
+      "standard form",
+      "expanded form",
+      "word form",
+      "number conversion"
+    ],
+    "disallowed_concepts": [
+      "Advanced calculus",
+      "Complex numbers"
+    ],
+    "content_blocks": [
+      {
+        "block_id": "block_1",
+        "type": "definition",
+        "text": "How many lakhs make a billion?"
+      },
+      {
+        "block_id": "block_2",
+        "type": "explanation",
+        "text": "10,000 lakh make a billion."
+      }
+    ]
+  },
+  {
+    "topic_id": "topic_3",
+    "topic_name": "Number Cards and Operations",
+    "unit": "gegp101",
+    "learning_objectives": [
+      "Students will understand the concept of number cards and operations.",
+      "Students will be able to use number cards to perform operations.",
+      "Students will learn to get the largest possible sum and smallest possible difference using number cards."
+    ],
+    "allowed_concepts": [
+      "number cards",
+      "operations",
+      "sum",
+      "difference",
+      "number cards operations"
+    ],
+    "disallowed_concepts": [
+      "Advanced calculus",
+      "Complex numbers"
+    ],
+    "content_blocks": [
+      {
+        "block_id": "block_1",
+        "type": "example",
+        "text": "Place a number card in each box below to get the (a) largest possible sum (b) smallest possible difference of two resulting numbers."
+      },
+      {
+        "block_id": "block_2",
+        "type": "example",
+        "text": "9 9 8 8 7 7 6 6 5 5 4 4 Sum = 1,00,54,320"
+      },
+      {
+        "block_id": "block_3",
+        "type": "example",
+        "text": "1 1 2 2 3 3 4 9 9 8 8 7 Difference = 10,22,447"
+      }
+    ]
+  },
+  {
+    "topic_id": "topic_4",
+    "topic_name": "Approximation and Estimation",
+    "unit": "gegp101",
+    "learning_objectives": [
+      "Students will understand the concept of approximation and estimation.",
+      "Students will be able to approximate and estimate numbers.",
+      "Students will learn to get close to the numbers using any operation."
+    ],
+    "allowed_concepts": [
+      "approximation",
+      "estimation",
+      "approximate numbers",
+      "estimate numbers"
+    ],
+    "disallowed_concepts": [
+      "Advanced calculus",
+      "Complex numbers"
+    ],
+    "content_blocks": [
+      {
+        "block_id": "block_1",
+        "type": "example",
+        "text": "Using the cards get as close as you can to the numbers below using any operation you want."
+      },
+      {
+        "block_id": "block_2",
+        "type": "example",
+        "text": "1,10,000: 4000 × (20 + 5) + 13000 = 1,13,000"
+      },
+      {
+        "block_id": "block_3",
+        "type": "example",
+        "text": "2,00,000: closest estimate = 1,50,000 + 70,000 – (4000 × 5) = 2,00,000."
+      },
+      {
+        "block_id": "block_4",
+        "type": "example",
+        "text": "5,80,000: closest estimate = (1,50,000 × 4) – (4000 × 5) = 5,80,000."
+      },
+      {
+        "block_id": "block_5",
+        "type": "example",
+        "text": "12,45,000: closest estimate = (70,000 × 20) – 1,50,000 – 4,000 – (300 × 5) = 12,44,500."
+      },
+      {
+        "block_id": "block_6",
+        "type": "example",
+        "text": "20,90,800: closest estimate = (1,50,000 × 14) + 4,000 – 13,000 = 20,91,000."
+      }
+    ]
+  },
+  {
+    "topic_id": "topic_5",
+    "topic_name": "Measurement and Conversion",
+    "unit": "gegp101",
+    "learning_objectives": [
+      "Students will understand the concept of measurement and conversion.",
+      "Students will be able to measure and convert units.",
+      "Students will learn to convert between different units."
+    ],
+    "allowed_concepts": [
+      "measurement",
+      "conversion",
+      "units",
+      "unit conversion"
+    ],
+    "disallowed_concepts": [
+      "Advanced calculus",
+      "Complex numbers"
+    ],
+    "content_blocks": [
+      {
+        "block_id": "block_1",
+        "type": "example",
+        "text": "Find out how many coins should be stacked to match the height of the Statue of Unity."
+      },
+      {
+        "block_id": "block_2",
+        "type": "example",
+        "text": "Height of each coin = 1 mm Height of Statue of Unity = 180 m = 180 × 100 × 10 mm = 1, 80,000 mm."
+      },
+      {
+        "block_id": "block_3",
+        "type": "example",
+        "text": "Number of coins to be stacked = 1,80,000 mm ÷ 1 mm = 1,80,000 coins."
+      }
+    ]
+  },
+  {
+    "topic_id": "topic_6",
+    "topic_name": "Distance, Speed, and Time",
+    "unit": "gegp101",
+    "learning_objectives": [
+      "Students will understand the concept of distance, speed, and time.",
+      "Students will be able to calculate distance, speed, and time.",
+      "Students will learn to solve problems related to distance, speed, and time."
+    ],
+    "allowed_concepts": [
+      "distance",
+      "speed",
+      "time",
+      "distance-speed-time"
+    ],
+    "disallowed_concepts": [
+      "Advanced calculus",
+      "Complex numbers"
+    ],
+    "content_blocks": [
+      {
+        "block_id": "block_1",
+        "type": "example",
+        "text": "Albatrosses can cover about 900 – 1000 km in a day."
+      },
+      {
+        "block_id": "block_2",
+        "type": "example",
+        "text": "One of the longest single trips recorded is about 12,000 km."
+      },
+      {
+        "block_id": "block_3",
+        "type": "example",
+        "text": "How many days would such a trip take to cross an ocean approximately?"
+      },
+      {
+        "block_id": "block_4",
+        "type": "example",
+        "text": "Estimated number of days if it flies 900 km/day = 12,000 ÷ 900 = 13.3 days"
+      },
+      {
+        "block_id": "block_5",
+        "type": "example",
+        "text": "Estimated number of days if it flies 1000 km/day = 12,000 ÷ 1000 = 12 days"
+      }
+    ]
+  },
+  {
+    "topic_id": "topic_7",
+    "topic_name": "Flight and Height",
+    "unit": "gegp101",
+    "learning_objectives": [
+      "Students will understand the concept of flight and height.",
+      "Students will be able to calculate flight and height.",
+      "Students will learn to solve problems related to flight and height."
+    ],
+    "allowed_concepts": [
+      "flight",
+      "height",
+      "flight-height"
+    ],
+    "disallowed_concepts": [
+      "Advanced calculus",
+      "Complex numbers"
+    ],
+    "content_blocks": [
+      {
+        "block_id": "block_1",
+        "type": "example",
+        "text": "Bald eagles are known to fly as high as 4500 – 6000 m above the ground level."
+      },
+      {
+        "block_id": "block_2",
+        "type": "example",
+        "text": "Mount Everest is about 8850 m high."
+      },
+      {
+        "block_id": "block_3",
+        "type": "example",
+        "text": "Aeroplanes can fly as high as 10,000 – 12,800 m."
+      },
+      {
+        "block_id": "block_4",
+        "type": "example",
+        "text": "How many times bigger are these heights compared to Somu’s building?"
+      },
+      {
+        "block_id": "block_5",
+        "type": "example",
+        "text": "Height of Somu’s building = 40 m"
+      },
+      {
+        "block_id": "block_6",
+        "type": "example",
+        "text": "Bald eagles’ flight height = 4500 – 6000 m Lower estimate = 4500 ÷ 40 = 112.5 times"
+      },
+      {
+        "block_id": "block_7",
+        "type": "example",
+        "text": "Bald eagles fly about 112 to 150 times higher than Somu’s building."
+      },
+      {
+        "block_id": "block_8",
+        "type": "example",
+        "text": "Mount Everest height = 8850 m Now, 8850 ÷ 40 = 221.25"
+      },
+      {
+        "block_id": "block_9",
+        "type": "example",
+        "text": "Mount Everest is approximately 221 times taller than Somu’s building."
+      },
+      {
+        "block_id": "block_10",
+        "type": "example",
+        "text": "Aeroplanes flight height = 10,000 – 12,000 m Lower estimate = 10,000 ÷ 40 = 250 times"
+      },
+      {
+        "block_id": "block_11",
+        "type": "example",
+        "text": "Aeroplanes can fly about 250 times higher than Somu’s building."
+      }
+    ]
+  },
+  {
+    "topic_id": "topic_1",
+    "topic_name": "Upper Estimate",
+    "unit": "gegp101",
+    "learning_objectives": [
+      "Students will understand how to calculate upper estimates.",
+      "Students will be able to apply the concept of upper estimates in real-life scenarios.",
+      "Students will learn to estimate quantities using upper estimates."
+    ],
+    "allowed_concepts": [
+      "Upper estimate",
+      "Division",
+      "Real-life applications of mathematics"
+    ],
+    "disallowed_concepts": [
+      "Advanced calculus",
+      "Complex numbers"
+    ],
+    "content_blocks": [
+      {
+        "block_id": "block_1",
+        "type": "definition",
+        "text": "Upper estimate = (largest possible value) ÷ (smallest possible number of values)"
+      },
+      {
+        "block_id": "block_2",
+        "type": "explanation",
+        "text": "To calculate the upper estimate, we divide the largest possible value by the smallest possible number of values."
+      },
+      {
+        "block_id": "block_3",
+        "type": "example",
+        "text": "Upper estimate = 12800 ÷ 40 = 320. Airplanes fly about 250 to 320 times as high as Somu’s building."
+      }
+    ]
+  }
+]

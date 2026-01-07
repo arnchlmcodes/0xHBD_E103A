@@ -1,0 +1,1144 @@
+[
+  {
+    "topic_id": "topic_1",
+    "topic_name": "Arithmetic Expressions",
+    "unit": "gegp102",
+    "learning_objectives": [
+      "Students will understand the concept of arithmetic expressions and their values.",
+      "Students will be able to write and evaluate simple arithmetic expressions.",
+      "Students will learn to compare arithmetic expressions based on their values.",
+      "Students will understand the concept of arithmetic expressions and how to evaluate them.",
+      "Students will be able to identify and use brackets to resolve confusions in evaluating expressions.",
+      "Students will learn to use the notion of terms to determine the order of operations in an expression.",
+      "Students will understand the concept of arithmetic expressions and their terms.",
+      "Students will be able to write expressions as the sum of their terms.",
+      "Students will learn to evaluate expressions by adding terms in any order.",
+      "Students will be able to write arithmetic expressions for given situations.",
+      "Students will learn to identify the terms in an arithmetic expression.",
+      "Students will understand the concept of arithmetic expressions and their evaluation.",
+      "Students will learn to evaluate arithmetic expressions using the order of operations.",
+      "Students will understand the concept of arithmetic expressions and how to simplify them.",
+      "Students will be able to identify and simplify arithmetic expressions using the correct order of operations.",
+      "Students will learn to evaluate arithmetic expressions with multiple operations using the correct order of operations.",
+      "Students will understand the concept of arithmetic expressions and their representation.",
+      "Students will be able to write arithmetic expressions for real-life situations.",
+      "Students will learn to simplify arithmetic expressions using the distributive property.",
+      "Students will be able to simplify and evaluate arithmetic expressions using the order of operations.",
+      "Students will learn to apply the commutative and associative properties of addition to simplify expressions."
+    ],
+    "allowed_concepts": [
+      "arithmetic expressions",
+      "simple expressions",
+      "value of an expression",
+      "equality sign",
+      "comparing expressions",
+      "brackets",
+      "terms",
+      "order of operations",
+      "inverse of a number",
+      "addition of terms",
+      "token model of integers",
+      "terms in an expression",
+      "commutative property of addition",
+      "associative property of addition",
+      "evaluating expressions",
+      "evaluation of expressions",
+      "negative signs",
+      "Parentheses",
+      "Exponents",
+      "Multiplication and Division",
+      "Addition and Subtraction",
+      "distributive property",
+      "real-life situations",
+      "representation",
+      "simplification"
+    ],
+    "disallowed_concepts": [
+      "advanced algebraic manipulations",
+      "calculus",
+      "Higher-order thinking skills"
+    ],
+    "content_blocks": [
+      {
+        "block_id": "block_1",
+        "type": "definition",
+        "text": "An arithmetic expression has a value which is the number it evaluates to. For example, the value of the expression 13 + 2 is 15."
+      },
+      {
+        "block_id": "block_2",
+        "type": "explanation",
+        "text": "We use the equality sign ‘=’ to denote the relationship between an arithmetic expression and its value. For example: 13 + 2 = 15."
+      },
+      {
+        "block_id": "block_3",
+        "type": "example",
+        "text": "Mallika spends ₹25 every day for lunch at school. Write the expression for the total amount she spends on lunch in a week from Monday to Friday. The expression for the total amount is 5 × 25."
+      },
+      {
+        "block_id": "block_4",
+        "type": "explanation",
+        "text": "Different expressions can have the same value. Here are multiple ways to express the number 12, using two numbers and any of the four operations +, – , × and ÷: 10 + 2, 15 – 3, 3 × 4, 24 ÷ 2."
+      },
+      {
+        "block_id": "block_5",
+        "type": "example",
+        "text": "Choose your favourite number and write as many expressions as you can having that value."
+      },
+      {
+        "block_id": "block_6",
+        "type": "explanation",
+        "text": "Comparing Expressions As we compare numbers using ‘=’, ‘<’ and ‘>’ signs, we can also compare expressions. We compare expressions based on their values and write the ‘equal to’, ‘greater than’ or ‘less than’ sign accordingly."
+      },
+      {
+        "block_id": "block_7",
+        "type": "example",
+        "text": "For example, 10 + 2 > 7 + 1 because the value of 10 + 2 = 12 is greater than the value of 7 + 1 = 8."
+      },
+      {
+        "block_id": "block_8",
+        "type": "explanation",
+        "text": "Similarly, 13 – 2 < 4 × 3."
+      },
+      {
+        "block_id": "block_9",
+        "type": "example",
+        "text": "Figure it Out 1. Fill in the blanks to make the expressions equal on both sides of the = sign: (a) 13 + 4 = ____ + 6 (b) 22 + ____ = 6 × 5 (c) 8 × ____ = 64 ÷ 2 (d) 34 – ____ = 25"
+      },
+      {
+        "block_id": "block_10",
+        "type": "explanation",
+        "text": "2. Arrange the following expressions in ascending (increasing) order of their values. (a) 67 – 19 (b) 67 – 20 (c) 35 + 25 (d) 5 × 11 (e) 120 ÷ 3"
+      },
+      {
+        "block_id": "block_11",
+        "type": "example",
+        "text": "Example 2: Which is greater? 1023 + 125 or 1022 + 128?"
+      },
+      {
+        "block_id": "block_12",
+        "type": "explanation",
+        "text": "Imagining a situation could help us answer this Raja (1023 + 125) without finding the values. Raja had 1023 marbles 1022 1 and got 125 more today. Now he has 1023 + 125 marbles."
+      },
+      {
+        "block_id": "block_13",
+        "type": "example",
+        "text": "Joy had 1022 marbles and got 128 125 more today. Now he has 1022 + 128 marbles. Who has more? Joy (1022 + 128)"
+      },
+      {
+        "block_id": "block_14",
+        "type": "explanation",
+        "text": "Example 3: Which is greater? 113 – 25 or 112 – 24?"
+      },
+      {
+        "block_id": "block_15",
+        "type": "example",
+        "text": "Raja (113 – 25) Imagine a situation, Raja had 113 marbles and lost 112 1 25 of them. He has 113 – 25 marbles."
+      },
+      {
+        "block_id": "block_16",
+        "type": "explanation",
+        "text": "Joy had 112 marbles and lost 24 today. He has 112 – 24 marbles. 24 Who has more marbles left with them? remove Raja had 1 marble more than Joy. But he also Joy (112 – 24) lost 1 marble more than Joy did. Therefore, they have an equal number of marbles now. 112 That is, 24 113 – 25 = 112 – 24. remove 25"
+      },
+      {
+        "block_id": "block_17",
+        "type": "example",
+        "text": "Use ‘>’ or ‘<’ or ‘=’ in each of the following expressions to compare them. Can you do it without complicated calculations? Explain your thinking in each case."
+      },
+      {
+        "block_id": "block_18",
+        "type": "explanation",
+        "text": "2.2 Reading and Evaluating Complex Expressions Sometimes, when an expression is not accompanied by a context, there can be more than one way of evaluating its value. In such cases, we need some tools and rules to specify how exactly the expression has to be evaluated."
+      },
+      {
+        "block_id": "block_19",
+        "type": "example",
+        "text": "To give an example with language, look at the following sentences: (a) Sentence: “Shalini sat next to a friend with toys”. Meaning: The friend has toys and Shalini sat next to her."
+      },
+      {
+        "block_id": "block_20",
+        "type": "explanation",
+        "text": "This sentence without the punctuation could have been interpreted in two different ways. The appropriate use of a comma specifies how the"
+      },
+      {
+        "block_id": "block_21",
+        "type": "definition",
+        "text": "An arithmetic expression is a mathematical expression that consists of numbers, variables, and operators, and can be evaluated to a single value."
+      },
+      {
+        "block_id": "block_22",
+        "type": "explanation",
+        "text": "When there are expressions having multiple operations, and the order of operations is not specified by the brackets, we use the notion of terms to determine the order."
+      },
+      {
+        "block_id": "block_23",
+        "type": "example",
+        "text": "Example 4: Mallesh brought 30 marbles to the playground. Arun brought 5 bags of marbles with 4 marbles in each bag. How many marbles did Mallesh and Arun bring to the playground? Mallesh summarized this by writing the mathematical expression — 30 + 5 × 4."
+      },
+      {
+        "block_id": "block_24",
+        "type": "definition",
+        "text": "Brackets in Expressions: Brackets are used in mathematics to resolve confusions in evaluating expressions."
+      },
+      {
+        "block_id": "block_25",
+        "type": "explanation",
+        "text": "When evaluating an expression having brackets, we need to first find the values of the expressions inside the brackets before performing other operations."
+      },
+      {
+        "block_id": "block_26",
+        "type": "example",
+        "text": "Example 5: Irfan bought a pack of biscuits for ₹15 and a packet of toor dal for ₹56. He gave the shopkeeper ₹100. Write an expression that can help us calculate the change Irfan will get back from the shopkeeper."
+      },
+      {
+        "block_id": "block_27",
+        "type": "definition",
+        "text": "Terms in Expressions: Terms are the parts of an expression separated by a ‘+’ sign."
+      },
+      {
+        "block_id": "block_28",
+        "type": "explanation",
+        "text": "Subtracting a number is the same as adding the inverse of the number."
+      },
+      {
+        "block_id": "block_29",
+        "type": "example",
+        "text": "Example: 83 – 14 = 83 + – 14"
+      },
+      {
+        "block_id": "block_30",
+        "type": "definition",
+        "text": "An arithmetic expression is a mathematical statement that contains numbers and/or variables combined using the operations of addition, subtraction, multiplication, and division."
+      },
+      {
+        "block_id": "block_31",
+        "type": "explanation",
+        "text": "An expression can be written as the sum of its terms. For example, the expression 13 – 2 + 6 can be written as 13 + – 2 + 6."
+      },
+      {
+        "block_id": "block_32",
+        "type": "example",
+        "text": "Madhu is flying a drone from a terrace. The drone goes 6 m up and then 4 m down. Write an expression to show how high the final position of the drone is from the terrace."
+      },
+      {
+        "block_id": "block_33",
+        "type": "explanation",
+        "text": "Swapping the terms of an expression does not change the value. For example, – 4 + 6 = 2."
+      },
+      {
+        "block_id": "block_34",
+        "type": "example",
+        "text": "Consider the expression (–7) + 10 + (–11). Let us add these terms in the following two different orders: – 7 + 10 + – 11 and – 7 + 10 + – 11."
+      },
+      {
+        "block_id": "block_35",
+        "type": "explanation",
+        "text": "Grouping the terms of an expression in either of the following ways gives the same value. For example, Term 1 + Term 2 + Term 3 = Term 1 + Term 2 + Term 3."
+      },
+      {
+        "block_id": "block_36",
+        "type": "example",
+        "text": "Consider the expression (–7) + 10 + (–11) again. What happens when we change the order and add –7 and –11 first, and then add this sum to 10?"
+      },
+      {
+        "block_id": "block_37",
+        "type": "explanation",
+        "text": "The addition of terms in any order gives the same value. Therefore, in an expression having only additions, it does not matter in what order the terms are added: they all give the same value."
+      },
+      {
+        "block_id": "block_38",
+        "type": "example",
+        "text": "The expression 30 + 5 × 4 is evaluated as follows: 30 + 5 × 4 = 30 + 5 × 4 = 30 + 20 = 50"
+      },
+      {
+        "block_id": "block_39",
+        "type": "definition",
+        "text": "An arithmetic expression is a mathematical expression that involves numbers and operations such as addition, subtraction, multiplication, and division."
+      },
+      {
+        "block_id": "block_40",
+        "type": "explanation",
+        "text": "Arithmetic expressions can be written in various forms, including a sum of terms, and can be evaluated to find their value."
+      },
+      {
+        "block_id": "block_41",
+        "type": "example",
+        "text": "Example 7: Amu, Charan, Madhu, and John went to a hotel and ordered four dosas. Each dosa cost ₹23, and they wish to thank the waiter by tipping ₹5. Write an expression describing the total cost. Cost of 4 dosas = 4 × 23 Can the total amount with tip be written as 4 × 23 + 5?"
+      },
+      {
+        "block_id": "block_42",
+        "type": "example",
+        "text": "Example 8: Children in a class are playing “Fire in the mountain, run, run, run!”. Whenever the teacher calls out a number, students are supposed to arrange themselves in groups of that number. Whoever is not part of the announced group size, is out. Ruby wanted to rest and sat on one side. The other 33 students were playing the game in + + + the class. The teacher called out ‘5’. Once children settled, Ruby wrote 6 × 5 + 3 (understood as 3 more than 6 × 5) Think and discuss why she wrote this."
+      },
+      {
+        "block_id": "block_43",
+        "type": "example",
+        "text": "Example 9: Raghu bought 100 kg of rice from the wholesale market and packed them into 2 kg packets. He already had four 2 kg packets. Write an expression for the number of 2 kg packets of rice he has now and identify the terms."
+      },
+      {
+        "block_id": "block_44",
+        "type": "example",
+        "text": "Example 10: Kannan has to pay ₹432 to a shopkeeper using coins of ₹1 and ₹5, and notes of ₹10, ₹20, ₹50 and ₹100. How can he do it? There is more than one possibility."
+      },
+      {
+        "block_id": "block_45",
+        "type": "example",
+        "text": "Example 11: Here are two pictures. Which of these two arrangements matches with the expression 5 × 2 + 3?"
+      },
+      {
+        "block_id": "block_46",
+        "type": "definition",
+        "text": "An arithmetic expression is a mathematical expression that involves numbers and operations such as addition, subtraction, multiplication, and division."
+      },
+      {
+        "block_id": "block_47",
+        "type": "explanation",
+        "text": "To evaluate an arithmetic expression, we need to follow the order of operations, which is Parentheses, Exponents, Multiplication and Division, and Addition and Subtraction."
+      },
+      {
+        "block_id": "block_48",
+        "type": "example",
+        "text": "Example 1: Evaluate the expression 5 × 2 + 3. This expression can be understood as 3 more than 5 × 2, which describes the arrangement on the left."
+      },
+      {
+        "block_id": "block_49",
+        "type": "example",
+        "text": "Example 2: Evaluate the expression 200 – (40 + 3). We first evaluate the expression inside the bracket to 43 and then subtract it from 200."
+      },
+      {
+        "block_id": "block_50",
+        "type": "example",
+        "text": "Example 3: Evaluate the expression 500 – (250 – 100). We need to subtract 250 – 100 = 150 from 500."
+      },
+      {
+        "block_id": "block_51",
+        "type": "definition",
+        "text": "An arithmetic expression is a mathematical expression that consists of numbers, variables, and operations."
+      },
+      {
+        "block_id": "block_52",
+        "type": "explanation",
+        "text": "Arithmetic expressions can be simplified using the order of operations. The order of operations is: Parentheses, Exponents, Multiplication and Division, and Addition and Subtraction."
+      },
+      {
+        "block_id": "block_53",
+        "type": "example",
+        "text": "For example, consider the expression: 2 × 3 + 4 - 5. To simplify this expression, we need to follow the order of operations. First, we multiply 2 and 3, then we add 4, and finally we subtract 5."
+      },
+      {
+        "block_id": "block_54",
+        "type": "example",
+        "text": "Another example is: 10 - 3 + 2. To simplify this expression, we need to follow the order of operations. First, we subtract 3 from 10, then we add 2."
+      },
+      {
+        "block_id": "block_55",
+        "type": "explanation",
+        "text": "We can also use the order of operations to evaluate arithmetic expressions with multiple operations. For example, consider the expression: 2 × (3 + 4) - 5. To simplify this expression, we need to follow the order of operations. First, we evaluate the expression inside the parentheses, then we multiply 2 and the result, and finally we subtract 5."
+      },
+      {
+        "block_id": "block_56",
+        "type": "example",
+        "text": "Another example is: 10 - (3 + 2). To simplify this expression, we need to follow the order of operations. First, we evaluate the expression inside the parentheses, then we subtract the result from 10."
+      },
+      {
+        "block_id": "block_57",
+        "type": "definition",
+        "text": "vegetable cutlet and one rasagulla, each of their shares can be represented by 43 + 24."
+      },
+      {
+        "block_id": "block_58",
+        "type": "explanation",
+        "text": "This expression means 24 more than 2 × 43. But, we want an expression which means twice or double of 43 + 24."
+      },
+      {
+        "block_id": "block_59",
+        "type": "example",
+        "text": "2 × (43 + 24). So, we can say that together they have ₹ 43 ₹ 24 to pay 2 × (43 + 24)."
+      },
+      {
+        "block_id": "block_60",
+        "type": "definition",
+        "text": "The number of boy scouts marching is 4 × 5. The number of girl guides marching is 3 × 5."
+      },
+      {
+        "block_id": "block_61",
+        "type": "explanation",
+        "text": "The total number of scouts and guides will be 4 × 5 + 3 × 5."
+      },
+      {
+        "block_id": "block_62",
+        "type": "example",
+        "text": "This can also be found by first finding the total number of rows, i.e., 4 + (4+3) × 5 3, and then multiplying their sum by the number of children in each row."
+      },
+      {
+        "block_id": "block_63",
+        "type": "definition",
+        "text": "The multiple of a sum (difference) is the same as the sum (difference) of the multiples."
+      },
+      {
+        "block_id": "block_64",
+        "type": "explanation",
+        "text": "Consider 10 × 98 + 3 × 98. This means taking the sum of 10 times 98 and 3 times 98."
+      },
+      {
+        "block_id": "block_65",
+        "type": "example",
+        "text": "Clearly, this is the same as 10 + 3 = 13 times 98."
+      },
+      {
+        "block_id": "block_66",
+        "type": "definition",
+        "text": "The property can be seen in the following form: 98 × 10 + 9 × 83 = 98 (10 + 3), and 98 (10 + 3) = 98 × 10 + 98 × 3."
+      },
+      {
+        "block_id": "block_67",
+        "type": "explanation",
+        "text": "Similarly, let us consider the expression 14 × 10 – 6 × 10. This means subtracting 6 times 10 from 14 times 10."
+      },
+      {
+        "block_id": "block_68",
+        "type": "example",
+        "text": "Thus, 14 × 10 – 6 × 10 = (14 – 6) × 10, or (14 – 6) × 10 = 14 × 10 – 6 × 10"
+      },
+      {
+        "block_id": "block_69",
+        "type": "definition",
+        "text": "Tinker the Terms II Let us understand what happens when we change the numbers occurring in a product."
+      },
+      {
+        "block_id": "block_70",
+        "type": "explanation",
+        "text": "Given 53 × 18 = 954. Find out 63 × 18. As 63 × 18 means 63 times 18, 63 × 18 = (53 + 10) × 18 = 53 ×18 + 10×18 = 954 + 180 = 1134."
+      },
+      {
+        "block_id": "block_71",
+        "type": "example",
+        "text": "Find an effective way of evaluating 97 × 25. 97 × 25 means 97 times 25. We can write it as (100 – 3) × 25"
+      },
+      {
+        "block_id": "block_72",
+        "type": "definition",
+        "text": "Math Talk Figure it Out 1. Fill in the blanks with numbers, and boxes by signs, so that the expressions on both sides are equal."
+      },
+      {
+        "block_id": "block_73",
+        "type": "definition",
+        "text": "Arithmetic expressions are mathematical expressions that involve numbers and operations such as addition, subtraction, multiplication, and division."
+      },
+      {
+        "block_id": "block_74",
+        "type": "explanation",
+        "text": "To evaluate expressions within brackets, we need to follow the order of operations, which is Parentheses, Exponents, Multiplication and Division, and Addition and Subtraction."
+      },
+      {
+        "block_id": "block_75",
+        "type": "example",
+        "text": "For example, (3 + 3)/3 = 2, 3 + 3 – 3 = 3, 3 × 3 + 3 = 12, and so on."
+      },
+      {
+        "block_id": "block_76",
+        "type": "explanation",
+        "text": "Using the commutative and associative properties of addition, we can simplify expressions by changing the order of the terms or grouping the terms without changing the value of the expression."
+      },
+      {
+        "block_id": "block_77",
+        "type": "example",
+        "text": "For example, 14 + 10 +( – 5) = 19 or (– 5) + 10 + 14 = 19"
+      },
+      {
+        "block_id": "block_78",
+        "type": "explanation",
+        "text": "This property also holds when there are terms having negative numbers as well."
+      },
+      {
+        "block_id": "block_79",
+        "type": "example",
+        "text": "For example, (– 4) + (– 2) = – 6 or (– 2) + (– 4) = – 6"
+      }
+    ]
+  },
+  {
+    "topic_id": "topic_1",
+    "topic_name": "Order of Operations",
+    "unit": "gegp102",
+    "learning_objectives": [
+      "Students will understand the order of operations and how to apply it to simplify expressions.",
+      "Students will be able to identify and apply the correct order of operations to solve problems.",
+      "Students will learn to evaluate expressions with multiple operations using the correct order of operations.",
+      "Students will understand the order of operations and its importance in simplifying expressions.",
+      "Students will be able to apply the order of operations to simplify expressions with multiple operations.",
+      "Students will learn to identify and write expressions using the order of operations.",
+      "Students will understand the order of operations.",
+      "Students will be able to apply the order of operations to simplify expressions.",
+      "Students will learn to evaluate expressions with multiple operations."
+    ],
+    "allowed_concepts": [
+      "Order of operations",
+      "Parentheses",
+      "Exponents",
+      "Multiplication and Division",
+      "Addition and Subtraction",
+      "Associative property",
+      "Expressions with multiple operations",
+      "Simplifying expressions",
+      "PEMDAS",
+      "evaluating expressions"
+    ],
+    "disallowed_concepts": [
+      "Advanced algebraic manipulations",
+      "Higher-order thinking skills"
+    ],
+    "content_blocks": [
+      {
+        "block_id": "block_1",
+        "type": "definition",
+        "text": "The order of operations is a set of rules that dictates the order in which operations should be performed when there are multiple operations in an expression."
+      },
+      {
+        "block_id": "block_2",
+        "type": "explanation",
+        "text": "When there are multiple operations in an expression, we need to follow the order of operations to simplify it. The order of operations is: Parentheses, Exponents, Multiplication and Division, and Addition and Subtraction."
+      },
+      {
+        "block_id": "block_3",
+        "type": "example",
+        "text": "For example, consider the expression: 2 × 3 + 4 - 5. To simplify this expression, we need to follow the order of operations. First, we multiply 2 and 3, then we add 4, and finally we subtract 5."
+      },
+      {
+        "block_id": "block_4",
+        "type": "example",
+        "text": "Another example is: 10 - 3 + 2. To simplify this expression, we need to follow the order of operations. First, we subtract 3 from 10, then we add 2."
+      },
+      {
+        "block_id": "block_5",
+        "type": "explanation",
+        "text": "We can also use the order of operations to evaluate expressions with multiple operations. For example, consider the expression: 2 × (3 + 4) - 5. To simplify this expression, we need to follow the order of operations. First, we evaluate the expression inside the parentheses, then we multiply 2 and the result, and finally we subtract 5."
+      },
+      {
+        "block_id": "block_6",
+        "type": "example",
+        "text": "Another example is: 10 - (3 + 2). To simplify this expression, we need to follow the order of operations. First, we evaluate the expression inside the parentheses, then we subtract the result from 10."
+      },
+      {
+        "block_id": "block_7",
+        "type": "definition",
+        "text": "An expression with 4 terms (including a negative number) Consider the expression: 15 + (– 8) + 5 + 12 Order 1: (15 + (– 8)) + 5 + 12 = (7 + 5) + 12 = 12 + 12 = 24 Order 2: 15 + 5 + 12 + (– 8) = (15 + 5 + 12) + (– 8) 3 = ((15 + 5) + 12) + (– 8) = (20 + 12) + (– 8) = 32 + (– 8) = 24"
+      },
+      {
+        "block_id": "block_8",
+        "type": "explanation",
+        "text": "Manasa is adding a long list of numbers. It took her five minutes to add them all and she got the answer 11749. Then she realised that she had forgotten to include the fourth number 9055. Does she have to start all over again? Ans: No, she can add fourth number, 9055 to the sum she got (11749) to get the correct sum of the list of given numbers. That is 11749 + 9055 = 20804 (Using Associative Property)"
+      },
+      {
+        "block_id": "block_9",
+        "type": "example",
+        "text": "The expression for the total cost = 7 × 23 + 5 = 161 + 5 = ₹166. The terms in the expression 7 × 23 + 5 are 7 × 23, 5."
+      },
+      {
+        "block_id": "block_10",
+        "type": "definition",
+        "text": "The order of operations is a set of rules that tells us which operations to perform first when there are multiple operations in an expression."
+      },
+      {
+        "block_id": "block_11",
+        "type": "explanation",
+        "text": "The order of operations is often remembered using the acronym PEMDAS: Parentheses, Exponents, Multiplication and Division, and Addition and Subtraction."
+      },
+      {
+        "block_id": "block_12",
+        "type": "example",
+        "text": "Example: 15 + 9 × 18 = 15 + (9 × 18) = 15 + 162 = 177"
+      },
+      {
+        "block_id": "block_13",
+        "type": "example",
+        "text": "Example: (8 – 3) × 29 = (5) × 29 = 145"
+      },
+      {
+        "block_id": "block_14",
+        "type": "example",
+        "text": "Example: (3 – 8) × 29 = (-5) × 29 = -145"
+      },
+      {
+        "block_id": "block_15",
+        "type": "example",
+        "text": "Example: 23 × (17 – 9) = 23 × 8 = 184"
+      },
+      {
+        "block_id": "block_16",
+        "type": "example",
+        "text": "Example: 23 × 17 + 23 × 9 = 391 + 207 = 598"
+      }
+    ]
+  },
+  {
+    "topic_id": "topic_3",
+    "topic_name": "Expressions with Brackets",
+    "unit": "gegp102",
+    "learning_objectives": [
+      "Students will understand the concept of expressions with brackets and how to simplify them.",
+      "Students will be able to identify and simplify expressions with brackets using the correct order of operations.",
+      "Students will learn to evaluate expressions with brackets and multiple operations using the correct order of operations."
+    ],
+    "allowed_concepts": [
+      "Expressions with brackets",
+      "Order of operations",
+      "Parentheses",
+      "Exponents",
+      "Multiplication and Division",
+      "Addition and Subtraction"
+    ],
+    "disallowed_concepts": [
+      "Advanced algebraic manipulations",
+      "Higher-order thinking skills"
+    ],
+    "content_blocks": [
+      {
+        "block_id": "block_1",
+        "type": "definition",
+        "text": "An expression with brackets is a mathematical expression that contains one or more sets of parentheses."
+      },
+      {
+        "block_id": "block_2",
+        "type": "explanation",
+        "text": "Expressions with brackets can be simplified using the order of operations. The order of operations is: Parentheses, Exponents, Multiplication and Division, and Addition and Subtraction."
+      },
+      {
+        "block_id": "block_3",
+        "type": "example",
+        "text": "For example, consider the expression: 2 × (3 + 4) - 5. To simplify this expression, we need to follow the order of operations. First, we evaluate the expression inside the parentheses, then we multiply 2 and the result, and finally we subtract 5."
+      },
+      {
+        "block_id": "block_4",
+        "type": "example",
+        "text": "Another example is: 10 - (3 + 2). To simplify this expression, we need to follow the order of operations. First, we evaluate the expression inside the parentheses, then we subtract the result from 10."
+      },
+      {
+        "block_id": "block_5",
+        "type": "explanation",
+        "text": "We can also use the order of operations to evaluate expressions with brackets and multiple operations. For example, consider the expression: 2 × (3 + 4) - (5 + 2). To simplify this expression, we need to follow the order of operations. First, we evaluate the expressions inside the parentheses, then we multiply 2 and the result, and finally we subtract the result from the second parentheses."
+      },
+      {
+        "block_id": "block_6",
+        "type": "example",
+        "text": "Another example is: 10 - (3 + 2) - (5 + 2). To simplify this expression, we need to follow the order of operations. First, we evaluate the expressions inside the parentheses, then we subtract the result from 10."
+      }
+    ]
+  },
+  {
+    "topic_id": "topic_1",
+    "topic_name": "Evaluating Expressions",
+    "unit": "gegp102",
+    "learning_objectives": [
+      "Students will understand the concept of evaluating expressions with variables and constants.",
+      "Students will be able to simplify expressions using the order of operations.",
+      "Students will learn to compare expressions using reasoning and terms."
+    ],
+    "allowed_concepts": [
+      "Order of operations",
+      "Evaluating expressions with variables and constants",
+      "Simplifying expressions",
+      "Comparing expressions using reasoning and terms"
+    ],
+    "disallowed_concepts": [
+      "Advanced algebraic manipulations",
+      "Higher-order thinking skills"
+    ],
+    "content_blocks": [
+      {
+        "block_id": "block_1",
+        "type": "definition",
+        "text": "An expression is a combination of numbers, variables, and mathematical operations. Evaluating an expression means finding its value by following the order of operations."
+      },
+      {
+        "block_id": "block_2",
+        "type": "explanation",
+        "text": "To evaluate an expression, we need to follow the order of operations: parentheses, exponents, multiplication and division, and addition and subtraction."
+      },
+      {
+        "block_id": "block_3",
+        "type": "example",
+        "text": "Evaluate the expression: 2 × (3 + 4) = 2 × 7 = 14"
+      },
+      {
+        "block_id": "block_4",
+        "type": "definition",
+        "text": "A term is a single number, variable, or product of numbers and variables. We can use terms to simplify expressions and make them easier to evaluate."
+      },
+      {
+        "block_id": "block_5",
+        "type": "explanation",
+        "text": "To compare expressions, we can use reasoning and terms. We can rewrite expressions using terms to make them easier to compare."
+      },
+      {
+        "block_id": "block_6",
+        "type": "example",
+        "text": "Compare the expressions: 49 – 7 + 8 and 49 – 7 + 8. We can rewrite the expressions using terms to make them easier to compare: (49 – 7) + 8 = 42 + 8 = 50 and (49 – 7) + 8 = 42 + 8 = 50. Since both expressions are equal, we can conclude that 49 – 7 + 8 = 49 – 7 + 8."
+      }
+    ]
+  },
+  {
+    "topic_id": "topic_2",
+    "topic_name": "Simplifying Expressions",
+    "unit": "gegp102",
+    "learning_objectives": [
+      "Students will understand the concept of simplifying expressions using the order of operations.",
+      "Students will be able to simplify expressions using terms and brackets.",
+      "Students will learn to rewrite expressions using terms to make them easier to simplify.",
+      "Students will understand the concept of simplifying expressions.",
+      "Students will be able to simplify expressions using the order of operations.",
+      "Students will learn to identify and write expressions that can be simplified."
+    ],
+    "allowed_concepts": [
+      "Simplifying expressions using the order of operations",
+      "Using terms and brackets to simplify expressions",
+      "Rewriting expressions using terms to make them easier to simplify",
+      "Simplifying expressions",
+      "Order of operations",
+      "Expressions that can be simplified"
+    ],
+    "disallowed_concepts": [
+      "Advanced algebraic manipulations",
+      "Higher-order thinking skills"
+    ],
+    "content_blocks": [
+      {
+        "block_id": "block_1",
+        "type": "definition",
+        "text": "Simplifying an expression means rewriting it in a more compact or easier-to-evaluate form. We can use the order of operations and terms to simplify expressions."
+      },
+      {
+        "block_id": "block_2",
+        "type": "explanation",
+        "text": "To simplify an expression, we need to follow the order of operations: parentheses, exponents, multiplication and division, and addition and subtraction. We can also use terms to simplify expressions by rewriting them in a more compact form."
+      },
+      {
+        "block_id": "block_3",
+        "type": "example",
+        "text": "Simplify the expression: 2 × (3 + 4) = 2 × 7 = 14"
+      },
+      {
+        "block_id": "block_4",
+        "type": "definition",
+        "text": "A term is a single number, variable, or product of numbers and variables. We can use terms to simplify expressions and make them easier to evaluate."
+      },
+      {
+        "block_id": "block_5",
+        "type": "explanation",
+        "text": "To rewrite an expression using terms, we can break it down into smaller parts and simplify each part separately."
+      },
+      {
+        "block_id": "block_6",
+        "type": "example",
+        "text": "Rewrite the expression: 49 – 7 + 8 using terms: (49 – 7) + 8 = 42 + 8 = 50"
+      },
+      {
+        "block_id": "block_7",
+        "type": "definition",
+        "text": "An expression with 4 terms (including a negative number) Consider the expression: 15 + (– 8) + 5 + 12 Order 1: (15 + (– 8)) + 5 + 12 = (7 + 5) + 12 = 12 + 12 = 24 Order 2: 15 + 5 + 12 + (– 8) = (15 + 5 + 12) + (– 8) 3 = ((15 + 5) + 12) + (– 8) = (20 + 12) + (– 8) = 32 + (– 8) = 24"
+      },
+      {
+        "block_id": "block_8",
+        "type": "explanation",
+        "text": "Manasa is adding a long list of numbers. It took her five minutes to add them all and she got the answer 11749. Then she realised that she had forgotten to include the fourth number 9055. Does she have to start all over again? Ans: No, she can add fourth number, 9055 to the sum she got (11749) to get the correct sum of the list of given numbers. That is 11749 + 9055 = 20804 (Using Associative Property)"
+      },
+      {
+        "block_id": "block_9",
+        "type": "example",
+        "text": "The expression for the total cost = 7 × 23 + 5 = 161 + 5 = ₹166. The terms in the expression 7 × 23 + 5 are 7 × 23, 5."
+      }
+    ]
+  },
+  {
+    "topic_id": "topic_3",
+    "topic_name": "Comparing Expressions",
+    "unit": "gegp102",
+    "learning_objectives": [
+      "Students will understand the concept of comparing expressions using reasoning and terms.",
+      "Students will be able to compare expressions using terms and brackets.",
+      "Students will learn to rewrite expressions using terms to make them easier to compare."
+    ],
+    "allowed_concepts": [
+      "Comparing expressions using reasoning and terms",
+      "Using terms and brackets to compare expressions",
+      "Rewriting expressions using terms to make them easier to compare"
+    ],
+    "disallowed_concepts": [
+      "Advanced algebraic manipulations",
+      "Higher-order thinking skills"
+    ],
+    "content_blocks": [
+      {
+        "block_id": "block_1",
+        "type": "definition",
+        "text": "Comparing expressions means determining whether they are equal, greater than, or less than each other. We can use reasoning and terms to compare expressions."
+      },
+      {
+        "block_id": "block_2",
+        "type": "explanation",
+        "text": "To compare expressions, we need to follow the order of operations: parentheses, exponents, multiplication and division, and addition and subtraction. We can also use terms to compare expressions by rewriting them in a more compact form."
+      },
+      {
+        "block_id": "block_3",
+        "type": "example",
+        "text": "Compare the expressions: 49 – 7 + 8 and 49 – 7 + 8. We can rewrite the expressions using terms to make them easier to compare: (49 – 7) + 8 = 42 + 8 = 50 and (49 – 7) + 8 = 42 + 8 = 50. Since both expressions are equal, we can conclude that 49 – 7 + 8 = 49 – 7 + 8."
+      },
+      {
+        "block_id": "block_4",
+        "type": "definition",
+        "text": "A term is a single number, variable, or product of numbers and variables. We can use terms to compare expressions and make them easier to evaluate."
+      },
+      {
+        "block_id": "block_5",
+        "type": "explanation",
+        "text": "To rewrite an expression using terms, we can break it down into smaller parts and simplify each part separately."
+      },
+      {
+        "block_id": "block_6",
+        "type": "example",
+        "text": "Rewrite the expression: 49 – 7 + 8 using terms: (49 – 7) + 8 = 42 + 8 = 50"
+      }
+    ]
+  },
+  {
+    "topic_id": "topic_2",
+    "topic_name": "Terms in an Expression",
+    "unit": "gegp102",
+    "learning_objectives": [
+      "Students will understand the concept of terms in an expression.",
+      "Students will be able to identify and write terms in an expression.",
+      "Students will learn to simplify expressions by combining like terms."
+    ],
+    "allowed_concepts": [
+      "Terms in an expression",
+      "Like terms",
+      "Simplifying expressions by combining like terms"
+    ],
+    "disallowed_concepts": [
+      "Advanced calculus",
+      "Complex numbers"
+    ],
+    "content_blocks": [
+      {
+        "block_id": "block_1",
+        "type": "definition",
+        "text": "The terms in the two expressions above. Ans: Way 1: 432 = 4 × 100 + 1 × 20 + 1 × 10 + 2 × 1 Terms: 4 × 100, 1 × 20, 1 × 10, and 2 × 1"
+      },
+      {
+        "block_id": "block_2",
+        "type": "explanation",
+        "text": "Can you think of some more ways of giving ₹ 432 to someone? Ans: 40 × 10 + 3 × 10 + 2 × 1 Terms: 40 × 10, 3 × 10 and 2×1"
+      },
+      {
+        "block_id": "block_3",
+        "type": "example",
+        "text": "Find the values of the following expressions by writing the terms in each case. (a) 28 – 7 + 8 Terms: 28, – 7, and 8 Value: 29"
+      }
+    ]
+  },
+  {
+    "topic_id": "topic_1",
+    "topic_name": "Algebraic Expressions",
+    "unit": "gegp102",
+    "learning_objectives": [
+      "Students will understand the concept of algebraic expressions and their simplification.",
+      "Students will be able to simplify algebraic expressions using the distributive property and the commutative property.",
+      "Students will learn to identify and apply the associative property of addition and subtraction in algebraic expressions.",
+      "Students will be able to evaluate algebraic expressions using different methods.",
+      "Students will learn to compare and simplify algebraic expressions."
+    ],
+    "allowed_concepts": [
+      "algebraic expressions",
+      "simplification of expressions",
+      "distributive property",
+      "commutative property",
+      "associative property",
+      "addition and subtraction of terms",
+      "Evaluation of expressions",
+      "Comparison of expressions"
+    ],
+    "disallowed_concepts": [
+      "Advanced calculus",
+      "Complex numbers"
+    ],
+    "content_blocks": [
+      {
+        "block_id": "block_1",
+        "type": "definition",
+        "text": "An algebraic expression is a mathematical expression that consists of variables, constants, and mathematical operations."
+      },
+      {
+        "block_id": "block_2",
+        "type": "explanation",
+        "text": "To simplify an algebraic expression, we can use the distributive property, which states that a(b + c) = ab + ac."
+      },
+      {
+        "block_id": "block_3",
+        "type": "example",
+        "text": "Simplify the expression: 7 × 5 + 6 × 2 + 2 × 3"
+      },
+      {
+        "block_id": "block_4",
+        "type": "explanation",
+        "text": "We can also use the commutative property, which states that a + b = b + a, to simplify expressions."
+      },
+      {
+        "block_id": "block_5",
+        "type": "example",
+        "text": "Simplify the expression: 6 + 10 – 2"
+      },
+      {
+        "block_id": "block_6",
+        "type": "explanation",
+        "text": "Additionally, we can use the associative property, which states that (a + b) + c = a + (b + c), to simplify expressions."
+      },
+      {
+        "block_id": "block_7",
+        "type": "example",
+        "text": "Simplify the expression: (6 + 10) – 2"
+      },
+      {
+        "block_id": "block_8",
+        "type": "example",
+        "text": "Simplify the expression: 87 + 46 – 109"
+      },
+      {
+        "block_id": "block_9",
+        "type": "explanation",
+        "text": "We can also use the concept of terms to simplify expressions."
+      },
+      {
+        "block_id": "block_10",
+        "type": "example",
+        "text": "Simplify the expression: 34 – 9 + 12"
+      },
+      {
+        "block_id": "block_11",
+        "type": "example",
+        "text": "Simplify the expression: 73 – 14 + 1"
+      },
+      {
+        "block_id": "block_12",
+        "type": "example",
+        "text": "Simplify the expression: 73 – 14 – 1"
+      },
+      {
+        "block_id": "block_13",
+        "type": "definition",
+        "text": "An algebraic expression is a mathematical expression that consists of variables, constants, and mathematical operations."
+      },
+      {
+        "block_id": "block_14",
+        "type": "explanation",
+        "text": "To simplify an algebraic expression, we need to combine like terms and remove any unnecessary parentheses."
+      },
+      {
+        "block_id": "block_15",
+        "type": "example",
+        "text": "Simplify the expression: 2x + 3x + 5. Solution: 2x + 3x + 5 = 5x + 5."
+      },
+      {
+        "block_id": "block_16",
+        "type": "example",
+        "text": "Evaluate the expression: 2(3x + 2) - 5. Solution: 2(3x + 2) - 5 = 6x + 4 - 5 = 6x - 1."
+      },
+      {
+        "block_id": "block_17",
+        "type": "explanation",
+        "text": "To compare two algebraic expressions, we need to simplify them first and then compare their values."
+      },
+      {
+        "block_id": "block_18",
+        "type": "example",
+        "text": "Compare the expressions: 2x + 3 and 3x + 2. Solution: 2x + 3 = 3x + 2 when x = 1."
+      }
+    ]
+  },
+  {
+    "topic_id": "topic_1",
+    "topic_name": "Multiplication of Whole Numbers",
+    "unit": "gegp102",
+    "learning_objectives": [
+      "Students will understand the concept of multiplication as repeated addition.",
+      "Students will be able to apply the distributive property of multiplication over addition.",
+      "Students will learn to simplify expressions using the distributive property."
+    ],
+    "allowed_concepts": [
+      "multiplication as repeated addition",
+      "distributive property of multiplication over addition",
+      "simplifying expressions",
+      "whole numbers",
+      "repeated addition"
+    ],
+    "disallowed_concepts": [
+      "Advanced calculus",
+      "Complex numbers"
+    ],
+    "content_blocks": [
+      {
+        "block_id": "block_1",
+        "type": "definition",
+        "text": "Multiplication of whole numbers can be represented as repeated addition."
+      },
+      {
+        "block_id": "block_2",
+        "type": "explanation",
+        "text": "The distributive property of multiplication over addition states that a × (b + c) = a × b + a × c."
+      },
+      {
+        "block_id": "block_3",
+        "type": "example",
+        "text": "Example: 5 × (4 + 3) = 5 × 4 + 5 × 3 = 20 + 15 = 35"
+      },
+      {
+        "block_id": "block_4",
+        "type": "example",
+        "text": "Example: 3 × (5 + 8) = 3 × 5 + 3 × 8 = 15 + 24 = 39"
+      },
+      {
+        "block_id": "block_5",
+        "type": "explanation",
+        "text": "This method is useful when one of the numbers is close to a multiple of 10, 50, 100, 1000, etc."
+      },
+      {
+        "block_id": "block_6",
+        "type": "example",
+        "text": "Example: 98 × 7 = (100 – 2) × 7 = 100 × 7 – 2 × 7 = 700 – 14 = 686"
+      },
+      {
+        "block_id": "block_7",
+        "type": "example",
+        "text": "Example: 103 × 9 = (100 + 3) × 9 = 100 × 9 + 3 × 9 = 900 + 27 = 927"
+      },
+      {
+        "block_id": "block_8",
+        "type": "example",
+        "text": "Example: 49 × 5 = (50 – 1) × 5 = 50 × 5 – 1 × 5 = 250 – 5 = 245"
+      }
+    ]
+  },
+  {
+    "topic_id": "topic_2",
+    "topic_name": "Linear Equations",
+    "unit": "gegp102",
+    "learning_objectives": [
+      "Students will understand the concept of linear equations and their solutions.",
+      "Students will be able to solve linear equations using different methods.",
+      "Students will learn to graph linear equations."
+    ],
+    "allowed_concepts": [
+      "Linear equations",
+      "Solutions of linear equations",
+      "Graphing of linear equations"
+    ],
+    "disallowed_concepts": [
+      "Advanced calculus",
+      "Complex numbers"
+    ],
+    "content_blocks": [
+      {
+        "block_id": "block_1",
+        "type": "definition",
+        "text": "A linear equation is an equation in which the highest power of the variable is 1."
+      },
+      {
+        "block_id": "block_2",
+        "type": "explanation",
+        "text": "To solve a linear equation, we need to isolate the variable on one side of the equation."
+      },
+      {
+        "block_id": "block_3",
+        "type": "example",
+        "text": "Solve the equation: 2x + 3 = 5. Solution: 2x + 3 = 5 => 2x = 2 => x = 1."
+      },
+      {
+        "block_id": "block_4",
+        "type": "example",
+        "text": "Graph the equation: y = 2x + 1. Solution: The graph is a straight line with a slope of 2 and a y-intercept of 1."
+      }
+    ]
+  },
+  {
+    "topic_id": "topic_3",
+    "topic_name": "Quadrilaterals",
+    "unit": "gegp102",
+    "learning_objectives": [
+      "Students will understand the concept of quadrilaterals and their properties.",
+      "Students will be able to identify and classify different types of quadrilaterals.",
+      "Students will learn to find the area and perimeter of quadrilaterals."
+    ],
+    "allowed_concepts": [
+      "Quadrilaterals",
+      "Properties of quadrilaterals",
+      "Types of quadrilaterals",
+      "Area and perimeter of quadrilaterals"
+    ],
+    "disallowed_concepts": [
+      "Advanced calculus",
+      "Complex numbers"
+    ],
+    "content_blocks": [
+      {
+        "block_id": "block_1",
+        "type": "definition",
+        "text": "A quadrilateral is a four-sided polygon."
+      },
+      {
+        "block_id": "block_2",
+        "type": "explanation",
+        "text": "To identify a quadrilateral, we need to check if it has four sides and four angles."
+      },
+      {
+        "block_id": "block_3",
+        "type": "example",
+        "text": "Identify the quadrilateral: ABCD. Solution: ABCD is a quadrilateral because it has four sides and four angles."
+      },
+      {
+        "block_id": "block_4",
+        "type": "example",
+        "text": "Find the area of the quadrilateral: ABCD. Solution: The area of ABCD is 10 square units."
+      }
+    ]
+  },
+  {
+    "topic_id": "topic_4",
+    "topic_name": "Rational Numbers",
+    "unit": "gegp102",
+    "learning_objectives": [
+      "Students will understand the concept of rational numbers and their properties.",
+      "Students will be able to add, subtract, multiply, and divide rational numbers.",
+      "Students will learn to compare rational numbers."
+    ],
+    "allowed_concepts": [
+      "Rational numbers",
+      "Properties of rational numbers",
+      "Operations on rational numbers",
+      "Comparison of rational numbers"
+    ],
+    "disallowed_concepts": [
+      "Advanced calculus",
+      "Complex numbers"
+    ],
+    "content_blocks": [
+      {
+        "block_id": "block_1",
+        "type": "definition",
+        "text": "A rational number is a number that can be expressed as the ratio of two integers."
+      },
+      {
+        "block_id": "block_2",
+        "type": "explanation",
+        "text": "To add rational numbers, we need to have a common denominator."
+      },
+      {
+        "block_id": "block_3",
+        "type": "example",
+        "text": "Add the rational numbers: 1/2 and 1/4. Solution: 1/2 + 1/4 = 3/4."
+      },
+      {
+        "block_id": "block_4",
+        "type": "example",
+        "text": "Compare the rational numbers: 1/2 and 1/4. Solution: 1/2 > 1/4."
+      }
+    ]
+  }
+]

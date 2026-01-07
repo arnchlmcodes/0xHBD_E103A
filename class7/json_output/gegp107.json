@@ -1,0 +1,851 @@
+[
+  {
+    "topic_id": "topic_1",
+    "topic_name": "Introduction to Triangles",
+    "unit": "gegp107",
+    "learning_objectives": [
+      "Students will understand the basic components of a triangle.",
+      "Students will be able to identify and name the vertices, sides, and angles of a triangle.",
+      "Students will learn to construct an equilateral triangle using a marked ruler and a compass."
+    ],
+    "allowed_concepts": [
+      "triangle",
+      "vertices",
+      "sides",
+      "angles",
+      "equilateral triangle",
+      "marked ruler",
+      "compass",
+      "construction"
+    ],
+    "disallowed_concepts": [
+      "Advanced calculus",
+      "Complex numbers"
+    ],
+    "content_blocks": [
+      {
+        "block_id": "block_1",
+        "type": "definition",
+        "text": "A triangle is the most basic closed shape. It consists of three corner points, called the vertex of the triangle, and three line segments or the sides of the triangle that join the pairs of vertices."
+      },
+      {
+        "block_id": "block_2",
+        "type": "explanation",
+        "text": "While naming a triangle, the vertices can come in any order. The three sides meeting at the corners give rise to three angles that we call the angles of the triangle."
+      },
+      {
+        "block_id": "block_3",
+        "type": "example",
+        "text": "For example, in ∆ABC, these angles are ∠CAB, ∠ABC, ∠BCA, which we simply denote as ∠A, ∠B and ∠C, respectively."
+      },
+      {
+        "block_id": "block_4",
+        "type": "definition",
+        "text": "An equilateral triangle is a triangle in which all the sides are of equal lengths."
+      },
+      {
+        "block_id": "block_5",
+        "type": "explanation",
+        "text": "To construct an equilateral triangle, we can use a marked ruler and a compass."
+      },
+      {
+        "block_id": "block_6",
+        "type": "example",
+        "text": "Step 1: Using a compass, construct a sufficiently long arc of radius 4 cm from A, as shown in the figure. The point C is somewhere on this arc. How do we mark it?"
+      },
+      {
+        "block_id": "block_7",
+        "type": "explanation",
+        "text": "We will make use of the fact that the point C is 6 cm away from B. Construct an arc of radius 6 cm from B."
+      },
+      {
+        "block_id": "block_8",
+        "type": "example",
+        "text": "The required point C is one of the points of intersection of the two circles."
+      }
+    ]
+  },
+  {
+    "topic_id": "topic_2",
+    "topic_name": "Constructing Triangles",
+    "unit": "gegp107",
+    "learning_objectives": [
+      "Students will understand how to construct a triangle when its sides are given.",
+      "Students will be able to construct an equilateral triangle using a marked ruler and a compass.",
+      "Students will learn to construct a triangle of sidelength 4 cm, 5 cm and 6 cm."
+    ],
+    "allowed_concepts": [
+      "construction",
+      "marked ruler",
+      "compass",
+      "equilateral triangle",
+      "triangle",
+      "sides",
+      "angles"
+    ],
+    "disallowed_concepts": [
+      "Advanced calculus",
+      "Complex numbers"
+    ],
+    "content_blocks": [
+      {
+        "block_id": "block_1",
+        "type": "definition",
+        "text": "To construct a triangle of sidelength 4 cm, 5 cm and 6 cm, we can choose one of the given lengths to be the base of the triangle."
+      },
+      {
+        "block_id": "block_2",
+        "type": "explanation",
+        "text": "Let A and B be the base vertices, and call the third vertex C. Let AC = 5 cm and BC = 6 cm."
+      },
+      {
+        "block_id": "block_3",
+        "type": "example",
+        "text": "We will make use of the fact that the point C is 6 cm away from B. Construct an arc of radius 6 cm from B."
+      },
+      {
+        "block_id": "block_4",
+        "type": "explanation",
+        "text": "The required point C is one of the points of intersection of the two circles."
+      }
+    ]
+  },
+  {
+    "topic_id": "topic_1",
+    "topic_name": "Construction of Triangles",
+    "unit": "gegp107",
+    "learning_objectives": [
+      "Students will understand the concept of constructing triangles with given side lengths.",
+      "Students will be able to identify the conditions for the existence of a triangle with given side lengths.",
+      "Students will learn to apply the triangle inequality theorem to determine the possibility of constructing a triangle with given side lengths.",
+      "Students will understand the concept of constructing triangles when their sidelengths are given.",
+      "Students will be able to construct triangles when two sides and the included angle are given.",
+      "Students will learn to identify the conditions under which a triangle does not exist.",
+      "Students will understand the conditions for the existence of a triangle.",
+      "Students will be able to construct triangles using given measurements.",
+      "Students will learn to identify the limitations of triangle construction.",
+      "Students will understand the concept of triangle inequality and its application in constructing triangles.",
+      "Students will be able to construct triangles using given measurements and understand the properties of different types of triangles.",
+      "Students will learn to identify and classify triangles based on their angle measures and side lengths."
+    ],
+    "allowed_concepts": [
+      "construction of triangles",
+      "triangle inequality theorem",
+      "direct path vs roundabout path",
+      "existence of a triangle with given side lengths",
+      "triangle construction",
+      "sidelengths",
+      "angle measures",
+      "included angle",
+      "construction procedures",
+      "triangle inequality",
+      "parallel lines",
+      "transversal",
+      "internal angles",
+      "sum of angles",
+      "types of triangles (acute-angled, right-angled, obtuse-angled)",
+      "isosceles triangles",
+      "equilateral triangles",
+      "scalene triangles",
+      "altitude of a triangle",
+      "sum of angles of a triangle"
+    ],
+    "disallowed_concepts": [
+      "advanced trigonometry",
+      "vector geometry",
+      "advanced geometry",
+      "higher-dimensional space"
+    ],
+    "content_blocks": [
+      {
+        "block_id": "block_1",
+        "type": "definition",
+        "text": "A triangle is a polygon with three sides and three vertices."
+      },
+      {
+        "block_id": "block_2",
+        "type": "explanation",
+        "text": "To construct a triangle with given side lengths, we need to ensure that the sum of the lengths of any two sides is greater than the length of the third side."
+      },
+      {
+        "block_id": "block_3",
+        "type": "example",
+        "text": "Construct a triangle with side lengths 3 cm, 4 cm, and 5 cm."
+      },
+      {
+        "block_id": "block_4",
+        "type": "explanation",
+        "text": "The triangle inequality theorem states that for any triangle with side lengths a, b, and c, the following conditions must be satisfied: a + b > c, a + c > b, and b + c > a."
+      },
+      {
+        "block_id": "block_5",
+        "type": "example",
+        "text": "Determine whether a triangle can be constructed with side lengths 10 cm, 15 cm, and 30 cm using the triangle inequality theorem."
+      },
+      {
+        "block_id": "block_6",
+        "type": "definition",
+        "text": "To construct a triangle, we need to draw the base, the included angle, and the third side."
+      },
+      {
+        "block_id": "block_7",
+        "type": "explanation",
+        "text": "When two sides and the included angle are given, we can construct a triangle by drawing the base, the included angle, and the third side."
+      },
+      {
+        "block_id": "block_8",
+        "type": "example",
+        "text": "Construct a triangle ABC with AB = 5 cm, AC = 4 cm and ∠A= 45°."
+      },
+      {
+        "block_id": "block_9",
+        "type": "explanation",
+        "text": "We can construct a triangle by following the steps: draw the base, draw the included angle, and mark the point on the other arm such that the third side is equal to the given length."
+      },
+      {
+        "block_id": "block_10",
+        "type": "example",
+        "text": "Construct triangles for the following measurements where the angle is included between the sides: (a) 3 cm, 75°, 7 cm (b) 6 cm, 25°, 3 cm (c) 3 cm, 120°, 8 cm"
+      },
+      {
+        "block_id": "block_11",
+        "type": "definition",
+        "text": "A triangle is a polygon with three sides and three angles."
+      },
+      {
+        "block_id": "block_12",
+        "type": "explanation",
+        "text": "The triangle inequality states that the sum of the lengths of any two sides of a triangle must be greater than the length of the third side."
+      },
+      {
+        "block_id": "block_13",
+        "type": "example",
+        "text": "Construct a triangle with angles 75°, 5 cm, and 75°."
+      },
+      {
+        "block_id": "block_14",
+        "type": "explanation",
+        "text": "When two lines are parallel, the internal angles on the same side of the transversal add up to 180°."
+      },
+      {
+        "block_id": "block_15",
+        "type": "example",
+        "text": "Find the value of ∠B when the two lines are parallel and the transversal is AB."
+      },
+      {
+        "block_id": "block_16",
+        "type": "definition",
+        "text": "A triangle does not exist when ∠B is greater than or equal to 140°."
+      },
+      {
+        "block_id": "block_17",
+        "type": "explanation",
+        "text": "The sum of two given angles must be less than 180° for a triangle to exist."
+      },
+      {
+        "block_id": "block_18",
+        "type": "example",
+        "text": "Construct a triangle with angles 60°, 70°, and an included side of 5 cm."
+      },
+      {
+        "block_id": "block_19",
+        "type": "explanation",
+        "text": "The third angle of a triangle depends on the two given angles, not the included side length."
+      },
+      {
+        "block_id": "block_20",
+        "type": "example",
+        "text": "Find the third angle of a triangle with angles 50° and 70°."
+      },
+      {
+        "block_id": "block_21",
+        "type": "definition",
+        "text": "A set of three lengths where the length of each is smaller than the sum of the other two is said to satisfy the triangle inequality."
+      },
+      {
+        "block_id": "block_22",
+        "type": "explanation",
+        "text": "Use of a compass simplifies the construction of triangles when the sidelengths are given."
+      },
+      {
+        "block_id": "block_23",
+        "type": "example",
+        "text": "Construct a right-angled triangle ∆ABC with ∠B = 90°, Try AC = 5 cm. How many different triangles exist with these measurements?"
+      },
+      {
+        "block_id": "block_24",
+        "type": "explanation",
+        "text": "Sidelengths of a triangle satisfy triangle inequality, and, if a given set of lengths satisfy the triangle inequality, a triangle can be constructed with those sidelengths."
+      },
+      {
+        "block_id": "block_25",
+        "type": "example",
+        "text": "Check if you could have found this without trying to construct the triangle. Ans: Here sum of the two sides (i.e 3 cm and 4 cm) is less than the third side (i.e 8 cm)."
+      },
+      {
+        "block_id": "block_26",
+        "type": "definition",
+        "text": "An altitude of a triangle is a perpendicular line segment from a vertex to its opposite side."
+      },
+      {
+        "block_id": "block_27",
+        "type": "explanation",
+        "text": "Equilateral triangles have sides of equal length. Isosceles triangles have two sides of equal length. Scalene triangles have sides of three different lengths."
+      },
+      {
+        "block_id": "block_28",
+        "type": "example",
+        "text": "Use the points on the circle and/or the centre to form isosceles triangles."
+      },
+      {
+        "block_id": "block_29",
+        "type": "explanation",
+        "text": "The sum of the angles of a triangle is always 180°."
+      }
+    ]
+  },
+  {
+    "topic_id": "topic_1",
+    "topic_name": "Triangle Inequality",
+    "unit": "gegp107",
+    "learning_objectives": [
+      "Students will understand the concept of triangle inequality and its application in determining the existence of a triangle.",
+      "Students will be able to identify whether a set of lengths satisfies the triangle inequality or not.",
+      "Students will learn to compare each length with the sum of the other two lengths to check for the existence of a triangle.",
+      "Students will be able to apply the triangle inequality to find the possible side lengths of a triangle.",
+      "Students will learn to visualize and study different cases of circle intersections to determine the existence of a triangle.",
+      "Students will be able to apply the triangle inequality to check if a triangle exists with given sidelengths.",
+      "Students will learn to identify the conditions under which a triangle does not exist."
+    ],
+    "allowed_concepts": [
+      "triangle inequality",
+      "direct path length",
+      "roundabout path length",
+      "comparing lengths",
+      "sum of lengths",
+      "circle intersections",
+      "triangle existence",
+      "side lengths",
+      "circle construction",
+      "sidelengths",
+      "circle intersection",
+      "internal intersection"
+    ],
+    "disallowed_concepts": [
+      "advanced trigonometry",
+      "vector geometry",
+      "higher-dimensional geometry"
+    ],
+    "content_blocks": [
+      {
+        "block_id": "block_1",
+        "type": "definition",
+        "text": "A triangle exists if the sum of the lengths of any two sides is greater than the length of the third side."
+      },
+      {
+        "block_id": "block_2",
+        "type": "explanation",
+        "text": "To check for the existence of a triangle, we need to compare each length with the sum of the other two lengths. If each length is smaller than the sum of the other two, then the lengths satisfy the triangle inequality and a triangle exists."
+      },
+      {
+        "block_id": "block_3",
+        "type": "example",
+        "text": "For example, the set 3, 4, 5 satisfies the triangle inequality whereas, the set 10, 15, 30 does not satisfy the triangle inequality."
+      },
+      {
+        "block_id": "block_4",
+        "type": "explanation",
+        "text": "We can also identify which lengths will immediately be less than the sum of the other two, without calculations, by considering the direct lengths in the increasing order."
+      },
+      {
+        "block_id": "block_5",
+        "type": "example",
+        "text": "For example, the set 4 cm, 5 cm and 8 cm satisfies the triangle inequality."
+      },
+      {
+        "block_id": "block_6",
+        "type": "definition",
+        "text": "The triangle inequality states that for any triangle, the sum of the lengths of any two sides must be greater than the length of the third side."
+      },
+      {
+        "block_id": "block_7",
+        "type": "explanation",
+        "text": "To determine the existence of a triangle, we need to check if the triangle inequality is satisfied. If the sum of the lengths of any two sides is greater than the length of the third side, then a triangle exists."
+      },
+      {
+        "block_id": "block_8",
+        "type": "example",
+        "text": "For example, if we have side lengths 3, 4, and 5, we can check if the triangle inequality is satisfied by comparing the sum of the lengths of any two sides with the length of the third side."
+      },
+      {
+        "block_id": "block_9",
+        "type": "explanation",
+        "text": "Let's visualize and study different cases of circle intersections to determine the existence of a triangle. We can construct circles with radii equal to the smaller two lengths and a circle with a radius equal to the longest length."
+      },
+      {
+        "block_id": "block_10",
+        "type": "definition",
+        "text": "Case 1: Circles touch each other at a point. This happens when the sum of the two radii is equal to the longest length."
+      },
+      {
+        "block_id": "block_11",
+        "type": "explanation",
+        "text": "Case 2: Circles do not intersect internally. This happens when the sum of the two radii is less than the longest length."
+      },
+      {
+        "block_id": "block_12",
+        "type": "definition",
+        "text": "Case 3: Circles intersect each other internally. This happens when the sum of the two radii is greater than the longest length."
+      },
+      {
+        "block_id": "block_13",
+        "type": "example",
+        "text": "For example, if we have side lengths 4, 5, and 8, we can check if the triangle inequality is satisfied by comparing the sum of the lengths of any two sides with the length of the third side."
+      },
+      {
+        "block_id": "block_14",
+        "type": "definition",
+        "text": "The triangle inequality states that for any triangle, the sum of the lengths of any two sides must be greater than the length of the remaining side."
+      },
+      {
+        "block_id": "block_15",
+        "type": "explanation",
+        "text": "If the given lengths satisfy the triangle inequality, then the sum of the two smaller lengths is greater than the longest length, leading to Case 3 where the circles intersect internally, and so a triangle exists."
+      },
+      {
+        "block_id": "block_16",
+        "type": "example",
+        "text": "Find 3 examples of sets of lengths for which the circles: (a) touch each other at a point, (b) do not intersect."
+      },
+      {
+        "block_id": "block_17",
+        "type": "explanation",
+        "text": "If a given set of three lengths satisfies the triangle inequality, then a triangle exists having those as sidelengths. If the set does not satisfy the triangle inequality, then a triangle with those sidelengths does not exist."
+      },
+      {
+        "block_id": "block_18",
+        "type": "example",
+        "text": "Check if a triangle exists for each of the following set of lengths: (a) 1, 100, 100 (b) 3, 6, 9 (c) 1, 1, 5 (d) 5, 10, 12"
+      }
+    ]
+  },
+  {
+    "topic_id": "topic_3",
+    "topic_name": "Two Angles and the Included Side",
+    "unit": "gegp107",
+    "learning_objectives": [
+      "Students will understand the concept of constructing triangles when two angles and the included side are given.",
+      "Students will be able to construct triangles when two angles and the included side are given.",
+      "Students will learn to identify the conditions under which a triangle does not exist."
+    ],
+    "allowed_concepts": [
+      "triangle construction",
+      "angle measures",
+      "included side",
+      "construction procedures"
+    ],
+    "disallowed_concepts": [
+      "advanced trigonometry",
+      "higher-dimensional geometry"
+    ],
+    "content_blocks": [
+      {
+        "block_id": "block_1",
+        "type": "definition",
+        "text": "To construct a triangle, we need to draw the base, the included angle, and the third side."
+      },
+      {
+        "block_id": "block_2",
+        "type": "explanation",
+        "text": "When two angles and the included side are given, we can construct a triangle by drawing the base, the included angle, and the third side."
+      },
+      {
+        "block_id": "block_3",
+        "type": "example",
+        "text": "Construct a triangle ABC where AB = 5 cm, ∠A = 45° and ∠B = 80°."
+      },
+      {
+        "block_id": "block_4",
+        "type": "explanation",
+        "text": "We can construct a triangle by following the steps: draw the base, draw the included angle, and mark the point on the other arm such that the third side is equal to the given length."
+      },
+      {
+        "block_id": "block_5",
+        "type": "example",
+        "text": "Construct a triangle ABC where AB = 5 cm, ∠A = 45° and ∠B = 80°."
+      }
+    ]
+  },
+  {
+    "topic_id": "topic_1",
+    "topic_name": "Altitudes of a Triangle",
+    "unit": "gegp107",
+    "learning_objectives": [
+      "Students will understand the concept of altitude in a triangle and its measurement.",
+      "Students will be able to construct altitudes of a triangle using a ruler and a set square.",
+      "Students will learn to identify different types of triangles based on their angle measures."
+    ],
+    "allowed_concepts": [
+      "altitude of a triangle",
+      "perpendicular from a vertex to its opposite side",
+      "right-angled triangle",
+      "acute-angled triangle",
+      "obtuse-angled triangle"
+    ],
+    "disallowed_concepts": [
+      "Advanced calculus",
+      "Complex numbers"
+    ],
+    "content_blocks": [
+      {
+        "block_id": "block_1",
+        "type": "definition",
+        "text": "What do we mean by the word ‘height’? Consider a triangle ABC. What is the height of the vertex A from its opposite side BC, and how can it be measured?"
+      },
+      {
+        "block_id": "block_2",
+        "type": "explanation",
+        "text": "The length of AD is the height of the vertex A from BC. The line segment AD is said to be one of the ‘altitudes’ of the triangle."
+      },
+      {
+        "block_id": "block_3",
+        "type": "example",
+        "text": "Let AD be the line segment from A drawn perpendicular to BC. The length of AD is the height of the vertex A from BC."
+      },
+      {
+        "block_id": "block_4",
+        "type": "definition",
+        "text": "The line segment AD is said to be one of the ‘altitudes’ of the triangle."
+      },
+      {
+        "block_id": "block_5",
+        "type": "explanation",
+        "text": "The altitude from A to BC is the perpendicular from A to BC."
+      },
+      {
+        "block_id": "block_6",
+        "type": "example",
+        "text": "Construct an arbitrary triangle. Label the vertices A, B, C taking BC to be the base. Construct the altitude from A to BC."
+      },
+      {
+        "block_id": "block_7",
+        "type": "definition",
+        "text": "Can you see how to do this?"
+      },
+      {
+        "block_id": "block_8",
+        "type": "explanation",
+        "text": "To get a more precise angle of 90°, we use a set square along with a ruler."
+      },
+      {
+        "block_id": "block_9",
+        "type": "example",
+        "text": "Draw the altitude to BC through A using the vertical edge of the set square."
+      },
+      {
+        "block_id": "block_10",
+        "type": "definition",
+        "text": "Does there exist a triangle in which a side is also an altitude?"
+      },
+      {
+        "block_id": "block_11",
+        "type": "explanation",
+        "text": "We see that this happens in triangles where one of the angles is a right angle."
+      },
+      {
+        "block_id": "block_12",
+        "type": "example",
+        "text": "Triangles having one right angle are called right-angled triangles or simply right triangles."
+      },
+      {
+        "block_id": "block_13",
+        "type": "definition",
+        "text": "Can a similar classification be done based on equality of angles?"
+      },
+      {
+        "block_id": "block_14",
+        "type": "explanation",
+        "text": "We will answer these questions in a later chapter."
+      },
+      {
+        "block_id": "block_15",
+        "type": "example",
+        "text": "We used angle measures when classifying a triangle as a right-angled triangle."
+      },
+      {
+        "block_id": "block_16",
+        "type": "definition",
+        "text": "What are the other types of triangles based on angle measures?"
+      },
+      {
+        "block_id": "block_17",
+        "type": "explanation",
+        "text": "A classification of triangles based on their angle measures is acute-angled, right-angled and obtuse-angled triangles."
+      },
+      {
+        "block_id": "block_18",
+        "type": "example",
+        "text": "We have already seen what a right-angled triangle is."
+      },
+      {
+        "block_id": "block_19",
+        "type": "definition",
+        "text": "Similarly, an obtuse-angled triangle has one obtuse angle."
+      },
+      {
+        "block_id": "block_20",
+        "type": "explanation",
+        "text": "What could an acute-angled triangle be?"
+      },
+      {
+        "block_id": "block_21",
+        "type": "example",
+        "text": "Can we define it as a Math triangle with one acute angle?"
+      },
+      {
+        "block_id": "block_22",
+        "type": "definition",
+        "text": "Why not?"
+      },
+      {
+        "block_id": "block_23",
+        "type": "explanation",
+        "text": "Talk In an acute-angled triangle, all three angles are acute angles."
+      },
+      {
+        "block_id": "block_24",
+        "type": "example",
+        "text": "Figure it Out 1. Construct a triangle ABC with BC = 5 cm, AB = 6 cm, CA = 5 cm. Construct an altitude from A to BC."
+      },
+      {
+        "block_id": "block_25",
+        "type": "definition",
+        "text": "2. Construct a triangle TRY with RY = 4 cm, TR = 7 cm, ∠R = 140°. Construct an altitude from T to RY."
+      }
+    ]
+  },
+  {
+    "topic_id": "topic_2",
+    "topic_name": "Shortest Path in a Box",
+    "unit": "gegp107",
+    "learning_objectives": [
+      "Students will understand the concept of shortest path and its application in real-life scenarios.",
+      "Students will be able to find the shortest path in a box using different methods.",
+      "Students will learn to compare and analyze different paths to find the shortest one."
+    ],
+    "allowed_concepts": [
+      "shortest path",
+      "real-life applications",
+      "comparative analysis"
+    ],
+    "disallowed_concepts": [
+      "advanced graph theory",
+      "network optimization"
+    ],
+    "content_blocks": [
+      {
+        "block_id": "block_1",
+        "type": "definition",
+        "text": "The shortest path is the path that requires the least amount of distance or time to travel."
+      },
+      {
+        "block_id": "block_2",
+        "type": "explanation",
+        "text": "Take a cardboard box and mark the path that you think is the shortest from one corner to its opposite corner."
+      },
+      {
+        "block_id": "block_3",
+        "type": "example",
+        "text": "Compare the length of this path with that of the paths made by your friends."
+      },
+      {
+        "block_id": "block_4",
+        "type": "explanation",
+        "text": "Hint:  Use the points on the circle and/or the centre to form isosceles triangles."
+      }
+    ]
+  },
+  {
+    "topic_id": "topic_1",
+    "topic_name": "Triangle Inequality Theorem",
+    "unit": "gegp107",
+    "learning_objectives": [
+      "Students will understand the triangle inequality theorem and its application.",
+      "Students will be able to determine whether a set of side lengths can form a triangle.",
+      "Students will learn to identify the conditions for a triangle to exist."
+    ],
+    "allowed_concepts": [
+      "triangle inequality theorem",
+      "side lengths",
+      "triangle existence",
+      "triangle inequality",
+      "triangle inequality rule"
+    ],
+    "disallowed_concepts": [
+      "Advanced calculus",
+      "Complex numbers"
+    ],
+    "content_blocks": [
+      {
+        "block_id": "block_1",
+        "type": "definition",
+        "text": "The triangle inequality theorem states that the sum of the lengths of any two sides of a triangle must be greater than the length of the third side."
+      },
+      {
+        "block_id": "block_2",
+        "type": "explanation",
+        "text": "To determine whether a set of side lengths can form a triangle, we need to check if the sum of the lengths of any two sides is greater than the length of the third side."
+      },
+      {
+        "block_id": "block_3",
+        "type": "example",
+        "text": "For example, if we have side lengths 3, 4, and 6, we can check if the sum of the lengths of any two sides is greater than the length of the third side: 3 + 4 > 6, 4 + 6 > 3, and 6 + 3 > 4."
+      }
+    ]
+  },
+  {
+    "topic_id": "topic_2",
+    "topic_name": "Angle Sum Property of a Triangle",
+    "unit": "gegp107",
+    "learning_objectives": [
+      "Students will understand the angle sum property of a triangle.",
+      "Students will be able to find the third angle of a triangle given two angles.",
+      "Students will learn to apply the angle sum property to solve problems."
+    ],
+    "allowed_concepts": [
+      "angle sum property",
+      "angle sum theorem",
+      "third angle",
+      "angle sum formula"
+    ],
+    "disallowed_concepts": [
+      "Advanced calculus",
+      "Complex numbers"
+    ],
+    "content_blocks": [
+      {
+        "block_id": "block_1",
+        "type": "definition",
+        "text": "The angle sum property of a triangle states that the sum of the interior angles of a triangle is always 180°."
+      },
+      {
+        "block_id": "block_2",
+        "type": "explanation",
+        "text": "To find the third angle of a triangle given two angles, we can use the angle sum property: the sum of the two given angles plus the third angle must equal 180°."
+      },
+      {
+        "block_id": "block_3",
+        "type": "example",
+        "text": "For example, if we have two angles 36° and 72°, we can find the third angle by using the angle sum property: 36° + 72° + x = 180°, where x is the third angle."
+      }
+    ]
+  },
+  {
+    "topic_id": "topic_3",
+    "topic_name": "Conditions for a Triangle to Exist",
+    "unit": "gegp107",
+    "learning_objectives": [
+      "Students will understand the conditions for a triangle to exist.",
+      "Students will be able to determine whether a set of angles can form a triangle.",
+      "Students will learn to apply the conditions for a triangle to exist to solve problems."
+    ],
+    "allowed_concepts": [
+      "conditions for a triangle to exist",
+      "angle conditions",
+      "triangle existence conditions"
+    ],
+    "disallowed_concepts": [
+      "Advanced calculus",
+      "Complex numbers"
+    ],
+    "content_blocks": [
+      {
+        "block_id": "block_1",
+        "type": "definition",
+        "text": "A triangle can exist if the sum of the lengths of any two sides is greater than the length of the third side, and the sum of the interior angles is always 180°."
+      },
+      {
+        "block_id": "block_2",
+        "type": "explanation",
+        "text": "To determine whether a set of angles can form a triangle, we need to check if the sum of the angles is less than 180°."
+      },
+      {
+        "block_id": "block_3",
+        "type": "example",
+        "text": "For example, if we have two angles 35° and 150°, we can determine whether they can form a triangle by checking if the sum of the angles is less than 180°: 35° + 150° = 185°, which is greater than 180°."
+      }
+    ]
+  },
+  {
+    "topic_id": "topic_4",
+    "topic_name": "Rules for Two Angles to Form a Triangle",
+    "unit": "gegp107",
+    "learning_objectives": [
+      "Students will understand the rules for two angles to form a triangle.",
+      "Students will be able to determine whether a set of angles can form a triangle.",
+      "Students will learn to apply the rules for two angles to form a triangle to solve problems."
+    ],
+    "allowed_concepts": [
+      "rules for two angles to form a triangle",
+      "angle conditions for a triangle",
+      "triangle angle conditions"
+    ],
+    "disallowed_concepts": [
+      "Advanced calculus",
+      "Complex numbers"
+    ],
+    "content_blocks": [
+      {
+        "block_id": "block_1",
+        "type": "definition",
+        "text": "Two angles can form a triangle if the sum of the angles is less than 180°."
+      },
+      {
+        "block_id": "block_2",
+        "type": "explanation",
+        "text": "To determine whether a set of angles can form a triangle, we need to check if the sum of the angles is less than 180°."
+      },
+      {
+        "block_id": "block_3",
+        "type": "example",
+        "text": "For example, if we have two angles 70° and 30°, we can determine whether they can form a triangle by checking if the sum of the angles is less than 180°: 70° + 30° = 100°, which is less than 180°."
+      }
+    ]
+  },
+  {
+    "topic_id": "topic_1",
+    "topic_name": "Properties of Triangles",
+    "unit": "gegp107",
+    "learning_objectives": [
+      "Students will understand the properties of triangles, including angle sum property.",
+      "Students will be able to identify and construct triangles with specific angle measures.",
+      "Students will learn to apply the angle sum property to solve problems."
+    ],
+    "allowed_concepts": [
+      "Angle sum property of triangles",
+      "Properties of isosceles triangles",
+      "Construction of triangles with specific angle measures"
+    ],
+    "disallowed_concepts": [
+      "Advanced calculus",
+      "Complex numbers"
+    ],
+    "content_blocks": [
+      {
+        "block_id": "block_1",
+        "type": "explanation",
+        "text": "Ans: 60° 6 2. Can you construct a triangle all of whose angles are equal to 70°? If two of the angles are 70° what would the third angle be? If all the angles in a triangle have to be equal, then what must its measure be? Explore and find out."
+      },
+      {
+        "block_id": "block_2",
+        "type": "example",
+        "text": "Ans: • No, such triangle is not possible. • 40° • 60°"
+      },
+      {
+        "block_id": "block_3",
+        "type": "example",
+        "text": "3. Here is a triangle in which we know, B = C and A = 50°. Can you find B and C? Ans: B = C = 65°"
+      }
+    ]
+  }
+]

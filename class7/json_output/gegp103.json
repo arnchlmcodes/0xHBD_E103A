@@ -1,0 +1,1051 @@
+[
+  {
+    "topic_id": "topic_1",
+    "topic_name": "Measurement and Unit Conversion",
+    "unit": "gegp103",
+    "learning_objectives": [
+      "Students will understand the concept of smaller units of measurement.",
+      "Students will be able to convert between different units of measurement.",
+      "Students will learn to read and write measurements in fractional units."
+    ],
+    "allowed_concepts": [
+      "centimeters",
+      "millimeters",
+      "fractions",
+      "decimal fractions",
+      "unit conversion"
+    ],
+    "disallowed_concepts": [
+      "Advanced calculus",
+      "Complex numbers"
+    ],
+    "content_blocks": [
+      {
+        "block_id": "block_1",
+        "type": "definition",
+        "text": "A smaller unit of measurement is a unit that is smaller than the standard unit of measurement."
+      },
+      {
+        "block_id": "block_2",
+        "type": "explanation",
+        "text": "When exact measures are required, we can make use of smaller units of measurement."
+      },
+      {
+        "block_id": "block_3",
+        "type": "example",
+        "text": "The length of the pencil shown in the figure below is 3 units, which can also be read as 3 units and four one-tenths."
+      },
+      {
+        "block_id": "block_4",
+        "type": "definition",
+        "text": "A fraction is a way of expressing a part of a whole."
+      },
+      {
+        "block_id": "block_5",
+        "type": "explanation",
+        "text": "To convert between different units of measurement, we can use the concept of fractions."
+      },
+      {
+        "block_id": "block_6",
+        "type": "example",
+        "text": "The length of Sonu’s lower arm is 2 units, and that of his upper arm is 3 units. What is the total length of his arm?"
+      }
+    ]
+  },
+  {
+    "topic_id": "topic_1",
+    "topic_name": "Measurement and Conversion",
+    "unit": "gegp103",
+    "learning_objectives": [
+      "Students will understand the concept of measurement and conversion.",
+      "Students will be able to convert between different units of measurement.",
+      "Students will learn to represent measurements in words and numbers."
+    ],
+    "allowed_concepts": [
+      "Measurement",
+      "Conversion",
+      "Place Value",
+      "Decimal Place Value",
+      "Unit Splitting"
+    ],
+    "disallowed_concepts": [
+      "Advanced calculus",
+      "Complex numbers"
+    ],
+    "content_blocks": [
+      {
+        "block_id": "block_1",
+        "type": "definition",
+        "text": "Measurement is the process of assigning a number to a physical quantity."
+      },
+      {
+        "block_id": "block_2",
+        "type": "explanation",
+        "text": "When we need to measure something more accurately, we split a part into 10 equal parts ― we split a unit into 10 one-tenths and then split each one-tenth into 10, one-hundredths and then we use these smaller parts to measure."
+      },
+      {
+        "block_id": "block_3",
+        "type": "example",
+        "text": "For example, if we need to measure a length of 15 cm, we can split it into 10 equal parts, each part being 1.5 cm, or we can split it into 4 equal parts, each part being 3.75 cm."
+      },
+      {
+        "block_id": "block_4",
+        "type": "explanation",
+        "text": "The reason we split a unit into 10 parts every time is the special role that 10 plays in the Indian place value system."
+      },
+      {
+        "block_id": "block_5",
+        "type": "example",
+        "text": "For example, if we need to convert 25 cm to inches, we can use the conversion factor 1 inch = 2.54 cm."
+      }
+    ]
+  },
+  {
+    "topic_id": "topic_2",
+    "topic_name": "Addition and Subtraction",
+    "unit": "gegp103",
+    "learning_objectives": [
+      "Students will understand the concept of addition and subtraction.",
+      "Students will be able to add and subtract numbers.",
+      "Students will learn to represent addition and subtraction in different ways."
+    ],
+    "allowed_concepts": [
+      "Addition",
+      "Subtraction",
+      "Place Value",
+      "Decimal Place Value"
+    ],
+    "disallowed_concepts": [
+      "Advanced calculus",
+      "Complex numbers"
+    ],
+    "content_blocks": [
+      {
+        "block_id": "block_1",
+        "type": "definition",
+        "text": "Addition is the process of combining two or more numbers to get a total."
+      },
+      {
+        "block_id": "block_2",
+        "type": "explanation",
+        "text": "We can add numbers in different ways, such as using the standard algorithm or by using mental math."
+      },
+      {
+        "block_id": "block_3",
+        "type": "example",
+        "text": "For example, if we need to add 15 + 2, we can use the standard algorithm or we can use mental math to get the answer."
+      },
+      {
+        "block_id": "block_4",
+        "type": "definition",
+        "text": "Subtraction is the process of finding the difference between two numbers."
+      },
+      {
+        "block_id": "block_5",
+        "type": "explanation",
+        "text": "We can subtract numbers in different ways, such as using the standard algorithm or by using mental math."
+      }
+    ]
+  },
+  {
+    "topic_id": "topic_1",
+    "topic_name": "Place Value and Decimal System",
+    "unit": "gegp103",
+    "learning_objectives": [
+      "Students will understand the concept of place value and its extension to decimal system.",
+      "Students will be able to write numbers in decimal notation and identify place values.",
+      "Students will learn to represent fractional parts using decimal notation."
+    ],
+    "allowed_concepts": [
+      "place value",
+      "decimal system",
+      "hundreds",
+      "tens",
+      "ones",
+      "tenths",
+      "hundredths",
+      "decimal notation",
+      "fractional parts"
+    ],
+    "disallowed_concepts": [
+      "Advanced calculus",
+      "Complex numbers"
+    ],
+    "content_blocks": [
+      {
+        "block_id": "block_1",
+        "type": "definition",
+        "text": "Each place value is 10 times bigger than the one immediately to its right. Equivalently, each place value is 10 times smaller than the one immediately to its left: 10 ones make 1 ten, 10 tens make 1 hundred, 10 hundreds make 1 thousand, and so on."
+      },
+      {
+        "block_id": "block_2",
+        "type": "explanation",
+        "text": "In order to extend this system of writing numbers to quantities smaller than one, we divide one into 10 equal parts. What does this give? It gives one-tenth. Further dividing it into 10 parts gives one-hundredth, and so on."
+      },
+      {
+        "block_id": "block_3",
+        "type": "example",
+        "text": "What will the fraction be when 1 is split into 10 equal parts? It will be , i.e., a thousand such parts make up a unit."
+      },
+      {
+        "block_id": "block_4",
+        "type": "definition",
+        "text": "This way of writing numbers is called the “decimal system” since it is based on the number 10; “decem” means ten in Latin, which in turn is cognate to the Sanskrit daśha meaning 10, with similar words for 10 occurring across many Indian languages including Odia, Konkani, Marathi, Gujarati, Hindi, Kashmiri, Bodo, and Assamese."
+      },
+      {
+        "block_id": "block_5",
+        "type": "explanation",
+        "text": "We have been writing numbers in a particular way, say 456, instead of writing them as 4 × 100 (4 hundreds) + 5 × 10 (5 tens) + 6 × 1 (6 ones). Similarly, can we skip writing tenths and hundredths?"
+      },
+      {
+        "block_id": "block_6",
+        "type": "example",
+        "text": "Quantity Decimal Notation 7 hundreds and 5 ones 705 (700 + 0 + 5) ( 5 ) 70.5 7 tens and 5 tenths 70 + 0 + 10 7 units and 5 hundredths 7.05 ( 5 ) 7 + 0 + 100"
+      },
+      {
+        "block_id": "block_7",
+        "type": "definition",
+        "text": "Thus decimal notation is a natural extension of the Indian place value system to numbers also having fractional parts."
+      }
+    ]
+  },
+  {
+    "topic_id": "topic_1",
+    "topic_name": "Decimals and Place Value",
+    "unit": "gegp103",
+    "learning_objectives": [
+      "Students will understand how to read and write decimal numbers.",
+      "Students will be able to convert decimal numbers to place value form and vice versa.",
+      "Students will learn how to compare and order decimal numbers.",
+      "Students will understand the concept of decimals and place value.",
+      "Students will be able to convert between decimals and fractions.",
+      "Students will learn to compare and order decimal numbers."
+    ],
+    "allowed_concepts": [
+      "decimal numbers",
+      "place value",
+      "tenths",
+      "hundredths",
+      "thousandths",
+      "reading and writing decimal numbers",
+      "converting decimal numbers to place value form",
+      "comparing and ordering decimal numbers",
+      "comparing decimals",
+      "ordering decimals"
+    ],
+    "disallowed_concepts": [
+      "Advanced calculus",
+      "Complex numbers"
+    ],
+    "content_blocks": [
+      {
+        "block_id": "block_1",
+        "type": "definition",
+        "text": "We know that 705 is read as seven hundred and five. 70.5 is read as seventy point five, short for seventy and five-tenths. 7.05 is read as seven point zero five, short for seven and five hundredths. 0.274 is read as zero point two seven four."
+      },
+      {
+        "block_id": "block_2",
+        "type": "explanation",
+        "text": "Make a place value table similar to the one above. Write each quantity in decimal form and in terms of place value, and read the number: (a) 2 ones, 3 tenths and 5 hundredths (b) 1 ten and 5 tenths (c) 4 ones and 6 hundredths (d) 1 hundred, 1 one and 1 hundredth 8 9 (e) and 100 10 5 (f) 100 1 (g) 10 1 1 7 (h) 2 , 4 and 7 100 10 1000"
+      },
+      {
+        "block_id": "block_3",
+        "type": "example",
+        "text": "234 tenths = 10 200 30 4 = + + 10 10 10 4 = 20 + 3 + 10 = 23.4"
+      },
+      {
+        "block_id": "block_4",
+        "type": "definition",
+        "text": "1 cm = 10 mm (millimeters)"
+      },
+      {
+        "block_id": "block_5",
+        "type": "explanation",
+        "text": "How many cm is 1 mm? 1 1 mm = cm = 0.1 cm (i.e., one-tenth of a cm)."
+      },
+      {
+        "block_id": "block_6",
+        "type": "example",
+        "text": "5 5 mm = cm = 0.5 cm"
+      },
+      {
+        "block_id": "block_7",
+        "type": "example",
+        "text": "12 mm = 10 mm + 2 mm 2 = 1 cm + cm 10 = 1.2 cm"
+      },
+      {
+        "block_id": "block_8",
+        "type": "explanation",
+        "text": "Since each cm has 10 mm, 5.6 cm (5 cm + 0.6 cm) is 56 mm."
+      },
+      {
+        "block_id": "block_9",
+        "type": "example",
+        "text": "Fill in the blanks below (mm <–> cm) 12 mm = 1.2 cm 56 mm = 5.6 cm 70 mm = _______ ________ = 0.9 cm 134 mm =__________ ________ = 203.6 cm"
+      },
+      {
+        "block_id": "block_10",
+        "type": "explanation",
+        "text": "We also know that 1 m = 100 cm. Based on this, we can say that 1 1 cm = m = 0.01 m."
+      },
+      {
+        "block_id": "block_11",
+        "type": "example",
+        "text": "10 cm = m = 0.1 m"
+      },
+      {
+        "block_id": "block_12",
+        "type": "example",
+        "text": "15 cm can be written as 15 15 cm = m 100 10 5 = m + m 100 100 1 5 = m + m 10 100 = 0.15 m."
+      },
+      {
+        "block_id": "block_13",
+        "type": "definition",
+        "text": "1 cm 0 1 cm"
+      },
+      {
+        "block_id": "block_14",
+        "type": "explanation",
+        "text": "The egg of a hummingbird typically is 1.3 cm long and 0.9 cm wide."
+      },
+      {
+        "block_id": "block_15",
+        "type": "example",
+        "text": "The Philippine Goby is about 0.9 cm long."
+      },
+      {
+        "block_id": "block_16",
+        "type": "example",
+        "text": "The smallest known jellyfish, Irukandji, has a bell size of 0.5 – 2.5 cm."
+      },
+      {
+        "block_id": "block_17",
+        "type": "definition",
+        "text": "A decimal point (‘.’) is used in the Indian place value system to separate the whole number part of a number from its fractional part."
+      },
+      {
+        "block_id": "block_18",
+        "type": "explanation",
+        "text": "We can split a unit into smaller parts to get more exact/accurate measurements. » 1 unit = 10 one-tenths, » 1 tenth = 10 one-hundredths, » 1 hundredth = 10 one-thousandths, » 10 one-hundredths = 1 tenth, » 100 one-hundredths = 1 unit."
+      },
+      {
+        "block_id": "block_19",
+        "type": "example",
+        "text": "87 ones, 5 tenths and 60 hundredths = 88.10"
+      },
+      {
+        "block_id": "block_20",
+        "type": "example",
+        "text": "1 2 tens and 12 tenths"
+      },
+      {
+        "block_id": "block_21",
+        "type": "example",
+        "text": "1 0 tens, 10 ones, 10 tenths, and 10 hundredths"
+      },
+      {
+        "block_id": "block_22",
+        "type": "example",
+        "text": "2 5 tens, 25 ones, 25 tenths, and 25 hundredths"
+      },
+      {
+        "block_id": "block_23",
+        "type": "example",
+        "text": "Using each digit 0 – 9 not more than once, fill the boxes below so This that the sum is closest to 10.5:"
+      },
+      {
+        "block_id": "block_24",
+        "type": "example",
+        "text": "Write the following fractions in decimal form: 1 3 (a) (b) 2 2 1 3 (c) (d) 4 4 1 4 (e) (f) 5 5"
+      },
+      {
+        "block_id": "block_25",
+        "type": "explanation",
+        "text": "We extended the Indian place value system and saw that » 1 unit = 10 one-tenths, » 1 tenth = 10 one-hundredths, » 1 hundredth = 10 one-thousandths, » 10 one-hundredths = 1 tenth, » 100 one-hundredths = 1 unit."
+      },
+      {
+        "block_id": "block_26",
+        "type": "example",
+        "text": "How many one‑hundredths make one‑tenth? Can we also say that the length is 4 units and 45 one‑hundredths?"
+      },
+      {
+        "block_id": "block_27",
+        "type": "example",
+        "text": "Observe the figure below. Notice the markings and the corresponding lengths written in the boxes when measured from 0. Fill the lengths in the empty boxes."
+      },
+      {
+        "block_id": "block_28",
+        "type": "example",
+        "text": "In words: Five and thirtyseven-hundredths."
+      },
+      {
+        "block_id": "block_29",
+        "type": "example",
+        "text": "In words: Fifteen and three-hundredths."
+      },
+      {
+        "block_id": "block_30",
+        "type": "example",
+        "text": "In words: Seven and fiftytwo-hundredths."
+      },
+      {
+        "block_id": "block_31",
+        "type": "example",
+        "text": "In words: Nine and eighty-hundredths."
+      }
+    ]
+  },
+  {
+    "topic_id": "topic_1",
+    "topic_name": "Weight Conversion",
+    "unit": "gegp103",
+    "learning_objectives": [
+      "Students will understand the conversion between grams and kilograms.",
+      "Students will be able to convert grams to kilograms and vice versa.",
+      "Students will learn to express small weights in kilograms."
+    ],
+    "allowed_concepts": [
+      "kilograms",
+      "grams",
+      "weight conversion",
+      "decimal places"
+    ],
+    "disallowed_concepts": [
+      "Advanced calculus",
+      "Complex numbers"
+    ],
+    "content_blocks": [
+      {
+        "block_id": "block_1",
+        "type": "definition",
+        "text": "1 kg = 1000 gram (g)"
+      },
+      {
+        "block_id": "block_2",
+        "type": "explanation",
+        "text": "We can say that 1 g = kg = 0.001 kg."
+      },
+      {
+        "block_id": "block_3",
+        "type": "example",
+        "text": "5 g = kg = 0.005 kg."
+      },
+      {
+        "block_id": "block_4",
+        "type": "example",
+        "text": "10 g = kg = 0.010 kg."
+      },
+      {
+        "block_id": "block_5",
+        "type": "example",
+        "text": "254 g = kg = 0.254 kg."
+      }
+    ]
+  },
+  {
+    "topic_id": "topic_2",
+    "topic_name": "Rupee ─ Paise Conversion",
+    "unit": "gegp103",
+    "learning_objectives": [
+      "Students will understand the conversion between rupees and paise.",
+      "Students will be able to convert rupees to paise and vice versa.",
+      "Students will learn to express small amounts in rupees."
+    ],
+    "allowed_concepts": [
+      "rupees",
+      "paise",
+      "currency conversion",
+      "decimal places"
+    ],
+    "disallowed_concepts": [
+      "Advanced calculus",
+      "Complex numbers"
+    ],
+    "content_blocks": [
+      {
+        "block_id": "block_1",
+        "type": "definition",
+        "text": "1 rupee = 100 paise"
+      },
+      {
+        "block_id": "block_2",
+        "type": "explanation",
+        "text": "1 paisa = rupee = 0.01 rupee"
+      },
+      {
+        "block_id": "block_3",
+        "type": "example",
+        "text": "75 paise = rupee = 0.75 rupee."
+      }
+    ]
+  },
+  {
+    "topic_id": "topic_3",
+    "topic_name": "Locating and Comparing Decimals",
+    "unit": "gegp103",
+    "learning_objectives": [
+      "Students will understand the concept of decimal numbers.",
+      "Students will be able to locate and compare decimal numbers on a number line.",
+      "Students will learn to express decimal numbers in different forms."
+    ],
+    "allowed_concepts": [
+      "decimal numbers",
+      "number line",
+      "decimal places",
+      "place value"
+    ],
+    "disallowed_concepts": [
+      "Advanced calculus",
+      "Complex numbers"
+    ],
+    "content_blocks": [
+      {
+        "block_id": "block_1",
+        "type": "definition",
+        "text": "1.4 lies between 1 and 2."
+      },
+      {
+        "block_id": "block_2",
+        "type": "explanation",
+        "text": "Draw the number line and divide the unit between 1 and 2 into 10 equal parts."
+      },
+      {
+        "block_id": "block_3",
+        "type": "example",
+        "text": "Take the fourth part, and we have 1.4 on the number line."
+      }
+    ]
+  },
+  {
+    "topic_id": "topic_1",
+    "topic_name": "Decimals",
+    "unit": "gegp103",
+    "learning_objectives": [
+      "Students will understand the concept of decimals and their representation on the number line.",
+      "Students will be able to compare and order decimal numbers.",
+      "Students will learn to add and subtract decimals using place value calculation.",
+      "Students will understand the concept of decimals and their representation.",
+      "Students will be able to convert fractions to decimals and vice versa.",
+      "Students will learn to compare and order decimals."
+    ],
+    "allowed_concepts": [
+      "decimal numbers",
+      "place value",
+      "number line",
+      "addition and subtraction of decimals",
+      "comparing and ordering decimal numbers",
+      "decimals",
+      "fractions",
+      "tenths",
+      "hundredths"
+    ],
+    "disallowed_concepts": [
+      "Advanced calculus",
+      "Complex numbers"
+    ],
+    "content_blocks": [
+      {
+        "block_id": "block_1",
+        "type": "definition",
+        "text": "Decimal numbers are numbers that have a decimal point and are used to represent fractions or parts of a whole."
+      },
+      {
+        "block_id": "block_2",
+        "type": "explanation",
+        "text": "To compare decimal numbers, we can use the number line to locate both numbers and show which is larger. We can also compare the corresponding digits at each place value, as we do with whole numbers."
+      },
+      {
+        "block_id": "block_3",
+        "type": "example",
+        "text": "For example, to compare 6.456 and 6.465, we can see that both numbers have 6 units and 4 tenths, but the first number has only 5 hundredths, whereas the second number has 6 hundredths."
+      },
+      {
+        "block_id": "block_4",
+        "type": "definition",
+        "text": "To add and subtract decimals, we can use the standard procedure for adding and subtracting whole numbers, taking into account the place value of each digit."
+      },
+      {
+        "block_id": "block_5",
+        "type": "example",
+        "text": "For example, to find the sum of 2.7m + 3.5m, we can add the numbers as we would with whole numbers, taking into account the place value of each digit."
+      },
+      {
+        "block_id": "block_6",
+        "type": "explanation",
+        "text": "We can also use the compact form of decimal numbers to make the calculation easier."
+      },
+      {
+        "block_id": "block_7",
+        "type": "example",
+        "text": "For example, to find the difference of 3.5m – 2.7m, we can subtract the numbers as we would with whole numbers, taking into account the place value of each digit."
+      },
+      {
+        "block_id": "block_8",
+        "type": "definition",
+        "text": "mentioned (an example is given): (a) 87 ones, 5 tenths and 60 hundredths (b) 12 tens and 12 tenths (c) 10 tens, 10 ones, 10 tenths, and 10 hundredths (d) 25 tens, 25 ones, 25 tenths, and 25 hundredths"
+      },
+      {
+        "block_id": "block_9",
+        "type": "explanation",
+        "text": "Ans: 19 (a) 88.10 121.2 (b) 111.1 277.75 15. Using each digit 0 – 9 not more than once, fill the boxes below so that the sum is closest to 10.5: Ans: 16."
+      },
+      {
+        "block_id": "block_10",
+        "type": "example",
+        "text": "Write the following fractions in decimal form: 1 3 1 (a) (b) (c) 2 2 4 3 1 4 (d) (e) (f) 4 5 5 Ans: (a) 0.5 (b) 1.5 (c) 0.25 (d) 0.75 (e) 0.2 (f) 0.8"
+      }
+    ]
+  },
+  {
+    "topic_id": "topic_1",
+    "topic_name": "Decimal Sequences",
+    "unit": "gegp103",
+    "learning_objectives": [
+      "Students will understand the concept of decimal sequences and identify the pattern of addition.",
+      "Students will be able to continue a decimal sequence and write the next 3 terms.",
+      "Students will learn to identify the change after each term in a decimal sequence."
+    ],
+    "allowed_concepts": [
+      "decimal numbers",
+      "sequences",
+      "pattern of addition",
+      "identifying change after each term"
+    ],
+    "disallowed_concepts": [
+      "Advanced calculus",
+      "Complex numbers"
+    ],
+    "content_blocks": [
+      {
+        "block_id": "block_1",
+        "type": "definition",
+        "text": "A decimal sequence is a sequence of decimal numbers where each term is obtained by adding a fixed number to the previous term."
+      },
+      {
+        "block_id": "block_2",
+        "type": "explanation",
+        "text": "To continue a decimal sequence, we need to identify the pattern of addition and apply it to the next term."
+      },
+      {
+        "block_id": "block_3",
+        "type": "example",
+        "text": "Example: Continue the decimal sequence 4.4, 4.8, 5.2, 5.6, 6.0, …"
+      },
+      {
+        "block_id": "block_4",
+        "type": "example",
+        "text": "Example: Continue the decimal sequence 25.75, 26.25, 26.75, …"
+      }
+    ]
+  },
+  {
+    "topic_id": "topic_2",
+    "topic_name": "Estimating Sums and Differences",
+    "unit": "gegp103",
+    "learning_objectives": [
+      "Students will understand the concept of estimating sums and differences of decimal numbers.",
+      "Students will be able to verify if Sonu's claim is true for decimal numbers.",
+      "Students will learn to narrow down the range of whole numbers within which the difference of two decimal numbers lies."
+    ],
+    "allowed_concepts": [
+      "estimating sums and differences",
+      "decimal numbers",
+      "Sonu's claim",
+      "narrowing down the range of whole numbers"
+    ],
+    "disallowed_concepts": [
+      "Advanced calculus",
+      "Complex numbers"
+    ],
+    "content_blocks": [
+      {
+        "block_id": "block_1",
+        "type": "definition",
+        "text": "Estimating sums and differences of decimal numbers involves approximating the result before computing the actual value."
+      },
+      {
+        "block_id": "block_2",
+        "type": "explanation",
+        "text": "To verify Sonu's claim, we need to check if the sum of two decimal numbers is greater than the sum of their whole number parts and less than 2 more than the sum of their whole number parts."
+      },
+      {
+        "block_id": "block_3",
+        "type": "example",
+        "text": "Example: Verify Sonu's claim for the numbers 25.936 and 8.202."
+      }
+    ]
+  },
+  {
+    "topic_id": "topic_3",
+    "topic_name": "Decimal and Measurement Disasters",
+    "unit": "gegp103",
+    "learning_objectives": [
+      "Students will understand the importance of decimal point and unit conversion in measurement.",
+      "Students will be able to identify the consequences of decimal point and unit conversion mistakes.",
+      "Students will learn to estimate the result before computing to avoid decimal point and unit conversion mistakes."
+    ],
+    "allowed_concepts": [
+      "decimal point and unit conversion",
+      "measurement",
+      "consequences of decimal point and unit conversion mistakes",
+      "estimating the result before computing"
+    ],
+    "disallowed_concepts": [
+      "Advanced calculus",
+      "Complex numbers"
+    ],
+    "content_blocks": [
+      {
+        "block_id": "block_1",
+        "type": "definition",
+        "text": "Decimal point and unit conversion mistakes can lead to serious problems in measurement."
+      },
+      {
+        "block_id": "block_2",
+        "type": "explanation",
+        "text": "To avoid decimal point and unit conversion mistakes, we need to estimate the result before computing."
+      },
+      {
+        "block_id": "block_3",
+        "type": "example",
+        "text": "Example: Estimate the result before computing for the numbers 25.936 and 8.202."
+      }
+    ]
+  },
+  {
+    "topic_id": "topic_4",
+    "topic_name": "Deceptive Decimal Notation",
+    "unit": "gegp103",
+    "learning_objectives": [
+      "Students will understand the concept of deceptive decimal notation.",
+      "Students will be able to identify the correct interpretation of 0.5 hours.",
+      "Students will learn to convert 0.5 hours to minutes."
+    ],
+    "allowed_concepts": [
+      "deceptive decimal notation",
+      "0.5 hours",
+      "converting 0.5 hours to minutes"
+    ],
+    "disallowed_concepts": [
+      "Advanced calculus",
+      "Complex numbers"
+    ],
+    "content_blocks": [
+      {
+        "block_id": "block_1",
+        "type": "definition",
+        "text": "Deceptive decimal notation involves using decimal numbers to represent time or other quantities in a misleading way."
+      },
+      {
+        "block_id": "block_2",
+        "type": "explanation",
+        "text": "To convert 0.5 hours to minutes, we need to multiply 0.5 by 60."
+      },
+      {
+        "block_id": "block_3",
+        "type": "example",
+        "text": "Example: Convert 0.5 hours to minutes."
+      }
+    ]
+  },
+  {
+    "topic_id": "topic_1",
+    "topic_name": "Decimal Notation",
+    "unit": "gegp103",
+    "learning_objectives": [
+      "Students will understand the concept of decimal notation and its importance in mathematics.",
+      "Students will be able to convert fractions into decimals and vice versa.",
+      "Students will learn to compare and order decimal numbers."
+    ],
+    "allowed_concepts": [
+      "decimal notation",
+      "fractions",
+      "decimals",
+      "place value system",
+      "tenths",
+      "hundredths",
+      "thousandths"
+    ],
+    "disallowed_concepts": [
+      "Advanced calculus",
+      "Complex numbers"
+    ],
+    "content_blocks": [
+      {
+        "block_id": "block_1",
+        "type": "definition",
+        "text": "Decimal notation is a way of writing numbers using a point or period (.) to separate the whole number part from the fractional part."
+      },
+      {
+        "block_id": "block_2",
+        "type": "explanation",
+        "text": "In decimal notation, the place value of each digit is determined by its position. The rightmost digit is in the ones place, the next digit to the left is in the tenths place, and so on."
+      },
+      {
+        "block_id": "block_3",
+        "type": "example",
+        "text": "Convert the fraction 1/2 to a decimal: 1/2 = 0.5"
+      },
+      {
+        "block_id": "block_4",
+        "type": "explanation",
+        "text": "To convert a fraction to a decimal, divide the numerator by the denominator."
+      },
+      {
+        "block_id": "block_5",
+        "type": "example",
+        "text": "Convert the fraction 3/4 to a decimal: 3/4 = 0.75"
+      },
+      {
+        "block_id": "block_6",
+        "type": "definition",
+        "text": "A decimal number is a number that has a fractional part, which is written after the decimal point."
+      },
+      {
+        "block_id": "block_7",
+        "type": "explanation",
+        "text": "To compare decimal numbers, compare the whole number parts first, and then the fractional parts."
+      },
+      {
+        "block_id": "block_8",
+        "type": "example",
+        "text": "Compare the decimal numbers 3.5 and 3.7: 3.5 < 3.7"
+      }
+    ]
+  },
+  {
+    "topic_id": "topic_2",
+    "topic_name": "Converting Fractions to Decimals",
+    "unit": "gegp103",
+    "learning_objectives": [
+      "Students will understand the concept of converting fractions to decimals.",
+      "Students will be able to convert fractions to decimals using division.",
+      "Students will learn to convert mixed numbers to decimals."
+    ],
+    "allowed_concepts": [
+      "converting fractions to decimals",
+      "division",
+      "mixed numbers",
+      "decimals"
+    ],
+    "disallowed_concepts": [
+      "Advanced calculus",
+      "Complex numbers"
+    ],
+    "content_blocks": [
+      {
+        "block_id": "block_1",
+        "type": "definition",
+        "text": "To convert a fraction to a decimal, divide the numerator by the denominator."
+      },
+      {
+        "block_id": "block_2",
+        "type": "explanation",
+        "text": "For example, to convert the fraction 1/2 to a decimal, divide 1 by 2: 1/2 = 0.5"
+      },
+      {
+        "block_id": "block_3",
+        "type": "example",
+        "text": "Convert the fraction 3/4 to a decimal: 3/4 = 0.75"
+      },
+      {
+        "block_id": "block_4",
+        "type": "definition",
+        "text": "A mixed number is a number that has a whole number part and a fractional part."
+      },
+      {
+        "block_id": "block_5",
+        "type": "explanation",
+        "text": "To convert a mixed number to a decimal, convert the fractional part to a decimal and then add the whole number part."
+      },
+      {
+        "block_id": "block_6",
+        "type": "example",
+        "text": "Convert the mixed number 2 1/2 to a decimal: 2 1/2 = 2.5"
+      }
+    ]
+  },
+  {
+    "topic_id": "topic_3",
+    "topic_name": "Comparing and Ordering Decimal Numbers",
+    "unit": "gegp103",
+    "learning_objectives": [
+      "Students will understand the concept of comparing and ordering decimal numbers.",
+      "Students will be able to compare and order decimal numbers using place value.",
+      "Students will learn to compare and order decimal numbers with different numbers of decimal places.",
+      "Students will understand how to compare and order decimal numbers.",
+      "Students will be able to identify the largest and smallest decimal numbers.",
+      "Students will learn to use number lines to compare and order decimal numbers."
+    ],
+    "allowed_concepts": [
+      "comparing and ordering decimal numbers",
+      "place value",
+      "decimal places",
+      "comparing decimal numbers",
+      "ordering decimal numbers",
+      "number lines",
+      "hundredths",
+      "thousandths"
+    ],
+    "disallowed_concepts": [
+      "Advanced calculus",
+      "Complex numbers"
+    ],
+    "content_blocks": [
+      {
+        "block_id": "block_1",
+        "type": "definition",
+        "text": "To compare decimal numbers, compare the whole number parts first, and then the fractional parts."
+      },
+      {
+        "block_id": "block_2",
+        "type": "explanation",
+        "text": "For example, to compare the decimal numbers 3.5 and 3.7, compare the whole number parts first: 3 = 3."
+      },
+      {
+        "block_id": "block_3",
+        "type": "example",
+        "text": "Compare the decimal numbers 3.5 and 3.7: 3.5 < 3.7"
+      },
+      {
+        "block_id": "block_4",
+        "type": "definition",
+        "text": "To order decimal numbers, compare them from left to right."
+      },
+      {
+        "block_id": "block_5",
+        "type": "explanation",
+        "text": "For example, to order the decimal numbers 3.5, 3.7, and 3.9, compare them from left to right: 3.5 < 3.7 < 3.9"
+      },
+      {
+        "block_id": "block_6",
+        "type": "example",
+        "text": "Order the decimal numbers 3.5, 3.7, and 3.9: 3.5 < 3.7 < 3.9"
+      },
+      {
+        "block_id": "block_7",
+        "type": "definition",
+        "text": "To compare decimal numbers, we can compare their digits after the decimal point."
+      },
+      {
+        "block_id": "block_8",
+        "type": "explanation",
+        "text": "To order decimal numbers, we can use number lines to compare their values."
+      },
+      {
+        "block_id": "block_9",
+        "type": "example",
+        "text": "Compare the decimal numbers 1.23 and 1.32: 1.32 is larger."
+      },
+      {
+        "block_id": "block_10",
+        "type": "explanation",
+        "text": "To identify the largest and smallest decimal numbers, we can compare their values."
+      },
+      {
+        "block_id": "block_11",
+        "type": "example",
+        "text": "Identify the largest and smallest decimal numbers: 1.23 and 1.32"
+      }
+    ]
+  },
+  {
+    "topic_id": "topic_1",
+    "topic_name": "Place Value and Decimal Numbers",
+    "unit": "gegp103",
+    "learning_objectives": [
+      "Students will understand the concept of place value and decimal numbers.",
+      "Students will be able to convert between decimal numbers and their expanded forms.",
+      "Students will learn to compare and order decimal numbers."
+    ],
+    "allowed_concepts": [
+      "place value",
+      "decimal numbers",
+      "expanded form",
+      "hundredths",
+      "thousandths"
+    ],
+    "disallowed_concepts": [
+      "Advanced calculus",
+      "Complex numbers"
+    ],
+    "content_blocks": [
+      {
+        "block_id": "block_1",
+        "type": "definition",
+        "text": "Place value is the value of a digit in a number based on its position."
+      },
+      {
+        "block_id": "block_2",
+        "type": "explanation",
+        "text": "Decimal numbers are numbers that have a decimal point and can have digits after the decimal point."
+      },
+      {
+        "block_id": "block_3",
+        "type": "example",
+        "text": "Convert the decimal number 4.56 to its expanded form: 4 + 5/10 + 6/100"
+      },
+      {
+        "block_id": "block_4",
+        "type": "explanation",
+        "text": "To compare decimal numbers, we can compare their digits after the decimal point."
+      },
+      {
+        "block_id": "block_5",
+        "type": "example",
+        "text": "Compare the decimal numbers 1.23 and 1.32: 1.32 is larger."
+      }
+    ]
+  },
+  {
+    "topic_id": "topic_2",
+    "topic_name": "Conversions between Units",
+    "unit": "gegp103",
+    "learning_objectives": [
+      "Students will understand the relationships between different units of measurement.",
+      "Students will be able to convert between units of measurement.",
+      "Students will learn to apply conversion factors to solve problems."
+    ],
+    "allowed_concepts": [
+      "conversions",
+      "units of measurement",
+      "conversion factors",
+      "millimeters",
+      "centimeters",
+      "meters",
+      "grams",
+      "kilograms"
+    ],
+    "disallowed_concepts": [
+      "Advanced calculus",
+      "Complex numbers"
+    ],
+    "content_blocks": [
+      {
+        "block_id": "block_1",
+        "type": "definition",
+        "text": "A conversion factor is a ratio that relates two different units of measurement."
+      },
+      {
+        "block_id": "block_2",
+        "type": "explanation",
+        "text": "To convert between units of measurement, we can use conversion factors."
+      },
+      {
+        "block_id": "block_3",
+        "type": "example",
+        "text": "Convert 56 mm to cm: 56 mm = 5.6 cm"
+      },
+      {
+        "block_id": "block_4",
+        "type": "explanation",
+        "text": "To apply conversion factors, we can multiply the given value by the conversion factor."
+      },
+      {
+        "block_id": "block_5",
+        "type": "example",
+        "text": "Convert 465 g to kg: 465 g = 0.465 kg"
+      }
+    ]
+  }
+]

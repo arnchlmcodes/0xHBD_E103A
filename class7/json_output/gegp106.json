@@ -1,0 +1,1001 @@
+[
+  {
+    "topic_id": "topic_1",
+    "topic_name": "Number Play",
+    "unit": "gegp106",
+    "learning_objectives": [
+      "Students will understand the concept of numbers and their representation.",
+      "Students will be able to identify and explain the properties of numbers.",
+      "Students will learn to apply number concepts to real-life situations.",
+      "Students will understand how to represent information about a sequence of numbers without knowing the actual numbers.",
+      "Students will be able to determine the parity of sums and products.",
+      "Students will learn how to solve cryptarithms and magic squares.",
+      "Students will understand the concept of parity and its application in real-life scenarios.",
+      "Students will be able to identify the parity of numbers and their sums.",
+      "Students will learn to determine the parity of the number of small squares in a grid."
+    ],
+    "allowed_concepts": [
+      "numbers",
+      "parity",
+      "even numbers",
+      "odd numbers",
+      "sum of numbers",
+      "sums and products",
+      "cryptarithms",
+      "magic squares",
+      "Virahāṅka sequence",
+      "sum of even and odd numbers",
+      "parity of the number of small squares in a grid"
+    ],
+    "disallowed_concepts": [
+      "advanced algebraic expressions",
+      "complex number theory"
+    ],
+    "content_blocks": [
+      {
+        "block_id": "block_1",
+        "type": "explanation",
+        "text": "What do the numbers in the figure below tell us? Remember the children from the Grade 6 textbook of mathematics? Now, they call out numbers using a different rule. What do you think these numbers mean?"
+      },
+      {
+        "block_id": "block_2",
+        "type": "definition",
+        "text": "The rule is — each child calls out the number of children in front of them who are taller than them."
+      },
+      {
+        "block_id": "block_3",
+        "type": "example",
+        "text": "Check if the number each child says matches this rule in both the arrangements."
+      },
+      {
+        "block_id": "block_4",
+        "type": "explanation",
+        "text": "Add a few even numbers together. What kind of number do you get? Does it matter how many numbers are added?"
+      },
+      {
+        "block_id": "block_5",
+        "type": "definition",
+        "text": "An even number is one that can be arranged in pairs without any leftovers."
+      },
+      {
+        "block_id": "block_6",
+        "type": "example",
+        "text": "Some even numbers are shown here, arranged in pairs."
+      },
+      {
+        "block_id": "block_7",
+        "type": "explanation",
+        "text": "Now, add a few odd numbers together. What kind of number do you get? Does it matter how many odd numbers are added?"
+      },
+      {
+        "block_id": "block_8",
+        "type": "definition",
+        "text": "An odd number is one more than a collection of pairs."
+      },
+      {
+        "block_id": "block_9",
+        "type": "example",
+        "text": "Some odd numbers are shown below:"
+      },
+      {
+        "block_id": "block_10",
+        "type": "explanation",
+        "text": "We can see that two odd numbers added together can always be arranged in pairs."
+      },
+      {
+        "block_id": "block_11",
+        "type": "example",
+        "text": "Let us go back to the puzzle Kishor was trying to solve."
+      },
+      {
+        "block_id": "block_12",
+        "type": "explanation",
+        "text": "There are 5 empty boxes. That means he has an odd number of boxes."
+      },
+      {
+        "block_id": "block_13",
+        "type": "definition",
+        "text": "All the number cards contain odd numbers."
+      },
+      {
+        "block_id": "block_14",
+        "type": "example",
+        "text": "They should add to 30, which is an even number."
+      },
+      {
+        "block_id": "block_15",
+        "type": "explanation",
+        "text": "Since, adding any 5 odd numbers will never result in an even number, Kishor cannot arrange these cards in the boxes to add up to 30."
+      },
+      {
+        "block_id": "block_16",
+        "type": "example",
+        "text": "Two siblings, Martin and Maria, were born exactly one year apart."
+      },
+      {
+        "block_id": "block_17",
+        "type": "explanation",
+        "text": "Today they are celebrating their birthday."
+      },
+      {
+        "block_id": "block_18",
+        "type": "definition",
+        "text": "Maria exclaims that the sum of their ages is 112."
+      },
+      {
+        "block_id": "block_19",
+        "type": "example",
+        "text": "Is this possible? Why or why not?"
+      },
+      {
+        "block_id": "block_20",
+        "type": "explanation",
+        "text": "As they were born one year apart, their ages"
+      },
+      {
+        "block_id": "block_21",
+        "type": "explanation",
+        "text": "In the first activity, we saw how to represent information about how a sequence of numbers (e.g., height measures) is arranged without knowing the actual numbers."
+      },
+      {
+        "block_id": "block_22",
+        "type": "definition",
+        "text": "Parity — numbers that can be arranged in pairs (even numbers) and numbers that cannot be arranged in pairs (odd numbers)."
+      },
+      {
+        "block_id": "block_23",
+        "type": "example",
+        "text": "UT + TA TAT"
+      },
+      {
+        "block_id": "block_24",
+        "type": "explanation",
+        "text": "We learnt how to determine the parity of sums and products."
+      },
+      {
+        "block_id": "block_25",
+        "type": "example",
+        "text": "Fill in the following blanks with ‘odd’ or ‘even’: (a) Sum of an odd number of even numbers is ______ (b) Sum of an even number of odd numbers is ______ (c) Sum of an even number of even numbers is ______ (d) Sum of an odd number of odd numbers is ______"
+      },
+      {
+        "block_id": "block_26",
+        "type": "explanation",
+        "text": "We extended this to construct magic squares."
+      },
+      {
+        "block_id": "block_27",
+        "type": "example",
+        "text": "Make a 3 × 3 magic square with 0 as the magic sum."
+      },
+      {
+        "block_id": "block_28",
+        "type": "explanation",
+        "text": "We saw how Virahāṅka numbers were first discovered in history through the Arts."
+      },
+      {
+        "block_id": "block_29",
+        "type": "definition",
+        "text": "The Virahāṅka sequence is 1, 2, 3, 5, 8, 13, 21, 34, 55, ... • We became math-detectives through cryptarithms, where digits are replaced by letters."
+      },
+      {
+        "block_id": "block_30",
+        "type": "explanation",
+        "text": "The rule is: Each child calls out the number of children standing in front of them who are taller than they are."
+      },
+      {
+        "block_id": "block_31",
+        "type": "example",
+        "text": "Let’s assign the numbers from left to right for the 7 children: Child 1: From left → 0 Child 2: From left → 0 Child 3: From left → 1 Child 4: From left → 0 Child 5: From left → 3 Child 6: From left → 0 Child 7: From left → 3"
+      },
+      {
+        "block_id": "block_32",
+        "type": "definition",
+        "text": "even + even = even, odd + odd = even, even + odd = odd"
+      },
+      {
+        "block_id": "block_33",
+        "type": "explanation",
+        "text": "Similarly, find out the parity for the scenarios below: (d) even – even = _____ (e) odd – odd = _____ (f) even – odd = _____ (g) odd – even = _____"
+      },
+      {
+        "block_id": "block_34",
+        "type": "example",
+        "text": "Ans: (d) Even (e) Even (f) Odd (g) Odd"
+      },
+      {
+        "block_id": "block_35",
+        "type": "definition",
+        "text": "The parity of the number of small squares in a grid (with m rows and n columns) is: (i) Even, if at least one of the numbers (either m or n) is even. (ii) Odd, if both numbers (m and n) are odd. (iii) Even, if both numbers (m and n) are even."
+      },
+      {
+        "block_id": "block_36",
+        "type": "explanation",
+        "text": "Find the parity of the number of small squares in these grids: (a) 27 × 13 (b) 42 × 78 (c) 135 × 654"
+      },
+      {
+        "block_id": "block_37",
+        "type": "example",
+        "text": "Ans: (a) Odd (b) Even (c) Even"
+      }
+    ]
+  },
+  {
+    "topic_id": "topic_1",
+    "topic_name": "Parity and Consecutive Numbers",
+    "unit": "gegp106",
+    "learning_objectives": [
+      "Students will understand the concept of parity and its application to consecutive numbers.",
+      "Students will be able to determine the parity of the sum of two consecutive numbers.",
+      "Students will learn to identify the parity of the number of small squares in a grid."
+    ],
+    "allowed_concepts": [
+      "parity",
+      "consecutive numbers",
+      "even numbers",
+      "odd numbers",
+      "sum of consecutive numbers"
+    ],
+    "disallowed_concepts": [
+      "Advanced calculus",
+      "Complex numbers"
+    ],
+    "content_blocks": [
+      {
+        "block_id": "block_1",
+        "type": "definition",
+        "text": "The property of being even or odd is called parity."
+      },
+      {
+        "block_id": "block_2",
+        "type": "explanation",
+        "text": "In any two consecutive numbers, one will always be even and the other will always be odd! What would be the resulting sum of an even number and an odd number?"
+      },
+      {
+        "block_id": "block_3",
+        "type": "example",
+        "text": "Try some other consecutive numbers and see if their sum is 112."
+      },
+      {
+        "block_id": "block_4",
+        "type": "definition",
+        "text": "The parity of the sum of any two consecutive numbers is odd."
+      },
+      {
+        "block_id": "block_5",
+        "type": "explanation",
+        "text": "Similarly, the parity of the sum of any two odd numbers is even."
+      },
+      {
+        "block_id": "block_6",
+        "type": "example",
+        "text": "Find out the parity of the following sums: (a) Sum of 2 even numbers and 2 odd numbers (e.g., even + even + odd + odd)"
+      },
+      {
+        "block_id": "block_7",
+        "type": "definition",
+        "text": "The parity of the sum of 2 even numbers and 2 odd numbers is even."
+      },
+      {
+        "block_id": "block_8",
+        "type": "explanation",
+        "text": "Similarly, the parity of the sum of 2 odd numbers and 3 even numbers is odd."
+      },
+      {
+        "block_id": "block_9",
+        "type": "example",
+        "text": "Find out the parity of the following sums: (c) Sum of 5 even numbers (d) Sum of 8 odd numbers"
+      },
+      {
+        "block_id": "block_10",
+        "type": "definition",
+        "text": "The parity of the sum of 5 even numbers is even."
+      },
+      {
+        "block_id": "block_11",
+        "type": "explanation",
+        "text": "Similarly, the parity of the sum of 8 odd numbers is odd."
+      }
+    ]
+  },
+  {
+    "topic_id": "topic_2",
+    "topic_name": "Parity of Expressions",
+    "unit": "gegp106",
+    "learning_objectives": [
+      "Students will understand the concept of parity in algebraic expressions.",
+      "Students will be able to determine the parity of the value of an algebraic expression for different values of the variable.",
+      "Students will learn to come up with expressions that always have even or odd parity."
+    ],
+    "allowed_concepts": [
+      "parity",
+      "algebraic expressions",
+      "even numbers",
+      "odd numbers",
+      "variable"
+    ],
+    "disallowed_concepts": [
+      "Advanced calculus",
+      "Complex numbers"
+    ],
+    "content_blocks": [
+      {
+        "block_id": "block_1",
+        "type": "definition",
+        "text": "The expression 3n + 4 evaluates to 13, 28, 43,... (for n = 1, 2, 3,...) — many odd numbers are missing."
+      },
+      {
+        "block_id": "block_2",
+        "type": "explanation",
+        "text": "Are there expressions using which we can list all the even numbers?"
+      },
+      {
+        "block_id": "block_3",
+        "type": "example",
+        "text": "Hint: All even numbers have a factor 2."
+      },
+      {
+        "block_id": "block_4",
+        "type": "definition",
+        "text": "The expression 6k + 2 evaluates to 8, 14, 20,... (for k = 1, 2, 3,...) — many even numbers are missing."
+      },
+      {
+        "block_id": "block_5",
+        "type": "explanation",
+        "text": "Are there expressions using which we can list all the odd numbers?"
+      },
+      {
+        "block_id": "block_6",
+        "type": "example",
+        "text": "We saw earlier how to express the nth term of the sequence of multiples of 4, where n is the letter-number that denotes a position in the sequence (e.g., first, twenty third, hundred and seventeenth, etc.)."
+      },
+      {
+        "block_id": "block_7",
+        "type": "definition",
+        "text": "What would be the nth term for multiples of 2?"
+      },
+      {
+        "block_id": "block_8",
+        "type": "explanation",
+        "text": "Or, what is the nth even number?"
+      },
+      {
+        "block_id": "block_9",
+        "type": "example",
+        "text": "Let us consider odd numbers. What is the 100th odd number?"
+      },
+      {
+        "block_id": "block_10",
+        "type": "definition",
+        "text": "To answer this question, consider the following question: What is the 100th even number?"
+      },
+      {
+        "block_id": "block_11",
+        "type": "explanation",
+        "text": "This is 2 × 100 = 200."
+      },
+      {
+        "block_id": "block_12",
+        "type": "example",
+        "text": "Does this help in finding the 100th odd number?"
+      },
+      {
+        "block_id": "block_13",
+        "type": "definition",
+        "text": "Let us compare the sequence of evens and odds term-by-term."
+      },
+      {
+        "block_id": "block_14",
+        "type": "explanation",
+        "text": "Even Numbers: 2, 4, 6, 8, 10, 12,... Odd Numbers: 1, 3, 5, 7, 9, 11,..."
+      },
+      {
+        "block_id": "block_15",
+        "type": "example",
+        "text": "We see that at any position, the value at the odd number sequence is one less than that in the even number sequence."
+      },
+      {
+        "block_id": "block_16",
+        "type": "definition",
+        "text": "Thus, the 100th odd number is 200 – 1 = 199."
+      },
+      {
+        "block_id": "block_17",
+        "type": "explanation",
+        "text": "Write a formula to find the nth odd number."
+      },
+      {
+        "block_id": "block_18",
+        "type": "example",
+        "text": "Let us first describe the method that we have learnt to find the odd number at a given position:"
+      }
+    ]
+  },
+  {
+    "topic_id": "topic_1",
+    "topic_name": "Even and Odd Numbers",
+    "unit": "gegp106",
+    "learning_objectives": [
+      "Students will understand the concept of even and odd numbers.",
+      "Students will be able to identify even and odd numbers.",
+      "Students will learn to represent even and odd numbers using formulas."
+    ],
+    "allowed_concepts": [
+      "even numbers",
+      "odd numbers",
+      "formulas for even and odd numbers",
+      "2n and 2n - 1"
+    ],
+    "disallowed_concepts": [
+      "Advanced calculus",
+      "Complex numbers"
+    ],
+    "content_blocks": [
+      {
+        "block_id": "block_1",
+        "type": "definition",
+        "text": "An even number is a number that is divisible by 2. An odd number is a number that is not divisible by 2."
+      },
+      {
+        "block_id": "block_2",
+        "type": "explanation",
+        "text": "The formula 2n gives the nth even number, and the formula 2n - 1 gives the nth odd number."
+      },
+      {
+        "block_id": "block_3",
+        "type": "example",
+        "text": "Find the even number at the 5th position. This is 2 times the position number, so 2 * 5 = 10."
+      }
+    ]
+  },
+  {
+    "topic_id": "topic_2",
+    "topic_name": "Magic Squares",
+    "unit": "gegp106",
+    "learning_objectives": [
+      "Students will understand the concept of magic squares.",
+      "Students will be able to identify the properties of magic squares.",
+      "Students will learn to create a magic square using systematic methods.",
+      "Students will understand the concept of magic squares and their properties.",
+      "Students will be able to create and solve magic squares using different methods.",
+      "Students will learn about the history and cultural significance of magic squares.",
+      "Students will understand the concept of magic squares and their significance in mathematics.",
+      "Students will be able to construct magic squares of different sizes and identify their properties.",
+      "Students will learn about the history and cultural significance of magic squares in India.",
+      "Students will be able to create magic squares using different sets of numbers.",
+      "Students will learn how to identify and verify magic squares."
+    ],
+    "allowed_concepts": [
+      "magic squares",
+      "row sums",
+      "column sums",
+      "diagonals",
+      "magic sum",
+      "properties of magic squares",
+      "creation of magic squares",
+      "solving magic squares",
+      "history of magic squares",
+      "cultural significance of magic squares",
+      "Constructing magic squares",
+      "History of magic squares in India",
+      "consecutive numbers",
+      "addition",
+      "subtraction",
+      "multiplication",
+      "division",
+      "patterns",
+      "sequences"
+    ],
+    "disallowed_concepts": [
+      "advanced algebraic manipulations",
+      "calculus",
+      "vector calculus",
+      "Advanced combinatorics",
+      "Abstract algebra",
+      "advanced algebra"
+    ],
+    "content_blocks": [
+      {
+        "block_id": "block_1",
+        "type": "definition",
+        "text": "A magic square is a square grid of numbers where each row, column, and diagonal add up to the same number, called the magic sum."
+      },
+      {
+        "block_id": "block_2",
+        "type": "explanation",
+        "text": "In a magic square, the row sums, column sums, and diagonals all add up to the same number, which is the magic sum."
+      },
+      {
+        "block_id": "block_3",
+        "type": "example",
+        "text": "Let's create a magic square using the numbers 1-9. We can start by finding the magic sum, which is the sum of the numbers 1-9, divided by 3."
+      },
+      {
+        "block_id": "block_4",
+        "type": "definition",
+        "text": "A magic square is a square grid filled with distinct positive integers in the range 1 to n^2 such that each cell contains a different integer and the sum of the integers in each row, column, and diagonal is equal."
+      },
+      {
+        "block_id": "block_5",
+        "type": "explanation",
+        "text": "To create a magic square, we can use different methods such as the method of diagonals, the method of diagonals and rows, or the method of diagonals, rows, and columns."
+      },
+      {
+        "block_id": "block_6",
+        "type": "example",
+        "text": "Let's create a 3x3 magic square using the method of diagonals. We start by placing the number 1 in the center of the square, then we place the numbers 2 and 3 in the top-left and top-right corners, respectively. We continue this process until we have filled the entire square."
+      },
+      {
+        "block_id": "block_7",
+        "type": "explanation",
+        "text": "Once we have created a magic square, we can solve it by finding the sum of the integers in each row, column, and diagonal. If the sum is equal in all cases, then the square is a magic square."
+      },
+      {
+        "block_id": "block_8",
+        "type": "example",
+        "text": "Let's solve the magic square we created earlier. We find that the sum of the integers in each row, column, and diagonal is equal, so this square is indeed a magic square."
+      },
+      {
+        "block_id": "block_9",
+        "type": "explanation",
+        "text": "Magic squares have been studied in different parts of the world for thousands of years. They have been used in various cultures for different purposes, such as divination, astrology, and mathematics."
+      },
+      {
+        "block_id": "block_10",
+        "type": "example",
+        "text": "The first magic square ever recorded is the Lo Shu Square, which dates back over 2000 years to ancient China. It is said to have been created by the gods to save the people from a catastrophic flood."
+      },
+      {
+        "block_id": "block_11",
+        "type": "explanation",
+        "text": "Magic squares have also been used in various mathematical applications, such as algebra and geometry. They have been used to solve problems and prove theorems in these fields."
+      },
+      {
+        "block_id": "block_12",
+        "type": "example",
+        "text": "For example, magic squares have been used to solve problems in algebra, such as finding the roots of a quadratic equation. They have also been used to prove theorems in geometry, such as the Pythagorean theorem."
+      },
+      {
+        "block_id": "block_13",
+        "type": "definition",
+        "text": "Magic squares are square grids filled with numbers in a specific pattern such that the sum of the numbers in each row, column, and diagonal is the same."
+      },
+      {
+        "block_id": "block_14",
+        "type": "explanation",
+        "text": "Indian mathematicians have worked extensively on magic squares, describing general methods of constructing them. They have also extended their work to larger square grids."
+      },
+      {
+        "block_id": "block_15",
+        "type": "example",
+        "text": "A 3 × 3 magic square found on a pillar in a temple in Palani, Tamil Nadu, is shown below: 3 × 3 magic square"
+      },
+      {
+        "block_id": "block_16",
+        "type": "definition",
+        "text": "A magic square is a square grid filled with distinct positive integers in the range 1 to n^2 such that each cell contains a different integer and the sum of the integers in each row, column, and diagonal is equal."
+      },
+      {
+        "block_id": "block_17",
+        "type": "explanation",
+        "text": "To create a magic square, we can use the rule that the sum of the numbers in each row, column, and diagonal is equal. We can also use the fact that the numbers in a magic square follow a specific pattern."
+      },
+      {
+        "block_id": "block_18",
+        "type": "example",
+        "text": "For example, we can create a magic square using the numbers 1-9 by following the rule that the sum of the numbers in each row, column, and diagonal is equal."
+      },
+      {
+        "block_id": "block_19",
+        "type": "example",
+        "text": "We can also create a magic square using the numbers 2-10 by adding 1 to each number in the magic square 1-9."
+      },
+      {
+        "block_id": "block_20",
+        "type": "explanation",
+        "text": "The magic sum of a magic square is the sum of the numbers in each row, column, and diagonal. We can also perform operations like addition, subtraction, multiplication, and division on a magic square to yield another magic square."
+      },
+      {
+        "block_id": "block_21",
+        "type": "example",
+        "text": "For example, if we add 1 to every number in a magic square, the resulting grid is also a magic square."
+      },
+      {
+        "block_id": "block_22",
+        "type": "example",
+        "text": "If we double every number in a magic square, the resulting grid is also a magic square."
+      },
+      {
+        "block_id": "block_23",
+        "type": "explanation",
+        "text": "We can also create a magic square using any set of 9 consecutive numbers by adding a constant to each number in the magic square 1-9."
+      },
+      {
+        "block_id": "block_24",
+        "type": "example",
+        "text": "For example, we can create a magic square using the numbers 2-10 by adding 1 to each number in the magic square 1-9."
+      },
+      {
+        "block_id": "block_25",
+        "type": "example",
+        "text": "We can also create a magic square using the numbers 3-11 by adding 2 to each number in the magic square 1-9."
+      },
+      {
+        "block_id": "block_26",
+        "type": "example",
+        "text": "We can also create a magic square using the numbers 9-17 by adding 8 to each number in the magic square 1-9."
+      },
+      {
+        "block_id": "block_27",
+        "type": "explanation",
+        "text": "The numbers in a magic square follow a specific pattern. We can express the numbers in a magic square in terms of the center number."
+      },
+      {
+        "block_id": "block_28",
+        "type": "example",
+        "text": "For example, if the center number is 25, we can express the other numbers in the magic square in terms of 25."
+      },
+      {
+        "block_id": "block_29",
+        "type": "explanation",
+        "text": "The magic sum of a magic square is equal to 3 times the center number."
+      },
+      {
+        "block_id": "block_30",
+        "type": "example",
+        "text": "For example, if the center number is 25, the magic sum is 3 times 25, which is 75."
+      },
+      {
+        "block_id": "block_31",
+        "type": "example",
+        "text": "We can also create a magic square whose magic sum is 60 by using the numbers 1-9 and adding a constant to each number."
+      },
+      {
+        "block_id": "block_32",
+        "type": "example",
+        "text": "For example, we can create a magic square whose magic sum is 60 by using the numbers 1-9 and adding 19 to each number."
+      },
+      {
+        "block_id": "block_33",
+        "type": "explanation",
+        "text": "It is possible to get a magic square by filling nine non-consecutive numbers."
+      },
+      {
+        "block_id": "block_34",
+        "type": "example",
+        "text": "For example, we can create a magic square using the numbers 24, 3, 18, 9, 15, 21, 12, 27, 6."
+      },
+      {
+        "block_id": "block_35",
+        "type": "explanation",
+        "text": "The sequence 1, 2, 3, 5, 8, 13, 21, 34, 55, 89, ... is a well-known sequence in mathematics."
+      },
+      {
+        "block_id": "block_36",
+        "type": "example",
+        "text": "The next number in the sequence is 144."
+      },
+      {
+        "block_id": "block_37",
+        "type": "explanation",
+        "text": "The parity of each number in the sequence is either odd or even."
+      },
+      {
+        "block_id": "block_38",
+        "type": "example",
+        "text": "The pattern of the parities in the sequence is odd, even, odd, odd, even, odd, odd, even, ..."
+      }
+    ]
+  },
+  {
+    "topic_id": "topic_2",
+    "topic_name": "Virahāṅka–Fibonacci Numbers",
+    "unit": "gegp106",
+    "learning_objectives": [
+      "Students will understand the concept of Virahāṅka–Fibonacci Numbers and their significance in mathematics.",
+      "Students will be able to identify the Virahāṅka–Fibonacci Numbers in various contexts.",
+      "Students will learn about the history and cultural significance of Virahāṅka–Fibonacci Numbers in India."
+    ],
+    "allowed_concepts": [
+      "Virahāṅka–Fibonacci Numbers",
+      "Properties of Virahāṅka–Fibonacci Numbers",
+      "History of Virahāṅka–Fibonacci Numbers in India",
+      "Cultural significance of Virahāṅka–Fibonacci Numbers"
+    ],
+    "disallowed_concepts": [
+      "Advanced number theory",
+      "Abstract algebra"
+    ],
+    "content_blocks": [
+      {
+        "block_id": "block_1",
+        "type": "definition",
+        "text": "Virahāṅka–Fibonacci Numbers are a sequence of numbers in which each number is the sum of the two preceding numbers."
+      },
+      {
+        "block_id": "block_2",
+        "type": "explanation",
+        "text": "The Virahāṅka–Fibonacci Numbers occur throughout the world of Art, Science, and Mathematics, and were first discovered in the context of Art (specifically, poetry)."
+      },
+      {
+        "block_id": "block_3",
+        "type": "example",
+        "text": "The sequence 1, 2, 3, 5, 8, 13, 21, 34, . . . is an example of Virahāṅka–Fibonacci Numbers."
+      }
+    ]
+  },
+  {
+    "topic_id": "topic_3",
+    "topic_name": "Rhythms and Syllables",
+    "unit": "gegp106",
+    "learning_objectives": [
+      "Students will understand the concept of rhythms and syllables in poetry.",
+      "Students will be able to identify the different ways of writing numbers as a sum of 1's and 2's.",
+      "Students will learn about the mathematical questions and discoveries related to poetry."
+    ],
+    "allowed_concepts": [
+      "Rhythms and syllables",
+      "Writing numbers as a sum of 1's and 2's",
+      "Mathematical questions and discoveries related to poetry"
+    ],
+    "disallowed_concepts": [
+      "Advanced combinatorics",
+      "Abstract algebra"
+    ],
+    "content_blocks": [
+      {
+        "block_id": "block_1",
+        "type": "definition",
+        "text": "Rhythms and syllables are used in poetry to create a specific pattern of sounds and beats."
+      },
+      {
+        "block_id": "block_2",
+        "type": "explanation",
+        "text": "The ancient poets in India considered mathematical questions related to poetry, such as how many rhythms are there with 8 beats consisting of short syllables and long syllables."
+      },
+      {
+        "block_id": "block_3",
+        "type": "example",
+        "text": "The number 8 can be written as a sum of 1's and 2's in the following ways: 8 = 2 + 2 + 2 + 2, 8 = 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1, 8 = 1 + 2 + 2 + 1 + 2, etc."
+      }
+    ]
+  },
+  {
+    "topic_id": "topic_1",
+    "topic_name": "Virahāṅka Numbers",
+    "unit": "gegp106",
+    "learning_objectives": [
+      "Students will understand the concept of Virahāṅka numbers and their significance in mathematics and art.",
+      "Students will be able to identify and generate Virahāṅka numbers using the given sequence.",
+      "Students will learn about the historical context and cultural significance of Virahāṅka numbers."
+    ],
+    "allowed_concepts": [
+      "Virahāṅka numbers",
+      "Fibonacci sequence",
+      "Arithmetic progression",
+      "Sequence and series",
+      "Pattern recognition"
+    ],
+    "disallowed_concepts": [
+      "Advanced calculus",
+      "Linear algebra",
+      "Abstract algebra"
+    ],
+    "content_blocks": [
+      {
+        "block_id": "block_1",
+        "type": "definition",
+        "text": "Virahāṅka numbers are a sequence of numbers in which each number is the sum of the two preceding numbers, starting from 1 and 2."
+      },
+      {
+        "block_id": "block_2",
+        "type": "explanation",
+        "text": "The sequence of Virahāṅka numbers is 1, 2, 3, 5, 8, 13, 21, 34, 55, 89, and so on. Each number is obtained by adding the two preceding numbers."
+      },
+      {
+        "block_id": "block_3",
+        "type": "example",
+        "text": "For example, to find the next number in the sequence after 55, we add 34 and 55 to get 89."
+      },
+      {
+        "block_id": "block_4",
+        "type": "explanation",
+        "text": "The Virahāṅka numbers have many interesting properties and occur in various aspects of nature, art, and science."
+      },
+      {
+        "block_id": "block_5",
+        "type": "example",
+        "text": "For instance, the number of petals on a daisy is often a Virahāṅka number."
+      }
+    ]
+  },
+  {
+    "topic_id": "topic_1",
+    "topic_name": "Parity and Even-Odd Numbers",
+    "unit": "gegp106",
+    "learning_objectives": [
+      "Students will understand the concept of parity and even-odd numbers.",
+      "Students will be able to identify whether a number is even or odd.",
+      "Students will learn to apply the concept of parity in real-life situations."
+    ],
+    "allowed_concepts": [
+      "even numbers",
+      "odd numbers",
+      "parity",
+      "Virahanka sequence",
+      "magic square"
+    ],
+    "disallowed_concepts": [
+      "Advanced calculus",
+      "Complex numbers"
+    ],
+    "content_blocks": [
+      {
+        "block_id": "block_1",
+        "type": "definition",
+        "text": "The parity of a number is its evenness or oddness. A number is even if it can be divided by 2 without leaving a remainder, and it is odd if it cannot be divided by 2 without leaving a remainder."
+      },
+      {
+        "block_id": "block_2",
+        "type": "explanation",
+        "text": "The Virahanka sequence is a series of numbers where each number is the sum of the previous two numbers. The sequence starts with 1 and 2, and the next number is the sum of the previous two numbers."
+      },
+      {
+        "block_id": "block_3",
+        "type": "example",
+        "text": "For example, the first few numbers in the Virahanka sequence are 1, 2, 3, 5, 8, 13, 21, 34, 55, 89, 144, 233, 377, 610, 987, ... ."
+      },
+      {
+        "block_id": "block_4",
+        "type": "definition",
+        "text": "A magic square is an arrangement of numbers in a square grid such that the sum of the numbers in each row, column, and diagonal is the same."
+      },
+      {
+        "block_id": "block_5",
+        "type": "example",
+        "text": "For example, one possible magic square with 0 as the magic sum is: 3 -4 1 -2 0 2 -1 4 -3 5."
+      }
+    ]
+  },
+  {
+    "topic_id": "topic_2",
+    "topic_name": "Sum of Even and Odd Numbers",
+    "unit": "gegp106",
+    "learning_objectives": [
+      "Students will understand the properties of even and odd numbers.",
+      "Students will be able to determine whether the sum of even and odd numbers is even or odd.",
+      "Students will learn to apply the properties of even and odd numbers in real-life situations."
+    ],
+    "allowed_concepts": [
+      "sum of even numbers",
+      "sum of odd numbers",
+      "sum of even and odd numbers"
+    ],
+    "disallowed_concepts": [
+      "Advanced calculus",
+      "Complex numbers"
+    ],
+    "content_blocks": [
+      {
+        "block_id": "block_1",
+        "type": "definition",
+        "text": "The sum of an even number of even numbers is even, and the sum of an odd number of even numbers is odd."
+      },
+      {
+        "block_id": "block_2",
+        "type": "explanation",
+        "text": "Similarly, the sum of an even number of odd numbers is even, and the sum of an odd number of odd numbers is odd."
+      },
+      {
+        "block_id": "block_3",
+        "type": "example",
+        "text": "For example, the sum of 2 + 4 + 6 + 8 is 20, which is even."
+      }
+    ]
+  },
+  {
+    "topic_id": "topic_3",
+    "topic_name": "Parity of the Sum of Numbers",
+    "unit": "gegp106",
+    "learning_objectives": [
+      "Students will understand the concept of parity and its application to the sum of numbers.",
+      "Students will be able to determine the parity of the sum of numbers.",
+      "Students will learn to apply the concept of parity in real-life situations."
+    ],
+    "allowed_concepts": [
+      "parity of the sum of numbers",
+      "even sum",
+      "odd sum"
+    ],
+    "disallowed_concepts": [
+      "Advanced calculus",
+      "Complex numbers"
+    ],
+    "content_blocks": [
+      {
+        "block_id": "block_1",
+        "type": "definition",
+        "text": "The parity of the sum of numbers is determined by the parity of the individual numbers."
+      },
+      {
+        "block_id": "block_2",
+        "type": "explanation",
+        "text": "If the sum of numbers is even, then the parity of the sum is even. If the sum of numbers is odd, then the parity of the sum is odd."
+      },
+      {
+        "block_id": "block_3",
+        "type": "example",
+        "text": "For example, the sum of 1 + 2 + 3 + 4 is 10, which is even."
+      }
+    ]
+  },
+  {
+    "topic_id": "topic_4",
+    "topic_name": "Virahanka Sequence",
+    "unit": "gegp106",
+    "learning_objectives": [
+      "Students will understand the concept of the Virahanka sequence.",
+      "Students will be able to identify the pattern of the Virahanka sequence.",
+      "Students will learn to apply the concept of the Virahanka sequence in real-life situations."
+    ],
+    "allowed_concepts": [
+      "Virahanka sequence",
+      "pattern of the Virahanka sequence"
+    ],
+    "disallowed_concepts": [
+      "Advanced calculus",
+      "Complex numbers"
+    ],
+    "content_blocks": [
+      {
+        "block_id": "block_1",
+        "type": "definition",
+        "text": "The Virahanka sequence is a series of numbers where each number is the sum of the previous two numbers."
+      },
+      {
+        "block_id": "block_2",
+        "type": "explanation",
+        "text": "The sequence starts with 1 and 2, and the next number is the sum of the previous two numbers."
+      },
+      {
+        "block_id": "block_3",
+        "type": "example",
+        "text": "For example, the first few numbers in the Virahanka sequence are 1, 2, 3, 5, 8, 13, 21, 34, 55, 89, 144, 233, 377, 610, 987, ... ."
+      }
+    ]
+  },
+  {
+    "topic_id": "topic_5",
+    "topic_name": "Magic Square",
+    "unit": "gegp106",
+    "learning_objectives": [
+      "Students will understand the concept of a magic square.",
+      "Students will be able to identify the properties of a magic square.",
+      "Students will learn to apply the concept of a magic square in real-life situations."
+    ],
+    "allowed_concepts": [
+      "magic square",
+      "properties of a magic square"
+    ],
+    "disallowed_concepts": [
+      "Advanced calculus",
+      "Complex numbers"
+    ],
+    "content_blocks": [
+      {
+        "block_id": "block_1",
+        "type": "definition",
+        "text": "A magic square is an arrangement of numbers in a square grid such that the sum of the numbers in each row, column, and diagonal is the same."
+      },
+      {
+        "block_id": "block_2",
+        "type": "explanation",
+        "text": "For example, one possible magic square with 0 as the magic sum is: 3 -4 1 -2 0 2 -1 4 -3 5."
+      },
+      {
+        "block_id": "block_3",
+        "type": "example",
+        "text": "Another possible magic square with 0 as the magic sum is: 1 2 3 4 5 6 7 8 9 0."
+      }
+    ]
+  }
+]

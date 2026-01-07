@@ -1,0 +1,1778 @@
+[
+  {
+    "topic_id": "topic_1",
+    "topic_name": "Letter-Numbers",
+    "unit": "gegp104",
+    "learning_objectives": [
+      "Students will understand the concept of letter-numbers and their representation in algebraic expressions.",
+      "Students will be able to write algebraic expressions to represent mathematical relations and patterns.",
+      "Students will learn to identify and use letter-numbers to solve problems."
+    ],
+    "allowed_concepts": [
+      "Letter-numbers",
+      "Algebraic expressions",
+      "Mathematical relations",
+      "Patterns",
+      "Variables",
+      "Constants"
+    ],
+    "disallowed_concepts": [
+      "Advanced calculus",
+      "Complex numbers"
+    ],
+    "content_blocks": [
+      {
+        "block_id": "block_1",
+        "type": "definition",
+        "text": "Letters such as a and s that are used to represent numbers are called letter-numbers."
+      },
+      {
+        "block_id": "block_2",
+        "type": "explanation",
+        "text": "Mathematical expressions containing letter-numbers, such as the expression a + 3, are called algebraic expressions."
+      },
+      {
+        "block_id": "block_3",
+        "type": "example",
+        "text": "Shabnam’s age = Aftab’s age + 3. If a is 23 (Aftab’s age in years), then what is Shabnam’s age?"
+      },
+      {
+        "block_id": "block_4",
+        "type": "definition",
+        "text": "Letters such as a and s that are used to represent numbers are called letter-numbers."
+      },
+      {
+        "block_id": "block_5",
+        "type": "explanation",
+        "text": "Mathematical expressions containing letter-numbers, such as the expression a + 3, are called algebraic expressions."
+      },
+      {
+        "block_id": "block_6",
+        "type": "example",
+        "text": "Aftab’s age = Shabnam’s age – 3. If Shabnam’s age is 20, then what is Aftab’s age?"
+      },
+      {
+        "block_id": "block_7",
+        "type": "definition",
+        "text": "Letters such as a and s that are used to represent numbers are called letter-numbers."
+      },
+      {
+        "block_id": "block_8",
+        "type": "explanation",
+        "text": "Mathematical expressions containing letter-numbers, such as the expression a + 3, are called algebraic expressions."
+      },
+      {
+        "block_id": "block_9",
+        "type": "example",
+        "text": "Number of matchsticks = 2 × Number of L’s. This expression tells us how many matchsticks are needed to make n L’s."
+      },
+      {
+        "block_id": "block_10",
+        "type": "definition",
+        "text": "Letters such as a and s that are used to represent numbers are called letter-numbers."
+      },
+      {
+        "block_id": "block_11",
+        "type": "explanation",
+        "text": "Mathematical expressions containing letter-numbers, such as the expression a + 3, are called algebraic expressions."
+      },
+      {
+        "block_id": "block_12",
+        "type": "example",
+        "text": "Cost of 10 coconuts = 10 × ₹35. Cost of 5 kg jaggery = 5 × ₹60."
+      }
+    ]
+  },
+  {
+    "topic_id": "topic_1",
+    "topic_name": "Algebraic Expressions",
+    "unit": "gegp104",
+    "learning_objectives": [
+      "Students will understand the concept of algebraic expressions and their representation using variables and constants.",
+      "Students will be able to write algebraic expressions for real-life situations and evaluate them using various methods.",
+      "Students will learn to identify and apply the distributive property in algebraic expressions.",
+      "Students will understand the concept of algebraic expressions and their importance in mathematics.",
+      "Students will be able to simplify algebraic expressions by combining like terms and removing brackets.",
+      "Students will learn to identify and write algebraic expressions to describe patterns and relationships.",
+      "Students will understand the concept of algebraic expressions and their importance in modeling patterns and mathematical relationships.",
+      "Students will be able to write algebraic expressions to describe given situations and patterns.",
+      "Students will learn to simplify and manipulate algebraic expressions using the rules of arithmetic operations.",
+      "Students will understand the concept of algebraic expressions and their simplification.",
+      "Students will be able to simplify algebraic expressions by combining like terms.",
+      "Students will learn to identify and correct mistakes in simplifying algebraic expressions.",
+      "Students will understand the concept of algebraic expressions and their representation.",
+      "Students will be able to write algebraic expressions for given situations.",
+      "Students will learn to simplify algebraic expressions.",
+      "Students will be able to add and subtract algebraic expressions.",
+      "Students will learn to identify and write algebraic expressions for given situations."
+    ],
+    "allowed_concepts": [
+      "algebraic expressions",
+      "variables",
+      "constants",
+      "distributive property",
+      "swapping",
+      "grouping",
+      "brackets",
+      "negative signs",
+      "like terms",
+      "simplifying expressions",
+      "patterns and relationships",
+      "Letter-numbers",
+      "Arithmetic operations",
+      "Simplifying and manipulating expressions",
+      "Simplification of expressions",
+      "Combining like terms",
+      "Variables and constants",
+      "Coefficients",
+      "Terms",
+      "Unlike terms",
+      "Simplification of algebraic expressions",
+      "Addition and subtraction of algebraic expressions",
+      "Identifying and writing algebraic expressions for given situations"
+    ],
+    "disallowed_concepts": [
+      "advanced calculus",
+      "linear algebra",
+      "Differential equations",
+      "Abstract algebra"
+    ],
+    "content_blocks": [
+      {
+        "block_id": "block_1",
+        "type": "definition",
+        "text": "An algebraic expression is a mathematical expression that consists of variables and constants combined using mathematical operations such as addition, subtraction, multiplication, and division."
+      },
+      {
+        "block_id": "block_2",
+        "type": "explanation",
+        "text": "Algebraic expressions can be written in various forms, including sums of terms and products of variables and constants. The distributive property allows us to expand and simplify algebraic expressions."
+      },
+      {
+        "block_id": "block_3",
+        "type": "example",
+        "text": "Example: Write an algebraic expression for the perimeter of a square with side length 7 cm. Solution: The perimeter of a square is 4 times the length of its side, so the algebraic expression is 4 × 7 = 28 cm."
+      },
+      {
+        "block_id": "block_4",
+        "type": "example",
+        "text": "Example: Evaluate the expression 23 – 10 × 2. Solution: First, we write the terms of the expression: 23 – 10 × 2 = 23 + –10 × 2 = 23 + –20 = 3."
+      },
+      {
+        "block_id": "block_5",
+        "type": "explanation",
+        "text": "We can use swapping and grouping to simplify algebraic expressions. For example, we can swap the order of the terms in an expression or group the terms to make it easier to evaluate."
+      },
+      {
+        "block_id": "block_6",
+        "type": "example",
+        "text": "Example: Evaluate the expression 83 + 28 – 13 + 32. Solution: First, we write the terms of the expression: 83 + 28 – 13 + 32 = 83 + 28 + –13 + 32 = 130."
+      },
+      {
+        "block_id": "block_7",
+        "type": "definition",
+        "text": "An algebraic expression is a mathematical expression that consists of variables, constants, and mathematical operations."
+      },
+      {
+        "block_id": "block_8",
+        "type": "explanation",
+        "text": "To simplify an algebraic expression, we need to combine like terms and remove brackets. Like terms are terms that have the same variable and exponent."
+      },
+      {
+        "block_id": "block_9",
+        "type": "example",
+        "text": "Simplify the expression: 2x + 3x + 4. Combine like terms: 5x + 4."
+      },
+      {
+        "block_id": "block_10",
+        "type": "definition",
+        "text": "A pattern is a regular or repeated arrangement of shapes, colors, or other visual elements."
+      },
+      {
+        "block_id": "block_11",
+        "type": "explanation",
+        "text": "Algebraic expressions can be used to describe patterns and relationships. For example, the expression 2x + 3 can be used to describe a pattern of numbers where each number is twice the previous number plus 3."
+      },
+      {
+        "block_id": "block_12",
+        "type": "example",
+        "text": "Write an algebraic expression to describe the pattern: 2, 5, 8, 11, 14. The expression is 2x + 3."
+      },
+      {
+        "block_id": "block_13",
+        "type": "definition",
+        "text": "Algebraic expressions are used in formulas to model patterns and mathematical relationships between quantities, and to make predictions."
+      },
+      {
+        "block_id": "block_14",
+        "type": "explanation",
+        "text": "Algebraic expressions use not only numbers but also letter-numbers. The rules for manipulating arithmetic expressions also apply to algebraic expressions."
+      },
+      {
+        "block_id": "block_15",
+        "type": "example",
+        "text": "Find the colour at positions 90, 190, and 343. Write expressions to describe the positions for each colour."
+      },
+      {
+        "block_id": "block_16",
+        "type": "example",
+        "text": "Write formulas for the perimeter of: (a) triangle with all sides equal. (b) a regular pentagon (as we have learnt last year, we use the word ‘regular’ to say that all sidelengths and angle measures are equal) (c) a regular hexagon"
+      },
+      {
+        "block_id": "block_17",
+        "type": "example",
+        "text": "Munirathna has a 20 m long pipe. However, he wants a longer watering pipe for his garden. He joins another pipe of some length to this one. Give the expression for the combined length of the pipe. Use the letter–number ‘k’ to denote the length in meters of the other pipe."
+      },
+      {
+        "block_id": "block_18",
+        "type": "example",
+        "text": "What is the total amount Krithika has, if she has the following numbers of notes of ₹100, ₹20 and ₹5? Complete the following table:"
+      },
+      {
+        "block_id": "block_19",
+        "type": "example",
+        "text": "Venkatalakshmi owns a flour mill. It takes 10 seconds for the roller mill to start running. Once it is running, each kg of grain takes 8 seconds to grind into powder. Which of the expressions below describes the time taken to complete grind ‘y’ kg of grain, assuming the machine is off initially?"
+      },
+      {
+        "block_id": "block_20",
+        "type": "example",
+        "text": "Write algebraic expressions using letters of your choice. (a) 5 more than a number (b) 4 less than a number (c) 2 less than 13 times a number (d) 13 less than 2 times a number"
+      },
+      {
+        "block_id": "block_21",
+        "type": "definition",
+        "text": "An algebraic expression is a mathematical expression that consists of variables, constants, and mathematical operations."
+      },
+      {
+        "block_id": "block_22",
+        "type": "explanation",
+        "text": "To simplify an algebraic expression, we need to combine like terms, which are terms that have the same variable and exponent."
+      },
+      {
+        "block_id": "block_23",
+        "type": "example",
+        "text": "Simplify the expression: 2x + 3x + 4. Combine like terms: 5x + 4."
+      },
+      {
+        "block_id": "block_24",
+        "type": "definition",
+        "text": "Like terms are terms that have the same variable and exponent."
+      },
+      {
+        "block_id": "block_25",
+        "type": "explanation",
+        "text": "To identify like terms, we need to look at the variables and exponents in each term."
+      },
+      {
+        "block_id": "block_26",
+        "type": "example",
+        "text": "Identify like terms in the expression: 2x + 3x + 4y + 5y. Like terms are 2x and 3x, and 4y and 5y."
+      },
+      {
+        "block_id": "block_27",
+        "type": "definition",
+        "text": "Simplification of expressions is the process of combining like terms to get a simpler expression."
+      },
+      {
+        "block_id": "block_28",
+        "type": "explanation",
+        "text": "Simplification of expressions is an important concept in algebra, as it helps us to solve equations and inequalities."
+      },
+      {
+        "block_id": "block_29",
+        "type": "example",
+        "text": "Simplify the expression: 2x + 3x + 4y + 5y. Combine like terms: 5x + 9y."
+      },
+      {
+        "block_id": "block_30",
+        "type": "definition",
+        "text": "Variables and constants are the building blocks of algebraic expressions."
+      },
+      {
+        "block_id": "block_31",
+        "type": "explanation",
+        "text": "Variables are letters or symbols that represent unknown values, while constants are numbers that do not change value."
+      },
+      {
+        "block_id": "block_32",
+        "type": "example",
+        "text": "Identify the variables and constants in the expression: 2x + 3y + 4. Variables are x and y, and constants are 2 and 3."
+      },
+      {
+        "block_id": "block_33",
+        "type": "definition",
+        "text": "An algebraic expression is a mathematical expression that consists of variables, constants, and coefficients combined using mathematical operations."
+      },
+      {
+        "block_id": "block_34",
+        "type": "explanation",
+        "text": "Algebraic expressions can be written to represent real-world situations, such as the cost of items or the distance traveled."
+      },
+      {
+        "block_id": "block_35",
+        "type": "example",
+        "text": "For example, the expression 2x + 5 represents the cost of x items at ₹2 each and ₹5 for shipping."
+      },
+      {
+        "block_id": "block_36",
+        "type": "explanation",
+        "text": "To simplify an algebraic expression, we combine like terms and eliminate unlike terms."
+      },
+      {
+        "block_id": "block_37",
+        "type": "example",
+        "text": "For example, the expression 3a + 9b - 6 + 8a - 4b - 7a + 16 can be simplified to 4a + 5b + 10."
+      },
+      {
+        "block_id": "block_38",
+        "type": "definition",
+        "text": "An algebraic expression is a mathematical expression that consists of variables, constants, and mathematical operations."
+      },
+      {
+        "block_id": "block_39",
+        "type": "explanation",
+        "text": "To simplify an algebraic expression, we need to combine like terms and remove any unnecessary parentheses."
+      },
+      {
+        "block_id": "block_40",
+        "type": "example",
+        "text": "Simplify the expression: 2x + 3x - 4. Solution: 2x + 3x - 4 = 5x - 4."
+      },
+      {
+        "block_id": "block_41",
+        "type": "example",
+        "text": "Add the expressions: 2x + 3y and 4x - 2y. Solution: 2x + 3y + 4x - 2y = 6x + y."
+      },
+      {
+        "block_id": "block_42",
+        "type": "example",
+        "text": "Subtract the expressions: 3x + 2y and 2x - 3y. Solution: 3x + 2y - 2x + 3y = x + 5y."
+      },
+      {
+        "block_id": "block_43",
+        "type": "example",
+        "text": "Identify and write an algebraic expression for the given situation: A fruit seller sells mangoes at ₹8 each and bananas at ₹3 each. If a customer buys x mangoes and y bananas, the total cost would be 8x + 3y."
+      }
+    ]
+  },
+  {
+    "topic_id": "topic_1",
+    "topic_name": "Evaluating Algebraic Expressions",
+    "unit": "gegp104",
+    "learning_objectives": [
+      "Students will understand how to evaluate algebraic expressions by replacing letter-numbers with numbers.",
+      "Students will be able to simplify algebraic expressions by applying the rules of arithmetic operations.",
+      "Students will learn to identify and correct mistakes in simplifying algebraic expressions."
+    ],
+    "allowed_concepts": [
+      "algebraic expressions",
+      "letter-numbers",
+      "arithmetic operations",
+      "simplification of expressions",
+      "evaluation of expressions"
+    ],
+    "disallowed_concepts": [
+      "Advanced calculus",
+      "Complex numbers"
+    ],
+    "content_blocks": [
+      {
+        "block_id": "block_1",
+        "type": "definition",
+        "text": "An algebraic expression is a mathematical expression that consists of variables, constants, and arithmetic operations."
+      },
+      {
+        "block_id": "block_2",
+        "type": "explanation",
+        "text": "To evaluate an algebraic expression, we replace the letter-numbers with numbers and perform the arithmetic operations."
+      },
+      {
+        "block_id": "block_3",
+        "type": "example",
+        "text": "Example: Evaluate the expression 2x + 3 when x = 4. Solution: 2(4) + 3 = 8 + 3 = 11."
+      },
+      {
+        "block_id": "block_4",
+        "type": "definition",
+        "text": "Simplification of an algebraic expression involves combining like terms and applying the rules of arithmetic operations."
+      },
+      {
+        "block_id": "block_5",
+        "type": "explanation",
+        "text": "To simplify an algebraic expression, we combine like terms and apply the rules of arithmetic operations."
+      },
+      {
+        "block_id": "block_6",
+        "type": "example",
+        "text": "Example: Simplify the expression 2x + 2x + 3. Solution: 2x + 2x = 4x, so the expression simplifies to 4x + 3."
+      },
+      {
+        "block_id": "block_7",
+        "type": "definition",
+        "text": "A mistake in simplifying an algebraic expression can occur when we incorrectly apply the rules of arithmetic operations or forget to combine like terms."
+      },
+      {
+        "block_id": "block_8",
+        "type": "explanation",
+        "text": "To correct a mistake in simplifying an algebraic expression, we need to carefully reapply the rules of arithmetic operations and combine like terms."
+      },
+      {
+        "block_id": "block_9",
+        "type": "example",
+        "text": "Example: Simplify the expression 2x + 3x + 2. Solution: 2x + 3x = 5x, so the expression simplifies to 5x + 2."
+      }
+    ]
+  },
+  {
+    "topic_id": "topic_2",
+    "topic_name": "Omission of the Multiplication Symbol in Algebraic Expressions",
+    "unit": "gegp104",
+    "learning_objectives": [
+      "Students will understand the concept of omission of the multiplication symbol in algebraic expressions.",
+      "Students will be able to identify and write algebraic expressions without the multiplication symbol.",
+      "Students will learn to evaluate algebraic expressions without the multiplication symbol."
+    ],
+    "allowed_concepts": [
+      "omission of multiplication symbol",
+      "algebraic expressions",
+      "evaluation of expressions"
+    ],
+    "disallowed_concepts": [
+      "Advanced calculus",
+      "Complex numbers"
+    ],
+    "content_blocks": [
+      {
+        "block_id": "block_1",
+        "type": "definition",
+        "text": "The omission of the multiplication symbol in an algebraic expression means that the multiplication operation is implied."
+      },
+      {
+        "block_id": "block_2",
+        "type": "explanation",
+        "text": "To write an algebraic expression without the multiplication symbol, we simply omit the multiplication sign."
+      },
+      {
+        "block_id": "block_3",
+        "type": "example",
+        "text": "Example: Write the expression 4 × n without the multiplication symbol. Solution: 4n."
+      },
+      {
+        "block_id": "block_4",
+        "type": "definition",
+        "text": "To evaluate an algebraic expression without the multiplication symbol, we replace the letter-numbers with numbers and perform the arithmetic operations."
+      },
+      {
+        "block_id": "block_5",
+        "type": "explanation",
+        "text": "To evaluate an algebraic expression without the multiplication symbol, we replace the letter-numbers with numbers and perform the arithmetic operations."
+      },
+      {
+        "block_id": "block_6",
+        "type": "example",
+        "text": "Example: Evaluate the expression 7k when k = 4. Solution: 7(4) = 28."
+      }
+    ]
+  },
+  {
+    "topic_id": "topic_3",
+    "topic_name": "Simplification of Algebraic Expressions",
+    "unit": "gegp104",
+    "learning_objectives": [
+      "Students will understand the concept of simplification of algebraic expressions.",
+      "Students will be able to simplify algebraic expressions by combining like terms and applying the rules of arithmetic operations.",
+      "Students will learn to identify and correct mistakes in simplifying algebraic expressions."
+    ],
+    "allowed_concepts": [
+      "simplification of expressions",
+      "algebraic expressions",
+      "arithmetic operations"
+    ],
+    "disallowed_concepts": [
+      "Advanced calculus",
+      "Complex numbers"
+    ],
+    "content_blocks": [
+      {
+        "block_id": "block_1",
+        "type": "definition",
+        "text": "Simplification of an algebraic expression involves combining like terms and applying the rules of arithmetic operations."
+      },
+      {
+        "block_id": "block_2",
+        "type": "explanation",
+        "text": "To simplify an algebraic expression, we combine like terms and apply the rules of arithmetic operations."
+      },
+      {
+        "block_id": "block_3",
+        "type": "example",
+        "text": "Example: Simplify the expression 2x + 2x + 3. Solution: 2x + 2x = 4x, so the expression simplifies to 4x + 3."
+      },
+      {
+        "block_id": "block_4",
+        "type": "definition",
+        "text": "A mistake in simplifying an algebraic expression can occur when we incorrectly apply the rules of arithmetic operations or forget to combine like terms."
+      },
+      {
+        "block_id": "block_5",
+        "type": "explanation",
+        "text": "To correct a mistake in simplifying an algebraic expression, we need to carefully reapply the rules of arithmetic operations and combine like terms."
+      },
+      {
+        "block_id": "block_6",
+        "type": "example",
+        "text": "Example: Simplify the expression 2x + 3x + 2. Solution: 2x + 3x = 5x, so the expression simplifies to 5x + 2."
+      }
+    ]
+  },
+  {
+    "topic_id": "topic_1",
+    "topic_name": "Expressions Using Letter-Numbers",
+    "unit": "gegp104",
+    "learning_objectives": [
+      "Students will understand the concept of expressions using letter-numbers and their simplification.",
+      "Students will be able to simplify expressions using the distributive property of numbers.",
+      "Students will learn to identify like and unlike terms and simplify expressions accordingly.",
+      "Students will be able to simplify expressions using the distributive property and combining like terms.",
+      "Students will learn to identify and compare expressions with different operations.",
+      "Students will understand how to represent numbers using letter-numbers.",
+      "Students will be able to find the position of a design in a repeating pattern.",
+      "Students will learn how to use algebraic modelling to verify patterns.",
+      "Students will understand the concept of expressions using letter-numbers.",
+      "Students will be able to find the expression describing the rule/formula to find the number of matchsticks at any step.",
+      "Students will learn to simplify expressions."
+    ],
+    "allowed_concepts": [
+      "expressions using letter-numbers",
+      "distributive property of numbers",
+      "like terms",
+      "unlike terms",
+      "simplification of expressions",
+      "Distributive property",
+      "Combining like terms",
+      "Simplifying expressions",
+      "Letter-numbers",
+      "repeating patterns",
+      "algebraic modelling",
+      "diagonal sums",
+      "2 × 2 squares",
+      "expressions",
+      "rule",
+      "formula",
+      "expression"
+    ],
+    "disallowed_concepts": [
+      "advanced algebraic manipulations",
+      "calculus"
+    ],
+    "content_blocks": [
+      {
+        "block_id": "block_1",
+        "type": "definition",
+        "text": "An expression using letter-numbers is a mathematical statement that involves variables and constants, and can be simplified using the distributive property of numbers."
+      },
+      {
+        "block_id": "block_2",
+        "type": "explanation",
+        "text": "The distributive property of numbers states that for any numbers a, b, and c, a(b + c) = ab + ac. This property can be used to simplify expressions involving letter-numbers."
+      },
+      {
+        "block_id": "block_3",
+        "type": "example",
+        "text": "Example 5: Find the total money earned by the shopkeeper during these three days. Day 1 Day 2 Day 3 Pencils 5 3 10 (Price ‘c’) Erasers 4 6 1 (Price ‘d’) Let us first find the money earned by the sale of pencils. The money earned by selling pencils on Day 1 is 5c. Similarly, the money earned by selling pencils on Day 2 is _____, and Day 3 is ______. The total money earned by the sale of pencils is 5c + 3c + 10c. Can we simplify this expression further and reduce the number of terms?"
+      },
+      {
+        "block_id": "block_4",
+        "type": "example",
+        "text": "Example 6: A big rectangle is split into two smaller rectangles as shown. Write an expression describing the area of the bigger rectangle. Another way of seeing the distributive v property. 4 3 The areas of the smaller rectangles are 4v sq. units and 3v sq. units. The area of the bigger rectangle can be found in two ways: (i) by directly using its side lengths v and (4 + 3), or (ii) by adding the areas of the smaller rectangles. The first way gives 7v, and the second way gives 4v + 3v. We know that they are equal: 4v + 3v = 7v, and this is the required expression for the area of the bigger rectangle."
+      },
+      {
+        "block_id": "block_5",
+        "type": "example",
+        "text": "Example 7: A shop rents out chairs Item Amount and tables for a day’s use. To rent Chair ₹40 them, one has to first pay the following Table ₹75 amount per piece. When the furniture is returned, the Amount shopkeeper pays back some amount returned as follows. Write an expression for the total Chair ₹6 number of rupees paid if x chairs and Table ₹10 y tables are rented."
+      },
+      {
+        "block_id": "block_6",
+        "type": "definition",
+        "text": "Expressions using letter-numbers are mathematical expressions that use letters or symbols to represent variables and numbers."
+      },
+      {
+        "block_id": "block_7",
+        "type": "explanation",
+        "text": "To simplify an expression using letter-numbers, we can use the distributive property and combine like terms."
+      },
+      {
+        "block_id": "block_8",
+        "type": "example",
+        "text": "Example: Simplify the expression (40x + 75y) – (6x + 10y)."
+      },
+      {
+        "block_id": "block_9",
+        "type": "explanation",
+        "text": "Using the distributive property, we can simplify the expression to 34x + 65y."
+      },
+      {
+        "block_id": "block_10",
+        "type": "example",
+        "text": "Example: Simplify the expression 4 (x + y) – y."
+      },
+      {
+        "block_id": "block_11",
+        "type": "explanation",
+        "text": "Using the distributive property, we can simplify the expression to 4x + 3y."
+      },
+      {
+        "block_id": "block_12",
+        "type": "example",
+        "text": "Example: Are the expressions 5u and 5 + u equal to each other?"
+      },
+      {
+        "block_id": "block_13",
+        "type": "explanation",
+        "text": "No, the expressions 5u and 5 + u are not equal because they represent different operations."
+      },
+      {
+        "block_id": "block_14",
+        "type": "example",
+        "text": "Example: Are the expressions 10y – 3 and 10(y – 3) equal?"
+      },
+      {
+        "block_id": "block_15",
+        "type": "explanation",
+        "text": "Yes, the expressions 10y – 3 and 10(y – 3) are equal because they represent the same operation."
+      },
+      {
+        "block_id": "block_16",
+        "type": "example",
+        "text": "Example: What is the sum of the numbers 3 3 3 3 in the picture?"
+      },
+      {
+        "block_id": "block_17",
+        "type": "explanation",
+        "text": "The sum of the numbers 3 3 3 3 in the picture is 12."
+      },
+      {
+        "block_id": "block_18",
+        "type": "explanation",
+        "text": "Let us start with design C. It appears for the first time at position 3, the second time at position 6. Where would design C appear for the nth time? We can see that this design appears in positions that are multiples of 3. So the nth occurrence of Design C will be at position 3n."
+      },
+      {
+        "block_id": "block_19",
+        "type": "example",
+        "text": "The positions where B occurs are 2, 5, 8, 11, 14, and so on. We can see that the position of the nth appearance of Design B is one less than the position at which Design C appears for the nth time. Thus, the nth occurrence of Design B is at position: 3n – 1"
+      },
+      {
+        "block_id": "block_20",
+        "type": "definition",
+        "text": "Given a position number can we find out the design that appears there? Which Design appears at Position 122? If the position is a multiple of 3, then clearly we have Design C. As seen earlier, if the position is one less than a multiple of 3, it has Design B, and if it is 2 less than a multiple of 3, then it has Design A."
+      },
+      {
+        "block_id": "block_21",
+        "type": "explanation",
+        "text": "Let us take the marked 2 × 2 square, and consider the numbers lying on the diagonals; 12 13 12 and 20; 13 and 19. Find their sums; 12 + 20, 13 + 19. What do you observe? 19 20 They are equal."
+      },
+      {
+        "block_id": "block_22",
+        "type": "example",
+        "text": "Let us extend the numbers in the calendar beyond 30, creating endless rows. Will the diagonal sums be equal in every 2 × 2 square in this endless grid? How can we be sure? To be sure of this we cannot check with all 2 × 2 squares as there are an unlimited number of them."
+      },
+      {
+        "block_id": "block_23",
+        "type": "definition",
+        "text": "Let us consider a 2 × 2 square. Its top left number can be any number. Let us call it ‘a’. a ? Given that we know the top left number, how do we find the other numbers in this 2 × 2 square? ? ? As we have been doing, first let us describe the other numbers in words."
+      },
+      {
+        "block_id": "block_24",
+        "type": "explanation",
+        "text": "• the number to the right of ‘a’ will be 1 more than it. • the number below ‘a’ will be 7 more than it. • the number diagonal to ‘a’ will be 8 more than it."
+      },
+      {
+        "block_id": "block_25",
+        "type": "example",
+        "text": "So the other numbers in the 2 × 2 square can be a a + 1 represented as shown in the grid. Let us find the diagonal sums; a + (a + 8), and (a + 1) + (a + 7). a + 7 a + 8"
+      },
+      {
+        "block_id": "block_26",
+        "type": "definition",
+        "text": "Let us simplify them. Since the terms can be added in any order, the brackets can be opened. a + (a + 8) = a + a + 8 = 2a + 8 (a + 1) + (a + 7) = a + 1 + a + 7 = a + a + 1 + 7 = 2a + 8"
+      },
+      {
+        "block_id": "block_27",
+        "type": "explanation",
+        "text": "We see that both diagonal sums are equal to 2a + 8 (8 more than 2 times a). Verify this expression for diagonal sums by considering any 2 × 2 square and taking its top left number to be ‘a’."
+      },
+      {
+        "block_id": "block_28",
+        "type": "example",
+        "text": "Thus, we have shown that diagonal sums are equal for any value of a, i.e., for any 2 × 2 square! This problem is an example that shows the power of algebraic modelling in verifying whether a pattern will always hold."
+      },
+      {
+        "block_id": "block_29",
+        "type": "definition",
+        "text": "Consider a set of numbers from the calendar (having endless rows) forming under the following shape: 8 14 15 16 22 Find the sum of all the numbers. Compare it with the number in the centre: 15."
+      },
+      {
+        "block_id": "block_30",
+        "type": "explanation",
+        "text": "Repeat this for another set of numbers that forms this shape. What do you observe? We see that the total sum is always 5 times the number in the centre."
+      },
+      {
+        "block_id": "block_31",
+        "type": "example",
+        "text": "This problem is an example that shows the power of algebraic modelling in verifying whether a pattern will always hold."
+      },
+      {
+        "block_id": "block_32",
+        "type": "explanation",
+        "text": "What could be an expression describing the rule/formula to find out the number of matchsticks at any step?"
+      },
+      {
+        "block_id": "block_33",
+        "type": "example",
+        "text": "The pattern is such that in Step 10, nine 2s and an added 3 (3 + 2 × 9) gives the number of matchsticks; in Step 11, ten 2s and an added 3 (3 + 2 × 10) gives the number of matchsticks."
+      },
+      {
+        "block_id": "block_34",
+        "type": "definition",
+        "text": "For step y, what is the expression? It is: one less than y (i.e. y – 1) 2s and a 3. Therefore, the expression is 3 + 2 × (y – 1)."
+      },
+      {
+        "block_id": "block_35",
+        "type": "explanation",
+        "text": "This expression gives the number of matchsticks in Step y. Now we can find the number of matchsticks at any step quickly."
+      },
+      {
+        "block_id": "block_36",
+        "type": "example",
+        "text": "You might have already noticed that there is a 2 in the first step also, 3 = 1 + 2. Using this, the expression we get is 2y + 1."
+      },
+      {
+        "block_id": "block_37",
+        "type": "definition",
+        "text": "Does the above expression also give the number of matchsticks at each step correctly?"
+      }
+    ]
+  },
+  {
+    "topic_id": "topic_2",
+    "topic_name": "Number Machines",
+    "unit": "gegp104",
+    "learning_objectives": [
+      "Students will understand the concept of number machines and their importance in mathematics.",
+      "Students will be able to find the formula of a number machine and write an algebraic expression to describe it.",
+      "Students will learn to identify and create number machines to describe patterns and relationships.",
+      "Students will understand the concept of number machines and their representation.",
+      "Students will be able to write number machines for given situations.",
+      "Students will learn to analyze number machines."
+    ],
+    "allowed_concepts": [
+      "number machines",
+      "formulas",
+      "algebraic expressions",
+      "patterns and relationships",
+      "Variables",
+      "Constants",
+      "Coefficients",
+      "Simplifying expressions"
+    ],
+    "disallowed_concepts": [
+      "advanced calculus",
+      "linear algebra"
+    ],
+    "content_blocks": [
+      {
+        "block_id": "block_1",
+        "type": "definition",
+        "text": "A number machine is a mathematical device that takes in two numbers as inputs and produces a result based on a specific formula."
+      },
+      {
+        "block_id": "block_2",
+        "type": "explanation",
+        "text": "To find the formula of a number machine, we need to analyze the inputs and the result. For example, if the inputs are 2 and 3 and the result is 8, we can write the formula as 2a - b."
+      },
+      {
+        "block_id": "block_3",
+        "type": "example",
+        "text": "Find the formula of the number machine: 5 2 8 1 9 11. The formula is 2a - b."
+      },
+      {
+        "block_id": "block_4",
+        "type": "definition",
+        "text": "A pattern is a regular or repeated arrangement of shapes, colors, or other visual elements."
+      },
+      {
+        "block_id": "block_5",
+        "type": "explanation",
+        "text": "Number machines can be used to describe patterns and relationships. For example, the formula 2a - b can be used to describe a pattern of numbers where each number is twice the previous number minus the second number."
+      },
+      {
+        "block_id": "block_6",
+        "type": "example",
+        "text": "Write a formula for the number machine: 4 1 6 0 3 2. The formula is 2a - b."
+      },
+      {
+        "block_id": "block_7",
+        "type": "definition",
+        "text": "A number machine is a mathematical expression that takes an input and produces an output."
+      },
+      {
+        "block_id": "block_8",
+        "type": "explanation",
+        "text": "Number machines can be written to represent real-world situations, such as the cost of items or the distance traveled."
+      },
+      {
+        "block_id": "block_9",
+        "type": "example",
+        "text": "For example, the number machine 2x + 5 represents the cost of x items at ₹2 each and ₹5 for shipping."
+      },
+      {
+        "block_id": "block_10",
+        "type": "explanation",
+        "text": "To analyze a number machine, we need to understand the input and output values."
+      },
+      {
+        "block_id": "block_11",
+        "type": "example",
+        "text": "For example, the number machine 3x - 2 can be analyzed by finding the input and output values for different values of x."
+      }
+    ]
+  },
+  {
+    "topic_id": "topic_1",
+    "topic_name": "Matchstick Patterns",
+    "unit": "gegp104",
+    "learning_objectives": [
+      "Students will understand the concept of patterns and how to identify them.",
+      "Students will be able to find the number of matchsticks in a given step using a pattern.",
+      "Students will learn to express the rule/formula to find the number of matchsticks at any step.",
+      "Students will understand the concept of matchstick patterns and their representation.",
+      "Students will be able to write matchstick patterns for given situations.",
+      "Students will learn to analyze matchstick patterns."
+    ],
+    "allowed_concepts": [
+      "patterns",
+      "matchstick patterns",
+      "number of matchsticks",
+      "step number",
+      "expression",
+      "formula",
+      "rule",
+      "Variables",
+      "Constants",
+      "Coefficients",
+      "Algebraic expressions",
+      "Simplifying expressions"
+    ],
+    "disallowed_concepts": [
+      "Advanced calculus",
+      "Complex numbers"
+    ],
+    "content_blocks": [
+      {
+        "block_id": "block_1",
+        "type": "explanation",
+        "text": "Look at the picture below. It is a pattern using matchsticks. Can you identify what the pattern is?"
+      },
+      {
+        "block_id": "block_2",
+        "type": "example",
+        "text": "Step Number 1 2 3 4 5 6 No. of 3 5 7 9 11 13 Matchsticks"
+      },
+      {
+        "block_id": "block_3",
+        "type": "definition",
+        "text": "The number of matchsticks needed to make 33 triangles (Step 33) is _________."
+      },
+      {
+        "block_id": "block_4",
+        "type": "explanation",
+        "text": "The pattern is such that in Step 10, nine 2s and an added 3 (3 + 2 × 9) gives the number of matchsticks; in Step 11, ten 2s and an added 3 (3 + 2 × 10) gives the number of matchsticks."
+      },
+      {
+        "block_id": "block_5",
+        "type": "example",
+        "text": "For step y, what is the expression? It is: one less than y (i.e. y – 1) 2s and a 3. Therefore, the expression is 3 + 2 × (y – 1)."
+      },
+      {
+        "block_id": "block_6",
+        "type": "explanation",
+        "text": "This expression gives the number of matchsticks in Step y. Now we can find the number of matchsticks at any step quickly."
+      },
+      {
+        "block_id": "block_7",
+        "type": "example",
+        "text": "You might have already noticed that there is a 2 in the first step also, 3 = 1 + 2. Using this, the expression we get is 2y + 1."
+      },
+      {
+        "block_id": "block_8",
+        "type": "definition",
+        "text": "Does the above expression also give the number of matchsticks at each step correctly?"
+      },
+      {
+        "block_id": "block_9",
+        "type": "definition",
+        "text": "A matchstick pattern is a mathematical expression that represents the number of matchsticks used in a particular pattern."
+      },
+      {
+        "block_id": "block_10",
+        "type": "explanation",
+        "text": "Matchstick patterns can be written to represent real-world situations, such as the number of matchsticks used in a particular design."
+      },
+      {
+        "block_id": "block_11",
+        "type": "example",
+        "text": "For example, the matchstick pattern 2x + 5 represents the number of matchsticks used in a particular design."
+      },
+      {
+        "block_id": "block_12",
+        "type": "explanation",
+        "text": "To analyze a matchstick pattern, we need to understand the input and output values."
+      },
+      {
+        "block_id": "block_13",
+        "type": "example",
+        "text": "For example, the matchstick pattern 3x - 2 can be analyzed by finding the input and output values for different values of x."
+      }
+    ]
+  },
+  {
+    "topic_id": "topic_1",
+    "topic_name": "Expressions and Identities",
+    "unit": "gegp104",
+    "learning_objectives": [
+      "Students will understand the concept of expressions and identities.",
+      "Students will be able to simplify and manipulate algebraic expressions.",
+      "Students will learn to identify and write expressions for real-life situations."
+    ],
+    "allowed_concepts": [
+      "Algebraic expressions",
+      "Variables",
+      "Constants",
+      "Terms",
+      "Coefficients",
+      "Like and unlike terms",
+      "Simplifying expressions",
+      "Combining like terms"
+    ],
+    "disallowed_concepts": [
+      "Advanced calculus",
+      "Complex numbers"
+    ],
+    "content_blocks": [
+      {
+        "block_id": "block_1",
+        "type": "definition",
+        "text": "An algebraic expression is a combination of variables, constants, and mathematical operations."
+      },
+      {
+        "block_id": "block_2",
+        "type": "explanation",
+        "text": "Variables are letters or symbols that represent unknown values, while constants are numbers that do not change."
+      },
+      {
+        "block_id": "block_3",
+        "type": "example",
+        "text": "Simplify the expression: 2x + 3 + 5x - 2"
+      },
+      {
+        "block_id": "block_4",
+        "type": "explanation",
+        "text": "To simplify an expression, combine like terms by adding or subtracting their coefficients."
+      },
+      {
+        "block_id": "block_5",
+        "type": "example",
+        "text": "Simplify the expression: 3x + 2x + 5 - 3"
+      },
+      {
+        "block_id": "block_6",
+        "type": "definition",
+        "text": "An identity is an equation that is true for all values of the variable."
+      },
+      {
+        "block_id": "block_7",
+        "type": "explanation",
+        "text": "Identities can be used to simplify expressions and solve equations."
+      },
+      {
+        "block_id": "block_8",
+        "type": "example",
+        "text": "Simplify the expression: (x + 2)(x - 2)"
+      }
+    ]
+  },
+  {
+    "topic_id": "topic_2",
+    "topic_name": "Linear Equations",
+    "unit": "gegp104",
+    "learning_objectives": [
+      "Students will understand the concept of linear equations.",
+      "Students will be able to solve linear equations using various methods.",
+      "Students will learn to graph linear equations on a coordinate plane.",
+      "Students will understand the concept of linear equations and their representation.",
+      "Students will be able to write linear equations for given situations.",
+      "Students will learn to solve linear equations."
+    ],
+    "allowed_concepts": [
+      "Linear equations",
+      "Variables",
+      "Constants",
+      "Coefficients",
+      "Slope-intercept form",
+      "Standard form",
+      "Graphing linear equations",
+      "Solving linear equations",
+      "Graphical representation"
+    ],
+    "disallowed_concepts": [
+      "Advanced calculus",
+      "Complex numbers"
+    ],
+    "content_blocks": [
+      {
+        "block_id": "block_1",
+        "type": "definition",
+        "text": "A linear equation is an equation in which the highest power of the variable is 1."
+      },
+      {
+        "block_id": "block_2",
+        "type": "explanation",
+        "text": "Linear equations can be solved using various methods, including substitution and elimination."
+      },
+      {
+        "block_id": "block_3",
+        "type": "example",
+        "text": "Solve the equation: 2x + 3 = 5"
+      },
+      {
+        "block_id": "block_4",
+        "type": "explanation",
+        "text": "The slope-intercept form of a linear equation is y = mx + b, where m is the slope and b is the y-intercept."
+      },
+      {
+        "block_id": "block_5",
+        "type": "example",
+        "text": "Graph the equation: y = 2x - 1"
+      },
+      {
+        "block_id": "block_6",
+        "type": "definition",
+        "text": "The standard form of a linear equation is ax + by = c, where a, b, and c are constants."
+      },
+      {
+        "block_id": "block_7",
+        "type": "explanation",
+        "text": "The standard form of a linear equation can be used to graph the equation on a coordinate plane."
+      },
+      {
+        "block_id": "block_8",
+        "type": "example",
+        "text": "Graph the equation: 2x + 3y = 6"
+      },
+      {
+        "block_id": "block_9",
+        "type": "definition",
+        "text": "A linear equation is an equation in which the highest power of the variable is 1."
+      },
+      {
+        "block_id": "block_10",
+        "type": "explanation",
+        "text": "Linear equations can be written to represent real-world situations, such as the cost of items or the distance traveled."
+      },
+      {
+        "block_id": "block_11",
+        "type": "example",
+        "text": "For example, the equation 2x + 5 = 11 represents the cost of x items at ₹2 each and ₹5 for shipping."
+      },
+      {
+        "block_id": "block_12",
+        "type": "explanation",
+        "text": "To solve a linear equation, we isolate the variable by performing inverse operations."
+      },
+      {
+        "block_id": "block_13",
+        "type": "example",
+        "text": "For example, the equation 3x - 2 = 7 can be solved by adding 2 to both sides and then dividing by 3."
+      }
+    ]
+  },
+  {
+    "topic_id": "topic_3",
+    "topic_name": "Quadrilaterals",
+    "unit": "gegp104",
+    "learning_objectives": [
+      "Students will understand the concept of quadrilaterals.",
+      "Students will be able to identify and classify different types of quadrilaterals.",
+      "Students will learn to find the area and perimeter of quadrilaterals."
+    ],
+    "allowed_concepts": [
+      "Quadrilaterals",
+      "Types of quadrilaterals",
+      "Properties of quadrilaterals",
+      "Area of quadrilaterals",
+      "Perimeter of quadrilaterals"
+    ],
+    "disallowed_concepts": [
+      "Advanced calculus",
+      "Complex numbers"
+    ],
+    "content_blocks": [
+      {
+        "block_id": "block_1",
+        "type": "definition",
+        "text": "A quadrilateral is a four-sided polygon."
+      },
+      {
+        "block_id": "block_2",
+        "type": "explanation",
+        "text": "Quadrilaterals can be classified into different types, including rectangles, squares, and trapezoids."
+      },
+      {
+        "block_id": "block_3",
+        "type": "example",
+        "text": "Identify the type of quadrilateral: ABCD"
+      },
+      {
+        "block_id": "block_4",
+        "type": "explanation",
+        "text": "The area of a quadrilateral can be found using the formula: Area = (base × height) / 2."
+      },
+      {
+        "block_id": "block_5",
+        "type": "example",
+        "text": "Find the area of the quadrilateral: ABCD"
+      },
+      {
+        "block_id": "block_6",
+        "type": "definition",
+        "text": "The perimeter of a quadrilateral is the sum of the lengths of its sides."
+      },
+      {
+        "block_id": "block_7",
+        "type": "explanation",
+        "text": "The perimeter of a quadrilateral can be found using the formula: Perimeter = a + b + c + d."
+      },
+      {
+        "block_id": "block_8",
+        "type": "example",
+        "text": "Find the perimeter of the quadrilateral: ABCD"
+      }
+    ]
+  },
+  {
+    "topic_id": "topic_5",
+    "topic_name": "Flags and Designs",
+    "unit": "gegp104",
+    "learning_objectives": [
+      "Students will understand the concept of flags and designs and their representation.",
+      "Students will be able to write flags and designs for given situations.",
+      "Students will learn to analyze flags and designs."
+    ],
+    "allowed_concepts": [
+      "Flags and designs",
+      "Variables",
+      "Constants",
+      "Coefficients",
+      "Algebraic expressions",
+      "Simplifying expressions"
+    ],
+    "disallowed_concepts": [
+      "Advanced calculus",
+      "Complex numbers"
+    ],
+    "content_blocks": [
+      {
+        "block_id": "block_1",
+        "type": "definition",
+        "text": "A flag or design is a mathematical expression that represents a particular pattern or arrangement of objects."
+      },
+      {
+        "block_id": "block_2",
+        "type": "explanation",
+        "text": "Flags and designs can be written to represent real-world situations, such as the arrangement of objects in a particular pattern."
+      },
+      {
+        "block_id": "block_3",
+        "type": "example",
+        "text": "For example, the flag or design 2x + 5 represents a particular arrangement of objects."
+      },
+      {
+        "block_id": "block_4",
+        "type": "explanation",
+        "text": "To analyze a flag or design, we need to understand the input and output values."
+      },
+      {
+        "block_id": "block_5",
+        "type": "example",
+        "text": "For example, the flag or design 3x - 2 can be analyzed by finding the input and output values for different values of x."
+      }
+    ]
+  },
+  {
+    "topic_id": "topic_6",
+    "topic_name": "Cycling and Distance",
+    "unit": "gegp104",
+    "learning_objectives": [
+      "Students will understand the concept of cycling and distance and their representation.",
+      "Students will be able to write expressions for cycling and distance for given situations.",
+      "Students will learn to analyze expressions for cycling and distance."
+    ],
+    "allowed_concepts": [
+      "Cycling and distance",
+      "Variables",
+      "Constants",
+      "Coefficients",
+      "Algebraic expressions",
+      "Simplifying expressions"
+    ],
+    "disallowed_concepts": [
+      "Advanced calculus",
+      "Complex numbers"
+    ],
+    "content_blocks": [
+      {
+        "block_id": "block_1",
+        "type": "definition",
+        "text": "Cycling and distance is a mathematical expression that represents the distance traveled by a cyclist."
+      },
+      {
+        "block_id": "block_2",
+        "type": "explanation",
+        "text": "Cycling and distance can be written to represent real-world situations, such as the distance traveled by a cyclist in a particular time."
+      },
+      {
+        "block_id": "block_3",
+        "type": "example",
+        "text": "For example, the expression 5x + 10 represents the distance traveled by a cyclist in x hours at a speed of 5 km/h."
+      },
+      {
+        "block_id": "block_4",
+        "type": "explanation",
+        "text": "To analyze an expression for cycling and distance, we need to understand the input and output values."
+      },
+      {
+        "block_id": "block_5",
+        "type": "example",
+        "text": "For example, the expression 3x - 2 can be analyzed by finding the input and output values for different values of x."
+      }
+    ]
+  },
+  {
+    "topic_id": "topic_7",
+    "topic_name": "Simplifying Expressions",
+    "unit": "gegp104",
+    "learning_objectives": [
+      "Students will understand the concept of simplifying expressions and their representation.",
+      "Students will be able to simplify expressions for given situations.",
+      "Students will learn to analyze simplified expressions."
+    ],
+    "allowed_concepts": [
+      "Simplifying expressions",
+      "Variables",
+      "Constants",
+      "Coefficients",
+      "Algebraic expressions",
+      "Like terms",
+      "Unlike terms"
+    ],
+    "disallowed_concepts": [
+      "Advanced calculus",
+      "Complex numbers"
+    ],
+    "content_blocks": [
+      {
+        "block_id": "block_1",
+        "type": "definition",
+        "text": "Simplifying expressions is the process of combining like terms and eliminating unlike terms."
+      },
+      {
+        "block_id": "block_2",
+        "type": "explanation",
+        "text": "Simplifying expressions can be written to represent real-world situations, such as the cost of items or the distance traveled."
+      },
+      {
+        "block_id": "block_3",
+        "type": "example",
+        "text": "For example, the expression 3a + 9b - 6 + 8a - 4b - 7a + 16 can be simplified to 4a + 5b + 10."
+      },
+      {
+        "block_id": "block_4",
+        "type": "explanation",
+        "text": "To analyze a simplified expression, we need to understand the input and output values."
+      },
+      {
+        "block_id": "block_5",
+        "type": "example",
+        "text": "For example, the simplified expression 2x + 5 can be analyzed by finding the input and output values for different values of x."
+      }
+    ]
+  },
+  {
+    "topic_id": "topic_8",
+    "topic_name": "Linear Equations in Two Variables",
+    "unit": "gegp104",
+    "learning_objectives": [
+      "Students will understand the concept of linear equations in two variables and their representation.",
+      "Students will be able to write linear equations in two variables for given situations.",
+      "Students will learn to solve linear equations in two variables."
+    ],
+    "allowed_concepts": [
+      "Linear equations in two variables",
+      "Variables",
+      "Constants",
+      "Coefficients",
+      "Solving linear equations",
+      "Graphical representation"
+    ],
+    "disallowed_concepts": [
+      "Advanced calculus",
+      "Complex numbers"
+    ],
+    "content_blocks": [
+      {
+        "block_id": "block_1",
+        "type": "definition",
+        "text": "A linear equation in two variables is an equation in which the highest power of each variable is 1."
+      },
+      {
+        "block_id": "block_2",
+        "type": "explanation",
+        "text": "Linear equations in two variables can be written to represent real-world situations, such as the cost of items or the distance traveled."
+      },
+      {
+        "block_id": "block_3",
+        "type": "example",
+        "text": "For example, the equation 2x + 3y = 7 represents the cost of x items at ₹2 each and y items at ₹3 each."
+      },
+      {
+        "block_id": "block_4",
+        "type": "explanation",
+        "text": "To solve a linear equation in two variables, we need to isolate one of the variables by performing inverse operations."
+      },
+      {
+        "block_id": "block_5",
+        "type": "example",
+        "text": "For example, the equation 3x + 2y = 5 can be solved by subtracting 2y from both sides and then dividing by 3."
+      }
+    ]
+  },
+  {
+    "topic_id": "topic_9",
+    "topic_name": "Graphical Representation",
+    "unit": "gegp104",
+    "learning_objectives": [
+      "Students will understand the concept of graphical representation and its application.",
+      "Students will be able to represent linear equations graphically.",
+      "Students will learn to analyze graphical representations."
+    ],
+    "allowed_concepts": [
+      "Graphical representation",
+      "Linear equations",
+      "Variables",
+      "Constants",
+      "Coefficients",
+      "Solving linear equations"
+    ],
+    "disallowed_concepts": [
+      "Advanced calculus",
+      "Complex numbers"
+    ],
+    "content_blocks": [
+      {
+        "block_id": "block_1",
+        "type": "definition",
+        "text": "Graphical representation is the process of representing mathematical concepts and relationships using graphs."
+      },
+      {
+        "block_id": "block_2",
+        "type": "explanation",
+        "text": "Graphical representation can be used to represent linear equations and their solutions."
+      },
+      {
+        "block_id": "block_3",
+        "type": "example",
+        "text": "For example, the graph of the equation 2x + 3y = 7 represents the cost of x items at ₹2 each and y items at ₹3 each."
+      },
+      {
+        "block_id": "block_4",
+        "type": "explanation",
+        "text": "To analyze a graphical representation, we need to understand the relationship between the variables."
+      },
+      {
+        "block_id": "block_5",
+        "type": "example",
+        "text": "For example, the graph of the equation 3x + 2y = 5 represents the relationship between the cost of x items at ₹3 each and y items at ₹2 each."
+      }
+    ]
+  },
+  {
+    "topic_id": "topic_10",
+    "topic_name": "Quadratic Equations",
+    "unit": "gegp104",
+    "learning_objectives": [
+      "Students will understand the concept of quadratic equations and their representation.",
+      "Students will be able to write quadratic equations for given situations.",
+      "Students will learn to solve quadratic equations."
+    ],
+    "allowed_concepts": [
+      "Quadratic equations",
+      "Variables",
+      "Constants",
+      "Coefficients",
+      "Solving quadratic equations",
+      "Graphical representation"
+    ],
+    "disallowed_concepts": [
+      "Advanced calculus",
+      "Complex numbers"
+    ],
+    "content_blocks": [
+      {
+        "block_id": "block_1",
+        "type": "definition",
+        "text": "A quadratic equation is an equation in which the highest power of the variable is 2."
+      },
+      {
+        "block_id": "block_2",
+        "type": "explanation",
+        "text": "Quadratic equations can be written to represent real-world situations, such as the cost of items or the distance traveled."
+      },
+      {
+        "block_id": "block_3",
+        "type": "example",
+        "text": "For example, the equation x^2 + 4x + 4 = 0 represents the cost of x items at ₹1 each and ₹4 for shipping."
+      },
+      {
+        "block_id": "block_4",
+        "type": "explanation",
+        "text": "To solve a quadratic equation, we need to isolate the variable by performing inverse operations."
+      },
+      {
+        "block_id": "block_5",
+        "type": "example",
+        "text": "For example, the equation x^2 + 3x + 2 = 0 can be solved by factoring the quadratic expression."
+      }
+    ]
+  },
+  {
+    "topic_id": "topic_11",
+    "topic_name": "Solving Equations",
+    "unit": "gegp104",
+    "learning_objectives": [
+      "Students will understand the concept of solving equations and its application.",
+      "Students will be able to solve linear and quadratic equations for given situations.",
+      "Students will learn to analyze solutions to equations."
+    ],
+    "allowed_concepts": [
+      "Solving equations",
+      "Linear equations",
+      "Quadratic equations",
+      "Variables",
+      "Constants",
+      "Coefficients"
+    ],
+    "disallowed_concepts": [
+      "Advanced calculus",
+      "Complex numbers"
+    ],
+    "content_blocks": [
+      {
+        "block_id": "block_1",
+        "type": "definition",
+        "text": "Solving equations is the process of finding the value of the variable that satisfies the equation."
+      },
+      {
+        "block_id": "block_2",
+        "type": "explanation",
+        "text": "Solving equations can be used to represent real-world situations, such as the cost of items or the distance traveled."
+      },
+      {
+        "block_id": "block_3",
+        "type": "example",
+        "text": "For example, the equation 2x + 3 = 7 can be solved by subtracting 3 from both sides and then dividing by 2."
+      },
+      {
+        "block_id": "block_4",
+        "type": "explanation",
+        "text": "To analyze a solution to an equation, we need to understand the relationship between the variables."
+      },
+      {
+        "block_id": "block_5",
+        "type": "example",
+        "text": "For example, the solution to the equation x^2 + 4x + 4 = 0 is x = -2, which represents the cost of x items at ₹1 each and ₹4 for shipping."
+      }
+    ]
+  },
+  {
+    "topic_id": "topic_12",
+    "topic_name": "Algebraic Manipulation",
+    "unit": "gegp104",
+    "learning_objectives": [
+      "Students will understand the concept of algebraic manipulation and its application.",
+      "Students will be able to manipulate algebraic expressions for given situations.",
+      "Students will learn to analyze algebraic manipulations."
+    ],
+    "allowed_concepts": [
+      "Algebraic manipulation",
+      "Variables",
+      "Constants",
+      "Coefficients",
+      "Algebraic expressions",
+      "Simplifying expressions"
+    ],
+    "disallowed_concepts": [
+      "Advanced calculus",
+      "Complex numbers"
+    ],
+    "content_blocks": [
+      {
+        "block_id": "block_1",
+        "type": "definition",
+        "text": "Algebraic manipulation is the process of combining like terms and eliminating unlike terms."
+      },
+      {
+        "block_id": "block_2",
+        "type": "explanation",
+        "text": "Algebraic manipulation can be used to represent real-world situations, such as the cost of items or the distance traveled."
+      },
+      {
+        "block_id": "block_3",
+        "type": "example",
+        "text": "For example, the expression 3a + 9b - 6 + 8a - 4b - 7a + 16 can be manipulated to 4a + 5b + 10."
+      },
+      {
+        "block_id": "block_4",
+        "type": "explanation",
+        "text": "To analyze an algebraic manipulation, we need to understand the relationship between the variables."
+      },
+      {
+        "block_id": "block_5",
+        "type": "example",
+        "text": "For example, the manipulation of the expression 2x + 5 can be analyzed by finding the input and output values for different values of x."
+      }
+    ]
+  },
+  {
+    "topic_id": "topic_13",
+    "topic_name": "Graphical Analysis",
+    "unit": "gegp104",
+    "learning_objectives": [
+      "Students will understand the concept of graphical analysis and its application.",
+      "Students will be able to analyze graphical representations for given situations.",
+      "Students will learn to interpret graphical data."
+    ],
+    "allowed_concepts": [
+      "Graphical analysis",
+      "Linear equations",
+      "Quadratic equations",
+      "Variables",
+      "Constants",
+      "Coefficients"
+    ],
+    "disallowed_concepts": [
+      "Advanced calculus",
+      "Complex numbers"
+    ],
+    "content_blocks": [
+      {
+        "block_id": "block_1",
+        "type": "definition",
+        "text": "Graphical analysis is the process of analyzing graphical representations to understand the relationship between variables."
+      },
+      {
+        "block_id": "block_2",
+        "type": "explanation",
+        "text": "Graphical analysis can be used to represent real-world situations, such as the cost of items or the distance traveled."
+      },
+      {
+        "block_id": "block_3",
+        "type": "example",
+        "text": "For example, the graph of the equation 2x + 3y = 7 represents the cost of x items at ₹2 each and y items at ₹3 each."
+      },
+      {
+        "block_id": "block_4",
+        "type": "explanation",
+        "text": "To analyze a graphical representation, we need to understand the relationship between the variables."
+      },
+      {
+        "block_id": "block_5",
+        "type": "example",
+        "text": "For example, the graph of the equation 3x + 2y = 5 represents the relationship between the cost of x items at ₹3 each and y items at ₹2 each."
+      }
+    ]
+  },
+  {
+    "topic_id": "topic_14",
+    "topic_name": "Real-World Applications",
+    "unit": "gegp104",
+    "learning_objectives": [
+      "Students will understand the concept of real-world applications and its application.",
+      "Students will be able to apply algebraic concepts to real-world situations.",
+      "Students will learn to analyze real-world data."
+    ],
+    "allowed_concepts": [
+      "Real-world applications",
+      "Algebraic concepts",
+      "Variables",
+      "Constants",
+      "Coefficients",
+      "Algebraic expressions"
+    ],
+    "disallowed_concepts": [
+      "Advanced calculus",
+      "Complex numbers"
+    ],
+    "content_blocks": [
+      {
+        "block_id": "block_1",
+        "type": "definition",
+        "text": "Real-world applications are the use of algebraic concepts to solve real-world problems."
+      },
+      {
+        "block_id": "block_2",
+        "type": "explanation",
+        "text": "Real-world applications can be used to represent real-world situations, such as the cost of items or the distance traveled."
+      },
+      {
+        "block_id": "block_3",
+        "type": "example",
+        "text": "For example, the equation 2x + 3y = 7 represents the cost of x items at ₹2 each and y items at ₹3 each."
+      },
+      {
+        "block_id": "block_4",
+        "type": "explanation",
+        "text": "To analyze a real-world application, we need to understand the relationship between the variables."
+      },
+      {
+        "block_id": "block_5",
+        "type": "example",
+        "text": "For example, the application of the equation 3x + 2y = 5 represents the relationship between the cost of x items at ₹3 each and y items at ₹2 each."
+      }
+    ]
+  },
+  {
+    "topic_id": "topic_2",
+    "topic_name": "Pattern and Algebra",
+    "unit": "gegp104",
+    "learning_objectives": [
+      "Students will understand the concept of pattern and algebra.",
+      "Students will be able to identify and write algebraic expressions for given patterns.",
+      "Students will learn to solve problems using pattern and algebra."
+    ],
+    "allowed_concepts": [
+      "Pattern and algebra",
+      "Identifying and writing algebraic expressions for given patterns",
+      "Solving problems using pattern and algebra"
+    ],
+    "disallowed_concepts": [
+      "Advanced calculus",
+      "Complex numbers"
+    ],
+    "content_blocks": [
+      {
+        "block_id": "block_1",
+        "type": "definition",
+        "text": "A pattern is a sequence of numbers or shapes that follow a specific rule or formula."
+      },
+      {
+        "block_id": "block_2",
+        "type": "explanation",
+        "text": "To identify a pattern, we need to look for a relationship between the numbers or shapes in the sequence."
+      },
+      {
+        "block_id": "block_3",
+        "type": "example",
+        "text": "Identify the pattern in the sequence: 2, 4, 6, 8, 10. Solution: The pattern is obtained by adding 2 to the previous term."
+      },
+      {
+        "block_id": "block_4",
+        "type": "example",
+        "text": "Write an algebraic expression for the given pattern: 2, 4, 6, 8, 10. Solution: The algebraic expression is 2x, where x is the term number."
+      },
+      {
+        "block_id": "block_5",
+        "type": "example",
+        "text": "Solve the problem using pattern and algebra: A shopkeeper has 15 pencils in a packet. The cost of one pencil is ₹x. Two pencils in the packet are not sold. Find the amount received for this packet. Solution: The amount received is 15x - 2x = 13x."
+      }
+    ]
+  },
+  {
+    "topic_id": "topic_3",
+    "topic_name": "Algebraic Patterns",
+    "unit": "gegp104",
+    "learning_objectives": [
+      "Students will understand the concept of algebraic patterns.",
+      "Students will be able to identify and write algebraic expressions for given algebraic patterns.",
+      "Students will learn to solve problems using algebraic patterns."
+    ],
+    "allowed_concepts": [
+      "Algebraic patterns",
+      "Identifying and writing algebraic expressions for given algebraic patterns",
+      "Solving problems using algebraic patterns"
+    ],
+    "disallowed_concepts": [
+      "Advanced calculus",
+      "Complex numbers"
+    ],
+    "content_blocks": [
+      {
+        "block_id": "block_1",
+        "type": "definition",
+        "text": "An algebraic pattern is a sequence of numbers or shapes that follow a specific rule or formula involving algebraic expressions."
+      },
+      {
+        "block_id": "block_2",
+        "type": "explanation",
+        "text": "To identify an algebraic pattern, we need to look for a relationship between the numbers or shapes in the sequence and express it using algebraic expressions."
+      },
+      {
+        "block_id": "block_3",
+        "type": "example",
+        "text": "Identify the algebraic pattern in the sequence: 2, 4, 6, 8, 10. Solution: The algebraic pattern is obtained by adding 2 to the previous term, which can be expressed as 2x, where x is the term number."
+      },
+      {
+        "block_id": "block_4",
+        "type": "example",
+        "text": "Write an algebraic expression for the given algebraic pattern: 2, 4, 6, 8, 10. Solution: The algebraic expression is 2x, where x is the term number."
+      },
+      {
+        "block_id": "block_5",
+        "type": "example",
+        "text": "Solve the problem using algebraic patterns: A shopkeeper has 15 pencils in a packet. The cost of one pencil is ₹x. Two pencils in the packet are not sold. Find the amount received for this packet. Solution: The amount received is 15x - 2x = 13x."
+      }
+    ]
+  },
+  {
+    "topic_id": "topic_1",
+    "topic_name": "Multiples and Patterns",
+    "unit": "gegp104",
+    "learning_objectives": [
+      "Students will identify and describe patterns in multiples of numbers.",
+      "Students will recognize and list different types of patterns in a sequence.",
+      "Students will understand the relationship between multiples and patterns."
+    ],
+    "allowed_concepts": [
+      "multiples",
+      "patterns",
+      "sequence",
+      "multiples of 3",
+      "multiples of 4"
+    ],
+    "disallowed_concepts": [
+      "Advanced calculus",
+      "Complex numbers"
+    ],
+    "content_blocks": [
+      {
+        "block_id": "block_1",
+        "type": "explanation",
+        "text": "in which multiples of 3 appear, follow a repeating sequence of column number: 3, 2, 1, 4, 3, 2, 1, ... as shown."
+      },
+      {
+        "block_id": "block_2",
+        "type": "example",
+        "text": "1. All numbers in Column 4 are multiples of 4. 2. Even numbers always appear in column 2 and column 4. 3. Odd numbers always appear in column 1 and column 3. Find some more!"
+      }
+    ]
+  }
+]
