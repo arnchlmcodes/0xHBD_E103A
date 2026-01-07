@@ -12,6 +12,7 @@ import requests
 from groq import Groq
 from dotenv import load_dotenv
 import base64
+from verifier import ContentVerifier
 
 load_dotenv()
 
@@ -270,6 +271,17 @@ def main():
         
     # 2. Generate Content
     content = generate_content(data)
+    
+    # VERIFY (The Bias/Truth Layer)
+    verifier = ContentVerifier()
+    # Construct source text
+    topic = data[TOPIC_INDEX]
+    source_text = "\n".join([b['text'] for b in topic['content_blocks']])
+    
+    report = verifier.verify(source_text, content, context_name="Teacher Plan")
+    
+    if report.get('score', 0) < 70:
+        print("❌ CONTENT REJECTED: Score too low.")
     
     # 3. Create HTML
     html = create_html(data, content)

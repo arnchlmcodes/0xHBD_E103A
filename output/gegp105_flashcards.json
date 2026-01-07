@@ -1,0 +1,75 @@
+{
+  "topic": "Parallel and Intersecting Lines",
+  "cards": [
+    {
+      "front": "What are parallel lines?",
+      "back": "A pair of lines that lie on the same plane and do not meet however far we extend them at both ends.",
+      "type": "definition"
+    },
+    {
+      "front": "What are perpendicular lines?",
+      "back": "A pair of lines which intersect each other at right angles (90\u00b0).",
+      "type": "definition"
+    },
+    {
+      "front": "Why do linear pairs add up to 180\u00b0?",
+      "back": "Because they are adjacent angles formed by two lines intersecting each other.",
+      "type": "concept"
+    },
+    {
+      "front": "What are vertically opposite angles?",
+      "back": "Angles formed by two lines intersecting each other, which are always equal to each other.",
+      "type": "definition"
+    },
+    {
+      "front": "Draw two lines on a plain sheet of paper so that they intersect. Measure the four angles formed with a protractor. What do you observe?",
+      "back": "You will observe linear pairs and vertically opposite angles.",
+      "type": "problem"
+    },
+    {
+      "front": "When two lines intersect and all four angles are equal, what must each angle be?",
+      "back": "Each angle must be a right angle (90\u00b0).",
+      "type": "concept"
+    },
+    {
+      "front": "What is a transversal?",
+      "back": "A line that intersects two or more lines.",
+      "type": "definition"
+    },
+    {
+      "front": "Draw a pair of lines and a transversal such that they form two distinct angles. What type of angles are \u22201 and \u22205?",
+      "back": "Corresponding angles.",
+      "type": "problem"
+    },
+    {
+      "front": "Why are corresponding angles equal?",
+      "back": "Because they are formed by a transversal and are on the same side of the transversal.",
+      "type": "concept"
+    },
+    {
+      "front": "What is the difference between linear pairs and vertically opposite angles?",
+      "back": "Linear pairs add up to 180\u00b0, while vertically opposite angles are equal to each other.",
+      "type": "concept"
+    },
+    {
+      "front": "What are some real-life examples of parallel lines?",
+      "back": "Parallel lines are often used in artwork and shading.",
+      "type": "example"
+    },
+    {
+      "front": "How are perpendicular lines marked?",
+      "back": "Perpendicular lines are marked with a square angle between them.",
+      "type": "definition"
+    }
+  ],
+  "verification_status": "verified",
+  "verification_report": {
+    "score": 85,
+    "hallucination_found": true,
+    "bias_found": false,
+    "reason": "The content generally aligns well with the trusted source, accurately defining terms and answering questions based on the provided text. However, one significant hallucination was found where the generated content states that corresponding angles are equal, which is not mentioned or supported by the trusted source. The source only defines what corresponding angles are.",
+    "flagged_issues": [
+      "Hallucination: The generated content states that 'corresponding angles are equal' in response to 'Why are corresponding angles equal?'. The trusted source defines corresponding angles ('Corresponding angles are pairs of angles that are formed by a transversal and are on the same side of the transversal.') but does not state anywhere that these angles are always equal."
+    ]
+  }
+}

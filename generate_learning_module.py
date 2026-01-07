@@ -437,6 +437,8 @@ def convert_to_pdf(html_content):
         with open("learning_module.html", "w", encoding="utf-8") as f:
             f.write(html_content)
 
+from verifier import ContentVerifier
+
 def main():
     print("="*60)
     print("📑 MODERN LEARNING MODULE GENERATOR")
@@ -445,7 +447,22 @@ def main():
     with open(JSON_PATH, 'r', encoding='utf-8') as f:
         data = json.load(f)
         
+    # Generate
     content = generate_module_content(data)
+    
+    # VERIFY
+    verifier = ContentVerifier()
+    # Construct source text for verification
+    topic = data[TOPIC_INDEX]
+    source_text = "\n".join([b['text'] for b in topic['content_blocks']])
+    
+    report = verifier.verify(source_text, content, context_name="Learning Module PDF")
+    
+    if report.get('score', 0) < 70:
+        print("❌ CONTENT REJECTED: Score too low.")
+        # Optional: could enforce exit here, but I'll allow generation with warning for now
+        # return 
+        
     html = create_html(data, content)
     convert_to_pdf(html)
 
