@@ -123,9 +123,9 @@ def main():
         }
         with open("youtube_links.json", "w", encoding="utf-8") as f:
             json.dump(output, f, indent=2)
-        print("\n💾 Saved links to 'youtube_links.json'")
+        print("\nSaved links to 'youtube_links.json'")
     else:
-        print("\n⚠️ No videos found or API error.")
+        print("\n No videos found or API error.")
 
 if __name__ == "__main__":
     main()

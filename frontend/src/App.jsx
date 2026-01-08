@@ -1,9 +1,11 @@
 
 import { useState, useEffect } from 'react'
 import axios from 'axios'
-import { Upload, FileText, Check, Play, BookOpen, Brain, Clock, Activity, Download, ChevronRight, X, AlertCircle, Video, MessageSquare, Send } from 'lucide-react'
+import { Upload, FileText, Check, Play, BookOpen, Brain, Clock, Activity, Download, ChevronRight, X, AlertCircle, Video, MessageSquare, Send, Mic, MicOff, Volume2, Youtube } from 'lucide-react'
 import { motion, AnimatePresence } from 'framer-motion'
 import ReactMarkdown from 'react-markdown'
+import Dashboard from './components/Dashboard'
+import QuizTaker from './components/QuizTaker'
 
 const API_BASE = 'http://localhost:8000'
 
@@ -125,113 +127,84 @@ const Flashcard = ({ card }) => {
   )
 }
 
-const Quiz = ({ data }) => {
-  const [currentQ, setCurrentQ] = useState(0)
-  const [score, setScore] = useState(0)
-  const [selectedOption, setSelectedOption] = useState(null)
-  const [showResult, setShowResult] = useState(false)
-  const [isAnswered, setIsAnswered] = useState(false)
+// Old Quiz component removed. Replaced by QuizTaker imported above.
 
-  const questions = data.questions
-  const currentQuestion = questions[currentQ]
-
-  const handleOptionClick = (option) => {
-    if (isAnswered) return
-    setSelectedOption(option)
-    setIsAnswered(true)
-
-    if (option === currentQuestion.correct) {
-      setScore(prev => prev + 1)
-    }
-  }
-
-  const nextQuestion = () => {
-    if (currentQ < questions.length - 1) {
-      setCurrentQ(prev => prev + 1)
-      setSelectedOption(null)
-      setIsAnswered(false)
-    } else {
-      setShowResult(true)
-    }
-  }
-
-  const restartObj = () => {
-    setCurrentQ(0)
-    setScore(0)
-    setSelectedOption(null)
-    setShowResult(false)
-    setIsAnswered(false)
-  }
-
-  if (showResult) {
-    return (
-      <div className="text-center p-8 bg-white rounded-xl shadow-sm border border-slate-100">
-        <div className="w-20 h-20 bg-teal-100 text-teal-600 rounded-full flex items-center justify-center mx-auto mb-6 text-3xl">🏆</div>
-        <h3 className="text-2xl font-bold text-slate-800 mb-2">Quiz Completed!</h3>
-        <p className="text-slate-500 mb-6">You scored {score} out of {questions.length}</p>
-        <div className="w-full bg-slate-100 rounded-full h-4 mb-8 overflow-hidden">
-          <div className="bg-teal-500 h-full transition-all duration-1000" style={{ width: `${(score / questions.length) * 100}%` }}></div>
-        </div>
-        <button onClick={restartObj} className="btn-primary">Restart Quiz</button>
-      </div>
-    )
-  }
+const VideoGallery = ({ data }) => {
+  const [activeVideo, setActiveVideo] = useState(null)
 
   return (
-    <div className="max-w-2xl mx-auto text-left">
-      <div className="flex justify-between items-center mb-6">
-        <span className="text-sm font-bold text-slate-400 uppercase tracking-wider">Question {currentQ + 1}/{questions.length}</span>
-        <span className="text-sm font-bold text-teal-600">Score: {score}</span>
-      </div>
+    <div className="w-full">
+      <h3 className="text-2xl font-bold text-slate-800 mb-6 flex items-center gap-2">
+        <Youtube className="text-red-600" />
+        Videos for "{data?.query ? data.query.replace('Class 7 Math ', '').replace(' explanation', '') : 'Selected Topic'}"
+      </h3>
 
-      <div className="mb-8">
-        <h3 className="text-xl font-bold text-slate-800 mb-6">{currentQuestion.question}</h3>
-        <div className="space-y-3">
-          {currentQuestion.options.map((opt, idx) => {
-            let stateClass = "border-slate-200 hover:border-teal-300 hover:bg-slate-50"
-            if (isAnswered) {
-              if (opt === currentQuestion.correct) stateClass = "border-green-500 bg-green-50 text-green-700"
-              else if (opt === selectedOption) stateClass = "border-red-500 bg-red-50 text-red-700"
-              else stateClass = "border-slate-100 opacity-50"
-            } else if (selectedOption === opt) {
-              stateClass = "border-teal-500 bg-teal-50"
-            }
-
-            return (
-              <div
-                key={idx}
-                onClick={() => handleOptionClick(opt)}
-                className={`p-4 rounded-lg border-2 cursor-pointer transition-all ${stateClass}`}
-              >
-                {opt}
-              </div>
-            )
-          })}
+      {activeVideo && (
+        <div className="mb-8 bg-black rounded-xl overflow-hidden aspect-video shadow-2xl relative">
+          <iframe
+            src={activeVideo.embed_url + "?autoplay=1"}
+            className="w-full h-full"
+            frameBorder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowFullScreen
+            title="Video Player"
+          ></iframe>
+          <button
+            onClick={() => setActiveVideo(null)}
+            className="absolute top-4 right-4 bg-white/10 hover:bg-white/20 text-white p-2 rounded-full backdrop-blur-sm transition-all"
+          >
+            <X size={20} />
+          </button>
         </div>
-      </div>
-
-      {isAnswered && (
-        <motion.div initial={{ opacity: 0, y: 10 }} animate={{ opacity: 1, y: 0 }} className="p-4 bg-blue-50 text-blue-800 rounded-lg mb-6 text-sm">
-          <b>Explanation:</b> {currentQuestion.correct} is the correct answer.
-        </motion.div>
       )}
 
-      <div className="flex justify-end">
-        <button
-          onClick={nextQuestion}
-          disabled={!isAnswered}
-          className={`btn-primary ${!isAnswered && 'opacity-50 cursor-not-allowed'}`}
-        >
-          {currentQ === questions.length - 1 ? 'Finish Quiz' : 'Next Question'}
-        </button>
-      </div>
+      {data.error ? (
+        <div className="text-red-500 bg-red-50 p-4 rounded-lg flex items-center gap-2">
+          <AlertCircle size={20} /> {data.error}
+        </div>
+      ) : (data.videos || []).length === 0 ? (
+        <div className="text-slate-500 italic p-4">No videos found.</div>
+      ) : (
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+          {(data.videos || []).map((vid) => (
+            <div
+              key={vid.id}
+              onClick={() => setActiveVideo(vid)}
+              className={`group bg-white rounded-xl shadow-sm border border-slate-100 overflow-hidden cursor-pointer transition-all hover:shadow-lg hover:-translate-y-1 ${activeVideo?.id === vid.id ? 'ring-2 ring-red-500' : ''}`}
+            >
+              <div className="relative aspect-video bg-slate-100 overflow-hidden">
+                <img src={vid.thumbnail} alt={vid.title} className="w-full h-full object-cover transition-transform group-hover:scale-105" />
+                <div className="absolute inset-0 bg-black/0 group-hover:bg-black/10 transition-colors flex items-center justify-center">
+                  <div className="w-12 h-12 bg-red-600 text-white rounded-full flex items-center justify-center shadow-lg opacity-90 scale-90 group-hover:scale-100 transition-all">
+                    <Play size={20} fill="currentColor" />
+                  </div>
+                </div>
+              </div>
+              <div className="p-4">
+                <h4 className="font-bold text-slate-800 line-clamp-2 mb-1 group-hover:text-red-700 transition-colors">{vid.title}</h4>
+                <p className="text-xs font-medium text-slate-400">{vid.channel}</p>
+              </div>
+            </div>
+          ))}
+        </div>
+      )}
     </div>
   )
 }
 
 const DashboardView = ({ setPhase, selectedFile, selectedTopicIndex, setSelectedTopicIndex, selectedType, setSelectedType, handleGenerate }) => (
   <div className="pt-24 px-6 max-w-6xl mx-auto pb-20">
-    <button onClick={() => setPhase('landing')} className="mb-6 text-slate-500 hover:text-teal-600 flex items-center gap-1 text-sm font-medium">← Back to Upload</button>
+    <div className="flex justify-between items-center mb-6">
+      <button onClick={() => setPhase('landing')} className="text-slate-500 hover:text-teal-600 flex items-center gap-1 text-sm font-medium">← Back to Upload</button>
+      <div className="flex gap-2">
+        <button onClick={() => { setSelectedType('youtube'); handleGenerate(); }} className="btn-secondary flex items-center gap-2 text-red-600 hover:bg-red-50 border-red-200">
+          <Youtube size={18} /> Find Videos
+        </button>
+        <button onClick={() => setPhase('dashboard-analytics')} className="btn-secondary flex items-center gap-2">
+          <Activity size={18} /> View Analytics
+        </button>
+      </div>
+    </div>
 
     <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
       {/* Configuration Sidebar */}
@@ -321,7 +294,7 @@ const DashboardView = ({ setPhase, selectedFile, selectedTopicIndex, setSelected
               disabled={!selectedType}
               className={`btn-primary text-lg px-8 py-3 ${!selectedType && 'opacity-50 cursor-not-allowed'}`}
             >
-              Generate Content &nbsp; 
+              Generate Content &nbsp;
             </button>
           </div>
         </motion.div>
@@ -371,9 +344,11 @@ const ResultsView = ({ selectedType, selectedFile, selectedTopicIndex, generatio
             a.click();
           }} className="btn-primary mt-8">Download JSON</button>
         </div>
+      ) : generationResult?.type === 'youtube' ? (
+        <VideoGallery data={generationResult.data} />
       ) : generationResult?.type === 'quiz' ? (
         <div className="w-full">
-          <Quiz data={generationResult.data.data} />
+          <QuizTaker data={generationResult.data.data} onComplete={() => setPhase('dashboard')} />
         </div>
       ) : generationResult?.type === 'resources' ? (
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mb-8">
@@ -509,6 +484,7 @@ function App() {
   ])
   const [currentMessage, setCurrentMessage] = useState('')
   const [isChatLoading, setIsChatLoading] = useState(false)
+  const [isListening, setIsListening] = useState(false)
 
   // Status check
   const [systemOnline, setSystemOnline] = useState(false)
@@ -603,6 +579,7 @@ function App() {
         case 'flashcards': endpoint = '/generate/flashcards'; break;
         case 'video': endpoint = '/generate/video'; break;
         case 'resources': endpoint = '/generate/resources'; break;
+        case 'youtube': endpoint = '/generate/youtube'; break;
         default: throw new Error("Unknown type");
       }
       const payload = {
@@ -663,6 +640,57 @@ function App() {
       setChatMessages(prev => [...prev, { role: 'assistant', content: "Error: Could not connect to Chatbot." }])
     } finally {
       setIsChatLoading(false)
+    }
+  }
+
+  // Voice Input Logic
+  const handleMicClick = () => {
+    if (!('webkitSpeechRecognition' in window)) {
+      alert("Voice input is not supported in this browser. Try Chrome/Edge.")
+      return
+    }
+
+    if (isListening) {
+      window.speechRecognitionInstance?.stop()
+      setIsListening(false)
+      return
+    }
+
+    const recognition = new window.webkitSpeechRecognition()
+    recognition.continuous = false
+    recognition.interimResults = false
+    recognition.lang = 'en-US'
+
+    recognition.onstart = () => {
+      setIsListening(true)
+    }
+
+    recognition.onresult = (event) => {
+      const transcript = event.results[0][0].transcript
+      setCurrentMessage(prev => prev + (prev ? ' ' : '') + transcript)
+      setIsListening(false)
+    }
+
+    recognition.onerror = (event) => {
+      console.error("Speech Recognition Error", event.error)
+      setIsListening(false)
+    }
+
+    recognition.onend = () => {
+      setIsListening(false)
+    }
+
+    window.speechRecognitionInstance = recognition
+    recognition.start()
+  }
+
+  // Text to Speech
+  const handleSpeak = (text) => {
+    if ('speechSynthesis' in window) {
+      window.speechSynthesis.cancel() // Stop any current speech
+      const utterance = new SpeechSynthesisUtterance(text)
+      utterance.rate = 1.1 // Slightly faster
+      window.speechSynthesis.speak(utterance)
     }
   }
 
@@ -733,6 +761,9 @@ function App() {
             handleGenerate={handleGenerate}
           />
         )}
+        {phase === 'dashboard-analytics' && (
+          <Dashboard onBack={() => setPhase('dashboard')} />
+        )}
         {phase === 'generating' && <GeneratingView key="loading" processingText={processingText} />}
         {phase === 'results' && (
           <ResultsView
@@ -765,6 +796,18 @@ function App() {
                     <div className={`max-w-[85%] p-3 rounded-lg text-sm ${msg.role === 'user' ? 'bg-teal-500 text-white rounded-br-none' : 'bg-slate-100 text-slate-700 rounded-bl-none'}`}>
                       <ReactMarkdown>{msg.content}</ReactMarkdown>
                     </div>
+
+                    {/* TTS Button for Assistant */}
+                    {msg.role === 'assistant' && (
+                      <button
+                        onClick={() => handleSpeak(msg.content)}
+                        className="mt-1 ml-1 text-slate-400 hover:text-teal-600 self-start p-1"
+                        title="Read Aloud"
+                      >
+                        <Volume2 size={14} />
+                      </button>
+                    )}
+
                     {/* Display Sources */}
                     {msg.sources && msg.sources.length > 0 && (
                       <div className="mt-2 text-[10px] text-slate-400 max-w-[85%] bg-slate-50 p-2 rounded border border-slate-100">
@@ -786,6 +829,13 @@ function App() {
                   placeholder="Ask a doubt..."
                   className="flex-1 bg-slate-50 border border-slate-200 rounded-md px-3 py-2 text-sm focus:outline-none focus:border-teal-400"
                 />
+                <button
+                  onClick={handleMicClick}
+                  className={`p-2 rounded-md transition-colors ${isListening ? 'bg-red-500 text-white animate-pulse' : 'bg-slate-100 text-slate-500 hover:bg-slate-200'}`}
+                  title="Voice Input"
+                >
+                  {isListening ? <MicOff size={16} /> : <Mic size={16} />}
+                </button>
                 <button onClick={handleSendMessage} disabled={isChatLoading} className="bg-teal-500 text-white p-2 rounded-md hover:bg-teal-600 disabled:opacity-50">
                   <Send size={16} />
                 </button>

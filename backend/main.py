@@ -13,6 +13,7 @@ import uuid
 
 # Add parent directory to sys.path to import sibling scripts
 sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+sys.path.append(os.path.dirname(os.path.abspath(__file__))) # Add backend dir to path for analytics_engine
 
 # Import existing core modules
 # Note: We need to handle potential import errors if dependencies are missing
@@ -24,6 +25,8 @@ try:
     from practice_questions import generate_questions_from_json, create_pdf
     from generate_animations_synchronized import run_video_generator
     from chatbot_rag import MathBuddyChatbot
+    from analytics_engine import save_quiz_result, get_analytics_dash_data, get_recommendations, QuizResult
+    from youtube_utils import search_youtube_videos
 except ImportError as e:
     print(f"Server Startup Error: Could not import modules. {e}")
     # We continue so we can at least show errors via API
@@ -208,6 +211,11 @@ async def generate_plan(request: GenerateRequest):
     except Exception as e:
         raise HTTPException(status_code=500, detail=str(e))
 
+class YouTubeRequest(BaseModel):
+    query: str = None
+    filename: str = None
+    topic_index: int = 0
+
 @app.post("/generate/quiz")
 async def generate_quiz(request: GenerateRequest):
     """Generate Quiz PDF"""
@@ -385,6 +393,88 @@ async def download_file(filename: str):
     if file_path.exists():
         return FileResponse(file_path)
     return HTTPException(status_code=404, detail="File not found")
+
+# ============================================================================
+# ANALYTICS ENDPOINTS
+# ============================================================================
+
+@app.post("/quiz/submit")
+async def submit_quiz(result: QuizResult):
+    """Save quiz result to history"""
+    try:
+        saved_record = save_quiz_result(result)
+        return {"status": "success", "record": saved_record}
+    except Exception as e:
+        raise HTTPException(status_code=500, detail=str(e))
+
+@app.get("/dashboard/analytics")
+async def get_dashboard_data():
+    """Get processed data for dashboard"""
+    try:
+        data = get_analytics_dash_data()
+        
+        # Hydrate recommendations with RAG if weakest topics exist
+        if data['weakest_topics'] and chatbot_instance:
+            weak_topic_names = [x['topic'] for x in data['weakest_topics']]
+            # Limit to top 3 weakest to save time
+            recs = get_recommendations(weak_topic_names[:3], chatbot_instance.qa_system)
+            data['recommendations'] = recs
+        else:
+            data['recommendations'] = []
+            
+        return data
+    except Exception as e:
+        # Log error but return empty structure to avoid crashing UI
+        print(f"Analytics Error: {e}")
+        return {
+            "spider_data": [],
+            "recent_activity": [],
+            "weakest_topics": [],
+            "recommendations": [],
+            "error": str(e)
+        }
+
+@app.post("/generate/youtube")
+async def generate_youtube_links(request: YouTubeRequest):
+    """
+    Search for YouTube videos.
+    Can accept a raw query OR a filename/topic_index to infer the topic.
+    """
+    try:
+        query = request.query
+        
+        # If no explicit query, try to infer from loaded JSON (mock logic similar to other endpoints)
+        if not query and request.filename:
+            # infer logic
+            try:
+                # Use helper to get absolute path
+                json_path = get_json_path(request.filename)
+                
+                # If path exists, read it
+                if json_path.exists():
+                    import json
+                    with open(json_path, 'r', encoding='utf-8') as f:
+                        data = json.load(f)
+                        
+                    # Handle list vs dict structure
+                    topics = data if isinstance(data, list) else data.get('topics', [])
+                    
+                    if topics and 0 <= request.topic_index < len(topics):
+                        topic_name = topics[request.topic_index]['topic_name']
+                        query = f"Class 7 Math {topic_name} explanation"
+            except Exception as e:
+                print(f"Warning: Failed to infer topic from filename {request.filename}: {e}")
+                # Fallthrough to error if query still None
+            
+        if not query:
+            return {"error": "Could not determine search query"}
+            
+        videos = search_youtube_videos(query)
+        return {"query": query, "videos": videos}
+        
+    except Exception as e:
+        print(f"YouTube Error: {e}")
+        raise HTTPException(status_code=500, detail=str(e))
 
 if __name__ == "__main__":
     import uvicorn

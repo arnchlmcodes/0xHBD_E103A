@@ -1,0 +1,37 @@
+[
+  {
+    "topic": "Mathematics - Integers",
+    "score": 8,
+    "total_questions": 10,
+    "date": "2026-01-08T12:30:42.279937",
+    "weak_subtopics": [
+      "Adding Negative Numbers",
+      "Number Line"
+    ],
+    "id": 1
+  },
+  {
+    "topic": "Mathematics - Fractions",
+    "score": 3,
+    "total_questions": 10,
+    "date": "2026-01-08T12:30:42.280935",
+    "weak_subtopics": [
+      "Multiplying Fractions"
+    ],
+    "id": 2
+  },
+  {
+    "topic": "Need for Counting",
+    "score": 0,
+    "total_questions": 5,
+    "date": "2026-01-08T07:09:59.634Z",
+    "weak_subtopics": [
+      "Understand the need for counting in ancient civilizations",
+      "Recognize the importance of counting in everyday life",
+      "Understand the need for counting in ancient civilizations",
+      "Recognize the importance of counting in everyday life",
+      "Understand the need for counting in ancient civilizations"
+    ],
+    "id": 3
+  }
+]
