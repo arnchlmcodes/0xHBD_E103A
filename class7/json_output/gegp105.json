@@ -4,33 +4,28 @@
     "topic_name": "Parallel and Intersecting Lines",
     "unit": "gegp105",
     "learning_objectives": [
-      "Students will understand the concept of parallel and intersecting lines.",
-      "Students will be able to identify and draw parallel and intersecting lines.",
-      "Students will learn about the properties of linear pairs and vertically opposite angles.",
-      "Students will be able to identify and describe the properties of parallel and intersecting lines.",
-      "Students will learn to recognize and create examples of parallel and intersecting lines.",
-      "Students will understand the concept of parallel lines and their notations.",
-      "Students will be able to identify and draw parallel lines using different notations.",
-      "Students will learn to recognize and mark perpendicular lines using a square symbol."
+      "Students will understand the concept of intersecting lines and their properties.",
+      "Students will be able to identify and measure angles formed by intersecting lines.",
+      "Students will learn about linear pairs and vertically opposite angles.",
+      "Students will understand the concept of parallel lines and their properties.",
+      "Students will be able to identify and draw parallel lines in different situations.",
+      "Students will learn to recognize and mark perpendicular lines using mathematical notation."
     ],
     "allowed_concepts": [
-      "Parallel lines",
-      "Intersecting lines",
-      "Linear pairs",
-      "Vertically opposite angles",
-      "Straight angles",
-      "Protractor",
+      "intersecting lines",
+      "linear pairs",
+      "vertically opposite angles",
+      "straight angles",
+      "measuring angles",
+      "parallel lines",
       "perpendicular lines",
-      "right angles",
-      "angle measure",
-      "notations for parallel lines",
-      "square symbol for perpendicular lines",
-      "transversal",
-      "corresponding angles"
+      "notation for parallel lines",
+      "properties of parallel lines",
+      "drawing parallel lines"
     ],
     "disallowed_concepts": [
-      "advanced trigonometry",
-      "vector calculus"
+      "advanced geometry concepts",
+      "higher-dimensional geometry"
     ],
     "content_blocks": [
       {
@@ -50,103 +45,220 @@
       },
       {
         "block_id": "block_4",
-        "type": "definition",
-        "text": "Linear pairs are adjacent angles, like ∠a and ∠b, formed by two lines intersecting each other, which always add up to 180°."
+        "type": "explanation",
+        "text": "Since straight angles measure 180°, we must have ∠a + ∠b = ∠a + ∠d = 180°. Hence, ∠b and ∠d are always equal."
       },
       {
         "block_id": "block_5",
-        "type": "explanation",
-        "text": "Vertically opposite angles, like ∠b and ∠d, formed by two lines intersecting each other, are always equal to each other."
+        "type": "definition",
+        "text": "Linear pairs always add up to 180°."
       },
       {
         "block_id": "block_6",
-        "type": "example",
-        "text": "List all the linear pairs and vertically opposite angles you observe in Fig. 5.3:"
+        "type": "definition",
+        "text": "Vertically opposite angles are always equal."
       },
       {
         "block_id": "block_7",
         "type": "definition",
-        "text": "Parallel lines are a pair of lines that lie on the same plane, and do not meet however far we extend them at both ends."
+        "text": "Parallel lines are lines that lie on the same plane and never meet, no matter how far they are extended."
       },
       {
         "block_id": "block_8",
         "type": "explanation",
-        "text": "When two lines intersect and all four angles are equal, then each angle must be a right angle (90°)."
+        "text": "To identify parallel lines, look for lines that have the same slope and never intersect. You can also use the notation > to show that a set of lines is parallel."
       },
       {
         "block_id": "block_9",
         "type": "example",
-        "text": "For example, line segments FG and FH meet at the endpoint F at an angle 115.3°."
+        "text": "For example, in Fig. 5.6, the lines a, d, e, c, g, b, f, i, and h appear to be parallel."
       },
       {
         "block_id": "block_10",
         "type": "definition",
-        "text": "Perpendicular lines are a pair of lines which intersect each other at right angles (90°)."
+        "text": "Perpendicular lines are lines that intersect at a right angle (90°)."
       },
       {
         "block_id": "block_11",
         "type": "explanation",
-        "text": "In Fig. 5.4, we can say that lines l and m are perpendicular to each other."
+        "text": "To mark perpendicular lines, use a square symbol to indicate the right angle between them."
       },
       {
         "block_id": "block_12",
         "type": "example",
-        "text": "For example, line segments ST and UV are likely to meet if they are extended."
-      },
+        "text": "For example, in Fig. 5.9, the lines p, q, and r are perpendicular to each other."
+      }
+    ]
+  },
+  {
+    "topic_id": "topic_1",
+    "topic_name": "Linear Pairs and Vertically Opposite Angles",
+    "unit": "gegp105",
+    "learning_objectives": [
+      "Students will understand the concept of linear pairs and vertically opposite angles.",
+      "Students will be able to identify and measure linear pairs and vertically opposite angles.",
+      "Students will learn to justify the equality of vertically opposite angles using a proof."
+    ],
+    "allowed_concepts": [
+      "Linear pairs",
+      "Vertically opposite angles",
+      "Proof in mathematics",
+      "Measurement errors",
+      "Variation in line thickness"
+    ],
+    "disallowed_concepts": [
+      "Advanced calculus",
+      "Complex numbers"
+    ],
+    "content_blocks": [
       {
-        "block_id": "block_13",
+        "block_id": "block_1",
         "type": "definition",
-        "text": "Parallel lines are often used in artwork and shading."
+        "text": "Linear pairs: ∠a and ∠b, ∠c and ∠d, etc. Vertically opposite angles: ∠b and ∠d, ∠a and ∠c, etc."
       },
       {
-        "block_id": "block_14",
+        "block_id": "block_2",
         "type": "explanation",
-        "text": "Which pairs of lines appear to be parallel in Fig. 5.6 below?"
+        "text": "When two lines intersect, vertically opposite angles are equal. This can be justified using a proof in mathematics."
       },
       {
-        "block_id": "block_15",
+        "block_id": "block_3",
         "type": "example",
-        "text": "Note to the Teacher: It is important that the lines lie on the same plane."
+        "text": "List all the linear pairs and vertically opposite angles you observe in Fig. 5.3:"
       },
       {
-        "block_id": "block_16",
-        "type": "definition",
-        "text": "In mathematics, we use an arrow mark (>) to show that a set of lines is parallel. If there is more than one set of parallel lines (as in Fig. 5. 9), the second set is shown with two arrow marks and so on."
-      },
-      {
-        "block_id": "block_17",
+        "block_id": "block_4",
         "type": "explanation",
-        "text": "Perpendicular lines are marked with a square angle between them."
+        "text": "Measurement errors and variation in line thickness can affect the accuracy of measurements."
       },
       {
-        "block_id": "block_18",
+        "block_id": "block_5",
+        "type": "definition",
+        "text": "Perpendicular lines: a pair of lines that intersect each other at right angles (90°)"
+      },
+      {
+        "block_id": "block_6",
         "type": "example",
-        "text": "Draw some lines perpendicular to the lines given on the dot paper in Fig. 5.10."
-      },
+        "text": "In Fig. 5.4, lines l and m are perpendicular to each other."
+      }
+    ]
+  },
+  {
+    "topic_id": "topic_2",
+    "topic_name": "Perpendicular Lines",
+    "unit": "gegp105",
+    "learning_objectives": [
+      "Students will understand the concept of perpendicular lines.",
+      "Students will be able to identify and draw perpendicular lines.",
+      "Students will learn to recognize the properties of perpendicular lines."
+    ],
+    "allowed_concepts": [
+      "Perpendicular lines",
+      "Right angles",
+      "Properties of perpendicular lines"
+    ],
+    "disallowed_concepts": [
+      "Advanced calculus",
+      "Complex numbers"
+    ],
+    "content_blocks": [
       {
-        "block_id": "block_19",
+        "block_id": "block_1",
         "type": "definition",
-        "text": "A transversal is a line that intersects two or more lines."
+        "text": "Perpendicular lines: a pair of lines that intersect each other at right angles (90°)"
       },
       {
-        "block_id": "block_20",
+        "block_id": "block_2",
         "type": "explanation",
-        "text": "When a transversal intersects two lines, it forms eight angles with a maximum of four distinct angle measures."
+        "text": "If two lines intersect and all four angles are equal, then each angle must be a right angle (90°)."
       },
       {
-        "block_id": "block_21",
+        "block_id": "block_3",
         "type": "example",
-        "text": "Draw a pair of lines and a transversal such that they form two distinct angles."
-      },
+        "text": "In Fig. 5.4, lines l and m are perpendicular to each other."
+      }
+    ]
+  },
+  {
+    "topic_id": "topic_3",
+    "topic_name": "Parallel Lines",
+    "unit": "gegp105",
+    "learning_objectives": [
+      "Students will understand the concept of parallel lines.",
+      "Students will be able to identify and draw parallel lines.",
+      "Students will learn to recognize the properties of parallel lines.",
+      "Students will understand the concept of parallel lines and their properties.",
+      "Students will be able to identify and draw parallel lines using a ruler and a set square.",
+      "Students will learn to recognize corresponding angles formed by a transversal on parallel lines."
+    ],
+    "allowed_concepts": [
+      "Parallel lines",
+      "Properties of parallel lines",
+      "Corresponding angles",
+      "Transversal",
+      "Perpendicular lines",
+      "Set square"
+    ],
+    "disallowed_concepts": [
+      "Similar triangles",
+      "Congruent triangles",
+      "Properties of circles"
+    ],
+    "content_blocks": [
       {
-        "block_id": "block_22",
+        "block_id": "block_1",
         "type": "definition",
-        "text": "Corresponding angles are pairs of angles that are formed by a transversal and are on the same side of the transversal."
+        "text": "Parallel lines: a pair of lines that lie on the same plane and do not meet however far we extend"
       },
       {
-        "block_id": "block_23",
+        "block_id": "block_2",
         "type": "explanation",
-        "text": "For example, ∠1 and ∠5 are corresponding angles."
+        "text": "Lines that do not seem likely to intersect each other are called parallel lines."
+      },
+      {
+        "block_id": "block_3",
+        "type": "example",
+        "text": "In the pictures above, the lines do not seem likely to intersect each other."
+      },
+      {
+        "block_id": "block_4",
+        "type": "definition",
+        "text": "Parallel lines are lines that lie in the same plane and never intersect, no matter how far they are extended."
+      },
+      {
+        "block_id": "block_5",
+        "type": "explanation",
+        "text": "When a transversal intersects two parallel lines, the corresponding angles formed are equal to each other."
+      },
+      {
+        "block_id": "block_6",
+        "type": "example",
+        "text": "Draw a pair of parallel lines using a ruler and a set square. Measure the corresponding angles formed by a transversal and verify that they are equal."
+      },
+      {
+        "block_id": "block_7",
+        "type": "explanation",
+        "text": "If the corresponding angles formed by a transversal on a pair of lines are equal, then the pair of lines are parallel to each other."
+      },
+      {
+        "block_id": "block_8",
+        "type": "example",
+        "text": "Draw a transversal intersecting two lines such that one pair of corresponding angles is equal. Measure the angles with a protractor and verify that they are equal."
+      },
+      {
+        "block_id": "block_9",
+        "type": "definition",
+        "text": "A set square is a tool used to draw perpendicular lines and angles."
+      },
+      {
+        "block_id": "block_10",
+        "type": "explanation",
+        "text": "To draw a pair of parallel lines using a ruler and a set square, draw a line and then use the set square to draw two lines perpendicular to the first line."
+      },
+      {
+        "block_id": "block_11",
+        "type": "example",
+        "text": "Draw two parallel lines using the long side of the set square as shown in Fig. 5.22."
       }
     ]
   },
@@ -156,113 +268,327 @@
     "unit": "gegp105",
     "learning_objectives": [
       "Students will understand the concept of parallel lines and transversals.",
-      "Students will be able to identify and measure alternate angles, corresponding angles, and interior angles.",
-      "Students will learn to apply the properties of parallel lines and transversals to solve problems.",
-      "Students will understand the properties of parallel lines and transversals.",
-      "Students will be able to identify and apply the concepts of corresponding angles, alternate angles, and interior angles on the same side of a transversal.",
-      "Students will learn to solve problems involving parallel lines and transversals."
+      "Students will be able to identify and draw parallel lines and transversals.",
+      "Students will learn to recognize corresponding angles formed by a transversal.",
+      "Students will be able to identify corresponding angles and alternate angles.",
+      "Students will learn to use the properties of parallel lines and transversals to solve problems.",
+      "Students will learn to apply the properties of parallel lines and transversals to solve problems."
     ],
     "allowed_concepts": [
-      "Parallel lines",
+      "parallel lines",
+      "transversal",
+      "corresponding angles",
+      "vertically opposite angles",
+      "linear pair",
+      "alternate angles",
       "Transversals",
-      "Alternate angles",
-      "Corresponding angles",
-      "Interior angles",
-      "Linear pairs",
-      "Vertically opposite angles",
-      "Transversal",
-      "Interior angles on the same side"
+      "Alternate interior angles",
+      "Alternate exterior angles"
     ],
     "disallowed_concepts": [
-      "Advanced trigonometry",
-      "Higher-order geometric transformations",
-      "Higher-order geometry"
+      "advanced trigonometry",
+      "vector calculus",
+      "similar triangles",
+      "congruent triangles",
+      "circle theorems"
     ],
     "content_blocks": [
       {
         "block_id": "block_1",
         "type": "definition",
-        "text": "Parallel lines are lines that lie in the same plane and never intersect, no matter how far they are extended."
+        "text": "Parallel lines are lines that lie in the same plane and do not intersect, no matter how far they are extended."
       },
       {
         "block_id": "block_2",
         "type": "explanation",
-        "text": "When a transversal intersects two parallel lines, it forms alternate angles, corresponding angles, and interior angles."
+        "text": "A transversal is a line that intersects two or more lines at distinct points."
       },
       {
         "block_id": "block_3",
         "type": "example",
-        "text": "In Fig. 5.24, lines l and m are parallel to each other. A l l t t A A m l l Fig. 5.24 119 CChhaapptteerr--55..iinndddd 111199 44//1111//22002255 77::3300::3399 PPMM Ganita Prakash | Grade 7"
+        "text": "Draw a line l and a transversal t intersecting it at point X. Measure ∠a formed by lines l and t (let us say it is 60°)."
       },
       {
         "block_id": "block_4",
-        "type": "example",
-        "text": "In Fig. 5.25, ∠d is called the alternate angle of ∠f, and ∠c is the alternate angle of ∠e. l a b d c m e f h g t Fig. 5.25"
+        "type": "explanation",
+        "text": "When a transversal intersects two lines, it forms eight angles with a maximum of four distinct angle measures."
       },
       {
         "block_id": "block_5",
-        "type": "explanation",
-        "text": "Alternate angles formed by a transversal intersecting a pair of parallel lines are always equal to each other."
+        "type": "definition",
+        "text": "Corresponding angles are angles in the same relative position in two or more lines intersected by a transversal."
       },
       {
         "block_id": "block_6",
         "type": "example",
-        "text": "In Fig. 5.26, parallel lines l and m are intersected by the transversal t. If ∠6 is 135°, what are the measures of the other angles? 120 CChhaapptteerr--55..iinndddd 112200 44//1111//22002255 77::3300::4400 PPMM Parallel and Intersecting Lines l 2 1 3 135° m 4 6 7 5 8 t Fig. 5.26"
+        "text": "Draw a pair of lines and a transversal such that they form two distinct angles."
       },
       {
         "block_id": "block_7",
-        "type": "example",
-        "text": "In Fig. 5.27, lines l and m are intersected by the transversal t. If ∠a is 120° and ∠f is 70°, are lines l and m parallel to each other? 120° a b l d c 70° e f m h g t Fig. 5.27"
+        "type": "definition",
+        "text": "Parallel lines are lines that lie in the same plane and never intersect, no matter how far they are extended. A transversal is a line that intersects two or more lines at distinct points."
       },
       {
         "block_id": "block_8",
-        "type": "example",
-        "text": "In Fig. 5.28, parallel lines l and m are intersected by the transversal t. If ∠3 is 50°, what is the measure of ∠6? l 1 2 4 3 50° m 5 6 8 7 t Fig. 5.28"
+        "type": "explanation",
+        "text": "When a transversal intersects two parallel lines, it forms corresponding angles that are equal. Alternate angles are also equal, and can be found by identifying the corresponding angle and then finding the vertically opposite angle."
       },
       {
         "block_id": "block_9",
         "type": "example",
-        "text": "In Fig. 5.29, line segment AB is parallel to CD and AD is parallel to BC. ∠DAC is 65° and ∠ADC is 60°. What are the measures of angles ∠CAB, ∠ABC, and ∠BCD? Solution: Let us observe the parallel lines AB and CD. AD is a transversal of these two lines. A B 65° 60° D C Fig. 5.29"
+        "text": "In Fig. 5.26, parallel lines l and m are intersected by the transversal t. If ∠6 is 135°, what are the measures of the other angles? ∠6 is 135°, so ∠2 is also 135°, because it is the corresponding angle of ∠6 and the lines l and m are parallel. ∠8 is 135°, because it is the vertically opposite angle of ∠6. ∠4 is 135° because it is the corresponding angle of ∠8."
       },
       {
         "block_id": "block_10",
-        "type": "definition",
-        "text": "When two lines never intersect on a plane, they are called parallel lines."
+        "type": "explanation",
+        "text": "We can find the measure of ∠d if we know ∠b because they are vertically opposite angles. Remember, vertically opposite angles are equal. What is the measure of ∠b? It is 120° because it is the corresponding angle of ∠f. So, ∠d also measures 120°."
       },
       {
         "block_id": "block_11",
-        "type": "explanation",
-        "text": "When a line t intersects another pair of lines, it is called a transversal and it forms 2 sets of 4 angles."
+        "type": "example",
+        "text": "In Fig. 5.25, if ∠f is 120° what is the measure of its alternate angle ∠d? We can find the measure of ∠d if we know ∠b because they are vertically opposite angles."
       },
       {
         "block_id": "block_12",
-        "type": "example",
-        "text": "Find the angles marked below. 48° 52° 99° 81° b° c° a° a= b= c= d° e° f° 81° 99° 69° 132° 97° 83° d= e= f= g° 58° i° 122° 75° 54° 122° h° 70° 56° 58° 120° g= h= i="
+        "type": "definition",
+        "text": "Parallel lines are lines that lie in the same plane and never intersect, no matter how far they are extended."
       },
       {
         "block_id": "block_13",
-        "type": "definition",
-        "text": "When a transversal intersects a pair of parallel lines, the corresponding angles are equal."
+        "type": "explanation",
+        "text": "When a transversal intersects two parallel lines, it forms corresponding angles, alternate interior angles, and alternate exterior angles."
       },
       {
         "block_id": "block_14",
-        "type": "explanation",
-        "text": "The interior angles on the same side formed by a transversal intersecting a pair of parallel lines always add up to 180°."
+        "type": "example",
+        "text": "In the figure below, line l is parallel to line m. If ∠1 = 60°, find the measure of ∠5."
       },
       {
         "block_id": "block_15",
         "type": "example",
-        "text": "Find the angle represented by a. 42° 62° 100° a° a° 110° 35° a° a° 67°"
+        "text": "In the figure below, line l is parallel to line m. If ∠2 = 80°, find the measure of ∠6."
       },
       {
         "block_id": "block_16",
-        "type": "definition",
-        "text": "When a transversal intersects a pair of parallel lines, the alternate angles are equal."
+        "type": "example",
+        "text": "In the figure below, line l is parallel to line m. If ∠3 = 40°, find the measure of ∠7."
       },
       {
         "block_id": "block_17",
+        "type": "example",
+        "text": "In the figure below, line l is parallel to line m. If ∠4 = 50°, find the measure of ∠8."
+      },
+      {
+        "block_id": "block_18",
+        "type": "example",
+        "text": "In the figure below, line l is parallel to line m. If ∠5 = 70°, find the measure of ∠9."
+      },
+      {
+        "block_id": "block_19",
+        "type": "example",
+        "text": "In the figure below, line l is parallel to line m. If ∠6 = 90°, find the measure of ∠10."
+      },
+      {
+        "block_id": "block_20",
+        "type": "example",
+        "text": "In the figure below, line l is parallel to line m. If ∠7 = 60°, find the measure of ∠11."
+      },
+      {
+        "block_id": "block_21",
+        "type": "example",
+        "text": "In the figure below, line l is parallel to line m. If ∠8 = 80°, find the measure of ∠12."
+      }
+    ]
+  },
+  {
+    "topic_id": "topic_1",
+    "topic_name": "Corresponding Angles",
+    "unit": "gegp105",
+    "learning_objectives": [
+      "Students will understand the concept of corresponding angles and their properties.",
+      "Students will be able to identify and measure corresponding angles in different scenarios.",
+      "Students will learn to apply the concept of corresponding angles to solve problems involving parallel lines and transversals."
+    ],
+    "allowed_concepts": [
+      "Corresponding angles",
+      "Linear pairs",
+      "Interior angles",
+      "Transversals",
+      "Parallel lines"
+    ],
+    "disallowed_concepts": [
+      "Advanced calculus",
+      "Complex numbers"
+    ],
+    "content_blocks": [
+      {
+        "block_id": "block_1",
+        "type": "definition",
+        "text": "Corresponding angles are angles that are formed by a transversal intersecting two or more lines and are on the same side of the transversal."
+      },
+      {
+        "block_id": "block_2",
         "type": "explanation",
-        "text": "When a transversal intersects a pair of lines and the corresponding angles are equal, then the pair of lines is parallel."
+        "text": "When a transversal intersects two or more lines, it forms corresponding angles on the same side of the transversal. These angles are equal in measure."
+      },
+      {
+        "block_id": "block_3",
+        "type": "example",
+        "text": "Example 1: In Fig. 5.26, lines l and m are parallel. If ∠8 is 135°, then ∠2 is also 135° because they are corresponding angles."
+      },
+      {
+        "block_id": "block_4",
+        "type": "example",
+        "text": "Example 2: In Fig. 5.27, lines l and m are intersected by the transversal t. If ∠a is 120° and ∠f is 70°, are lines l and m parallel to each other?"
+      },
+      {
+        "block_id": "block_5",
+        "type": "example",
+        "text": "Example 3: In Fig. 5.28, parallel lines l and m are intersected by the transversal t. If ∠3 is 50°, what is the measure of ∠6?"
+      },
+      {
+        "block_id": "block_6",
+        "type": "example",
+        "text": "Example 4: In Fig. 5.29, line segment AB is parallel to CD and AD is parallel to BC. ∠DAC is 65° and ∠ADC is 60°. What are the measures of angles ∠CAB, ∠ABC, and ∠BCD?"
+      }
+    ]
+  },
+  {
+    "topic_id": "topic_2",
+    "topic_name": "Linear Pairs",
+    "unit": "gegp105",
+    "learning_objectives": [
+      "Students will understand the concept of linear pairs and their properties.",
+      "Students will be able to identify and measure linear pairs in different scenarios.",
+      "Students will learn to apply the concept of linear pairs to solve problems involving parallel lines and transversals."
+    ],
+    "allowed_concepts": [
+      "Linear pairs",
+      "Interior angles",
+      "Transversals",
+      "Parallel lines"
+    ],
+    "disallowed_concepts": [
+      "Advanced calculus",
+      "Complex numbers"
+    ],
+    "content_blocks": [
+      {
+        "block_id": "block_1",
+        "type": "definition",
+        "text": "Linear pairs are two angles that are adjacent to each other and form a straight line."
+      },
+      {
+        "block_id": "block_2",
+        "type": "explanation",
+        "text": "When two lines intersect, they form linear pairs of angles. These angles are supplementary to each other."
+      },
+      {
+        "block_id": "block_3",
+        "type": "example",
+        "text": "Example 1: In Fig. 5.26, lines l and m are parallel. If ∠8 is 135°, then ∠2 is also 135° because they are linear pairs."
+      },
+      {
+        "block_id": "block_4",
+        "type": "example",
+        "text": "Example 2: In Fig. 5.27, lines l and m are intersected by the transversal t. If ∠a is 120° and ∠f is 70°, are lines l and m parallel to each other?"
+      }
+    ]
+  },
+  {
+    "topic_id": "topic_3",
+    "topic_name": "Interior Angles",
+    "unit": "gegp105",
+    "learning_objectives": [
+      "Students will understand the concept of interior angles and their properties.",
+      "Students will be able to identify and measure interior angles in different scenarios.",
+      "Students will learn to apply the concept of interior angles to solve problems involving parallel lines and transversals."
+    ],
+    "allowed_concepts": [
+      "Interior angles",
+      "Transversals",
+      "Parallel lines"
+    ],
+    "disallowed_concepts": [
+      "Advanced calculus",
+      "Complex numbers"
+    ],
+    "content_blocks": [
+      {
+        "block_id": "block_1",
+        "type": "definition",
+        "text": "Interior angles are the angles formed by a transversal intersecting two or more lines and are on the same side of the transversal."
+      },
+      {
+        "block_id": "block_2",
+        "type": "explanation",
+        "text": "When a transversal intersects two or more lines, it forms interior angles on the same side of the transversal. These angles are supplementary to each other."
+      },
+      {
+        "block_id": "block_3",
+        "type": "example",
+        "text": "Example 1: In Fig. 5.28, parallel lines l and m are intersected by the transversal t. If ∠3 is 50°, what is the measure of ∠6?"
+      },
+      {
+        "block_id": "block_4",
+        "type": "example",
+        "text": "Example 2: In Fig. 5.29, line segment AB is parallel to CD and AD is parallel to BC. ∠DAC is 65° and ∠ADC is 60°. What are the measures of angles ∠CAB, ∠ABC, and ∠BCD?"
+      }
+    ]
+  },
+  {
+    "topic_id": "topic_1",
+    "topic_name": "Angles and Parallel Lines",
+    "unit": "gegp105",
+    "learning_objectives": [
+      "Students will understand the concept of angles and parallel lines.",
+      "Students will be able to identify and measure angles in different situations.",
+      "Students will learn to recognize and apply the properties of parallel lines."
+    ],
+    "allowed_concepts": [
+      "Angles",
+      "Parallel lines",
+      "Transversal",
+      "Corresponding angles",
+      "Alternate angles",
+      "Interior angles",
+      "Linear pairs",
+      "Vertically opposite angles"
+    ],
+    "disallowed_concepts": [
+      "Advanced trigonometry",
+      "Higher-dimensional geometry"
+    ],
+    "content_blocks": [
+      {
+        "block_id": "block_1",
+        "type": "definition",
+        "text": "When two lines intersect, they form four angles. The vertically opposite angles are equal and the linear pairs add up to 180°."
+      },
+      {
+        "block_id": "block_2",
+        "type": "explanation",
+        "text": "When two lines intersect and the angles formed are 90° (i.e., all four angles are equal), the lines are said to be perpendicular to each other."
+      },
+      {
+        "block_id": "block_3",
+        "type": "example",
+        "text": "In Fig. 5.3, list all the linear pairs and vertically opposite angles you observe."
+      },
+      {
+        "block_id": "block_4",
+        "type": "definition",
+        "text": "When two lines never intersect on a plane, they are called parallel lines."
+      },
+      {
+        "block_id": "block_5",
+        "type": "explanation",
+        "text": "When a line t intersects another pair of lines, it is called a transversal and it forms 2 sets of 4 angles."
+      },
+      {
+        "block_id": "block_6",
+        "type": "example",
+        "text": "In Fig. 5.6, which pairs of lines appear to be parallel?"
       }
     ]
   },
@@ -272,21 +598,19 @@
     "unit": "gegp105",
     "learning_objectives": [
       "Students will understand the properties of parallel lines and their relationship with perpendicular lines.",
-      "Students will be able to identify and draw parallel lines using various methods.",
-      "Students will learn to recognize the characteristics of parallel lines in different geometric figures."
+      "Students will be able to identify and draw parallel lines in different orientations.",
+      "Students will learn to recognize the pattern of parallel lines formed by folding a sheet of paper."
     ],
     "allowed_concepts": [
       "parallel lines",
       "perpendicular lines",
-      "horizontal lines",
-      "vertical lines",
-      "diagonal lines",
-      "equidistant",
-      "same distance apart"
+      "folding a sheet of paper",
+      "pattern of parallel lines",
+      "properties of parallel lines"
     ],
     "disallowed_concepts": [
-      "advanced trigonometry",
-      "vector calculus"
+      "Advanced calculus",
+      "Complex numbers"
     ],
     "content_blocks": [
       {
@@ -302,136 +626,54 @@
       {
         "block_id": "block_3",
         "type": "example",
-        "text": "First Horizontal Fold: We will see three parallel lines. The new line segment is perpendicular to the vertical sides."
+        "text": "We will see three parallel lines. The new line segment is perpendicular to the vertical sides."
       },
       {
         "block_id": "block_4",
         "type": "explanation",
-        "text": "Subsequent Horizontal Folds: After one more horizontal fold, we will see a total of five parallel lines."
+        "text": "After one more horizontal fold, we will see a total of five parallel lines. The two original horizontal edges, the first fold line, and the second fold line are all parallel to each other."
       },
       {
         "block_id": "block_5",
-        "type": "definition",
-        "text": "Vertical and Diagonal Folds: This new vertical line is perpendicular to the previous horizontal lines."
+        "type": "example",
+        "text": "If we fold it horizontally one more time, we will get nine parallel lines. Yes, the pattern is 2n + 1, where n is the number of folds."
       },
       {
         "block_id": "block_6",
+        "type": "definition",
+        "text": "This new vertical line is perpendicular to the previous horizontal lines."
+      },
+      {
+        "block_id": "block_7",
         "type": "example",
         "text": "Yes, we can find a fold that creates a line parallel to the diagonal line."
       },
       {
-        "block_id": "block_7",
+        "block_id": "block_8",
         "type": "explanation",
-        "text": "The triangles should not cross the crease lines."
+        "text": "The opposite edges of the sheet are parallel to each other. The adjacent edges of the sheet are perpendicular to each other."
       },
       {
-        "block_id": "block_8",
-        "type": "definition",
+        "block_id": "block_9",
+        "type": "example",
         "text": "Line segments a, b and c are parallel to Line segments p, q and r respectively."
       }
     ]
   },
   {
     "topic_id": "topic_2",
-    "topic_name": "Properties of Perpendicular Lines",
+    "topic_name": "Folding and Parallel Lines",
     "unit": "gegp105",
     "learning_objectives": [
-      "Students will understand the properties of perpendicular lines and their relationship with parallel lines.",
-      "Students will be able to identify and draw perpendicular lines using various methods.",
-      "Students will learn to recognize the characteristics of perpendicular lines in different geometric figures."
+      "Students will understand the relationship between folding a sheet of paper and parallel lines.",
+      "Students will be able to identify and draw parallel lines using folding techniques.",
+      "Students will learn to recognize the properties of parallel lines formed by folding a sheet of paper."
     ],
     "allowed_concepts": [
+      "folding a sheet of paper",
+      "parallel lines",
       "perpendicular lines",
-      "right angles",
-      "90-degree angles",
-      "vertical lines",
-      "horizontal lines"
-    ],
-    "disallowed_concepts": [
-      "advanced geometry",
-      "topology"
-    ],
-    "content_blocks": [
-      {
-        "block_id": "block_1",
-        "type": "definition",
-        "text": "The vertical and horizontal lines on the grid paper meet at a 90-degree angle (a right angle)"
-      },
-      {
-        "block_id": "block_2",
-        "type": "explanation",
-        "text": "By identifying lines that always remain the same distance apart."
-      },
-      {
-        "block_id": "block_3",
-        "type": "example",
-        "text": "Yes, we can find a fold that creates a line parallel to the diagonal line."
-      },
-      {
-        "block_id": "block_4",
-        "type": "definition",
-        "text": "Line segments a, b and c are parallel to Line segments p, q and r respectively."
-      }
-    ]
-  },
-  {
-    "topic_id": "topic_3",
-    "topic_name": "Properties of Diagonal Lines",
-    "unit": "gegp105",
-    "learning_objectives": [
-      "Students will understand the properties of diagonal lines and their relationship with parallel and perpendicular lines.",
-      "Students will be able to identify and draw diagonal lines using various methods.",
-      "Students will learn to recognize the characteristics of diagonal lines in different geometric figures."
-    ],
-    "allowed_concepts": [
-      "diagonal lines",
-      "acute angles",
-      "obtuse angles",
-      "right angles",
-      "90-degree angles"
-    ],
-    "disallowed_concepts": [
-      "advanced trigonometry",
-      "vector calculus"
-    ],
-    "content_blocks": [
-      {
-        "block_id": "block_1",
-        "type": "definition",
-        "text": "Fold the sheet along a diagonal."
-      },
-      {
-        "block_id": "block_2",
-        "type": "explanation",
-        "text": "Can you find a fold that creates a line parallel to the diagonal line?"
-      },
-      {
-        "block_id": "block_3",
-        "type": "example",
-        "text": "Yes, we can find a fold that creates a line parallel to the diagonal line."
-      },
-      {
-        "block_id": "block_4",
-        "type": "definition",
-        "text": "Line segments a, b and c are parallel to Line segments p, q and r respectively."
-      }
-    ]
-  },
-  {
-    "topic_id": "topic_1",
-    "topic_name": "Construction of Parallel Lines",
-    "unit": "gegp105",
-    "learning_objectives": [
-      "Students will understand how to construct parallel lines using a set square and a ruler.",
-      "Students will be able to identify and use the properties of parallel lines in different situations.",
-      "Students will learn to apply the concept of parallel lines in real-world problems."
-    ],
-    "allowed_concepts": [
-      "Parallel lines",
-      "Set square",
-      "Ruler",
-      "Construction of parallel lines",
-      "Properties of parallel lines"
+      "properties of parallel lines"
     ],
     "disallowed_concepts": [
       "Advanced calculus",
@@ -441,42 +683,132 @@
       {
         "block_id": "block_1",
         "type": "definition",
-        "text": "Tools required: Ruler, Set-squares (right-angled triangle), Pencil, eraser Steps: 1. Place the set square so that one side is along the line l. 2. Hold the ruler against the other side of the set square so that the ruler won’t move. 3. Slide the set square along the ruler until one side reaches point A. 4. Draw a line along the edge of the set square through point A. 5. This new line is parallel to line l and passes through point A."
+        "text": "Take a square sheet of paper, fold it in the middle and unfold it."
       },
       {
         "block_id": "block_2",
         "type": "explanation",
-        "text": "Why are lines l and m parallel to each other? Ans: When we fold the paper, first we make line t perpendicular to l passing through A. Then we make another line m perpendicular to t through point A. Since lines l and m are perpendicular to t, so pair of corresponding angles are equal i.e. 900. Thus, l and m are parallel."
+        "text": "Fold the edges towards the centre line and unfold them."
       },
       {
         "block_id": "block_3",
         "type": "example",
-        "text": "Figure it Out 1. Find the angles marked below. Ans:  a = 48°  b = 52°  c = 81°  d = 99°  e = 69°  f = 48°  g = 122°  h = 75°  i = 54°  j = 97°"
+        "text": "Fold the top right and bottom left corners onto the creased line to create triangles. Refer to Fig. 5.8."
       },
       {
         "block_id": "block_4",
-        "type": "example",
-        "text": "2. Find the angle represented by a. Ans: (i) 138° (ii) 118° (iii) 105° (iv) 23°"
+        "type": "explanation",
+        "text": "The triangles should not cross the crease lines."
       },
       {
         "block_id": "block_5",
         "type": "example",
-        "text": "3. In the figures below, what angles do x and y stand for? Ans: (i)  x = 25°,  y = 155°"
+        "text": "Are a, b and c parallel to p, q and r respectively? Why or why not?"
+      }
+    ]
+  },
+  {
+    "topic_id": "topic_3",
+    "topic_name": "Identifying Parallel Lines",
+    "unit": "gegp105",
+    "learning_objectives": [
+      "Students will understand how to identify parallel lines in different orientations.",
+      "Students will be able to recognize the properties of parallel lines.",
+      "Students will learn to draw different sets of parallel lines."
+    ],
+    "allowed_concepts": [
+      "parallel lines",
+      "perpendicular lines",
+      "properties of parallel lines",
+      "drawing parallel lines"
+    ],
+    "disallowed_concepts": [
+      "Advanced calculus",
+      "Complex numbers"
+    ],
+    "content_blocks": [
+      {
+        "block_id": "block_1",
+        "type": "definition",
+        "text": "Draw some lines perpendicular to the lines given on the dot paper in the Figure."
+      },
+      {
+        "block_id": "block_2",
+        "type": "explanation",
+        "text": "How did you spot the perpendicular lines?"
+      },
+      {
+        "block_id": "block_3",
+        "type": "example",
+        "text": "The vertical and horizontal lines on the grid paper meet at a 90-degree angle (a right angle)"
+      },
+      {
+        "block_id": "block_4",
+        "type": "explanation",
+        "text": "By identifying lines that always remain the same distance apart."
+      },
+      {
+        "block_id": "block_5",
+        "type": "example",
+        "text": "Line segments a, b and c are parallel to Line segments p, q and r respectively."
+      }
+    ]
+  },
+  {
+    "topic_id": "topic_2",
+    "topic_name": "Properties of Angles",
+    "unit": "gegp105",
+    "learning_objectives": [
+      "Students will understand the properties of angles.",
+      "Students will be able to identify and apply the properties of angles to solve problems.",
+      "Students will learn to use the properties of angles to find missing angles."
+    ],
+    "allowed_concepts": [
+      "Complementary angles",
+      "Supplementary angles",
+      "Adjacent angles",
+      "Interior angles",
+      "Exterior angles"
+    ],
+    "disallowed_concepts": [
+      "Advanced calculus",
+      "Complex numbers"
+    ],
+    "content_blocks": [
+      {
+        "block_id": "block_1",
+        "type": "definition",
+        "text": "Complementary angles are two angles whose measures add up to 90°."
+      },
+      {
+        "block_id": "block_2",
+        "type": "explanation",
+        "text": "Supplementary angles are two angles whose measures add up to 180°."
+      },
+      {
+        "block_id": "block_3",
+        "type": "example",
+        "text": "In the figure below, ∠1 and ∠2 are complementary angles. Find the measure of ∠2."
+      },
+      {
+        "block_id": "block_4",
+        "type": "example",
+        "text": "In the figure below, ∠3 and ∠4 are supplementary angles. Find the measure of ∠4."
+      },
+      {
+        "block_id": "block_5",
+        "type": "example",
+        "text": "In the figure below, ∠5 and ∠6 are adjacent angles. Find the measure of ∠6."
       },
       {
         "block_id": "block_6",
         "type": "example",
-        "text": "4. In Figure, ABC = 45° and IKJ = 78°. Find angles GEH, HEF, FED. Ans:  GEH = 45°;  HEF = 57°;  FED = 78°"
+        "text": "In the figure below, ∠7 and ∠8 are interior angles. Find the measure of ∠8."
       },
       {
         "block_id": "block_7",
         "type": "example",
-        "text": "5. In the Figure, AB is parallel to CD, and CD is parallel to EF. Also, EA is perpendicular to AB. If  BEF = 55°, find the values of x and y. Ans:  x =  y = 125° [Corresponding Angles]"
-      },
-      {
-        "block_id": "block_8",
-        "type": "example",
-        "text": "6. What is the measure of angle  NOP in the given figure? [Hint: Draw lines parallel to LM and PQ through points N and O] Ans:  NOP = 108°"
+        "text": "In the figure below, ∠9 and ∠10 are exterior angles. Find the measure of ∠10."
       }
     ]
   }

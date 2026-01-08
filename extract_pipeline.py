@@ -17,7 +17,7 @@ load_dotenv()
 SCRIPT_DIR = Path(__file__).parent.absolute()
 
 # Fixed folder structure relative to script location
-BASE_DIR = SCRIPT_DIR / "ncert_maths_6-10" / "class6"
+BASE_DIR = SCRIPT_DIR / "class7"
 OUTPUT_DIR = BASE_DIR / "text_output"
 TEXT_DIR = BASE_DIR / "text_output"
 JSON_DIR = BASE_DIR / "json_output"
@@ -28,7 +28,7 @@ MODEL = "llama-3.1-8b-instant"
 CHUNK_SIZE = 3000  # Characters per chunk for processing large texts
 
 # Curriculum configuration
-GRADE_LEVEL = "6"
+GRADE_LEVEL = "7"
 SUBJECT = "Mathematics"
 CURRICULUM_TYPE = "NCERT"
 
