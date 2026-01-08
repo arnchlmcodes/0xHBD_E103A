@@ -1,0 +1,61 @@
+{
+  "topic": "Need for Counting",
+  "cards": [
+    {
+      "front": "What is the earliest recorded need for counting?",
+      "back": "Humans had the need to count food, livestock, goods, and offerings in rituals.",
+      "type": "definition"
+    },
+    {
+      "front": "Why did ancient humans want to keep track of the passing days?",
+      "back": "To know and predict important events like new moon, full moon, or onset of a season.",
+      "type": "concept"
+    },
+    {
+      "front": "What were some of the early names for numbers?",
+      "back": "Names for one (eka), ten (dasha), hundred (shata), thousand (sahasra), ten thousand (\u0101yuta), etc.",
+      "type": "definition"
+    },
+    {
+      "front": "List the names for numbers mentioned in the text.",
+      "back": "eka, dasha, shata, sahasra, \u0101yuta",
+      "type": "example"
+    },
+    {
+      "front": "What was the highest number mentioned in the text?",
+      "back": "1012",
+      "type": "definition"
+    },
+    {
+      "front": "What was one early use of counting for food?",
+      "back": "To determine the quantity of food they had.",
+      "type": "concept"
+    },
+    {
+      "front": "How did counting help with livestock?",
+      "back": "To determine the number of animals in their livestock.",
+      "type": "concept"
+    },
+    {
+      "front": "What was the purpose of counting in rituals?",
+      "back": "To keep track of the number of offerings given.",
+      "type": "concept"
+    },
+    {
+      "front": "Why did ancient humans need to predict important events?",
+      "back": "To prepare and plan accordingly.",
+      "type": "concept"
+    },
+    {
+      "front": "What is the relationship between counting and the passing days?",
+      "back": "Counting helped them keep track of the passing days and predict important events.",
+      "type": "concept"
+    },
+    {
+      "front": "Solve this: If I have 5 ekas and 3 dashas, how many numbers am I counting?",
+      "back": "You are counting 5 + 3 = 8 numbers.",
+      "type": "problem"
+    }
+  ],
+  "verification_status": "skipped"
+}

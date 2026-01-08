@@ -1,0 +1,74 @@
+{
+  "topic": "What is a Quadrilateral?",
+  "cards": [
+    {
+      "front": "What is a quadrilateral?",
+      "back": "A quadrilateral is a four-sided figure.",
+      "type": "definition"
+    },
+    {
+      "front": "Where does the word 'quadrilateral' come from?",
+      "back": "The word 'quadrilateral' is derived from Latin words \u2014 quadri meaning four, and latus referring to sides.",
+      "type": "concept"
+    },
+    {
+      "front": "What does the prefix 'quadri' mean?",
+      "back": "The prefix 'quadri' means four.",
+      "type": "concept"
+    },
+    {
+      "front": "What does the suffix '-lateral' mean?",
+      "back": "The suffix '-lateral' means side.",
+      "type": "concept"
+    },
+    {
+      "front": "What are examples of quadrilaterals?",
+      "back": "Figs. (i), (ii), and (iii) are quadrilaterals.",
+      "type": "example"
+    },
+    {
+      "front": "Why are Figs. (i), (ii), and (iii) not quadrilaterals?",
+      "back": "The other figures have more or fewer sides.",
+      "type": "problem"
+    },
+    {
+      "front": "What are the characteristics of a quadrilateral?",
+      "back": "A quadrilateral has four sides and four angles.",
+      "type": "definition"
+    },
+    {
+      "front": "Can you identify a quadrilateral in the following figure?",
+      "back": "Yes, the rectangle is a quadrilateral.",
+      "type": "problem"
+    },
+    {
+      "front": "What is the difference between a quadrilateral and a polygon?",
+      "back": "A quadrilateral is a specific type of polygon with four sides.",
+      "type": "concept"
+    },
+    {
+      "front": "How many sides does a quadrilateral have?",
+      "back": "Four.",
+      "type": "definition"
+    },
+    {
+      "front": "Can you draw a quadrilateral with different shapes?",
+      "back": "Yes, here is an example.",
+      "type": "problem"
+    }
+  ],
+  "verification_status": "rejected",
+  "verification_report": {
+    "score": 55,
+    "hallucination_found": true,
+    "bias_found": false,
+    "reason": "Multiple instances of hallucination were found, including a direct contradiction to the source, and the introduction of concepts and details (e.g., 'four angles', 'polygon', 'rectangle', 'drawing') that are completely absent from the provided trusted source text. Some content also asks questions that presuppose visual information not given.",
+    "flagged_issues": [
+      "Item 6: The front question \"Why are Figs. (i), (ii), and (iii) not quadrilaterals?\" directly contradicts the trusted source, which explicitly states that Figs. (i), (ii), and (iii) *are* quadrilaterals.",
+      "Item 7: The back answer includes \"four angles,\" which is not mentioned or explicitly inferable from the definition provided in the trusted source (which only mentions 'four-sided figure').",
+      "Item 8: Both the question \"Can you identify a quadrilateral in the following figure?\" and the answer mentioning a \"rectangle\" are not supported by any information or figures described in the trusted source.",
+      "Item 9: The terms \"polygon\" and the comparison between it and a quadrilateral are completely absent from the trusted source.",
+      "Item 11: The question \"Can you draw a quadrilateral with different shapes?\" and the answer implying a visual example are not supported by the provided textual source and require external content for verification."
+    ]
+  }
+}

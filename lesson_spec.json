@@ -1,33 +1,31 @@
 {
-  "title": "Expressions with Variables",
-   "subtitle": "Real-World Applications",
+  "title": "Number Play",
+   "subtitle": "Exploring Parity and Sums",
    "sections": [
       {
-         "type": "definition",
-         "term": "Expression with Variables",
-         "text": "An algebraic expression with a variable"
-      },
-      {
          "type": "bullet_list",
-         "heading": "Real-World Applications",
+         "heading": "What are Even and Odd Numbers?",
          "items": [
-            "Representing costs of items",
-            "Modeling real-world situations",
-            "Solving problems in science and engineering"
+            "An even number can be arranged in pairs without any leftovers.",
+            "An odd number is one more than a collection of pairs."
          ]
-      },
-      {
-         "type": "analogy",
-         "concept": "2x + 3",
-         "analogy": "Cost of 2 apples and 3 bananas"
       },
       {
          "type": "process",
          "steps": [
-            "Identify the variable and constants",
-            "Determine the operation (addition, subtraction, etc.)",
-            "Simplify the expression"
+            "Step 1: Identify if a number is even or odd.",
+            "Step 2: Determine if the number of numbers added is even or odd.",
+            "Step 3: Consider the parity of the sum."
          ]
+      },
+      {
+         "type": "analogy",
+         "concept": "Parity of Sums",
+         "analogy": "Pairing Shoes"
+      },
+      {
+         "type": "statement",
+         "text": "Adding any even number of odd numbers will result in an even number, but adding an odd number of odd numbers will result in an odd number."
       }
    ]
 }

@@ -4,3 +4,31 @@ Requested Filename: gegp102.json
 Resolved Path: C:\Users\Lenovo\Desktop\machsss\class7\json_output\gegp102.json
 Exists: True
 Starting run_video_generator...
+
+--- Video Gen Request ---
+Requested Filename: gegp103.json
+Resolved Path: C:\Users\Lenovo\Desktop\machsss\class7\json_output\gegp103.json
+Exists: True
+Starting run_video_generator...
+Finished run_video_generator.
+
+--- Video Gen Request ---
+Requested Filename: class7/json_output/gegp107.json
+Resolved Path: C:\Users\Lenovo\Desktop\machsss\content\class7\json_output\gegp107.json
+Exists: True
+Starting run_video_generator -> Video_gegp107_3_1767847079_ab9603.mp4
+Finished run_video_generator.
+
+--- Video Gen Request ---
+Requested Filename: class7/json_output/gegp105.json
+Resolved Path: C:\Users\Lenovo\Desktop\machsss\content\class7\json_output\gegp105.json
+Exists: True
+Starting run_video_generator -> Video_gegp105_0_1767847307_dc6007.mp4
+Finished run_video_generator.
+
+--- Video Gen Request ---
+Requested Filename: class7/json_output/gegp106.json
+Resolved Path: C:\Users\Lenovo\Desktop\machsss\content\class7\json_output\gegp106.json
+Exists: True
+Starting run_video_generator -> Video_gegp106_0_1767847523_b3173c.mp4
+Finished run_video_generator.

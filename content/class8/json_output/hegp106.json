@@ -1,0 +1,1301 @@
+[
+  {
+    "topic_name": "Distributivity",
+    "unit": "hegp106",
+    "learning_objectives": [
+      "Understand the concept of distributivity in multiplication",
+      "Apply the distributive property to expand expressions",
+      "Analyze the effect of increasing or decreasing numbers in a product"
+    ],
+    "allowed_concepts": [
+      "Multiplication",
+      "Addition",
+      "Distributive property",
+      "Commutative property"
+    ],
+    "disallowed_concepts": [
+      "Advanced calculus",
+      "Complex numbers"
+    ],
+    "content_blocks": [
+      {
+        "type": "definition",
+        "text": "Distributivity is a property relating multiplication and addition that is captured concisely using algebra.",
+        "block_id": "block_1"
+      },
+      {
+        "type": "explanation",
+        "text": "If a, b and c are three numbers, then — a (b + c) = ab + ac",
+        "block_id": "block_2"
+      },
+      {
+        "type": "example",
+        "text": "23 ( 27 + 1) = 23 × 27 + 23",
+        "block_id": "block_3"
+      },
+      {
+        "type": "explanation",
+        "text": "We can also similarly expand (a + b) c using the distributive property as follows — (a + b) c = c (a + b) (commutativity of multiplication) = ca + cb (distributivity) = ac + bc (commutativity of multiplication)",
+        "block_id": "block_4"
+      },
+      {
+        "type": "example",
+        "text": "(a + 1) (b + 1) = (a + 1) b + (a + 1) 1",
+        "block_id": "block_5"
+      },
+      {
+        "type": "explanation",
+        "text": "Thus, the product ab increases by a + b + 1 when each of a and b are increased by 1.",
+        "block_id": "block_6"
+      },
+      {
+        "type": "example",
+        "text": "(a + 1) (b – 1) = (a + 1) b – (a + 1) 1",
+        "block_id": "block_7"
+      },
+      {
+        "type": "explanation",
+        "text": "Will the product always increase? Find 3 examples where the product decreases.",
+        "block_id": "block_8"
+      }
+    ],
+    "topic_id": "topic_1",
+    "chapter_name": "YET THINGS MULTIPLY"
+  },
+  {
+    "topic_name": "Distributive Property of Multiplication over Addition",
+    "unit": "hegp106",
+    "learning_objectives": [
+      "To understand the distributive property of multiplication over addition",
+      "To apply the distributive property to expand expressions",
+      "Understand the distributive property of multiplication over addition",
+      "Apply the distributive property to expand products",
+      "Use the distributive property to come up with quick methods of multiplication",
+      "Apply the distributive property to find the product of two expressions each of which has two terms.",
+      "Identify special cases of the distributive property."
+    ],
+    "allowed_concepts": [
+      "Multiplication of integers",
+      "Addition of integers",
+      "Distributive property of multiplication over addition",
+      "Multiplication of algebraic expressions",
+      "Fast multiplication using the distributive property",
+      "Distributive property",
+      "Multiplication over addition"
+    ],
+    "disallowed_concepts": [
+      "Advanced calculus",
+      "Complex numbers"
+    ],
+    "content_blocks": [
+      {
+        "type": "definition",
+        "text": "The distributive property of multiplication over addition states that for any integers a, b, and c, a(b + c) = ab + ac.",
+        "block_id": "block_1"
+      },
+      {
+        "type": "explanation",
+        "text": "To apply the distributive property, we can break down the expression into two separate products and then add them together.",
+        "block_id": "block_2"
+      },
+      {
+        "type": "example",
+        "text": "For example, to expand (a + b)(c + d), we can break it down into (a + b)c + (a + b)d and then simplify each product.",
+        "block_id": "block_3"
+      },
+      {
+        "type": "example",
+        "text": "Using the distributive property, we can expand (a + b)(c + d) as ac + ad + bc + bd.",
+        "block_id": "block_4"
+      },
+      {
+        "type": "explanation",
+        "text": "The distributive property can be applied to any expression of the form (a + b)(c + d), where a, b, c, and d are integers.",
+        "block_id": "block_5"
+      },
+      {
+        "type": "example",
+        "text": "For example, to expand (a + b)(a2 + 2ab + b2), we can break it down into (a + b)a2 + (a + b)2ab + (a + b)b2 and then simplify each product.",
+        "block_id": "block_6"
+      },
+      {
+        "type": "example",
+        "text": "Using the distributive property, we can expand (a + b)(a2 + 2ab + b2) as a3 + 3a2b + 3ab2 + b3.",
+        "block_id": "block_7"
+      },
+      {
+        "type": "explanation",
+        "text": "The distributive property is a powerful tool for expanding expressions and simplifying algebraic expressions.",
+        "block_id": "block_8"
+      },
+      {
+        "type": "explanation",
+        "text": "The distributive property of multiplication over addition was implicit in the calculations of mathematicians in many ancient civilizations, including ancient Egypt, Mesopotamia, Greece, China, and India.",
+        "block_id": "block_9"
+      },
+      {
+        "type": "explanation",
+        "text": "The first explicit statement of the distributive property was given by Brahmagupta in his work Brahmasphuṭasiddhānta (Verse 12.55).",
+        "block_id": "block_10"
+      },
+      {
+        "type": "explanation",
+        "text": "The distributive property of multiplication over addition was implicit in the calculations of mathematicians in many ancient civilisations, particularly in ancient Egypt, Mesopotamia, Greece, China, and India. For example, the mathematicians Euclid (in geometric form) and Āryabhaṭa (in algebraic form) used the distributive law in an implicit manner extensively in their mathematical and scientific works.",
+        "block_id": "block_11"
+      },
+      {
+        "type": "definition",
+        "text": "The first explicit statement of the distributive property was given by Brahmagupta in his work Brahmasphuṭasiddhānta (Verse 12.55), who referred to the use of the property for multiplication as khaṇḍa-guṇanam (multiplication by parts).",
+        "block_id": "block_12"
+      },
+      {
+        "type": "example",
+        "text": "If there are two parts, then using letter symbols this is equivalent to the identity (a + b) c = ac + bc.",
+        "block_id": "block_13"
+      },
+      {
+        "type": "explanation",
+        "text": "Brahmagupta further describes a method for doing fast multiplication using this distributive property, which we explore further in the next section.",
+        "block_id": "block_14"
+      },
+      {
+        "type": "example",
+        "text": "Observe the multiplication grid below. Each number inside the grid is formed by multiplying two numbers. If the middle number of a 3 × 3 frame is given by the expression pq, as shown in the figure, write the expressions for the other numbers in the grid.",
+        "block_id": "block_15"
+      },
+      {
+        "type": "example",
+        "text": "(i) (3 + u) (v – 3) (ii) (15 + 6a)",
+        "block_id": "block_16"
+      },
+      {
+        "type": "example",
+        "text": "(iii) (10a + b) (10c + d) (iv) (3 – x) (x – 6)",
+        "block_id": "block_17"
+      },
+      {
+        "type": "example",
+        "text": "(v) (–5a + b) (c + d) (vi) (5 + z) (y + 9)",
+        "block_id": "block_18"
+      },
+      {
+        "type": "example",
+        "text": "3. Find 3 examples where the product of two numbers remains unchanged when one of them is increased by 2 and the other is decreased by 4.",
+        "block_id": "block_19"
+      },
+      {
+        "type": "example",
+        "text": "4. Expand (i) (a + ab – 3b2) (4 + b), and (ii) (4y + 7) (y + 11z – 3).",
+        "block_id": "block_20"
+      },
+      {
+        "type": "example",
+        "text": "5. Expand (i) (a – b) (a + b), (ii) (a – b) (a2 + ab + b2) and (iii) (a – b)(a3 + a2b + ab2 + b3), Do you see a pattern? What would be the next identity in the pattern that you see? Can you check it by expanding?",
+        "block_id": "block_21"
+      },
+      {
+        "type": "explanation",
+        "text": "The distributive property can be used to come up with quick methods of multiplication when certain types of numbers are multiplied.",
+        "block_id": "block_22"
+      },
+      {
+        "type": "example",
+        "text": "When one of the numbers is 11, 101, 1001, ... Use the following multiplications to find the product of a number with 11 in a single step.",
+        "block_id": "block_23"
+      },
+      {
+        "type": "example",
+        "text": "Let us take the first multiplication. 3874 × 11 = 3874 (10 + 1) = 38740 + 3874",
+        "block_id": "block_24"
+      },
+      {
+        "type": "example",
+        "text": "Notice how the digits are getting added. Let us take a 4-digit number dcba, that is, the number that has d in the thousands place, c in the hundreds place, b in the tens place and a in the units place.",
+        "block_id": "block_25"
+      },
+      {
+        "type": "example",
+        "text": "dcba × (10 + 1) = dcba × 10 + dcba. This becomes d c b a o + d c b a d (c + d) (b + c) (a + b) a",
+        "block_id": "block_26"
+      },
+      {
+        "type": "example",
+        "text": "This can be used to obtain the product in one line. Step 1 Step 2 Step 3 1 + + 3874 × 11 3874 × 11 3874 × 11 4 14 614 Step 4 Step 5 + 3874 × 11 3874 × 11 2614 42614",
+        "block_id": "block_27"
+      },
+      {
+        "type": "example",
+        "text": "Describe a general rule to multiply a number (of any number of digits) by 11 and write the product in one line.",
+        "block_id": "block_28"
+      },
+      {
+        "type": "example",
+        "text": "Evaluate (i) 94 × 11, (ii) 495 × 11, (iii) 3279 × 11, (iv) 4791256 × 11.",
+        "block_id": "block_29"
+      },
+      {
+        "type": "example",
+        "text": "Can we come up with a similar rule for multiplying a number by 101?",
+        "block_id": "block_30"
+      },
+      {
+        "type": "example",
+        "text": "Multiply 3874 by 101. Let us take a 4-digit number dcba. dcba × 101 = dcba × (100 + 1) = dcba × 100 + dcba.",
+        "block_id": "block_31"
+      },
+      {
+        "type": "example",
+        "text": "This becomes d c b a o o + d c b a d c (b + d) (a + c) b a",
+        "block_id": "block_32"
+      },
+      {
+        "type": "example",
+        "text": "Use this to multiply 3874 × 101 in one line.",
+        "block_id": "block_33"
+      },
+      {
+        "type": "example",
+        "text": "What could be a general rule to multiply a number by 101 and write the product in one line? Extend this rule for multiplication by 1001, 10001, …",
+        "block_id": "block_34"
+      },
+      {
+        "type": "example",
+        "text": "Use this to find (i) 89 × 101, (ii) 949 × 101, (iii) 265831 × 1001.",
+        "block_id": "block_35"
+      },
+      {
+        "type": "definition",
+        "text": "The general form for the distributive property is (a + b) × (c + d) = ac + ad + bc + bd.",
+        "block_id": "block_36"
+      },
+      {
+        "type": "explanation",
+        "text": "We extended the distributive property to find the product of two expressions each of which has two terms.",
+        "block_id": "block_37"
+      },
+      {
+        "type": "example",
+        "text": "y (a + b)2 = a2 + 2ab + b2",
+        "block_id": "block_38"
+      },
+      {
+        "type": "example",
+        "text": "y (a – b)2 = a2 – 2ab + b2",
+        "block_id": "block_39"
+      },
+      {
+        "type": "example",
+        "text": "y (a + b) (a – b) = a2 – b2",
+        "block_id": "block_40"
+      }
+    ],
+    "topic_id": "topic_2",
+    "chapter_name": "YET THINGS MULTIPLY"
+  },
+  {
+    "topic_name": "Expanding Expressions",
+    "unit": "hegp106",
+    "learning_objectives": [
+      "To understand how to expand expressions using the distributive property",
+      "To apply the distributive property to expand expressions"
+    ],
+    "allowed_concepts": [
+      "Multiplication of integers",
+      "Addition of integers",
+      "Distributive property of multiplication over addition"
+    ],
+    "disallowed_concepts": [
+      "Advanced calculus",
+      "Complex numbers"
+    ],
+    "content_blocks": [
+      {
+        "type": "definition",
+        "text": "To expand an expression, we can use the distributive property to break it down into separate products and then simplify each product.",
+        "block_id": "block_1"
+      },
+      {
+        "type": "example",
+        "text": "For example, to expand (a + b)(c + d), we can break it down into (a + b)c + (a + b)d and then simplify each product.",
+        "block_id": "block_2"
+      },
+      {
+        "type": "example",
+        "text": "Using the distributive property, we can expand (a + b)(c + d) as ac + ad + bc + bd.",
+        "block_id": "block_3"
+      },
+      {
+        "type": "explanation",
+        "text": "The distributive property can be applied to any expression of the form (a + b)(c + d), where a, b, c, and d are integers.",
+        "block_id": "block_4"
+      },
+      {
+        "type": "example",
+        "text": "For example, to expand (a + b)(a2 + 2ab + b2), we can break it down into (a + b)a2 + (a + b)2ab + (a + b)b2 and then simplify each product.",
+        "block_id": "block_5"
+      },
+      {
+        "type": "example",
+        "text": "Using the distributive property, we can expand (a + b)(a2 + 2ab + b2) as a3 + 3a2b + 3ab2 + b3.",
+        "block_id": "block_6"
+      }
+    ],
+    "topic_id": "topic_3",
+    "chapter_name": "YET THINGS MULTIPLY"
+  },
+  {
+    "topic_name": "Multiplication by 11",
+    "unit": "hegp106",
+    "learning_objectives": [
+      "To describe a general rule to multiply a number by 11 and write the product in one line.",
+      "To evaluate the product of a number by 11 using the general rule."
+    ],
+    "allowed_concepts": [
+      "Distributive property",
+      "Multiplication of numbers"
+    ],
+    "disallowed_concepts": [
+      "Advanced calculus",
+      "Complex numbers"
+    ],
+    "content_blocks": [
+      {
+        "type": "definition",
+        "text": "dcba × (10 + 1) = dcba × 10 + dcba.",
+        "block_id": "block_1"
+      },
+      {
+        "type": "explanation",
+        "text": "This becomes d c b a o + d c b a d (c + d) (b + c) (a + b) a",
+        "block_id": "block_2"
+      },
+      {
+        "type": "example",
+        "text": "Step 1 Step 2 Step 3 1 + + 3874 × 11 3874 × 11 3874 × 11 4 14 614",
+        "block_id": "block_3"
+      },
+      {
+        "type": "explanation",
+        "text": "Describe a general rule to multiply a number (of any number of digits) by 11 and write the product in one line.",
+        "block_id": "block_4"
+      },
+      {
+        "type": "example",
+        "text": "Evaluate (i) 94 × 11, (ii) 495 × 11, (iii) 3279 × 11, (iv) 4791256 × 11.",
+        "block_id": "block_5"
+      }
+    ],
+    "topic_id": "topic_4",
+    "chapter_name": "YET THINGS MULTIPLY"
+  },
+  {
+    "topic_name": "Multiplication by 101",
+    "unit": "hegp106",
+    "learning_objectives": [
+      "To describe a general rule to multiply a number by 101 and write the product in one line.",
+      "To evaluate the product of a number by 101 using the general rule."
+    ],
+    "allowed_concepts": [
+      "Distributive property",
+      "Multiplication of numbers"
+    ],
+    "disallowed_concepts": [
+      "Advanced calculus",
+      "Complex numbers"
+    ],
+    "content_blocks": [
+      {
+        "type": "definition",
+        "text": "dcba × 101 = dcba × (100 + 1) = dcba × 100 + dcba.",
+        "block_id": "block_1"
+      },
+      {
+        "type": "explanation",
+        "text": "This becomes d c b a o o + d c b a d c (b + d) (a + c) b a",
+        "block_id": "block_2"
+      },
+      {
+        "type": "example",
+        "text": "Use this to multiply 3874 × 101 in one line.",
+        "block_id": "block_3"
+      },
+      {
+        "type": "explanation",
+        "text": "What could be a general rule to multiply a number by 101 and write the product in one line?",
+        "block_id": "block_4"
+      },
+      {
+        "type": "example",
+        "text": "Use this to find (i) 89 × 101, (ii) 949 × 101, (iii) 265831 × 1001, (iv) 1111 × 1001, (v) 9734 × 99 and (vi) 23478 × 999.",
+        "block_id": "block_5"
+      }
+    ],
+    "topic_id": "topic_5",
+    "chapter_name": "YET THINGS MULTIPLY"
+  },
+  {
+    "topic_name": "Square of the Sum/Difference of Two Numbers",
+    "unit": "hegp106",
+    "learning_objectives": [
+      "To find the area of a square of sidelength 65 using the distributive property.",
+      "To expand (a + b)2 using the distributive property."
+    ],
+    "allowed_concepts": [
+      "Distributive property",
+      "Area of a square"
+    ],
+    "disallowed_concepts": [
+      "Advanced calculus",
+      "Complex numbers"
+    ],
+    "content_blocks": [
+      {
+        "type": "explanation",
+        "text": "The area of a square of sidelength 65 is the sum of the areas of all its constituent parts.",
+        "block_id": "block_1"
+      },
+      {
+        "type": "example",
+        "text": "60 5 We get 652 = (60 + 5)2 = 602 + 52 + 2 × (60 × 5).",
+        "block_id": "block_2"
+      },
+      {
+        "type": "explanation",
+        "text": "Let us multiply (60 + 5) × (60 + 5) using the distributive property.",
+        "block_id": "block_3"
+      },
+      {
+        "type": "example",
+        "text": "(60 + 5) × (60 + 5) = 60 × 60 + 5 × 60 + 60 × 5 + 5 × 5",
+        "block_id": "block_4"
+      },
+      {
+        "type": "explanation",
+        "text": "What if we write 652 as (30 + 35)2 or (52 + 13)2?",
+        "block_id": "block_5"
+      }
+    ],
+    "topic_id": "topic_6",
+    "chapter_name": "YET THINGS MULTIPLY"
+  },
+  {
+    "topic_name": "Identity 1A (a+b)2 = a2 + 2ab + b2",
+    "unit": "hegp106",
+    "learning_objectives": [
+      "To expand (a + b)2 using the distributive property.",
+      "To use Identity 1A to find the values of 1042 and 372."
+    ],
+    "allowed_concepts": [
+      "Distributive property",
+      "Identity 1A"
+    ],
+    "disallowed_concepts": [
+      "Advanced calculus",
+      "Complex numbers"
+    ],
+    "content_blocks": [
+      {
+        "type": "definition",
+        "text": "(a+b)2 can be expanded as (a+b) × (a+b) = a×a + a×b + b×a + b×b",
+        "block_id": "block_1"
+      },
+      {
+        "type": "explanation",
+        "text": "Using the distributive property, (a+b)2 can be expanded as a2 + 2ab + b2.",
+        "block_id": "block_2"
+      },
+      {
+        "type": "example",
+        "text": "Identity 1A (a+b)2 = a2 + 2ab + b2",
+        "block_id": "block_3"
+      },
+      {
+        "type": "example",
+        "text": "Use Identity 1A to write the expressions for the following. (i) (m + 3)2 (ii) (6 + p)2",
+        "block_id": "block_4"
+      },
+      {
+        "type": "example",
+        "text": "Expand (6x + 5)2.",
+        "block_id": "block_5"
+      }
+    ],
+    "topic_id": "topic_7",
+    "chapter_name": "YET THINGS MULTIPLY"
+  },
+  {
+    "topic_name": "Expanding (a + b)^2",
+    "unit": "hegp106",
+    "learning_objectives": [
+      "Expand (a + b)^2 using the identity",
+      "Apply the distributive property to expand (a + b)^2"
+    ],
+    "allowed_concepts": [
+      "Distributive Property",
+      "Identity 1A"
+    ],
+    "disallowed_concepts": [
+      "Advanced calculus",
+      "Complex numbers"
+    ],
+    "content_blocks": [
+      {
+        "type": "definition",
+        "text": "y 1A (a+b)2 = a2 + 2ab + b2",
+        "block_id": "block_1"
+      },
+      {
+        "type": "example",
+        "text": "Use Identity 1A to write the expressions for the following. (i) (m + 3)2 (ii) (6 + p)2",
+        "block_id": "block_2"
+      },
+      {
+        "type": "explanation",
+        "text": "Expand (6x + 5)2. Using the Distributive Property Using the Identity (6x + 5)2 = (6x + 5) (6x + 5) (6x + 5)2 = (6x)2 + 52 + 2 × (6x × 5) = (6x × 6x) + (5 × 6x) +(6x × 5) + 5 × 5 = 36x2 + 25 + 60x.",
+        "block_id": "block_3"
+      },
+      {
+        "type": "example",
+        "text": "Expand (3j + 2k)2 using both the identity and by applying the distributive property.",
+        "block_id": "block_4"
+      },
+      {
+        "type": "explanation",
+        "text": "Can we use 602 (=3600) and 52 (=25) to find the value of (60 – 5)2 or 552? Let us approach this through geometry by drawing a square of side length 55 sitting inside a square of sidelength 60.",
+        "block_id": "block_5"
+      },
+      {
+        "type": "example",
+        "text": "We can get the area of the square of sidelength 55 by taking the area of the square of sidelength 60 and removing the areas of the two rectangles of sidelengths 60 and 5, i.e., 602 – (60 × 5) – (5 × 60).",
+        "block_id": "block_6"
+      },
+      {
+        "type": "explanation",
+        "text": "We can add back the area of the square of sidelength 5 to this expression. That way, we are only subtracting this area once.",
+        "block_id": "block_7"
+      },
+      {
+        "type": "example",
+        "text": "So, (60 – 5)2 = 602 – (60 × 5) – (5 × 60) + 52 = 3600 – 300 – 300 + 25 = 3025.",
+        "block_id": "block_8"
+      }
+    ],
+    "topic_id": "topic_8",
+    "chapter_name": "YET THINGS MULTIPLY"
+  },
+  {
+    "topic_name": "Expanding (a - b)^2",
+    "unit": "hegp106",
+    "learning_objectives": [
+      "Expand (a - b)^2 using the identity",
+      "Apply the distributive property to expand (a - b)^2"
+    ],
+    "allowed_concepts": [
+      "Distributive Property",
+      "Identity 1B"
+    ],
+    "disallowed_concepts": [
+      "Advanced calculus",
+      "Complex numbers"
+    ],
+    "content_blocks": [
+      {
+        "type": "definition",
+        "text": "(a - b)^2 = a^2 - 2ab + b^2",
+        "block_id": "block_1"
+      },
+      {
+        "type": "example",
+        "text": "Using the distributive property, (a - b)^2 = (a - b) × (a - b) = a^2 - ba - ab + b^2",
+        "block_id": "block_2"
+      },
+      {
+        "type": "explanation",
+        "text": "We can also use the expansion of (a + b)^2 to find the expansion of (a - b)^2. Think how. Hint: (a - b)^2 = (a + (-b))^2.",
+        "block_id": "block_3"
+      },
+      {
+        "type": "example",
+        "text": "We can now directly use the expansion of (a + b)^2. (a + (-b))^2 = (a)^2 + (-b)^2 + 2 × (a) × (-b)",
+        "block_id": "block_4"
+      },
+      {
+        "type": "definition",
+        "text": "Identity 1B (a - b)^2 = a^2 + b^2 - 2ab",
+        "block_id": "block_5"
+      },
+      {
+        "type": "example",
+        "text": "Find the general expansion of (a - b)^2 using geometry, as we did for 552.",
+        "block_id": "block_6"
+      },
+      {
+        "type": "explanation",
+        "text": "Use the identity (a - b)^2 to find the values of (a) 992 and (b) 582.",
+        "block_id": "block_7"
+      },
+      {
+        "type": "example",
+        "text": "Expand the following using both Identity 1B and by applying the distributive property (i) (b - 6)^2 (ii) (-2a + 3)^2 (iii) (7y - 3)^2",
+        "block_id": "block_8"
+      }
+    ],
+    "topic_id": "topic_9",
+    "chapter_name": "YET THINGS MULTIPLY"
+  },
+  {
+    "topic_name": "Pattern 1",
+    "unit": "hegp106",
+    "learning_objectives": [
+      "Observe the pattern 2(a^2 + b^2) = (a + b)^2 + (a - b)^2"
+    ],
+    "allowed_concepts": [
+      "Identity 1A",
+      "Identity 1B"
+    ],
+    "disallowed_concepts": [
+      "Advanced calculus",
+      "Complex numbers"
+    ],
+    "content_blocks": [
+      {
+        "type": "example",
+        "text": "Look at the following pattern. 2(22 + 12) = 32 + 12 2(32 + 12) = 42 + 22 2(62 + 52) = 112 + 12 2(52 + 32) = 82 + 22.",
+        "block_id": "block_1"
+      },
+      {
+        "type": "explanation",
+        "text": "Take a pair of natural numbers. Calculate the sum of their squares. Can you write twice this sum as a sum of two squares? Try this with other pairs of numbers. Have you figured out a pattern?",
+        "block_id": "block_2"
+      },
+      {
+        "type": "example",
+        "text": "Notice that 2(52 + 62) = (6 + 5)^2 + (6 - 5)^2.",
+        "block_id": "block_3"
+      },
+      {
+        "type": "definition",
+        "text": "2(a^2 + b^2) = (a + b)^2 + (a - b)^2",
+        "block_id": "block_4"
+      }
+    ],
+    "topic_id": "topic_10",
+    "chapter_name": "YET THINGS MULTIPLY"
+  },
+  {
+    "topic_name": "Pattern 2",
+    "unit": "hegp106",
+    "learning_objectives": [
+      "Observe the pattern a^2 - b^2 = (a + b)(a - b)"
+    ],
+    "allowed_concepts": [
+      "Identity 1C"
+    ],
+    "disallowed_concepts": [
+      "Advanced calculus",
+      "Complex numbers"
+    ],
+    "content_blocks": [
+      {
+        "type": "example",
+        "text": "Here is a related pattern. Try to describe the pattern using algebra to determine if the pattern always holds. 9 × 9 – 1 × 1= 10 × 8 8 × 8 – 6 × 6 = 14 × 2 7 × 7 – 2 × 2 = 9 × 5 10 × 10 – 4 × 4 = 14 × 6",
+        "block_id": "block_1"
+      },
+      {
+        "type": "explanation",
+        "text": "The pattern here appears to be a^2 - b^2 = (a + b)(a - b). Is this a true identity? Using the distributive property, we get (a + b)(a - b) = a^2 - ab + ba - a^2.",
+        "block_id": "block_2"
+      },
+      {
+        "type": "definition",
+        "text": "Identity 1C (a + b)(a - b) = a^2 - b^2",
+        "block_id": "block_3"
+      },
+      {
+        "type": "example",
+        "text": "Use Identity 1C to calculate 98 × 102, and 45 × 55.",
+        "block_id": "block_4"
+      }
+    ],
+    "topic_id": "topic_11",
+    "chapter_name": "YET THINGS MULTIPLY"
+  },
+  {
+    "topic_name": "Sridharacharya's Method",
+    "unit": "hegp106",
+    "learning_objectives": [
+      "Understand Sridharacharya's method to quickly compute squares"
+    ],
+    "allowed_concepts": [
+      "Identity 1C"
+    ],
+    "disallowed_concepts": [
+      "Advanced calculus",
+      "Complex numbers"
+    ],
+    "content_blocks": [
+      {
+        "type": "explanation",
+        "text": "Sridharacharya (750 CE) gave an interesting method to quickly compute the squares of numbers using Identity 1C! Consider the following modified form of this identity — a^2 = (a + b)(a - b) + b^2",
+        "block_id": "block_1"
+      },
+      {
+        "type": "example",
+        "text": "Why is this identity true?",
+        "block_id": "block_2"
+      },
+      {
+        "type": "example",
+        "text": "Now, for example, 312 can be found by taking a = 31 and b = 1. 312 = (31 + 1)(31 - 1) + 12 = 32 × 30 + 1 = 961.",
+        "block_id": "block_3"
+      }
+    ],
+    "topic_id": "topic_12",
+    "chapter_name": "YET THINGS MULTIPLY"
+  },
+  {
+    "topic_name": "Identity 1C (a + b) × (a - b) = a^2 - b^2",
+    "unit": "hegp106",
+    "learning_objectives": [
+      "To understand the identity (a + b) × (a - b) = a^2 - b^2",
+      "To use the identity to calculate 98 × 102 and 45 × 55",
+      "To show that (a + b) × (a - b) = a^2 - b^2 geometrically"
+    ],
+    "allowed_concepts": [
+      "Distributive property",
+      "Algebraic expressions",
+      "Identity 1C"
+    ],
+    "disallowed_concepts": [
+      "Advanced calculus",
+      "Complex numbers"
+    ],
+    "content_blocks": [
+      {
+        "type": "definition",
+        "text": "The identity (a + b) × (a - b) = a^2 - b^2 is a true identity.",
+        "block_id": "block_1"
+      },
+      {
+        "type": "explanation",
+        "text": "Using the distributive property, we get (a + b) × (a - b) = a^2 - ab + ba - a^2.",
+        "block_id": "block_2"
+      },
+      {
+        "type": "example",
+        "text": "We can use the identity to calculate 98 × 102 and 45 × 55.",
+        "block_id": "block_3"
+      },
+      {
+        "type": "example",
+        "text": "We can also show that (a + b) × (a - b) = a^2 - b^2 geometrically.",
+        "block_id": "block_4"
+      }
+    ],
+    "topic_id": "topic_13",
+    "chapter_name": "YET THINGS MULTIPLY"
+  },
+  {
+    "topic_name": "Sridharacharya's Method to Quickly Compute Squares",
+    "unit": "hegp106",
+    "learning_objectives": [
+      "To understand Sridharacharya's method to quickly compute squares",
+      "To use the method to find 312 and 1972"
+    ],
+    "allowed_concepts": [
+      "Identity 1C",
+      "Algebraic expressions"
+    ],
+    "disallowed_concepts": [
+      "Advanced calculus",
+      "Complex numbers"
+    ],
+    "content_blocks": [
+      {
+        "type": "definition",
+        "text": "Sridharacharya's method to quickly compute squares is given by a^2 = (a + b) (a - b) + b^2.",
+        "block_id": "block_1"
+      },
+      {
+        "type": "explanation",
+        "text": "This identity is true because (a + b) (a - b) = a^2 - ab + ba - a^2 = a^2 - b^2.",
+        "block_id": "block_2"
+      },
+      {
+        "type": "example",
+        "text": "We can use the method to find 312 by taking a = 31 and b = 1.",
+        "block_id": "block_3"
+      },
+      {
+        "type": "example",
+        "text": "We can also use the method to find 1972 by taking a = 197 and b = 3.",
+        "block_id": "block_4"
+      }
+    ],
+    "topic_id": "topic_14",
+    "chapter_name": "YET THINGS MULTIPLY"
+  },
+  {
+    "topic_name": "Patterns in Algebraic Expressions",
+    "unit": "hegp106",
+    "learning_objectives": [
+      "To identify patterns in algebraic expressions",
+      "To use the patterns to simplify expressions"
+    ],
+    "allowed_concepts": [
+      "Algebraic expressions",
+      "Patterns"
+    ],
+    "disallowed_concepts": [
+      "Advanced calculus",
+      "Complex numbers"
+    ],
+    "content_blocks": [
+      {
+        "type": "definition",
+        "text": "A pattern in algebraic expressions is a sequence of expressions that follow a specific rule.",
+        "block_id": "block_1"
+      },
+      {
+        "type": "explanation",
+        "text": "We can use the patterns to simplify expressions by identifying the rule and applying it.",
+        "block_id": "block_2"
+      },
+      {
+        "type": "example",
+        "text": "For example, the pattern in the expression (a + b) × (a - b) = a^2 - b^2 can be used to simplify the expression.",
+        "block_id": "block_3"
+      }
+    ],
+    "topic_id": "topic_15",
+    "chapter_name": "YET THINGS MULTIPLY"
+  },
+  {
+    "topic_name": "Geometric Interpretation of Algebraic Expressions",
+    "unit": "hegp106",
+    "learning_objectives": [
+      "To understand the geometric interpretation of algebraic expressions",
+      "To use the geometric interpretation to simplify expressions"
+    ],
+    "allowed_concepts": [
+      "Algebraic expressions",
+      "Geometric interpretation"
+    ],
+    "disallowed_concepts": [
+      "Advanced calculus",
+      "Complex numbers"
+    ],
+    "content_blocks": [
+      {
+        "type": "definition",
+        "text": "The geometric interpretation of an algebraic expression is a visual representation of the expression.",
+        "block_id": "block_1"
+      },
+      {
+        "type": "explanation",
+        "text": "We can use the geometric interpretation to simplify expressions by identifying the shape and applying the rules of geometry.",
+        "block_id": "block_2"
+      },
+      {
+        "type": "example",
+        "text": "For example, the geometric interpretation of the expression (a + b) × (a - b) = a^2 - b^2 can be used to simplify the expression.",
+        "block_id": "block_3"
+      }
+    ],
+    "topic_id": "topic_16",
+    "chapter_name": "YET THINGS MULTIPLY"
+  },
+  {
+    "topic_name": "Simplifying Algebraic Expressions",
+    "unit": "hegp106",
+    "learning_objectives": [
+      "To simplify algebraic expressions",
+      "To use the distributive property to simplify expressions"
+    ],
+    "allowed_concepts": [
+      "Algebraic expressions",
+      "Distributive property"
+    ],
+    "disallowed_concepts": [
+      "Advanced calculus",
+      "Complex numbers"
+    ],
+    "content_blocks": [
+      {
+        "type": "definition",
+        "text": "Simplifying an algebraic expression means rewriting it in a more compact form.",
+        "block_id": "block_1"
+      },
+      {
+        "type": "explanation",
+        "text": "We can use the distributive property to simplify expressions by distributing the terms.",
+        "block_id": "block_2"
+      },
+      {
+        "type": "example",
+        "text": "For example, the expression (a + b) × (a - b) = a^2 - b^2 can be simplified using the distributive property.",
+        "block_id": "block_3"
+      }
+    ],
+    "topic_id": "topic_17",
+    "chapter_name": "YET THINGS MULTIPLY"
+  },
+  {
+    "topic_name": "Number of Circles in a Pattern",
+    "unit": "hegp106",
+    "learning_objectives": [
+      "To understand the pattern of circles",
+      "To find the number of circles at each step"
+    ],
+    "allowed_concepts": [
+      "Patterns",
+      "Algebraic expressions"
+    ],
+    "disallowed_concepts": [
+      "Advanced calculus",
+      "Complex numbers"
+    ],
+    "content_blocks": [
+      {
+        "type": "definition",
+        "text": "The pattern of circles is a sequence of circles that follow a specific rule.",
+        "block_id": "block_1"
+      },
+      {
+        "type": "explanation",
+        "text": "We can use the pattern to find the number of circles at each step by identifying the rule and applying it.",
+        "block_id": "block_2"
+      },
+      {
+        "type": "example",
+        "text": "For example, the pattern of circles can be used to find the number of circles at each step.",
+        "block_id": "block_3"
+      }
+    ],
+    "topic_id": "topic_18",
+    "chapter_name": "YET THINGS MULTIPLY"
+  },
+  {
+    "topic_name": "Finding the Number of Circles in a Pattern",
+    "unit": "hegp106",
+    "learning_objectives": [
+      "To find the number of circles in a pattern using different methods",
+      "To understand the concept of algebraic expressions and their applications"
+    ],
+    "allowed_concepts": [
+      "Algebraic expressions",
+      "Patterns and sequences"
+    ],
+    "disallowed_concepts": [
+      "Advanced calculus",
+      "Complex numbers"
+    ],
+    "content_blocks": [
+      {
+        "type": "explanation",
+        "text": "In Mathematics, there are often multiple ways of looking at a pattern, and different ways of approaching and solving the same problem. Finding such ways often requires a great deal of creativity and imagination!",
+        "block_id": "block_1"
+      },
+      {
+        "type": "example",
+        "text": "Use this formula to find the number of circles in Step 15.",
+        "block_id": "block_2"
+      },
+      {
+        "type": "definition",
+        "text": "The expression k2 + 2k gives the number of circles at Step k of this pattern.",
+        "block_id": "block_3"
+      },
+      {
+        "type": "explanation",
+        "text": "When carried out correctly, all methods lead to the same answer; k2 + 2k.",
+        "block_id": "block_4"
+      }
+    ],
+    "topic_id": "topic_19",
+    "chapter_name": "YET THINGS MULTIPLY"
+  },
+  {
+    "topic_name": "Finding the Area of a Shaded Region",
+    "unit": "hegp106",
+    "learning_objectives": [
+      "To find the area of a shaded region using different methods",
+      "To understand the concept of algebraic expressions and their applications"
+    ],
+    "allowed_concepts": [
+      "Algebraic expressions",
+      "Geometry and measurement"
+    ],
+    "disallowed_concepts": [
+      "Advanced calculus",
+      "Complex numbers"
+    ],
+    "content_blocks": [
+      {
+        "type": "example",
+        "text": "Tadang’s method: The total region is a square of side (m + n) with an area (m + n)2.",
+        "block_id": "block_1"
+      },
+      {
+        "type": "example",
+        "text": "Yusuf’s method: The shaded region is a square with sidelength (n – m). So, its area is (n – m)2.",
+        "block_id": "block_2"
+      },
+      {
+        "type": "explanation",
+        "text": "By expanding both expressions, check that (m + n)2– 4mn = (n – m)2.",
+        "block_id": "block_3"
+      }
+    ],
+    "topic_id": "topic_20",
+    "chapter_name": "YET THINGS MULTIPLY"
+  },
+  {
+    "topic_name": "Finding the Area of a Dashed Region",
+    "unit": "hegp106",
+    "learning_objectives": [
+      "To find the area of a dashed region using different methods",
+      "To understand the concept of algebraic expressions and their applications"
+    ],
+    "allowed_concepts": [
+      "Algebraic expressions",
+      "Geometry and measurement"
+    ],
+    "disallowed_concepts": [
+      "Advanced calculus",
+      "Complex numbers"
+    ],
+    "content_blocks": [
+      {
+        "type": "example",
+        "text": "Write an expression for the area of the dashed region in the figure below.",
+        "block_id": "block_1"
+      },
+      {
+        "type": "explanation",
+        "text": "Use more than one method to arrive at the answer.",
+        "block_id": "block_2"
+      }
+    ],
+    "topic_id": "topic_21",
+    "chapter_name": "YET THINGS MULTIPLY"
+  },
+  {
+    "topic_name": "Using Identities to Find Products",
+    "unit": "hegp106",
+    "learning_objectives": [
+      "To use identities to find products",
+      "To understand the concept of algebraic expressions and their applications",
+      "To use identities to find products of expressions",
+      "To apply the distributive property to find products of expressions"
+    ],
+    "allowed_concepts": [
+      "Algebraic expressions",
+      "Identities and formulas",
+      "Distributive property",
+      "Identities for finding products of expressions"
+    ],
+    "disallowed_concepts": [
+      "Advanced calculus",
+      "Complex numbers"
+    ],
+    "content_blocks": [
+      {
+        "type": "example",
+        "text": "Compute these products using the suggested identity.",
+        "block_id": "block_1"
+      },
+      {
+        "type": "explanation",
+        "text": "Use either a suitable identity or the distributive property to find each of the following products.",
+        "block_id": "block_2"
+      },
+      {
+        "type": "explanation",
+        "text": "We extended the distributive property to find the product of two expressions each of which has two terms. The general form for the same is (a + b) × (c + d) = ac + ad + bc + bd.",
+        "block_id": "block_3"
+      },
+      {
+        "type": "example",
+        "text": "Compute these products using the suggested identity. (i) 462 using Identity 1A for (a + b)2 (ii) 397 × 403 using Identity 1C for (a + b) (a – b) (iii) 912 using Identity 1B for (a – b)2 (iv) 43 × 45 using Identity 1C for (a + b) (a – b)",
+        "block_id": "block_4"
+      },
+      {
+        "type": "explanation",
+        "text": "We saw some special cases of this identity. y (a + b)2 = a2 + 2ab + b2 y (a – b)2 = a2 – 2ab + b2 y (a + b) (a – b) = a2 – b2.",
+        "block_id": "block_5"
+      },
+      {
+        "type": "example",
+        "text": "Use either a suitable identity or the distributive property to find each of the following products. (i) (p – 1) (p + 11) (ii) (3a – 9b) (3a + 9b) (iii) –(2y + 5) (3y + 4) (iv) (6x + 5y)2 (v) (2x – 1)2 (vi) (7p) × (3r) × (p + 2)",
+        "block_id": "block_6"
+      }
+    ],
+    "topic_id": "topic_22",
+    "chapter_name": "YET THINGS MULTIPLY"
+  },
+  {
+    "topic_name": "Algebraic Expressions and Patterns",
+    "unit": "hegp106",
+    "learning_objectives": [
+      "To understand the concept of algebraic expressions and their applications",
+      "To find algebraic expressions for patterns and sequences",
+      "To write algebraic expressions to describe patterns",
+      "To apply algebraic expressions to solve problems"
+    ],
+    "allowed_concepts": [
+      "Algebraic expressions",
+      "Patterns and sequences",
+      "Algebraic expressions and patterns",
+      "Applying algebraic expressions to solve problems"
+    ],
+    "disallowed_concepts": [
+      "Advanced calculus",
+      "Complex numbers"
+    ],
+    "content_blocks": [
+      {
+        "type": "example",
+        "text": "Two more than a square number.",
+        "block_id": "block_1"
+      },
+      {
+        "type": "explanation",
+        "text": "The sum of the squares of two consecutive numbers",
+        "block_id": "block_2"
+      },
+      {
+        "type": "explanation",
+        "text": "We saw that, often, there are multiple ways to solve a problem and arrive at the same correct answer. Finding different methods to approach and solve the same problem is a creative process.",
+        "block_id": "block_3"
+      },
+      {
+        "type": "example",
+        "text": "Arrange 10 coins in a triangle as shown in the figure below on the left. The task is to turn the triangle upside down by moving one coin at a time. How many moves are needed? What is the minimum number of moves?",
+        "block_id": "block_4"
+      }
+    ],
+    "topic_id": "topic_23",
+    "chapter_name": "YET THINGS MULTIPLY"
+  },
+  {
+    "topic_name": "Algebraic Expressions and Geometry",
+    "unit": "hegp106",
+    "learning_objectives": [
+      "To understand the concept of algebraic expressions and their applications",
+      "To find algebraic expressions for geometric shapes"
+    ],
+    "allowed_concepts": [
+      "Algebraic expressions",
+      "Geometry and measurement"
+    ],
+    "disallowed_concepts": [
+      "Advanced calculus",
+      "Complex numbers"
+    ],
+    "content_blocks": [
+      {
+        "type": "example",
+        "text": "Consider any 2 by 2 square of numbers in a calendar, as shown in the figure.",
+        "block_id": "block_1"
+      }
+    ],
+    "topic_id": "topic_24",
+    "chapter_name": "YET THINGS MULTIPLY"
+  },
+  {
+    "topic_name": "Patterns and Algebraic Expressions",
+    "unit": "hegp106",
+    "learning_objectives": [
+      "To identify patterns and write algebraic expressions",
+      "To apply algebraic expressions to solve problems"
+    ],
+    "allowed_concepts": [
+      "Patterns and algebraic expressions",
+      "Applying algebraic expressions to solve problems"
+    ],
+    "disallowed_concepts": [
+      "Advanced calculus",
+      "Complex numbers"
+    ],
+    "content_blocks": [
+      {
+        "type": "explanation",
+        "text": "We considered different patterns, and explored how to understand them using algebra. We saw that, often, there are multiple ways to solve a problem and arrive at the same correct answer.",
+        "block_id": "block_1"
+      },
+      {
+        "type": "example",
+        "text": "For each pattern shown below, (i) Draw the next figure in the sequence. (ii) How many basic units are there in Step 10? (iii) Write an expression to describe the number of basic units in Step y.",
+        "block_id": "block_2"
+      }
+    ],
+    "topic_id": "topic_25",
+    "chapter_name": "YET THINGS MULTIPLY"
+  },
+  {
+    "topic_name": "Patterns and Algebra",
+    "unit": "hegp106",
+    "learning_objectives": [
+      "Understand different patterns using algebra.",
+      "Find different methods to approach and solve the same problem."
+    ],
+    "allowed_concepts": [
+      "Patterns",
+      "Algebra"
+    ],
+    "disallowed_concepts": [
+      "Advanced calculus",
+      "Complex numbers"
+    ],
+    "content_blocks": [
+      {
+        "type": "explanation",
+        "text": "We considered different patterns, and explored how to understand them using algebra.",
+        "block_id": "block_1"
+      },
+      {
+        "type": "example",
+        "text": "Finding different methods to approach and solve the same problem is a creative process.",
+        "block_id": "block_2"
+      }
+    ],
+    "topic_id": "topic_26",
+    "chapter_name": "YET THINGS MULTIPLY"
+  },
+  {
+    "topic_name": "Coin Conjoin",
+    "unit": "hegp106",
+    "learning_objectives": [
+      "Find the minimum number of moves needed to flip a triangular arrangement of coins.",
+      "Identify a simple way to calculate the minimum number of coin moves needed for any such triangular arrangement."
+    ],
+    "allowed_concepts": [
+      "Coin conjoin",
+      "Triangular arrangement"
+    ],
+    "disallowed_concepts": [
+      "Advanced calculus",
+      "Complex numbers"
+    ],
+    "content_blocks": [
+      {
+        "type": "example",
+        "text": "A triangle of 3 coins can be inverted (turned upside down) with a single move, and a triangle of 6 coins can be inverted by moving 2 coins.",
+        "block_id": "block_1"
+      },
+      {
+        "type": "example",
+        "text": "The 10-coin triangle can be flipped with just 3 moves; did you figure out how?",
+        "block_id": "block_2"
+      },
+      {
+        "type": "explanation",
+        "text": "Find out the minimum possible moves needed to flip the next bigger triangle having 15 coins.",
+        "block_id": "block_3"
+      }
+    ],
+    "topic_id": "topic_27",
+    "chapter_name": "YET THINGS MULTIPLY"
+  }
+]

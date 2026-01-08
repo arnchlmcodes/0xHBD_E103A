@@ -1,0 +1,1552 @@
+[
+  {
+    "topic_name": "What is a Quadrilateral?",
+    "unit": "hegp104",
+    "learning_objectives": [
+      "To understand the concept of a quadrilateral",
+      "To identify different types of quadrilaterals"
+    ],
+    "allowed_concepts": [
+      "Definition of a quadrilateral",
+      "Types of quadrilaterals"
+    ],
+    "disallowed_concepts": [
+      "Advanced calculus",
+      "Complex numbers"
+    ],
+    "content_blocks": [
+      {
+        "type": "definition",
+        "text": "A quadrilateral is a four-sided figure.",
+        "block_id": "block_1"
+      },
+      {
+        "type": "explanation",
+        "text": "The word ‘quadrilateral’ is derived from Latin words — quadri meaning four, and latus referring to sides.",
+        "block_id": "block_2"
+      },
+      {
+        "type": "example",
+        "text": "Figs. (i), (ii), and (iii) are quadrilaterals, and the others are not. Why?",
+        "block_id": "block_3"
+      }
+    ],
+    "topic_id": "topic_1",
+    "chapter_name": "QUADRILATERALS"
+  },
+  {
+    "topic_name": "Angles of a Quadrilateral",
+    "unit": "hegp104",
+    "learning_objectives": [
+      "To understand the concept of angles of a quadrilateral",
+      "To identify the angles of a quadrilateral"
+    ],
+    "allowed_concepts": [
+      "Angles of a quadrilateral",
+      "Types of angles"
+    ],
+    "disallowed_concepts": [
+      "Advanced calculus",
+      "Complex numbers"
+    ],
+    "content_blocks": [
+      {
+        "type": "definition",
+        "text": "The angles of a quadrilateral are the angles between its sides.",
+        "block_id": "block_1"
+      },
+      {
+        "type": "explanation",
+        "text": "The angles of a quadrilateral are marked in Figs. (i), (ii), and (iii).",
+        "block_id": "block_2"
+      }
+    ],
+    "topic_id": "topic_2",
+    "chapter_name": "QUADRILATERALS"
+  },
+  {
+    "topic_name": "Rectangles and Squares",
+    "unit": "hegp104",
+    "learning_objectives": [
+      "To understand the concept of rectangles and squares",
+      "To identify the properties of rectangles and squares"
+    ],
+    "allowed_concepts": [
+      "Rectangles",
+      "Squares",
+      "Properties of rectangles and squares"
+    ],
+    "disallowed_concepts": [
+      "Advanced calculus",
+      "Complex numbers"
+    ],
+    "content_blocks": [
+      {
+        "type": "definition",
+        "text": "A rectangle is a quadrilateral in which — (i) The angles are all right angles (90°), and (ii) The opposite sides are of equal length.",
+        "block_id": "block_1"
+      },
+      {
+        "type": "example",
+        "text": "A Carpenter’s Problem",
+        "block_id": "block_2"
+      }
+    ],
+    "topic_id": "topic_3",
+    "chapter_name": "QUADRILATERALS"
+  },
+  {
+    "topic_name": "Properties of Rectangles",
+    "unit": "hegp104",
+    "learning_objectives": [
+      "To understand the properties of rectangles",
+      "To identify the properties of rectangles",
+      "To identify the characteristics of rectangles"
+    ],
+    "allowed_concepts": [
+      "Properties of rectangles",
+      "Diagonals of a rectangle",
+      "Characteristics of rectangles"
+    ],
+    "disallowed_concepts": [
+      "Advanced calculus",
+      "Complex numbers"
+    ],
+    "content_blocks": [
+      {
+        "type": "definition",
+        "text": "The diagonals of a rectangle always have the same length.",
+        "block_id": "block_1"
+      },
+      {
+        "type": "explanation",
+        "text": "This can be deduced using congruence as follows — Since ABCD is a rectangle, we have AB = CD ∠BAD = ∠CDA = 90° AD is common to both triangles. So, ∆ADC ≅ ∆DAB by the SAS congruence condition.",
+        "block_id": "block_2"
+      },
+      {
+        "type": "definition",
+        "text": "A rectangle is a quadrilateral with four right angles and opposite sides of equal length.",
+        "block_id": "block_3"
+      },
+      {
+        "type": "explanation",
+        "text": "The diagonals of a rectangle bisect each other and are equal in length.",
+        "block_id": "block_4"
+      },
+      {
+        "type": "example",
+        "text": "Consider the quadrilateral ABCD. Since ∆AOB ≅ ∆COD and ∆AOD ≅ ∆COB, we have AB = CD and AD = CB. Therefore, ABCD is a rectangle.",
+        "block_id": "block_5"
+      }
+    ],
+    "topic_id": "topic_4",
+    "chapter_name": "QUADRILATERALS"
+  },
+  {
+    "topic_name": "Intersection of Diagonals",
+    "unit": "hegp104",
+    "learning_objectives": [
+      "To understand the intersection of diagonals of a rectangle",
+      "To identify the intersection of diagonals of a rectangle"
+    ],
+    "allowed_concepts": [
+      "Intersection of diagonals",
+      "Midpoint of a line segment"
+    ],
+    "disallowed_concepts": [
+      "Advanced calculus",
+      "Complex numbers"
+    ],
+    "content_blocks": [
+      {
+        "type": "definition",
+        "text": "The diagonals of a rectangle always intersect at their midpoints.",
+        "block_id": "block_1"
+      },
+      {
+        "type": "explanation",
+        "text": "This can be found using congruence. Since we need to know the relation between OA and OC, and OB and OD, which two triangles of the rectangle ABCD should we consider?",
+        "block_id": "block_2"
+      }
+    ],
+    "topic_id": "topic_5",
+    "chapter_name": "QUADRILATERALS"
+  },
+  {
+    "topic_name": "Congruence of Triangles",
+    "unit": "hegp104",
+    "learning_objectives": [
+      "To understand the concept of congruence of triangles",
+      "To apply the AAS condition for congruence of triangles"
+    ],
+    "allowed_concepts": [
+      "Congruent triangles",
+      "AAS condition for congruence"
+    ],
+    "disallowed_concepts": [
+      "Advanced calculus",
+      "Complex numbers"
+    ],
+    "content_blocks": [
+      {
+        "type": "definition",
+        "text": "Congruent triangles are triangles that have the same size and shape.",
+        "block_id": "block_1"
+      },
+      {
+        "type": "explanation",
+        "text": "The AAS condition for congruence states that if two triangles have two pairs of congruent angles and a pair of congruent sides, then the triangles are congruent.",
+        "block_id": "block_2"
+      },
+      {
+        "type": "example",
+        "text": "Consider ∆AOB and ∆COD. Since ∠AOB = ∠COD and ∠AOD = ∠COD, and OA = OC, we have ∆AOB ≅ ∆COD by the AAS condition for congruence.",
+        "block_id": "block_3"
+      }
+    ],
+    "topic_id": "topic_6",
+    "chapter_name": "QUADRILATERALS"
+  },
+  {
+    "topic_name": "Diagonals of a Rectangle",
+    "unit": "hegp104",
+    "learning_objectives": [
+      "To understand the properties of the diagonals of a rectangle",
+      "To identify the characteristics of the diagonals of a rectangle"
+    ],
+    "allowed_concepts": [
+      "Properties of the diagonals of a rectangle",
+      "Characteristics of the diagonals of a rectangle"
+    ],
+    "disallowed_concepts": [
+      "Advanced calculus",
+      "Complex numbers"
+    ],
+    "content_blocks": [
+      {
+        "type": "definition",
+        "text": "The diagonals of a rectangle bisect each other and are equal in length.",
+        "block_id": "block_1"
+      },
+      {
+        "type": "explanation",
+        "text": "The diagonals of a rectangle intersect at their midpoints.",
+        "block_id": "block_2"
+      },
+      {
+        "type": "example",
+        "text": "Consider the rectangle ABCD. Since the diagonals AC and BD bisect each other, we have O as the midpoint of AC and BD.",
+        "block_id": "block_3"
+      }
+    ],
+    "topic_id": "topic_7",
+    "chapter_name": "QUADRILATERALS"
+  },
+  {
+    "topic_name": "Properties of a Quadrilateral",
+    "unit": "hegp104",
+    "learning_objectives": [
+      "To understand the properties of a quadrilateral",
+      "To deduce properties of special types of quadrilaterals"
+    ],
+    "allowed_concepts": [
+      "Quadrilaterals",
+      "Properties of quadrilaterals",
+      "Deduction of properties"
+    ],
+    "disallowed_concepts": [
+      "Advanced calculus",
+      "Complex numbers"
+    ],
+    "content_blocks": [
+      {
+        "type": "explanation",
+        "text": "All the angles of the quadrilateral are a + b, which is 180° – x. Thus, all four angles of the quadrilateral ABCD are 90°.",
+        "block_id": "block_1"
+      },
+      {
+        "type": "example",
+        "text": "We have ∆AOB ≅ ∆COD and ∆AOD ≅ ∆COB. Hence, AB = CD, and AD = CB, since they are the corresponding parts of congruent triangles.",
+        "block_id": "block_2"
+      },
+      {
+        "type": "explanation",
+        "text": "Hence, no matter what the angles between the diagonals are, if the diagonals are equal and they bisect each other, then the angles of the quadrilateral formed are 90° each, and the opposite sides are equal.",
+        "block_id": "block_3"
+      },
+      {
+        "type": "definition",
+        "text": "Rectangle: A rectangle is a quadrilateral whose diagonals are equal and bisect each other.",
+        "block_id": "block_4"
+      },
+      {
+        "type": "explanation",
+        "text": "Observe how different this definition is from the earlier one. Yet, both capture the same class of quadrilaterals.",
+        "block_id": "block_5"
+      },
+      {
+        "type": "example",
+        "text": "Let us prove why it is impossible to construct a quadrilateral in which the angles are all 90° but the opposite sides are not equal.",
+        "block_id": "block_6"
+      },
+      {
+        "type": "explanation",
+        "text": "Consider a quadrilateral ABCD with all angles measuring 90°. What can we say about the opposite sides of such a quadrilateral?",
+        "block_id": "block_7"
+      },
+      {
+        "type": "example",
+        "text": "Join BD. ∆BAD and ∆DCB seem congruent. Can we justify this claim?",
+        "block_id": "block_8"
+      },
+      {
+        "type": "explanation",
+        "text": "Recall that we tackled a very similar problem in Deduction 2. We can use the same reasoning to justify the congruence of ∆BAD and ∆DCB.",
+        "block_id": "block_9"
+      }
+    ],
+    "topic_id": "topic_8",
+    "chapter_name": "QUADRILATERALS"
+  },
+  {
+    "topic_name": "The Carpenter’s Problem",
+    "unit": "hegp104",
+    "learning_objectives": [
+      "To understand the Carpenter’s Problem",
+      "To deduce properties of special types of quadrilaterals"
+    ],
+    "allowed_concepts": [
+      "Carpenter’s Problem",
+      "Properties of quadrilaterals",
+      "Deduction of properties"
+    ],
+    "disallowed_concepts": [
+      "Advanced calculus",
+      "Complex numbers"
+    ],
+    "content_blocks": [
+      {
+        "type": "explanation",
+        "text": "The Carpenter’s Problem shows that rectangles can also be defined as follows —",
+        "block_id": "block_1"
+      },
+      {
+        "type": "definition",
+        "text": "Rectangle: A rectangle is a quadrilateral whose diagonals are equal and bisect each other.",
+        "block_id": "block_2"
+      },
+      {
+        "type": "explanation",
+        "text": "Observe how different this definition is from the earlier one. Yet, both capture the same class of quadrilaterals.",
+        "block_id": "block_3"
+      }
+    ],
+    "topic_id": "topic_9",
+    "chapter_name": "QUADRILATERALS"
+  },
+  {
+    "topic_name": "Simplifying the Definition of a Rectangle",
+    "unit": "hegp104",
+    "learning_objectives": [
+      "To understand the properties of a rectangle",
+      "To simplify the definition of a rectangle"
+    ],
+    "allowed_concepts": [
+      "Quadrilaterals",
+      "Angles",
+      "Congruent triangles"
+    ],
+    "disallowed_concepts": [
+      "Advanced calculus",
+      "Complex numbers"
+    ],
+    "content_blocks": [
+      {
+        "type": "explanation",
+        "text": "r, it turns out that the first definition can be simplified. In the earlier definition, we stated that a rectangle has (a) opposite sides of equal length, and (b) all angles equal to 90°. Would we be wrong if we just define a rectangle as a quadrilateral in which all the angles are 90°?",
+        "block_id": "block_1"
+      },
+      {
+        "type": "example",
+        "text": "If you think that this definition is incomplete, try constructing a quadrilateral in which the angles are all 90° but the opposite sides are not equal.",
+        "block_id": "block_2"
+      },
+      {
+        "type": "definition",
+        "text": "Deduction 4 — What is the shape of a quadrilateral with all the angles equal to 90°?",
+        "block_id": "block_3"
+      },
+      {
+        "type": "explanation",
+        "text": "Consider a quadrilateral ABCD with all angles measuring 90°. What can we say about the opposite sides of such a quadrilateral?",
+        "block_id": "block_4"
+      },
+      {
+        "type": "example",
+        "text": "Join BD. ∆BAD and ∆DCB seem congruent. Can we justify this claim?",
+        "block_id": "block_5"
+      },
+      {
+        "type": "explanation",
+        "text": "Recall that we tackled a very similar problem in Deduction 2. We can use the same reasoning here.",
+        "block_id": "block_6"
+      },
+      {
+        "type": "definition",
+        "text": "Thus, we have established that if all the angles of a quadrilateral are right angles, then the opposite sides have equal lengths. Therefore, the quadrilateral is a rectangle.",
+        "block_id": "block_7"
+      },
+      {
+        "type": "explanation",
+        "text": "Let us list the properties of a rectangle.",
+        "block_id": "block_8"
+      },
+      {
+        "type": "definition",
+        "text": "Property 1: All the angles of a rectangle are 90°.",
+        "block_id": "block_9"
+      },
+      {
+        "type": "explanation",
+        "text": "Property 2: The opposite sides of a rectangle are equal.",
+        "block_id": "block_10"
+      },
+      {
+        "type": "example",
+        "text": "Are the opposite sides of a rectangle parallel? They definitely seem so.",
+        "block_id": "block_11"
+      },
+      {
+        "type": "explanation",
+        "text": "Notice that AB acts as a transversal to AD and BC, and that ∠A + ∠B = 90° + 90° = 180°.",
+        "block_id": "block_12"
+      },
+      {
+        "type": "definition",
+        "text": "Property 3: The opposite sides of a rectangle are parallel to each other.",
+        "block_id": "block_13"
+      },
+      {
+        "type": "explanation",
+        "text": "Property 4: The diagonals of a rectangle are of equal length and they bisect each other.",
+        "block_id": "block_14"
+      },
+      {
+        "type": "definition",
+        "text": "A Special Rectangle",
+        "block_id": "block_15"
+      },
+      {
+        "type": "explanation",
+        "text": "In the quadrilaterals below, are there any non-rectangles?",
+        "block_id": "block_16"
+      },
+      {
+        "type": "example",
+        "text": "All these quadrilaterals are rectangles, including (iv). Quadrilateral (iv) is a rectangle because all its angles are 90°.",
+        "block_id": "block_17"
+      },
+      {
+        "type": "definition",
+        "text": "Square: A square is a quadrilateral in which all the angles are equal to 90°, and all the sides are of equal length.",
+        "block_id": "block_18"
+      },
+      {
+        "type": "explanation",
+        "text": "Thus, every square is also a rectangle, but clearly every rectangle is not a square.",
+        "block_id": "block_19"
+      }
+    ],
+    "topic_id": "topic_10",
+    "chapter_name": "QUADRILATERALS"
+  },
+  {
+    "topic_name": "Properties of a Square",
+    "unit": "hegp104",
+    "learning_objectives": [
+      "To understand the properties of a square",
+      "To verify the properties of a square using geometric reasoning",
+      "To identify the properties of a square",
+      "To understand the relationship between the diagonals and angles of a square",
+      "To understand the characteristics of a square"
+    ],
+    "allowed_concepts": [
+      "Properties of a rectangle",
+      "Congruence of triangles",
+      "Angle bisector theorem",
+      "Properties of a square",
+      "Diagonals of a square",
+      "Angles of a square",
+      "Properties of quadrilaterals",
+      "Properties of squares",
+      "Square",
+      "Opposite sides of a square"
+    ],
+    "disallowed_concepts": [
+      "Advanced calculus",
+      "Complex numbers"
+    ],
+    "content_blocks": [
+      {
+        "type": "definition",
+        "text": "A square is a special type of rectangle where all the sides are equal to each other.",
+        "block_id": "block_1"
+      },
+      {
+        "type": "explanation",
+        "text": "Since a square is a special type of rectangle, all the properties of a rectangle hold true for a square.",
+        "block_id": "block_2"
+      },
+      {
+        "type": "example",
+        "text": "Verify if the properties of a rectangle hold true for a square by going through geometric reasoning in Deduction 1 and Deduction 2.",
+        "block_id": "block_3"
+      },
+      {
+        "type": "definition",
+        "text": "Property 1: All the sides of a square are equal to each other.",
+        "block_id": "block_4"
+      },
+      {
+        "type": "explanation",
+        "text": "Property 2: The opposite sides of a square are parallel to each other.",
+        "block_id": "block_5"
+      },
+      {
+        "type": "example",
+        "text": "Property 3: The angles of a square are all 90°.",
+        "block_id": "block_6"
+      },
+      {
+        "type": "definition",
+        "text": "Property 4: The diagonals of a square are of equal length and they bisect each other at 90°.",
+        "block_id": "block_7"
+      },
+      {
+        "type": "explanation",
+        "text": "Property 5: The diagonals of a square divide the angles of the square into equal halves.",
+        "block_id": "block_8"
+      },
+      {
+        "type": "definition",
+        "text": "A square is a quadrilateral with all sides of equal length and all angles equal to 90°.",
+        "block_id": "block_9"
+      },
+      {
+        "type": "explanation",
+        "text": "Property 1: The opposite sides of a square are equal to each other.",
+        "block_id": "block_10"
+      },
+      {
+        "type": "example",
+        "text": "What are the measures of ∠1, ∠2, ∠3, and ∠4? See if you can reason and/or experiment to figure this out!",
+        "block_id": "block_11"
+      },
+      {
+        "type": "explanation",
+        "text": "Thus, ∠1 = ∠3 = 45°.",
+        "block_id": "block_12"
+      },
+      {
+        "type": "explanation",
+        "text": "Similarly, find ∠2 and ∠4.",
+        "block_id": "block_13"
+      },
+      {
+        "type": "explanation",
+        "text": "Thus, we have another property of a square — Property 5: The diagonals of a square divide the angles of the square into equal halves.",
+        "block_id": "block_14"
+      },
+      {
+        "type": "definition",
+        "text": "A square is a quadrilateral in which all the angles are 90°, and all the sides are of equal length.",
+        "block_id": "block_15"
+      },
+      {
+        "type": "explanation",
+        "text": "Properties of a square — The opposite sides of a square are parallel to each other. The diagonals of a square are of equal lengths and they bisect each other at 90°. The diagonals of a square bisect the angles of the square.",
+        "block_id": "block_16"
+      },
+      {
+        "type": "explanation",
+        "text": "Properties of a square —",
+        "block_id": "block_17"
+      },
+      {
+        "type": "explanation",
+        "text": "y The opposite sides of a square are parallel to each other.",
+        "block_id": "block_18"
+      },
+      {
+        "type": "explanation",
+        "text": "y The diagonals of a square are of equal lengths and they bisect each other at 90°.",
+        "block_id": "block_19"
+      },
+      {
+        "type": "explanation",
+        "text": "y The diagonals of a square bisect the angles of the square.",
+        "block_id": "block_20"
+      }
+    ],
+    "topic_id": "topic_11",
+    "chapter_name": "QUADRILATERALS"
+  },
+  {
+    "topic_name": "Deduction 5 — What should be the angle formed by the diagonals?",
+    "unit": "hegp104",
+    "learning_objectives": [
+      "To find the angle formed by the diagonals of a square",
+      "To use the notion of congruence to find the angle formed by the diagonals"
+    ],
+    "allowed_concepts": [
+      "Congruence of triangles",
+      "Angle bisector theorem"
+    ],
+    "disallowed_concepts": [
+      "Advanced calculus",
+      "Complex numbers"
+    ],
+    "content_blocks": [
+      {
+        "type": "definition",
+        "text": "The angle between the diagonals can be found using the notion of congruence!",
+        "block_id": "block_1"
+      },
+      {
+        "type": "explanation",
+        "text": "Suppose we join the equal diagonals such that they bisect each other and result in a square. Let us label the square ABCD.",
+        "block_id": "block_2"
+      },
+      {
+        "type": "example",
+        "text": "To find the angle formed by the diagonals, what are the two triangles we should consider for congruence?",
+        "block_id": "block_3"
+      },
+      {
+        "type": "definition",
+        "text": "By the SSS condition for congruence, ∆BOA ≅ ∆BOC",
+        "block_id": "block_4"
+      },
+      {
+        "type": "explanation",
+        "text": "Can this be used to find the angles ∠BOA and ∠BOC formed by the diagonals?",
+        "block_id": "block_5"
+      },
+      {
+        "type": "example",
+        "text": "Since these angles are corresponding parts of congruent triangles, they are equal. Further, these angles together form a straight angle. So ∠BOA + ∠BOC = 180°. Thus, these angles have to be 90° each.",
+        "block_id": "block_6"
+      }
+    ],
+    "topic_id": "topic_12",
+    "chapter_name": "QUADRILATERALS"
+  },
+  {
+    "topic_name": "Figure it Out",
+    "unit": "hegp104",
+    "learning_objectives": [
+      "To find all the other angles inside the given rectangles",
+      "To draw a quadrilateral whose diagonals have equal lengths of 8 cm that bisect each other, and intersect at an angle of (i) 30° (ii) 40° (iii) 90° (iv) 140°"
+    ],
+    "allowed_concepts": [
+      "Properties of a rectangle",
+      "Congruence of triangles",
+      "Angle bisector theorem"
+    ],
+    "disallowed_concepts": [
+      "Advanced calculus",
+      "Complex numbers"
+    ],
+    "content_blocks": [
+      {
+        "type": "definition",
+        "text": "Find all the other angles inside the following rectangles.",
+        "block_id": "block_1"
+      },
+      {
+        "type": "explanation",
+        "text": "Q R D C 110° 30° A B P S (i) (ii)",
+        "block_id": "block_2"
+      },
+      {
+        "type": "example",
+        "text": "Draw a quadrilateral whose diagonals have equal lengths of 8 cm that bisect each other, and intersect at an angle of (i) 30° (ii) 40° (iii) 90° (iv) 140°",
+        "block_id": "block_3"
+      }
+    ],
+    "topic_id": "topic_13",
+    "chapter_name": "QUADRILATERALS"
+  },
+  {
+    "topic_name": "Angles in a Quadrilateral",
+    "unit": "hegp104",
+    "learning_objectives": [
+      "To understand the relationship between the angles of a quadrilateral",
+      "To identify the sum of the angles of a quadrilateral"
+    ],
+    "allowed_concepts": [
+      "Angles of a quadrilateral",
+      "Sum of the angles of a quadrilateral"
+    ],
+    "disallowed_concepts": [
+      "Advanced calculus",
+      "Complex numbers"
+    ],
+    "content_blocks": [
+      {
+        "type": "explanation",
+        "text": "We have seen that the sum of the angles of a triangle is 180°. There is a similar regularity in the sum of the angles of a quadrilateral.",
+        "block_id": "block_1"
+      },
+      {
+        "type": "example",
+        "text": "Consider a quadrilateral SOME. Draw a diagonal SM. We get two triangles ∆SEM and ∆SOM.",
+        "block_id": "block_2"
+      },
+      {
+        "type": "explanation",
+        "text": "What do we get when we add all six angles? We will have ∠1+ ∠2 + ∠3 + ∠4 + ∠5 + ∠6 = 180° + 180° = 360°.",
+        "block_id": "block_3"
+      },
+      {
+        "type": "explanation",
+        "text": "Or, (∠1+ ∠4) + (∠3 + ∠6) +∠2 + ∠5 = 360°.",
+        "block_id": "block_4"
+      },
+      {
+        "type": "explanation",
+        "text": "Since (∠1 + ∠4), (∠3 + ∠6), ∠2 and ∠5 are the angles of this quadrilateral, we have the following result — The sum of all angles in any quadrilateral is 360°.",
+        "block_id": "block_5"
+      }
+    ],
+    "topic_id": "topic_14",
+    "chapter_name": "QUADRILATERALS"
+  },
+  {
+    "topic_name": "More Quadrilaterals with Parallel Opposite Sides",
+    "unit": "hegp104",
+    "learning_objectives": [
+      "To understand the relationship between the sides and angles of a parallelogram",
+      "To identify the properties of a parallelogram"
+    ],
+    "allowed_concepts": [
+      "Parallelogram",
+      "Properties of a parallelogram"
+    ],
+    "disallowed_concepts": [
+      "Advanced calculus",
+      "Complex numbers"
+    ],
+    "content_blocks": [
+      {
+        "type": "explanation",
+        "text": "Let us try constructing a quadrilateral with parallel opposite sides that are not rectangles.",
+        "block_id": "block_1"
+      },
+      {
+        "type": "example",
+        "text": "This can be easily done by drawing two pairs of parallel lines, ensuring that they do not meet at right angles.",
+        "block_id": "block_2"
+      },
+      {
+        "type": "explanation",
+        "text": "Observe the quadrilateral ABCD. It has parallel opposite sides but is not a rectangle.",
+        "block_id": "block_3"
+      },
+      {
+        "type": "explanation",
+        "text": "Thus, a larger set of quadrilaterals exists in which the opposite sides are parallel. Such quadrilaterals are called parallelograms.",
+        "block_id": "block_4"
+      },
+      {
+        "type": "explanation",
+        "text": "Is a rectangle a parallelogram? A rectangle has opposite sides parallel. So, it satisfies the parallelogram’s definition. Hence, it is indeed a parallelogram.",
+        "block_id": "block_5"
+      }
+    ],
+    "topic_id": "topic_15",
+    "chapter_name": "QUADRILATERALS"
+  },
+  {
+    "topic_name": "Properties of Parallelograms",
+    "unit": "hegp104",
+    "learning_objectives": [
+      "To understand the properties of parallelograms",
+      "To deduce the properties of parallelograms using congruence"
+    ],
+    "allowed_concepts": [
+      "Congruence of triangles",
+      "Properties of parallelograms"
+    ],
+    "disallowed_concepts": [
+      "Advanced calculus",
+      "Complex numbers"
+    ],
+    "content_blocks": [
+      {
+        "type": "definition",
+        "text": "A quadrilateral in which the opposite sides are parallel is called a parallelogram.",
+        "block_id": "block_1"
+      },
+      {
+        "type": "explanation",
+        "text": "Is a rectangle a parallelogram? A rectangle has opposite sides parallel. So, it satisfies the parallelogram’s definition. Hence, it is indeed a parallelogram.",
+        "block_id": "block_2"
+      },
+      {
+        "type": "example",
+        "text": "Draw a parallelogram with adjacent sides of lengths 4 cm and 5 cm, and an angle of 30° between them.",
+        "block_id": "block_3"
+      },
+      {
+        "type": "explanation",
+        "text": "What are the remaining angles of the parallelogram? What are the lengths of the remaining sides? See if you can reason out and/or experiment to figure these out.",
+        "block_id": "block_4"
+      },
+      {
+        "type": "definition",
+        "text": "Deduction 6 — What can we say about the angles of a parallelogram? In the parallelogram ABCD, AB||CD, and AD is a transversal to them.",
+        "block_id": "block_5"
+      },
+      {
+        "type": "explanation",
+        "text": "Therefore, ∠D = 180 – ∠A = 180 – 30 = 150°. Similarly, AD||BC, and AB and CD are transversals to them. So, ∠A + ∠B = 180°. So, ∠C + ∠D = 180°.",
+        "block_id": "block_6"
+      },
+      {
+        "type": "example",
+        "text": "Using these equations, we get ∠B = 150° and ∠C = 30°.",
+        "block_id": "block_7"
+      },
+      {
+        "type": "explanation",
+        "text": "Thus, ∠A + ∠B = 180°, ∠A + ∠D = 180°, ∠C + ∠D = 180°, and ∠B + ∠C = 180°. And, ∠A = ∠C, and ∠B = ∠D.",
+        "block_id": "block_8"
+      },
+      {
+        "type": "definition",
+        "text": "Deduction 7 — What can we say about the sides of a parallelogram? By looking at a parallelogram, it appears that the opposite sides are equal.",
+        "block_id": "block_9"
+      },
+      {
+        "type": "explanation",
+        "text": "Can we again use congruence to show this? Which two triangles can be considered for this?",
+        "block_id": "block_10"
+      },
+      {
+        "type": "example",
+        "text": "In ∆ABD and ∆CDB, the angles marked with a single arc are equal as they are the opposite angles of a parallelogram.",
+        "block_id": "block_11"
+      },
+      {
+        "type": "explanation",
+        "text": "So, by the AAS condition, the triangles are congruent, that is, ∆ABD ≅ ∆CDB. Therefore, AD = CB, and AB = CD.",
+        "block_id": "block_12"
+      },
+      {
+        "type": "definition",
+        "text": "Property 1: The opposite sides of a parallelogram are equal.",
+        "block_id": "block_13"
+      },
+      {
+        "type": "explanation",
+        "text": "Property 2: The opposite sides of a parallelogram are parallel.",
+        "block_id": "block_14"
+      },
+      {
+        "type": "definition",
+        "text": "Property 3: In a parallelogram, the adjacent angles add up to 180°, and the opposite angles are equal.",
+        "block_id": "block_15"
+      }
+    ],
+    "topic_id": "topic_16",
+    "chapter_name": "QUADRILATERALS"
+  },
+  {
+    "topic_name": "Opposite Sides of a Parallelogram",
+    "unit": "hegp104",
+    "learning_objectives": [
+      "To understand the properties of a parallelogram",
+      "To identify the opposite sides of a parallelogram",
+      "To prove that opposite sides of a parallelogram are equal"
+    ],
+    "allowed_concepts": [
+      "Congruent triangles",
+      "Alternate angles",
+      "Opposite angles of a parallelogram"
+    ],
+    "disallowed_concepts": [
+      "Advanced calculus",
+      "Complex numbers"
+    ],
+    "content_blocks": [
+      {
+        "type": "definition",
+        "text": "A parallelogram is a quadrilateral in which opposite sides are equal and parallel.",
+        "block_id": "block_1"
+      },
+      {
+        "type": "explanation",
+        "text": "In ∆ABD and ∆CDB, the angles D C marked with a single arc are equal as they are the opposite angles of a Common parallelogram.",
+        "block_id": "block_2"
+      },
+      {
+        "type": "example",
+        "text": "Since AD||BC, and BD is a transversal to it, the angles marked with double arcs are equal as they are alternate angles.",
+        "block_id": "block_3"
+      },
+      {
+        "type": "explanation",
+        "text": "So, by the AAS condition, the triangles are congruent, that is, ∆ABD ≅ ∆CDB.",
+        "block_id": "block_4"
+      },
+      {
+        "type": "definition",
+        "text": "Therefore, AD = CB, and AB = CD.",
+        "block_id": "block_5"
+      },
+      {
+        "type": "explanation",
+        "text": "Thus, the opposite sides of a parallelogram are equal.",
+        "block_id": "block_6"
+      }
+    ],
+    "topic_id": "topic_17",
+    "chapter_name": "QUADRILATERALS"
+  },
+  {
+    "topic_name": "Properties of a Parallelogram",
+    "unit": "hegp104",
+    "learning_objectives": [
+      "To list the properties of a parallelogram",
+      "To understand the properties of a parallelogram",
+      "To identify the properties of a parallelogram",
+      "To understand the characteristics of a parallelogram"
+    ],
+    "allowed_concepts": [
+      "Opposite sides of a parallelogram",
+      "Opposite angles of a parallelogram",
+      "Adjacent angles of a parallelogram",
+      "Parallelogram",
+      "Properties of a parallelogram",
+      "Diagonals of a parallelogram"
+    ],
+    "disallowed_concepts": [
+      "Advanced calculus",
+      "Complex numbers"
+    ],
+    "content_blocks": [
+      {
+        "type": "definition",
+        "text": "Property 1: The opposite sides of a parallelogram are equal.",
+        "block_id": "block_1"
+      },
+      {
+        "type": "definition",
+        "text": "Property 2: The opposite sides of a parallelogram are parallel.",
+        "block_id": "block_2"
+      },
+      {
+        "type": "definition",
+        "text": "Property 3: In a parallelogram, the adjacent angles add up to 180°, and the opposite angles are equal.",
+        "block_id": "block_3"
+      },
+      {
+        "type": "definition",
+        "text": "A parallelogram is a quadrilateral in which opposite sides are parallel.",
+        "block_id": "block_4"
+      },
+      {
+        "type": "explanation",
+        "text": "Properties of a parallelogram —",
+        "block_id": "block_5"
+      },
+      {
+        "type": "explanation",
+        "text": "y The opposite sides of a parallelogram are equal.",
+        "block_id": "block_6"
+      },
+      {
+        "type": "explanation",
+        "text": "y In a parallelogram, the adjacent angles add up to 180°, and the opposite angles are equal.",
+        "block_id": "block_7"
+      },
+      {
+        "type": "explanation",
+        "text": "y The diagonals of a parallelogram bisect each other.",
+        "block_id": "block_8"
+      }
+    ],
+    "topic_id": "topic_18",
+    "chapter_name": "QUADRILATERALS"
+  },
+  {
+    "topic_name": "Diagonals of a Parallelogram",
+    "unit": "hegp104",
+    "learning_objectives": [
+      "To understand the diagonals of a parallelogram",
+      "To identify the diagonals of a parallelogram",
+      "To prove that diagonals of a parallelogram bisect each other"
+    ],
+    "allowed_concepts": [
+      "Congruent triangles",
+      "Alternate angles",
+      "Opposite angles of a parallelogram"
+    ],
+    "disallowed_concepts": [
+      "Advanced calculus",
+      "Complex numbers"
+    ],
+    "content_blocks": [
+      {
+        "type": "explanation",
+        "text": "We see that the diagonals of a parallelogram need not be equal.",
+        "block_id": "block_1"
+      },
+      {
+        "type": "example",
+        "text": "Do they bisect each other (do they intersect at their midpoints)? Reason and/or experiment to figure this out.",
+        "block_id": "block_2"
+      },
+      {
+        "type": "definition",
+        "text": "Deduction 8 — What is the point of intersection of the two diagonals in a parallelogram?",
+        "block_id": "block_3"
+      },
+      {
+        "type": "explanation",
+        "text": "As in the case of a rectangle, we can find out if the diagonals bisect each other by examining the congruence of ∆AOE and ∆YOS in the parallelogram EASY.",
+        "block_id": "block_4"
+      },
+      {
+        "type": "definition",
+        "text": "Thus, O is the midpoint of both diagonals.",
+        "block_id": "block_5"
+      }
+    ],
+    "topic_id": "topic_19",
+    "chapter_name": "QUADRILATERALS"
+  },
+  {
+    "topic_name": "Rhombus",
+    "unit": "hegp104",
+    "learning_objectives": [
+      "To understand the properties of a rhombus",
+      "To identify the properties of a rhombus",
+      "To prove that opposite angles of a rhombus are equal"
+    ],
+    "allowed_concepts": [
+      "Congruent triangles",
+      "Alternate angles",
+      "Opposite angles of a parallelogram"
+    ],
+    "disallowed_concepts": [
+      "Advanced calculus",
+      "Complex numbers"
+    ],
+    "content_blocks": [
+      {
+        "type": "definition",
+        "text": "A quadrilateral in which all the sides have the same length is a rhombus.",
+        "block_id": "block_1"
+      },
+      {
+        "type": "explanation",
+        "text": "What are the other angles of the rhombus ABCD that we have constructed? Reason and/or experiment to figure this out.",
+        "block_id": "block_2"
+      },
+      {
+        "type": "definition",
+        "text": "Deduction 9 — What can we say about the angles in a rhombus?",
+        "block_id": "block_3"
+      },
+      {
+        "type": "explanation",
+        "text": "So, in a rhombus opposite angles are equal to each other.",
+        "block_id": "block_4"
+      }
+    ],
+    "topic_id": "topic_20",
+    "chapter_name": "QUADRILATERALS"
+  },
+  {
+    "topic_name": "Properties of a Rhombus",
+    "unit": "hegp104",
+    "learning_objectives": [
+      "To understand the properties of a rhombus",
+      "To identify the characteristics of a rhombus",
+      "To apply the properties of a rhombus to solve problems",
+      "To identify the properties of a rhombus",
+      "To understand the characteristics of a rhombus"
+    ],
+    "allowed_concepts": [
+      "Properties of a parallelogram",
+      "Properties of a rectangle",
+      "Congruent triangles",
+      "Rhombus",
+      "Properties of a rhombus",
+      "Opposite sides of a rhombus",
+      "Diagonals of a rhombus"
+    ],
+    "disallowed_concepts": [
+      "Advanced calculus",
+      "Complex numbers"
+    ],
+    "content_blocks": [
+      {
+        "type": "definition",
+        "text": "A rhombus is a quadrilateral in which all the sides are equal to each other.",
+        "block_id": "block_1"
+      },
+      {
+        "type": "explanation",
+        "text": "In a rhombus, the opposite sides are parallel to each other.",
+        "block_id": "block_2"
+      },
+      {
+        "type": "example",
+        "text": "Consider the rhombus ABCD. Since opposite sides are parallel, ABCD is also a parallelogram.",
+        "block_id": "block_3"
+      },
+      {
+        "type": "explanation",
+        "text": "The adjacent angles of a rhombus add up to 180°, and the opposite angles are equal.",
+        "block_id": "block_4"
+      },
+      {
+        "type": "example",
+        "text": "In rhombus ABCD, ∠A = ∠C = 50°, and ∠D = ∠B = 180 – 50 = 130°.",
+        "block_id": "block_5"
+      },
+      {
+        "type": "definition",
+        "text": "A square is a rhombus with all sides of equal length.",
+        "block_id": "block_6"
+      },
+      {
+        "type": "explanation",
+        "text": "The diagonals of a rhombus bisect each other and bisect its angles.",
+        "block_id": "block_7"
+      },
+      {
+        "type": "example",
+        "text": "In the rhombus GAME, ∆GEO ≅ ∆MEO, so ∠GOE = ∠MOE = 90°.",
+        "block_id": "block_8"
+      },
+      {
+        "type": "definition",
+        "text": "The diagonals of a rhombus intersect each other at an angle of 90°.",
+        "block_id": "block_9"
+      },
+      {
+        "type": "definition",
+        "text": "A rhombus is a quadrilateral in which all the sides have the same length.",
+        "block_id": "block_10"
+      },
+      {
+        "type": "explanation",
+        "text": "Properties of a rhombus —",
+        "block_id": "block_11"
+      },
+      {
+        "type": "explanation",
+        "text": "y The opposite sides of a rhombus are parallel to each other.",
+        "block_id": "block_12"
+      },
+      {
+        "type": "explanation",
+        "text": "y In a rhombus, the adjacent angles add up to 180°, and the opposite angles are equal.",
+        "block_id": "block_13"
+      },
+      {
+        "type": "explanation",
+        "text": "y The diagonals of a rhombus bisect each other at right angles.",
+        "block_id": "block_14"
+      },
+      {
+        "type": "explanation",
+        "text": "y The diagonals of a rhombus bisect its angles.",
+        "block_id": "block_15"
+      }
+    ],
+    "topic_id": "topic_21",
+    "chapter_name": "QUADRILATERALS"
+  },
+  {
+    "topic_name": "Geoboard Activity",
+    "unit": "hegp104",
+    "learning_objectives": [
+      "To understand the properties of a quadrilateral",
+      "To identify the characteristics of a quadrilateral",
+      "To apply the properties of a quadrilateral to solve problems",
+      "Understand the properties of quadrilaterals through geoboard activity",
+      "Identify different types of quadrilaterals"
+    ],
+    "allowed_concepts": [
+      "Properties of a quadrilateral",
+      "Congruent triangles",
+      "Properties of quadrilaterals",
+      "Types of quadrilaterals"
+    ],
+    "disallowed_concepts": [
+      "Advanced calculus",
+      "Complex numbers"
+    ],
+    "content_blocks": [
+      {
+        "type": "explanation",
+        "text": "Place two rubber bands perpendicular to each other, forming diagonals of equal length. Join the ends.",
+        "block_id": "block_1"
+      },
+      {
+        "type": "example",
+        "text": "What is the quadrilateral that you get? Justify your answer.",
+        "block_id": "block_2"
+      },
+      {
+        "type": "explanation",
+        "text": "Extend one of the diagonals on both sides by 2 cm. What quadrilateral will you get now? Justify your answer.",
+        "block_id": "block_3"
+      },
+      {
+        "type": "explanation",
+        "text": "Place two rubber bands perpendicular to each other, forming diagonals of equal length. Join the ends. What is the quadrilateral that you get? Justify your answer.",
+        "block_id": "block_4"
+      }
+    ],
+    "topic_id": "topic_22",
+    "chapter_name": "QUADRILATERALS"
+  },
+  {
+    "topic_name": "Finding Remaining Angles in Quadrilaterals",
+    "unit": "hegp104",
+    "learning_objectives": [
+      "Find the remaining angles in quadrilaterals using given information",
+      "Apply properties of quadrilaterals to determine unknown angles"
+    ],
+    "allowed_concepts": [
+      "Properties of quadrilaterals",
+      "Angle sum property of quadrilaterals"
+    ],
+    "disallowed_concepts": [
+      "Advanced calculus",
+      "Complex numbers"
+    ],
+    "content_blocks": [
+      {
+        "type": "example",
+        "text": "1. Find the remaining angles in the following quadrilaterals. (i) R A (ii) S R 40° P E 110° P Q (iii) (iv) X W O I 30° 20° U V A E",
+        "block_id": "block_1"
+      },
+      {
+        "type": "explanation",
+        "text": "Using the diagonal properties, construct a parallelogram whose diagonals are of lengths 7 cm and 5 cm, and intersect at an angle of 140°.",
+        "block_id": "block_2"
+      },
+      {
+        "type": "example",
+        "text": "2. Using the diagonal properties, construct a rhombus whose diagonals are of lengths 4 cm and 5 cm.",
+        "block_id": "block_3"
+      }
+    ],
+    "topic_id": "topic_23",
+    "chapter_name": "QUADRILATERALS"
+  },
+  {
+    "topic_name": "Joining Triangles",
+    "unit": "hegp104",
+    "learning_objectives": [
+      "Understand how to join triangles to form quadrilaterals",
+      "Identify different types of quadrilaterals formed by joining triangles"
+    ],
+    "allowed_concepts": [
+      "Properties of triangles",
+      "Types of quadrilaterals"
+    ],
+    "disallowed_concepts": [
+      "Advanced calculus",
+      "Complex numbers"
+    ],
+    "content_blocks": [
+      {
+        "type": "example",
+        "text": "1. Take two cardboard cutouts of an equilateral triangle of sidelength 8 cm. Can you join them to get a quadrilateral? mc c m 8 cm 8 c m 8 cm",
+        "block_id": "block_1"
+      },
+      {
+        "type": "example",
+        "text": "2. Take two cardboard cutouts of an isosceles triangle with sidelengths 8 cm, 8 cm, and 6 cm. What are the different ways they can be joined to get a quadrilateral? 6 cm Joining them in this Joining them in this way you get way you get 6 cm",
+        "block_id": "block_2"
+      }
+    ],
+    "topic_id": "topic_24",
+    "chapter_name": "QUADRILATERALS"
+  },
+  {
+    "topic_name": "Kite",
+    "unit": "hegp104",
+    "learning_objectives": [
+      "Understand the properties of a kite",
+      "Identify the characteristics of a kite"
+    ],
+    "allowed_concepts": [
+      "Properties of quadrilaterals",
+      "Types of quadrilaterals"
+    ],
+    "disallowed_concepts": [
+      "Advanced calculus",
+      "Complex numbers"
+    ],
+    "content_blocks": [
+      {
+        "type": "definition",
+        "text": "Kite: A kite is a quadrilateral that can be labelled ABCD such that AB = BC, and CD = DA.",
+        "block_id": "block_1"
+      },
+      {
+        "type": "explanation",
+        "text": "Property 1: In the kite, show that the diagonal BD (i) bisects ∠ABC and ∠ADC, (ii) bisects the diagonal AC, that is, AO = OC, and is perpendicular to it.",
+        "block_id": "block_2"
+      }
+    ],
+    "topic_id": "topic_25",
+    "chapter_name": "QUADRILATERALS"
+  },
+  {
+    "topic_name": "Trapezium",
+    "unit": "hegp104",
+    "learning_objectives": [
+      "Understand the properties of a trapezium",
+      "Identify the characteristics of a trapezium"
+    ],
+    "allowed_concepts": [
+      "Properties of quadrilaterals",
+      "Types of quadrilaterals"
+    ],
+    "disallowed_concepts": [
+      "Advanced calculus",
+      "Complex numbers"
+    ],
+    "content_blocks": [
+      {
+        "type": "definition",
+        "text": "Trapezium: A trapezium is a quadrilateral with at least one pair of parallel opposite sides.",
+        "block_id": "block_1"
+      },
+      {
+        "type": "explanation",
+        "text": "Property 1: ∠ S + ∠P = 180° and ∠R + ∠Q = 180°.",
+        "block_id": "block_2"
+      }
+    ],
+    "topic_id": "topic_26",
+    "chapter_name": "QUADRILATERALS"
+  },
+  {
+    "topic_name": "Isosceles Trapezium",
+    "unit": "hegp104",
+    "learning_objectives": [
+      "Understand the properties of an isosceles trapezium",
+      "Identify the characteristics of an isosceles trapezium",
+      "To understand the properties of an isosceles trapezium",
+      "To construct an isosceles trapezium",
+      "To find the remaining angles of an isosceles trapezium"
+    ],
+    "allowed_concepts": [
+      "Properties of quadrilaterals",
+      "Types of quadrilaterals",
+      "Construction of quadrilaterals",
+      "Angles of quadrilaterals"
+    ],
+    "disallowed_concepts": [
+      "Advanced calculus",
+      "Complex numbers"
+    ],
+    "content_blocks": [
+      {
+        "type": "explanation",
+        "text": "When the non-parallel sides of a trapezium have the same lengths, the trapezium is called an isosceles trapezium.",
+        "block_id": "block_1"
+      },
+      {
+        "type": "example",
+        "text": "Construct an isosceles trapezium UVWX, with UV||XW. Measure ∠U.",
+        "block_id": "block_2"
+      },
+      {
+        "type": "definition",
+        "text": "A trapezium is called an isosceles trapezium if the lengths of its non-parallel sides are equal.",
+        "block_id": "block_3"
+      },
+      {
+        "type": "explanation",
+        "text": "How do we construct an isosceles trapezium? Construct an isosceles trapezium UVWX, with UV||XW. Measure ∠U.",
+        "block_id": "block_4"
+      },
+      {
+        "type": "example",
+        "text": "Can you find the remaining angles without measuring them? Does it appear that the angles opposite to the equal sides — ∠U and ∠V — are also equal?",
+        "block_id": "block_5"
+      },
+      {
+        "type": "explanation",
+        "text": "Consider line segments XY and WZ perpendicular to UV. What type of quadrilateral is XWZY?",
+        "block_id": "block_6"
+      },
+      {
+        "type": "definition",
+        "text": "Hence, XWZY is a rectangle.",
+        "block_id": "block_7"
+      },
+      {
+        "type": "explanation",
+        "text": "Thus, ∠U = ∠V. Using this fact, the remaining angles of the isosceles trapezium can be determined.",
+        "block_id": "block_8"
+      },
+      {
+        "type": "example",
+        "text": "Verify the angles by measurement.",
+        "block_id": "block_9"
+      },
+      {
+        "type": "definition",
+        "text": "Property 2: In an isosceles trapezium, the angles opposite to the equal sides are equal.",
+        "block_id": "block_10"
+      }
+    ],
+    "topic_id": "topic_27",
+    "chapter_name": "QUADRILATERALS"
+  },
+  {
+    "topic_name": "Properties of a Rectangle",
+    "unit": "hegp104",
+    "learning_objectives": [
+      "To understand the properties of a rectangle",
+      "To identify the properties of a rectangle",
+      "To understand the characteristics of a rectangle"
+    ],
+    "allowed_concepts": [
+      "Properties of quadrilaterals",
+      "Properties of rectangles",
+      "Rectangle",
+      "Properties of a rectangle",
+      "Opposite sides of a rectangle",
+      "Diagonals of a rectangle"
+    ],
+    "disallowed_concepts": [
+      "Advanced calculus",
+      "Complex numbers"
+    ],
+    "content_blocks": [
+      {
+        "type": "definition",
+        "text": "A rectangle is a quadrilateral in which the angles are all 90°.",
+        "block_id": "block_1"
+      },
+      {
+        "type": "explanation",
+        "text": "Properties of a rectangle — Opposite sides of a rectangle are equal. Opposite sides of a rectangle are parallel to each other. Diagonals of a rectangle are of equal length and they bisect each other.",
+        "block_id": "block_2"
+      },
+      {
+        "type": "explanation",
+        "text": "Properties of a rectangle —",
+        "block_id": "block_3"
+      },
+      {
+        "type": "explanation",
+        "text": "y Opposite sides of a rectangle are equal.",
+        "block_id": "block_4"
+      },
+      {
+        "type": "explanation",
+        "text": "y Opposite sides of a rectangle are parallel to each other.",
+        "block_id": "block_5"
+      },
+      {
+        "type": "explanation",
+        "text": "y Diagonals of a rectangle are of equal length and they bisect each other.",
+        "block_id": "block_6"
+      }
+    ],
+    "topic_id": "topic_28",
+    "chapter_name": "QUADRILATERALS"
+  },
+  {
+    "topic_name": "Properties of a Kite",
+    "unit": "hegp104",
+    "learning_objectives": [
+      "To identify the properties of a kite",
+      "To understand the characteristics of a kite"
+    ],
+    "allowed_concepts": [
+      "Kite",
+      "Properties of a kite",
+      "Opposite sides of a kite"
+    ],
+    "disallowed_concepts": [
+      "Advanced calculus",
+      "Complex numbers"
+    ],
+    "content_blocks": [
+      {
+        "type": "definition",
+        "text": "A kite is a quadrilateral with two non-overlapping adjacent pairs of sides having the same length.",
+        "block_id": "block_1"
+      }
+    ],
+    "topic_id": "topic_29",
+    "chapter_name": "QUADRILATERALS"
+  },
+  {
+    "topic_name": "Properties of a Trapezium",
+    "unit": "hegp104",
+    "learning_objectives": [
+      "To identify the properties of a trapezium",
+      "To understand the characteristics of a trapezium"
+    ],
+    "allowed_concepts": [
+      "Trapezium",
+      "Properties of a trapezium",
+      "Opposite sides of a trapezium"
+    ],
+    "disallowed_concepts": [
+      "Advanced calculus",
+      "Complex numbers"
+    ],
+    "content_blocks": [
+      {
+        "type": "definition",
+        "text": "A trapezium is a quadrilateral having at least one pair of parallel opposite sides.",
+        "block_id": "block_1"
+      }
+    ],
+    "topic_id": "topic_30",
+    "chapter_name": "QUADRILATERALS"
+  },
+  {
+    "topic_name": "Sum of Angle Measures in a Quadrilateral",
+    "unit": "hegp104",
+    "learning_objectives": [
+      "To find the sum of angle measures in a quadrilateral",
+      "To understand the relationship between the sum of angle measures and the type of quadrilateral"
+    ],
+    "allowed_concepts": [
+      "Sum of angle measures in a quadrilateral",
+      "Properties of a quadrilateral"
+    ],
+    "disallowed_concepts": [
+      "Advanced calculus",
+      "Complex numbers"
+    ],
+    "content_blocks": [
+      {
+        "type": "explanation",
+        "text": "The sum of the angle measures in a quadrilateral is 360°.",
+        "block_id": "block_1"
+      }
+    ],
+    "topic_id": "topic_31",
+    "chapter_name": "QUADRILATERALS"
+  }
+]

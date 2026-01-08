@@ -174,7 +174,7 @@ def merge_video_and_audio(video_path, audio_path):
         print("\n❌ Merge failed")
         return None
 
-def run_video_generator(json_path, output_dir, topic_index=0):
+def run_video_generator(json_path, output_dir, topic_index=0, custom_filename=None):
     print("="*60)
     print("🎥 AI EDUCATIONAL ANIMATOR WITH SYNCHRONIZED NARRATION")
     print("="*60)
@@ -224,7 +224,11 @@ def run_video_generator(json_path, output_dir, topic_index=0):
             raise Exception("Video rendering failed")
         
         # 5. Merge
-        final_video_name = f"Video_{os.path.basename(json_path).replace('.json','')}_{topic_index}.mp4"
+        if custom_filename:
+            final_video_name = custom_filename
+        else:
+            final_video_name = f"Video_{os.path.basename(json_path).replace('.json','')}_{topic_index}.mp4"
+            
         final_video_dest = os.path.join(output_dir, final_video_name)
         
         # The merge function currently writes to "final_video_with_narration.mp4"
@@ -234,7 +238,7 @@ def run_video_generator(json_path, output_dir, topic_index=0):
         if merged_path and os.path.exists(merged_path):
             import shutil
             shutil.move(merged_path, final_video_dest)
-            print(f"🎉 Moved final video to: {final_video_dest}")
+            print(f" Moved final video to: {final_video_dest}")
             return final_video_dest
         else:
             raise Exception("Merge returned no path")
@@ -245,7 +249,8 @@ def run_video_generator(json_path, output_dir, topic_index=0):
 
 if __name__ == "__main__":
     # Default test
-    default_json = "class7/json_output/gegp108.json"
+    # Adjusted to look in content/class7/json_output if needed, or keeping legacy test path
+    default_json = "content/class7/json_output/gegp108.json"
     if os.path.exists(default_json):
         run_video_generator(default_json, "generated_content")
     else:

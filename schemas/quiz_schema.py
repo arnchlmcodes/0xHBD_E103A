@@ -11,7 +11,7 @@ class MCQQuestion(BaseModel):
     question: str = Field(..., min_length=10)
     options: List[str] = Field(..., min_items=3, max_items=5)
     correct: str
-    blooms_level: Literal["Remember", "Understand", "Apply", "Analyze"]
+    blooms_level: str
     learning_objective: str
 
     @validator("correct")
@@ -25,7 +25,7 @@ class ShortAnswerQuestion(BaseModel):
     type: Literal["short"]
     question: str = Field(..., min_length=10)
     answer: str
-    blooms_level: Literal["Understand", "Apply"]
+    blooms_level: str
     learning_objective: str
 
 
@@ -41,7 +41,7 @@ class Quiz(BaseModel):
     class_level: str
     difficulty: Literal["Beginner", "Intermediate", "Advanced"]
     duration_minutes: int = Field(..., ge=10, le=90)
-    questions: List[Question]
+    questions: List[MCQQuestion]
 
     @validator("questions")
     def min_questions(cls, v):

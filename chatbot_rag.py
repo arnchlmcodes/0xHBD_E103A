@@ -21,7 +21,7 @@ class MathBuddyChatbot:
         try:
             self.qa_system = SmartQA(
                 chapter_mapping_path="chapter_mapping_class7.json",
-                class_folder="class7"
+                class_folder="content/class7"
             )
         except Exception as e:
             print(f"❌ Error initializing SmartQA: {e}")

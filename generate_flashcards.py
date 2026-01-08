@@ -11,7 +11,7 @@ import json
 import os
 from groq import Groq
 from dotenv import load_dotenv
-from verifier import ContentVerifier
+
 
 load_dotenv()
 
@@ -86,22 +86,8 @@ def run_flashcard_generator(json_path, output_path=None, topic_index=0):
     cards = result.get('cards', [])
     print(f"✅ Generated {len(cards)} cards.")
     
-    # 3. Verify
-    print("\n🛡️  Auditing cards with Gemini Verifier...")
-    verifier = ContentVerifier()
-    source_text = "\n".join([b['text'] for b in topic['content_blocks']])
-    
-    # Verify the entire set as a text block
-    cards_text = json.dumps(cards, indent=2)
-    report = verifier.verify(source_text, cards_text, context_name="Flashcards")
-    
-    if report.get('score', 0) < 70:
-        print("❌ CARDS REJECTED: Score too low.")
-        result['verification_status'] = "rejected"
-    else:
-        result['verification_status'] = "verified"
-        
-    result['verification_report'] = report
+    # 3. No Verification needed for flashcards as per user request
+    result['verification_status'] = "skipped"
     
     # 4. Save
     if not output_path:

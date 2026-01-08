@@ -3,6 +3,7 @@ import { useState, useEffect } from 'react'
 import axios from 'axios'
 import { Upload, FileText, Check, Play, BookOpen, Brain, Clock, Activity, Download, ChevronRight, X, AlertCircle, Video, MessageSquare, Send } from 'lucide-react'
 import { motion, AnimatePresence } from 'framer-motion'
+import ReactMarkdown from 'react-markdown'
 
 const API_BASE = 'http://localhost:8000'
 
@@ -90,6 +91,144 @@ const TypeCard = ({ icon, title, desc, id, selected, onSelect }) => (
   </div>
 )
 
+const Flashcard = ({ card }) => {
+  const [isFlipped, setIsFlipped] = useState(false)
+
+  return (
+    <div
+      onClick={() => setIsFlipped(!isFlipped)}
+      className="relative w-full h-48 cursor-pointer perspective-1000 group dark:text-gray-800"
+    >
+      <motion.div
+        className="w-full h-full relative preserve-3d transition-all duration-500"
+        initial={false}
+        animate={{ rotateY: isFlipped ? 180 : 0 }}
+        transition={{ duration: 0.6, type: "spring" }}
+        style={{ transformStyle: 'preserve-3d' }}
+      >
+        {/* Front */}
+        <div className="absolute inset-0 backface-hidden bg-white border-2 border-teal-100 rounded-xl shadow-sm p-6 flex flex-col items-center justify-center text-center">
+          <span className="text-xs font-bold text-teal-500 uppercase tracking-widest mb-2">{card.type}</span>
+          <p className="text-lg font-medium text-slate-700">{card.front}</p>
+          <p className="text-xs text-slate-400 mt-4 pt-4 border-t w-full">Click to reveal</p>
+        </div>
+
+        {/* Back */}
+        <div
+          className="absolute inset-0 backface-hidden bg-gradient-to-br from-teal-500 to-emerald-600 text-white rounded-xl shadow-lg p-6 flex flex-col items-center justify-center text-center"
+          style={{ transform: 'rotateY(180deg)', backfaceVisibility: 'hidden' }}
+        >
+          <p className="text-lg font-medium">{card.back}</p>
+        </div>
+      </motion.div>
+    </div>
+  )
+}
+
+const Quiz = ({ data }) => {
+  const [currentQ, setCurrentQ] = useState(0)
+  const [score, setScore] = useState(0)
+  const [selectedOption, setSelectedOption] = useState(null)
+  const [showResult, setShowResult] = useState(false)
+  const [isAnswered, setIsAnswered] = useState(false)
+
+  const questions = data.questions
+  const currentQuestion = questions[currentQ]
+
+  const handleOptionClick = (option) => {
+    if (isAnswered) return
+    setSelectedOption(option)
+    setIsAnswered(true)
+
+    if (option === currentQuestion.correct) {
+      setScore(prev => prev + 1)
+    }
+  }
+
+  const nextQuestion = () => {
+    if (currentQ < questions.length - 1) {
+      setCurrentQ(prev => prev + 1)
+      setSelectedOption(null)
+      setIsAnswered(false)
+    } else {
+      setShowResult(true)
+    }
+  }
+
+  const restartObj = () => {
+    setCurrentQ(0)
+    setScore(0)
+    setSelectedOption(null)
+    setShowResult(false)
+    setIsAnswered(false)
+  }
+
+  if (showResult) {
+    return (
+      <div className="text-center p-8 bg-white rounded-xl shadow-sm border border-slate-100">
+        <div className="w-20 h-20 bg-teal-100 text-teal-600 rounded-full flex items-center justify-center mx-auto mb-6 text-3xl">🏆</div>
+        <h3 className="text-2xl font-bold text-slate-800 mb-2">Quiz Completed!</h3>
+        <p className="text-slate-500 mb-6">You scored {score} out of {questions.length}</p>
+        <div className="w-full bg-slate-100 rounded-full h-4 mb-8 overflow-hidden">
+          <div className="bg-teal-500 h-full transition-all duration-1000" style={{ width: `${(score / questions.length) * 100}%` }}></div>
+        </div>
+        <button onClick={restartObj} className="btn-primary">Restart Quiz</button>
+      </div>
+    )
+  }
+
+  return (
+    <div className="max-w-2xl mx-auto text-left">
+      <div className="flex justify-between items-center mb-6">
+        <span className="text-sm font-bold text-slate-400 uppercase tracking-wider">Question {currentQ + 1}/{questions.length}</span>
+        <span className="text-sm font-bold text-teal-600">Score: {score}</span>
+      </div>
+
+      <div className="mb-8">
+        <h3 className="text-xl font-bold text-slate-800 mb-6">{currentQuestion.question}</h3>
+        <div className="space-y-3">
+          {currentQuestion.options.map((opt, idx) => {
+            let stateClass = "border-slate-200 hover:border-teal-300 hover:bg-slate-50"
+            if (isAnswered) {
+              if (opt === currentQuestion.correct) stateClass = "border-green-500 bg-green-50 text-green-700"
+              else if (opt === selectedOption) stateClass = "border-red-500 bg-red-50 text-red-700"
+              else stateClass = "border-slate-100 opacity-50"
+            } else if (selectedOption === opt) {
+              stateClass = "border-teal-500 bg-teal-50"
+            }
+
+            return (
+              <div
+                key={idx}
+                onClick={() => handleOptionClick(opt)}
+                className={`p-4 rounded-lg border-2 cursor-pointer transition-all ${stateClass}`}
+              >
+                {opt}
+              </div>
+            )
+          })}
+        </div>
+      </div>
+
+      {isAnswered && (
+        <motion.div initial={{ opacity: 0, y: 10 }} animate={{ opacity: 1, y: 0 }} className="p-4 bg-blue-50 text-blue-800 rounded-lg mb-6 text-sm">
+          <b>Explanation:</b> {currentQuestion.correct} is the correct answer.
+        </motion.div>
+      )}
+
+      <div className="flex justify-end">
+        <button
+          onClick={nextQuestion}
+          disabled={!isAnswered}
+          className={`btn-primary ${!isAnswered && 'opacity-50 cursor-not-allowed'}`}
+        >
+          {currentQ === questions.length - 1 ? 'Finish Quiz' : 'Next Question'}
+        </button>
+      </div>
+    </div>
+  )
+}
+
 const DashboardView = ({ setPhase, selectedFile, selectedTopicIndex, setSelectedTopicIndex, selectedType, setSelectedType, handleGenerate }) => (
   <div className="pt-24 px-6 max-w-6xl mx-auto pb-20">
     <button onClick={() => setPhase('landing')} className="mb-6 text-slate-500 hover:text-teal-600 flex items-center gap-1 text-sm font-medium">← Back to Upload</button>
@@ -104,7 +243,7 @@ const DashboardView = ({ setPhase, selectedFile, selectedTopicIndex, setSelected
               <FileText size={20} />
             </div>
             <div className="overflow-hidden">
-              <div className="font-bold text-slate-700 truncate">{selectedFile?.topics && selectedFile.topics.length > 0 ? selectedFile.topics[0] : selectedFile?.filename}</div>
+              <div className="font-bold text-slate-700 truncate">{selectedFile?.display_name || selectedFile?.filename}</div>
               <div className="text-xs text-slate-500">{selectedFile?.topic_count} topics available</div>
             </div>
           </div>
@@ -217,11 +356,12 @@ const ResultsView = ({ selectedType, selectedFile, selectedTopicIndex, generatio
       </p>
 
       {generationResult?.type === 'flashcards' ? (
-        <div className="bg-slate-50 p-6 rounded-xl border border-slate-200 mb-8 max-h-[400px] overflow-y-auto text-left">
-          <h3 className="font-bold mb-4">Preview:</h3>
-          <pre className="text-xs text-slate-600 whitespace-pre-wrap font-mono">
-            {JSON.stringify(generationResult.data.data.cards, null, 2)}
-          </pre>
+        <div className="mb-8">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+            {generationResult.data.data.cards.map((card, i) => (
+              <Flashcard key={i} card={card} />
+            ))}
+          </div>
           <button onClick={() => {
             const blob = new Blob([JSON.stringify(generationResult.data.data, null, 2)], { type: 'application/json' });
             const url = URL.createObjectURL(blob);
@@ -229,7 +369,11 @@ const ResultsView = ({ selectedType, selectedFile, selectedTopicIndex, generatio
             a.href = url;
             a.download = `flashcards.json`;
             a.click();
-          }} className="btn-primary mt-4">Download JSON</button>
+          }} className="btn-primary mt-8">Download JSON</button>
+        </div>
+      ) : generationResult?.type === 'quiz' ? (
+        <div className="w-full">
+          <Quiz data={generationResult.data.data} />
         </div>
       ) : generationResult?.type === 'video' ? (
         <div className="flex flex-col items-center gap-6">
@@ -280,11 +424,57 @@ const ResultsView = ({ selectedType, selectedFile, selectedTopicIndex, generatio
   </div>
 )
 
+const FolderAccordion = ({ folder, isOpen, onToggle, onSelectFile }) => (
+  <div className="rounded-xl overflow-hidden border border-slate-200 bg-white mb-3">
+    <div
+      onClick={onToggle}
+      className={`p-4 flex items-center justify-between cursor-pointer transition-colors ${isOpen ? 'bg-teal-50/50' : 'hover:bg-slate-50'}`}
+    >
+      <div className="flex items-center gap-3">
+        <div className="w-8 h-8 bg-teal-100 text-teal-600 rounded-lg flex items-center justify-center">
+          <BookOpen size={16} />
+        </div>
+        <span className="font-semibold text-slate-700 capitalize">{folder.folder}</span>
+      </div>
+      <ChevronRight size={18} className={`text-slate-400 transition-transform ${isOpen ? 'rotate-90' : ''}`} />
+    </div>
+    <AnimatePresence>
+      {isOpen && (
+        <motion.div
+          initial={{ height: 0 }}
+          animate={{ height: 'auto' }}
+          exit={{ height: 0 }}
+          className="overflow-hidden bg-slate-50/30"
+        >
+          <div className="p-2 space-y-1">
+            {folder.files.map((file, i) => (
+              <div
+                key={i}
+                onClick={() => onSelectFile(file)}
+                className="flex items-center gap-3 p-3 rounded-lg hover:bg-white cursor-pointer group"
+              >
+                <FileText size={16} className="text-slate-400 group-hover:text-teal-500" />
+                <div className="flex-1 min-w-0">
+                  <div className="text-sm font-medium text-slate-600 truncate group-hover:text-teal-700">{file.display_name}</div>
+                  <div className="text-xs text-slate-400">{file.topics.length} topics</div>
+                </div>
+                <ChevronRight size={14} className="text-slate-300 opacity-0 group-hover:opacity-100" />
+              </div>
+            ))}
+          </div>
+        </motion.div>
+      )}
+    </AnimatePresence>
+  </div>
+)
+
 // --- MAIN APP ---
 
 function App() {
   const [phase, setPhase] = useState('landing')
-  const [files, setFiles] = useState([])
+  const [folders, setFolders] = useState([]) // Changed from files to folders
+  const [openFolders, setOpenFolders] = useState({})
+
   const [selectedFile, setSelectedFile] = useState(null)
   const [selectedTopicIndex, setSelectedTopicIndex] = useState(0)
   const [selectedType, setSelectedType] = useState(null)
@@ -320,10 +510,18 @@ function App() {
   const fetchFiles = async () => {
     try {
       const res = await axios.get(`${API_BASE}/files`)
-      setFiles(res.data)
+      // Expecting [{ folder: "class7", files: [...] }, ...]
+      setFolders(res.data)
     } catch (e) {
       console.error("Failed to fetch files")
     }
+  }
+
+  const toggleFolder = (folderName) => {
+    setOpenFolders(prev => ({
+      ...prev,
+      [folderName]: !prev[folderName]
+    }))
   }
 
   const handleUpload = async (e) => {
@@ -335,7 +533,10 @@ function App() {
     try {
       await axios.post(`${API_BASE}/upload`, formData)
       await fetchFiles()
-      setPhase('dashboard')
+      setPhase('dashboard') // Or stay on landing to see new file in list?
+      // Actually, upload API doesn't tell us where it put the file easily in this structure without refresh
+      // Let's just refresh list and stay on landing so user can choose
+      alert("Upload processed! Check the folders.")
     } catch (err) {
       alert("Upload failed: " + err.message)
     } finally {
@@ -343,12 +544,18 @@ function App() {
     }
   }
 
-  // Poll for file existence
+  // Poll for file existence with robust checks
   const pollForFile = async (filename, type) => {
+    // Initial delay to allow backend to initialize task
+    await new Promise(r => setTimeout(r, 2000));
+
     const interval = setInterval(async () => {
       try {
         const res = await axios.get(`${API_BASE}/download/${filename}`)
-        if (res.status === 200) {
+        // Ensure file exists AND has content (not empty placeholder)
+        const size = res.headers['content-length'];
+
+        if (res.status === 200 && size && parseInt(size) > 1000) {
           clearInterval(interval)
           // Success!
           setGenerationResult({ type: type, data: { file_url: `/download/${filename}`, filename: filename } })
@@ -357,7 +564,7 @@ function App() {
         }
       } catch (e) {
         // Continue polling if 404
-        console.log("Polling...", filename)
+        console.log("Polling for video...", filename)
       }
     }, 3000) // Check every 3 seconds
   }
@@ -378,7 +585,7 @@ function App() {
         default: throw new Error("Unknown type");
       }
       const payload = {
-        filename: selectedFile.filename,
+        filename: selectedFile.filename, // This contains relative path now
         topic_index: selectedTopicIndex
       }
 
@@ -394,21 +601,23 @@ function App() {
         throw new Error("Empty response from server")
       }
 
-      // Check for video type specifically OR generic processing status
+      // STRICT CHECK: For video, we MUST go into polling mode.
       if (selectedType === 'video' || res.data.status === 'processing') {
         const fileToPoll = res.data.filename || res.data.json_file
 
         if (!fileToPoll) {
-          console.error("No filename in response:", res.data)
           throw new Error("No filename returned for background task")
         }
 
-        console.log("Starting polling for:", fileToPoll)
+        console.log("Starting polling for (UNIQUE):", fileToPoll)
         pollForFile(fileToPoll, selectedType)
-      } else {
-        setGenerationResult({ type: selectedType, data: res.data })
-        setPhase('results')
+        return; // Explicit return to prevent fallthrough
       }
+
+      // Immediate result types (for non-video)
+      setGenerationResult({ type: selectedType, data: res.data })
+      setPhase('results')
+
     } catch (err) {
       console.error("Generation Error:", err)
       alert("Generation failed: " + (err.response?.data?.detail || err.message))
@@ -442,14 +651,54 @@ function App() {
 
       <AnimatePresence mode='wait'>
         {phase === 'landing' && (
-          <LandingView
-            key="landing"
-            isProcessing={isProcessing}
-            handleUpload={handleUpload}
-            files={files}
-            setSelectedFile={setSelectedFile}
-            setPhase={setPhase}
-          />
+          <div className="pt-24 min-h-screen flex items-center justify-center p-6">
+            <div className="app-grid w-full">
+              {/* Upload Card */}
+              <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} className="glass-panel p-8 flex flex-col items-center justify-center text-center min-h-[400px]">
+                <div className={`relative w-full h-full border-2 border-dashed border-slate-300 rounded-xl flex flex-col items-center justify-center p-6 transition-all ${isProcessing ? 'bg-slate-50' : 'hover:border-teal-400 hover:bg-slate-50'}`}>
+                  {isProcessing ? (
+                    <div className="flex flex-col items-center">
+                      <div className="loader-spinner mb-4"></div>
+                      <h3 className="text-lg font-semibold text-slate-700">Processing Document...</h3>
+                      <p className="text-sm text-slate-500">Extracting curriculum hierarchy</p>
+                    </div>
+                  ) : (
+                    <>
+                      <div className="w-16 h-16 bg-teal-50 text-teal-500 rounded-full flex items-center justify-center mb-4">
+                        <Upload size={32} />
+                      </div>
+                      <h3 className="text-xl font-semibold mb-2 text-slate-700">Upload Curriculum PDF</h3>
+                      <p className="text-slate-500 mb-6 max-w-xs">Drag and drop your NCERT chapter or textbook directory here.</p>
+                      <input type="file" onChange={handleUpload} className="hidden" id="file-upload" />
+                      <label htmlFor="file-upload" className="btn-primary">
+                        Choose File
+                      </label>
+                    </>
+                  )}
+                </div>
+              </motion.div>
+
+              {/* Recent Files (Folders now) */}
+              <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: 0.1 }} className="flex flex-col gap-4">
+                <h2 className="text-xl font-bold text-slate-700">Curriculum Content</h2>
+                <div className="grid gap-2">
+                  {folders.length === 0 ? (
+                    <div className="glass-panel p-6 text-center text-slate-400">No content found in /content folder.</div>
+                  ) : (
+                    folders.map((folder, i) => (
+                      <FolderAccordion
+                        key={i}
+                        folder={folder}
+                        isOpen={openFolders[folder.folder]}
+                        onToggle={() => toggleFolder(folder.folder)}
+                        onSelectFile={(f) => { setSelectedFile(f); setPhase('dashboard'); }}
+                      />
+                    ))
+                  )}
+                </div>
+              </motion.div>
+            </div>
+          </div>
         )}
         {phase === 'dashboard' && (
           <DashboardView
@@ -478,6 +727,7 @@ function App() {
 
       {/* Chat Widget */}
       <div className="fixed bottom-6 right-6 z-50 flex flex-col items-end gap-4">
+        {/* ... Chat Widget Code Same ... */}
         <AnimatePresence>
           {isChatOpen && (
             <motion.div initial={{ opacity: 0, scale: 0.9, y: 20 }} animate={{ opacity: 1, scale: 1, y: 0 }} exit={{ opacity: 0, scale: 0.9, y: 20 }} className="glass-panel w-80 h-[500px] flex flex-col shadow-2xl bg-white border border-slate-200">
@@ -492,7 +742,7 @@ function App() {
                 {chatMessages.map((msg, idx) => (
                   <div key={idx} className={`flex flex-col ${msg.role === 'user' ? 'items-end' : 'items-start'}`}>
                     <div className={`max-w-[85%] p-3 rounded-lg text-sm ${msg.role === 'user' ? 'bg-teal-500 text-white rounded-br-none' : 'bg-slate-100 text-slate-700 rounded-bl-none'}`}>
-                      {msg.content}
+                      <ReactMarkdown>{msg.content}</ReactMarkdown>
                     </div>
                     {/* Display Sources */}
                     {msg.sources && msg.sources.length > 0 && (

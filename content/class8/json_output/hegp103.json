@@ -1,0 +1,1709 @@
+[
+  {
+    "topic_name": "Need for Counting",
+    "unit": "hegp103",
+    "learning_objectives": [
+      "Understand the need for counting in ancient civilizations",
+      "Recognize the importance of counting in everyday life"
+    ],
+    "allowed_concepts": [
+      "Counting in ancient times",
+      "Importance of counting in daily life"
+    ],
+    "disallowed_concepts": [
+      "Advanced calculus",
+      "Complex numbers"
+    ],
+    "content_blocks": [
+      {
+        "type": "explanation",
+        "text": "Humans had the need to count even as early as the Stone Age. They were counting to determine the quantity of food they had, the number of animals in their livestock, details regarding trades of goods, the number of offerings given in rituals, etc. They also wanted to keep track of the passing days, e.g., to know and predict when important events such as the new moon, full moon, or onset of a season would occur.",
+        "block_id": "block_1"
+      },
+      {
+        "type": "example",
+        "text": "For example, they listed names for the numbers one (eka), ten (dasha), hundred (shata), thousand (sahasra), ten thousand (āyuta), etc., all the way up to 1012 and beyond.",
+        "block_id": "block_2"
+      }
+    ],
+    "topic_id": "topic_1",
+    "chapter_name": "A STORY OF NUMBERS"
+  },
+  {
+    "topic_name": "Origin of Modern Number System",
+    "unit": "hegp103",
+    "learning_objectives": [
+      "Understand the origin of the modern number system",
+      "Recognize the contribution of ancient Indian mathematicians"
+    ],
+    "allowed_concepts": [
+      "Origin of modern number system",
+      "Contribution of ancient Indian mathematicians"
+    ],
+    "disallowed_concepts": [
+      "Advanced calculus",
+      "Complex numbers"
+    ],
+    "content_blocks": [
+      {
+        "type": "definition",
+        "text": "The structure of the modern oral and written numbers that we use today had its origin thousands of years ago in India.",
+        "block_id": "block_1"
+      },
+      {
+        "type": "explanation",
+        "text": "Ancient Indian texts, such as the Yajurveda Samhita, mentioned names of numbers based on powers of 10, almost as we say them orally today.",
+        "block_id": "block_2"
+      },
+      {
+        "type": "example",
+        "text": "For example, they listed names for the numbers one (eka), ten (dasha), hundred (shata), thousand (sahasra), ten thousand (āyuta), etc., all the way up to 1012 and beyond.",
+        "block_id": "block_3"
+      }
+    ],
+    "topic_id": "topic_2",
+    "chapter_name": "A STORY OF NUMBERS"
+  },
+  {
+    "topic_name": "Development of Zero",
+    "unit": "hegp103",
+    "learning_objectives": [
+      "Understand the development of zero in the Indian number system",
+      "Recognize the significance of zero in modern mathematics"
+    ],
+    "allowed_concepts": [
+      "Development of zero",
+      "Significance of zero in modern mathematics"
+    ],
+    "disallowed_concepts": [
+      "Advanced calculus",
+      "Complex numbers"
+    ],
+    "content_blocks": [
+      {
+        "type": "explanation",
+        "text": "The way we write our numbers today — using the digits 0 through 9 — also originated and were developed in India, around 2000 years ago.",
+        "block_id": "block_1"
+      },
+      {
+        "type": "example",
+        "text": "The first known instance of numbers being written using ten digits, including the digit 0 (which was then notated as a dot), occurs in the Bakhshali manuscript (c. 3rd century CE).",
+        "block_id": "block_2"
+      }
+    ],
+    "topic_id": "topic_3",
+    "chapter_name": "A STORY OF NUMBERS"
+  },
+  {
+    "topic_name": "Transmission of Indian Number System",
+    "unit": "hegp103",
+    "learning_objectives": [
+      "Understand the transmission of the Indian number system to other civilizations",
+      "Recognize the significance of this transmission in the development of modern mathematics"
+    ],
+    "allowed_concepts": [
+      "Transmission of Indian number system",
+      "Significance of transmission in modern mathematics"
+    ],
+    "disallowed_concepts": [
+      "Advanced calculus",
+      "Complex numbers"
+    ],
+    "content_blocks": [
+      {
+        "type": "explanation",
+        "text": "The Indian number system was transmitted to the Arab world by around 800 CE.",
+        "block_id": "block_1"
+      },
+      {
+        "type": "example",
+        "text": "It was popularised in the Arab world by the great Persian mathematician Al-Khwārizmī (after whom the word ‘algorithm’ is named) through his book On the Calculation with Hindu Numerals (c. 825) and by the noted philosopher Al-Kindi through his work On the Use of the Hindu Numerals (c. 830).",
+        "block_id": "block_2"
+      }
+    ],
+    "topic_id": "topic_4",
+    "chapter_name": "A STORY OF NUMBERS"
+  },
+  {
+    "topic_name": "Adoption of Indian Number System in Europe",
+    "unit": "hegp103",
+    "learning_objectives": [
+      "Understand the adoption of the Indian number system in Europe",
+      "Recognize the significance of this adoption in the development of modern mathematics"
+    ],
+    "allowed_concepts": [
+      "Adoption of Indian number system in Europe",
+      "Significance of adoption in modern mathematics"
+    ],
+    "disallowed_concepts": [
+      "Advanced calculus",
+      "Complex numbers"
+    ],
+    "content_blocks": [
+      {
+        "type": "explanation",
+        "text": "From the Arab world, the Hindu numerals were transmitted to Europe and to parts of Africa by around 1100 CE.",
+        "block_id": "block_1"
+      },
+      {
+        "type": "example",
+        "text": "Though Al-Khwārizmī’s work on calculation with Hindu numerals was translated into Latin, it was the Italian mathematician Fibonacci who around the year 1200 really made the case to Europe to adopt the Indian numerals.",
+        "block_id": "block_2"
+      }
+    ],
+    "topic_id": "topic_5",
+    "chapter_name": "A STORY OF NUMBERS"
+  },
+  {
+    "topic_name": "Importance of Indian Number System",
+    "unit": "hegp103",
+    "learning_objectives": [
+      "Understand the importance of the Indian number system in modern mathematics",
+      "Recognize the significance of this system in scientific progress"
+    ],
+    "allowed_concepts": [
+      "Importance of Indian number system",
+      "Significance of system in scientific progress"
+    ],
+    "disallowed_concepts": [
+      "Advanced calculus",
+      "Complex numbers"
+    ],
+    "content_blocks": [
+      {
+        "type": "explanation",
+        "text": "However, the Roman numerals were so ingrained in European thinking and writing at the time that the Indian numerals did not gain widespread use for several more centuries.",
+        "block_id": "block_1"
+      },
+      {
+        "type": "example",
+        "text": "But eventually, during the European Renaissance and by the 17th century, not adopting them became impossible or it would impede scientific progress.",
+        "block_id": "block_2"
+      }
+    ],
+    "topic_id": "topic_6",
+    "chapter_name": "A STORY OF NUMBERS"
+  },
+  {
+    "topic_name": "Ingenious Method of Number Representation",
+    "unit": "hegp103",
+    "learning_objectives": [
+      "Understand the ingenious method of number representation",
+      "Recognize the significance of this method in modern mathematics"
+    ],
+    "allowed_concepts": [
+      "Ingenious method of number representation",
+      "Significance of method in modern mathematics"
+    ],
+    "disallowed_concepts": [
+      "Advanced calculus",
+      "Complex numbers"
+    ],
+    "content_blocks": [
+      {
+        "type": "explanation",
+        "text": "The ingenious method of expressing every possible number using a set of ten symbols (each symbol having a place value and an absolute value) emerged in India.",
+        "block_id": "block_1"
+      },
+      {
+        "type": "explanation",
+        "text": "The idea seems so simple nowadays that its significance and profound importance is no longer appreciated.",
+        "block_id": "block_2"
+      }
+    ],
+    "topic_id": "topic_7",
+    "chapter_name": "A STORY OF NUMBERS"
+  },
+  {
+    "topic_name": "The Origin of Hindu-Arabic Numerals",
+    "unit": "hegp103",
+    "learning_objectives": [
+      "To understand the origin of Hindu-Arabic numerals",
+      "To learn about the spread of Hindu-Arabic numerals across the world"
+    ],
+    "allowed_concepts": [
+      "Hindu-Arabic numerals",
+      "Indian numerals",
+      "Arabic numerals"
+    ],
+    "disallowed_concepts": [
+      "Advanced calculus",
+      "Complex numbers"
+    ],
+    "content_blocks": [
+      {
+        "type": "explanation",
+        "text": "noted philosopher Al-Kindi through his work On the Use of the Hindu Numerals (c. 830). From the Arab world, the Hindu numerals were transmitted to Europe and to parts of Africa by around 1100 CE.",
+        "block_id": "block_1"
+      },
+      {
+        "type": "explanation",
+        "text": "The ingenious method of expressing every possible number using a set of ten symbols (each symbol having a place value and an absolute value) emerged in India.",
+        "block_id": "block_2"
+      },
+      {
+        "type": "explanation",
+        "text": "Their use then spread to every continent, and are now used in every corner of the world.",
+        "block_id": "block_3"
+      }
+    ],
+    "topic_id": "topic_8",
+    "chapter_name": "A STORY OF NUMBERS"
+  },
+  {
+    "topic_name": "The Evolution of Hindu-Arabic Numerals",
+    "unit": "hegp103",
+    "learning_objectives": [
+      "To understand the evolution of Hindu-Arabic numerals",
+      "To learn about the different methods of representing numbers"
+    ],
+    "allowed_concepts": [
+      "Hindu-Arabic numerals",
+      "Indian numerals",
+      "Arabic numerals",
+      "Number representation"
+    ],
+    "disallowed_concepts": [
+      "Advanced calculus",
+      "Complex numbers"
+    ],
+    "content_blocks": [
+      {
+        "type": "explanation",
+        "text": "The shape of the digits 0, 1, 2, ..., 9 used to write numbers in the Indian number system today evolved over a period of time, as shown below: Evolution of the digits used in the Indian number system",
+        "block_id": "block_1"
+      },
+      {
+        "type": "explanation",
+        "text": "Prior to the global adoption of the Indian system of numerals, different groups of people used different methods of representing numbers.",
+        "block_id": "block_2"
+      }
+    ],
+    "topic_id": "topic_9",
+    "chapter_name": "A STORY OF NUMBERS"
+  },
+  {
+    "topic_name": "The Mechanism of Counting",
+    "unit": "hegp103",
+    "learning_objectives": [
+      "To understand the mechanism of counting",
+      "To learn about the different methods of counting"
+    ],
+    "allowed_concepts": [
+      "Counting",
+      "Number representation",
+      "One-to-one mapping"
+    ],
+    "disallowed_concepts": [
+      "Advanced calculus",
+      "Complex numbers"
+    ],
+    "content_blocks": [
+      {
+        "type": "explanation",
+        "text": "Imagine that we are living in the Stone Age, say, around ten thousand years ago. Suppose we have a herd of cows.",
+        "block_id": "block_1"
+      },
+      {
+        "type": "explanation",
+        "text": "We need to tackle these questions without the use of the number names or written numbers of the Hindu number system. How do we do it?",
+        "block_id": "block_2"
+      },
+      {
+        "type": "example",
+        "text": "Method 1: We could tackle the questions by using pebbles, sticks or any object that is available in abundance. Let us choose sticks. For every cow in the herd, we could keep a stick.",
+        "block_id": "block_3"
+      }
+    ],
+    "topic_id": "topic_10",
+    "chapter_name": "A STORY OF NUMBERS"
+  },
+  {
+    "topic_name": "One-to-One Mapping",
+    "unit": "hegp103",
+    "learning_objectives": [
+      "Understand the concept of one-to-one mapping",
+      "Learn to represent numbers using sticks or other objects"
+    ],
+    "allowed_concepts": [
+      "Number systems",
+      "Counting and comparison"
+    ],
+    "disallowed_concepts": [
+      "Advanced calculus",
+      "Complex numbers"
+    ],
+    "content_blocks": [
+      {
+        "type": "definition",
+        "text": "This way of associating each cow with a stick, such that no two cows are associated or mapped to the same stick is called a one-to-one mapping.",
+        "block_id": "block_1"
+      },
+      {
+        "type": "explanation",
+        "text": "This mapping can then be used to come up with a way to represent numbers, as shown in the table.",
+        "block_id": "block_2"
+      },
+      {
+        "type": "example",
+        "text": "For example, we get the following number representation if we use English letters ‘a’ to ‘z’.",
+        "block_id": "block_3"
+      }
+    ],
+    "topic_id": "topic_11",
+    "chapter_name": "A STORY OF NUMBERS"
+  },
+  {
+    "topic_name": "Standard Sequence/Number System",
+    "unit": "hegp103",
+    "learning_objectives": [
+      "Understand the concept of a standard sequence/number system",
+      "Learn to identify different types of number systems"
+    ],
+    "allowed_concepts": [
+      "Number systems",
+      "Counting and comparison"
+    ],
+    "disallowed_concepts": [
+      "Advanced calculus",
+      "Complex numbers"
+    ],
+    "content_blocks": [
+      {
+        "type": "definition",
+        "text": "Let us call this standard sequence a number system.",
+        "block_id": "block_1"
+      },
+      {
+        "type": "explanation",
+        "text": "A collection of objects can be counted by making a one-to-one mapping between them and the standard sequence, following the sequence order.",
+        "block_id": "block_2"
+      },
+      {
+        "type": "example",
+        "text": "Using sticks gives an unending standard sequence/number system.",
+        "block_id": "block_3"
+      }
+    ],
+    "topic_id": "topic_12",
+    "chapter_name": "A STORY OF NUMBERS"
+  },
+  {
+    "topic_name": "Roman Number System",
+    "unit": "hegp103",
+    "learning_objectives": [
+      "Understand the concept of the Roman number system",
+      "Learn to identify the advantages and disadvantages of the Roman number system"
+    ],
+    "allowed_concepts": [
+      "Number systems",
+      "Counting and comparison"
+    ],
+    "disallowed_concepts": [
+      "Advanced calculus",
+      "Complex numbers"
+    ],
+    "content_blocks": [
+      {
+        "type": "definition",
+        "text": "The standard sequence/number system given in Method 3 was actually the system used in Europe before it got replaced by the Hindu number system. It is called the Roman number system.",
+        "block_id": "block_1"
+      },
+      {
+        "type": "explanation",
+        "text": "It was widely used in Europe for centuries, and was convenient for many purposes, but had the similar drawback that one cannot write arbitrarily large numbers without introducing more and more symbols.",
+        "block_id": "block_2"
+      },
+      {
+        "type": "example",
+        "text": "We will learn more about this system of writing numbers later on.",
+        "block_id": "block_3"
+      }
+    ],
+    "topic_id": "topic_13",
+    "chapter_name": "A STORY OF NUMBERS"
+  },
+  {
+    "topic_name": "Number Systems - History and Development",
+    "unit": "hegp103",
+    "learning_objectives": [
+      "To understand the history and development of number systems",
+      "To learn about different methods of number representation"
+    ],
+    "allowed_concepts": [
+      "Number systems",
+      "Methods of number representation",
+      "History of mathematics"
+    ],
+    "disallowed_concepts": [
+      "Advanced calculus",
+      "Complex numbers"
+    ],
+    "content_blocks": [
+      {
+        "type": "explanation",
+        "text": "Using the sounds of the letters of a language, as in Method 2, is convenient for the counting process but is not an unending standard sequence/number system.",
+        "block_id": "block_1"
+      },
+      {
+        "type": "definition",
+        "text": "The standard sequence/number system given in Method 3 was actually the system used in Europe before it got replaced by the Hindu number system. It is called the Roman number system.",
+        "block_id": "block_2"
+      },
+      {
+        "type": "explanation",
+        "text": "The symbols occurring in a written number system are called numerals. For example, 0, 1, 5, 36, 193, etc., are some of the numerals occurring in the Hindu number system.",
+        "block_id": "block_3"
+      },
+      {
+        "type": "example",
+        "text": "Numerals representing ‘smaller’ numbers always had names, and so a number system composed of written symbols always went hand in hand with a number system composed of names, as is the case with the modern-day Hindu system.",
+        "block_id": "block_4"
+      },
+      {
+        "type": "explanation",
+        "text": "Figure it Out 1. Suppose you are using the number system that uses sticks to represent numbers, as in Method 1. Without using either the Math number names or the numerals of the Hindu number system, give a method for adding, subtracting, multiplying and dividing two numbers or two collections of sticks.",
+        "block_id": "block_5"
+      },
+      {
+        "type": "explanation",
+        "text": "One way of extending the number system in Method 2 is by using strings with more than one letter — for example, we could use ‘aa’ for 27. How can you extend this system to represent all the numbers? There are many ways of doing it!",
+        "block_id": "block_6"
+      },
+      {
+        "type": "explanation",
+        "text": "Try making your own number system. Try to extend the number system in Method 2 to represent all the numbers.",
+        "block_id": "block_7"
+      },
+      {
+        "type": "explanation",
+        "text": "I. Use of Body Parts Many groups of people across the world have used their hands and body parts for counting.",
+        "block_id": "block_8"
+      },
+      {
+        "type": "explanation",
+        "text": "One of the oldest methods of number representation is by making notches — marks cut on a surface such as a bone or a wall of a cave. These marks are also called tally marks.",
+        "block_id": "block_9"
+      },
+      {
+        "type": "explanation",
+        "text": "Archaeologists have discovered bones dating back more than 20,000 years that seem to have tally marks.",
+        "block_id": "block_10"
+      },
+      {
+        "type": "explanation",
+        "text": "The oldest known such bones with markings that are thought to represent numbers are the Ishango bone and the Lebombo bone.",
+        "block_id": "block_11"
+      },
+      {
+        "type": "explanation",
+        "text": "The Ishango bone, dating back 20,000 to 35,000 years, was discovered in the Democratic Republic of Congo.",
+        "block_id": "block_12"
+      },
+      {
+        "type": "explanation",
+        "text": "The Lebombo bone, discovered in South Africa, is an even older tally stick with 29 notches, estimated to be around 44,000 years old.",
+        "block_id": "block_13"
+      },
+      {
+        "type": "explanation",
+        "text": "Lebombo bone Ishango bone",
+        "block_id": "block_14"
+      },
+      {
+        "type": "explanation",
+        "text": "A group of indigenous people in Australia called the Gumulgal had the following words for their numbers.",
+        "block_id": "block_15"
+      },
+      {
+        "type": "explanation",
+        "text": "Gumulgal (Australia) 1. urapon 2. ukasar 3. ukasar-urapon 4. ukasar-ukasar 5. ukasar-ukasar-urapon 6. ukasar-ukasar-ukasar",
+        "block_id": "block_16"
+      },
+      {
+        "type": "explanation",
+        "text": "Can you see how their number names are formed?",
+        "block_id": "block_17"
+      },
+      {
+        "type": "explanation",
+        "text": "The number name for 3 is composed of number names of 2 and 1.",
+        "block_id": "block_18"
+      },
+      {
+        "type": "explanation",
+        "text": "The number name for 4 is composed of two occurrences of the number name for 2.",
+        "block_id": "block_19"
+      },
+      {
+        "type": "explanation",
+        "text": "Can you see how the names of the other numbers are formed?",
+        "block_id": "block_20"
+      }
+    ],
+    "topic_id": "topic_14",
+    "chapter_name": "A STORY OF NUMBERS"
+  },
+  {
+    "topic_name": "Lebombo Bone and Ishango Bone",
+    "unit": "hegp103",
+    "learning_objectives": [
+      "Understand the significance of the Lebombo bone and Ishango bone in the history of mathematics",
+      "Recognize the early attempts at representing numbers using tally marks and notches"
+    ],
+    "allowed_concepts": [
+      "Tally marks",
+      "Notches",
+      "Early number systems"
+    ],
+    "disallowed_concepts": [
+      "Advanced calculus",
+      "Complex numbers"
+    ],
+    "content_blocks": [
+      {
+        "type": "explanation",
+        "text": "The Lebombo bone, discovered in South Africa, is an even older tally stick with 29 notches, estimated to be around 44,000 years old. It is considered one of the oldest mathematical artefacts, and may have served as a tally stick or lunar calendar.",
+        "block_id": "block_1"
+      },
+      {
+        "type": "definition",
+        "text": "Tally marks: marks used to represent numbers, such as notches on a stick",
+        "block_id": "block_2"
+      }
+    ],
+    "topic_id": "topic_15",
+    "chapter_name": "A STORY OF NUMBERS"
+  },
+  {
+    "topic_name": "Number Names Obtained by Counting in Twos",
+    "unit": "hegp103",
+    "learning_objectives": [
+      "Understand how the Gumulgal people formed number names by counting in twos",
+      "Recognize the pattern of number names in the Gumulgal system"
+    ],
+    "allowed_concepts": [
+      "Counting in twos",
+      "Number names",
+      "Gumulgal number system"
+    ],
+    "disallowed_concepts": [
+      "Advanced calculus",
+      "Complex numbers"
+    ],
+    "content_blocks": [
+      {
+        "type": "explanation",
+        "text": "The number name for 3 is composed of number names of 2 and 1. The number name for 4 is composed of two occurrences of the number name for 2.",
+        "block_id": "block_1"
+      },
+      {
+        "type": "example",
+        "text": "Can you see how the names of the other numbers are formed? The numbers are counted in 2s, using which the number names are formed: 3 = 2 + 1, 4 = 2 + 2, 5 = 2 + 2 + 1, 6 = 2 + 2 + 2.",
+        "block_id": "block_2"
+      }
+    ],
+    "topic_id": "topic_16",
+    "chapter_name": "A STORY OF NUMBERS"
+  },
+  {
+    "topic_name": "Equivalent Number Systems",
+    "unit": "hegp103",
+    "learning_objectives": [
+      "Understand how three groups of people developed equivalent number systems",
+      "Recognize the possible reasons for the development of these equivalent systems"
+    ],
+    "allowed_concepts": [
+      "Equivalent number systems",
+      "Gumulgal number system",
+      "Bakairi number system",
+      "Bushmen number system"
+    ],
+    "disallowed_concepts": [
+      "Advanced calculus",
+      "Complex numbers"
+    ],
+    "content_blocks": [
+      {
+        "type": "explanation",
+        "text": "Despite being so far apart geographically, and with no trace of contact between them, these three groups have developed equivalent number systems! Historians have wondered how this happened. One theory is that these three groups of people may have had common ancestors, who used this number system.",
+        "block_id": "block_1"
+      },
+      {
+        "type": "example",
+        "text": "Look at the following number systems of a group of indigenous people in South America, and the Bushmen of South Africa:",
+        "block_id": "block_2"
+      }
+    ],
+    "topic_id": "topic_17",
+    "chapter_name": "A STORY OF NUMBERS"
+  },
+  {
+    "topic_name": "Counting in Groups of a Certain Number",
+    "unit": "hegp103",
+    "learning_objectives": [
+      "Understand the idea of counting in groups of a certain number",
+      "Recognize the importance of this idea in the history of number systems"
+    ],
+    "allowed_concepts": [
+      "Counting in groups",
+      "Number systems",
+      "History of mathematics"
+    ],
+    "disallowed_concepts": [
+      "Advanced calculus",
+      "Complex numbers"
+    ],
+    "content_blocks": [
+      {
+        "type": "explanation",
+        "text": "Counting in a certain group size and using it to represent numbers is an important idea in the history of the evolution of number systems.",
+        "block_id": "block_1"
+      },
+      {
+        "type": "example",
+        "text": "Some of the commonly used group sizes in different number systems have been 2, 5, 10 and 20.",
+        "block_id": "block_2"
+      }
+    ],
+    "topic_id": "topic_18",
+    "chapter_name": "A STORY OF NUMBERS"
+  },
+  {
+    "topic_name": "Human Limit for Immediately Knowing the Size of a Collection",
+    "unit": "hegp103",
+    "learning_objectives": [
+      "Understand the human limit for immediately knowing the size of a collection",
+      "Recognize how this limit might have led to the development of new number systems"
+    ],
+    "allowed_concepts": [
+      "Human perception",
+      "Number systems",
+      "History of mathematics"
+    ],
+    "disallowed_concepts": [
+      "Advanced calculus",
+      "Complex numbers"
+    ],
+    "content_blocks": [
+      {
+        "type": "explanation",
+        "text": "Let us try out the following activity. Quickly count the number of objects in each of the following boxes: Up to what group size could you immediately see the number of objects without counting?",
+        "block_id": "block_1"
+      },
+      {
+        "type": "example",
+        "text": "Most humans find it difficult to count groups having 5 or more objects in a single glance.",
+        "block_id": "block_2"
+      }
+    ],
+    "topic_id": "topic_19",
+    "chapter_name": "A STORY OF NUMBERS"
+  },
+  {
+    "topic_name": "The Roman Numerals",
+    "unit": "hegp103",
+    "learning_objectives": [
+      "Understand the Roman numeral system",
+      "Recognize the refinement of the idea of counting in groups"
+    ],
+    "allowed_concepts": [
+      "Roman numerals",
+      "Counting in groups",
+      "Number systems"
+    ],
+    "disallowed_concepts": [
+      "Advanced calculus",
+      "Complex numbers"
+    ],
+    "content_blocks": [
+      {
+        "type": "explanation",
+        "text": "One of the phenomena that could have led people to this idea might be the human limit for immediately knowing the size of a collection at a glance.",
+        "block_id": "block_1"
+      },
+      {
+        "type": "example",
+        "text": "What could be the difficulties with using a number system that counts only in groups of a single particular size? How would you represent a number like 1345 in a system that counts only by 5s?",
+        "block_id": "block_2"
+      }
+    ],
+    "topic_id": "topic_20",
+    "chapter_name": "A STORY OF NUMBERS"
+  },
+  {
+    "topic_name": "Human Limit for Counting",
+    "unit": "hegp103",
+    "learning_objectives": [
+      "Understand the human limit for counting objects at a glance",
+      "Recognize the difficulties with using a number system that counts only in groups of a single particular size"
+    ],
+    "allowed_concepts": [
+      "Counting",
+      "Number systems",
+      "Tally marks"
+    ],
+    "disallowed_concepts": [
+      "Advanced calculus",
+      "Complex numbers"
+    ],
+    "content_blocks": [
+      {
+        "type": "explanation",
+        "text": "Most humans find it difficult to count groups having 5 or more objects in a single glance.",
+        "block_id": "block_1"
+      },
+      {
+        "type": "example",
+        "text": "Let us try out the following activity. Quickly count the number of objects in each of the following boxes:",
+        "block_id": "block_2"
+      }
+    ],
+    "topic_id": "topic_21",
+    "chapter_name": "A STORY OF NUMBERS"
+  },
+  {
+    "topic_name": "Roman Numerals",
+    "unit": "hegp103",
+    "learning_objectives": [
+      "Understand the Roman numeral system",
+      "Represent numbers in the Roman numeral system"
+    ],
+    "allowed_concepts": [
+      "Roman numerals",
+      "Number representation"
+    ],
+    "disallowed_concepts": [
+      "Advanced calculus",
+      "Complex numbers"
+    ],
+    "content_blocks": [
+      {
+        "type": "definition",
+        "text": "To get the Roman numeral for any number till 39, it is first grouped into as many 10s as possible, the remaining is grouped into as many 5s as possible, and finally the remaining is grouped into 1s.",
+        "block_id": "block_1"
+      },
+      {
+        "type": "example",
+        "text": "Let us take the number 27. 27 = 10 + 10 + 5 + 1 + 1. So, 27 in Roman numerals is XXVII.",
+        "block_id": "block_2"
+      },
+      {
+        "type": "explanation",
+        "text": "Instead of representing 50 as XXXXX, a new symbol is given to it: L. Following the way the number 4 is represented as 1 less than 5 — that is, as IV — 40 is represented as 10 less than 50 — that is, as XL.",
+        "block_id": "block_3"
+      }
+    ],
+    "topic_id": "topic_22",
+    "chapter_name": "A STORY OF NUMBERS"
+  },
+  {
+    "topic_name": "Landmark Numbers",
+    "unit": "hegp103",
+    "learning_objectives": [
+      "Understand landmark numbers in the Roman numeral system",
+      "Represent numbers using landmark numbers"
+    ],
+    "allowed_concepts": [
+      "Landmark numbers",
+      "Number representation"
+    ],
+    "disallowed_concepts": [
+      "Advanced calculus",
+      "Complex numbers"
+    ],
+    "content_blocks": [
+      {
+        "type": "definition",
+        "text": "A landmark number is a number that has a new basic symbol in the Roman numeral system.",
+        "block_id": "block_1"
+      },
+      {
+        "type": "example",
+        "text": "Consider the number 2367. Writing it as a sum of landmark numbers starting from 1000 such that we take as many 1000s as possible, 500s as possible, and so on, we get 2367 = 1000 + 1000 + 100 + 100 + 100 + 50 + 10 + 5 + 1 + 1.",
+        "block_id": "block_2"
+      }
+    ],
+    "topic_id": "topic_23",
+    "chapter_name": "A STORY OF NUMBERS"
+  },
+  {
+    "topic_name": "Efficiency of Roman Numerals",
+    "unit": "hegp103",
+    "learning_objectives": [
+      "Understand the efficiency of the Roman numeral system",
+      "Compare the Roman numeral system with other number systems"
+    ],
+    "allowed_concepts": [
+      "Efficiency",
+      "Number systems"
+    ],
+    "disallowed_concepts": [
+      "Advanced calculus",
+      "Complex numbers"
+    ],
+    "content_blocks": [
+      {
+        "type": "explanation",
+        "text": "The efficiency of this system is due to the grouping of a given number by not just one group size, but a sequence of group sizes that we call landmark numbers, and then using these landmark numbers to represent the given number.",
+        "block_id": "block_1"
+      }
+    ],
+    "topic_id": "topic_24",
+    "chapter_name": "A STORY OF NUMBERS"
+  },
+  {
+    "topic_name": "Arithmetic Operations in Roman Numerals",
+    "unit": "hegp103",
+    "learning_objectives": [
+      "Understand the difficulties with performing arithmetic operations in Roman numerals",
+      "Represent numbers for arithmetic operations in Roman numerals"
+    ],
+    "allowed_concepts": [
+      "Arithmetic operations",
+      "Roman numerals"
+    ],
+    "disallowed_concepts": [
+      "Advanced calculus",
+      "Complex numbers"
+    ],
+    "content_blocks": [
+      {
+        "type": "example",
+        "text": "Try adding the following numbers without converting them to Hindu numerals: (a) CCXXXII + CCCCXIII",
+        "block_id": "block_1"
+      },
+      {
+        "type": "example",
+        "text": "How will you multiply two numbers given in Roman numerals, without converting them to Hindu numerals? Try to find the product of the following pairs of landmark numbers: V × L, L × D, V × D, VII × IX.",
+        "block_id": "block_2"
+      }
+    ],
+    "topic_id": "topic_25",
+    "chapter_name": "A STORY OF NUMBERS"
+  },
+  {
+    "topic_name": "Limitations of Roman Number System",
+    "unit": "hegp103",
+    "learning_objectives": [
+      "Understand the limitations of the Roman number system",
+      "Recognize the need for a more efficient number system"
+    ],
+    "allowed_concepts": [
+      "Roman number system",
+      "Hindu number system"
+    ],
+    "disallowed_concepts": [
+      "Advanced calculus",
+      "Complex numbers"
+    ],
+    "content_blocks": [
+      {
+        "type": "explanation",
+        "text": "Despite the relative efficiency of the Roman system, it doesn’t lend itself to an easy performance of arithmetic operations, particularly multiplication and division.",
+        "block_id": "block_1"
+      },
+      {
+        "type": "example",
+        "text": "Example: Try adding the following numbers without converting them to Hindu numerals: (a) CCXXXII + CCCCXIII",
+        "block_id": "block_2"
+      },
+      {
+        "type": "explanation",
+        "text": "Apparently, it looks like the largest landmark number is C, but note that 5 Cs (100s) make a D (500).",
+        "block_id": "block_3"
+      },
+      {
+        "type": "example",
+        "text": "Do it yourself now: (b) LXXXVII + LXXVIII",
+        "block_id": "block_4"
+      },
+      {
+        "type": "explanation",
+        "text": "How will you multiply two numbers given in Roman numerals, without converting them to Hindu numerals?",
+        "block_id": "block_5"
+      },
+      {
+        "type": "example",
+        "text": "Try to find the product of the following pairs of landmark numbers: V × L, L × D, V × D, VII × IX.",
+        "block_id": "block_6"
+      }
+    ],
+    "topic_id": "topic_26",
+    "chapter_name": "A STORY OF NUMBERS"
+  },
+  {
+    "topic_name": "The Idea of a Base",
+    "unit": "hegp103",
+    "learning_objectives": [
+      "Understand the concept of a base in a number system",
+      "Recognize the importance of a base in representing numbers"
+    ],
+    "allowed_concepts": [
+      "Base",
+      "Number system"
+    ],
+    "disallowed_concepts": [
+      "Advanced calculus",
+      "Complex numbers"
+    ],
+    "content_blocks": [
+      {
+        "type": "explanation",
+        "text": "Imagine making collections of pebbles. The first landmark number is 1. Group together 10 collections of the previous landmark number (1). Its size is the second landmark number which is 10.",
+        "block_id": "block_1"
+      },
+      {
+        "type": "explanation",
+        "text": "Each landmark number is 10 times the previous one. Since 1 is the first landmark number, they are all powers of 10.",
+        "block_id": "block_2"
+      },
+      {
+        "type": "definition",
+        "text": "The following are the symbols given to these numbers —",
+        "block_id": "block_3"
+      }
+    ],
+    "topic_id": "topic_27",
+    "chapter_name": "A STORY OF NUMBERS"
+  },
+  {
+    "topic_name": "Egyptian Number System",
+    "unit": "hegp103",
+    "learning_objectives": [
+      "Understand the Egyptian number system",
+      "Recognize the use of landmark numbers in the Egyptian system",
+      "Understand the concept of the Egyptian number system",
+      "Represent numbers in the Egyptian system",
+      "Identify the landmark numbers in the Egyptian system"
+    ],
+    "allowed_concepts": [
+      "Egyptian number system",
+      "Landmark numbers",
+      "Base-10 number system",
+      "Egyptian numerals"
+    ],
+    "disallowed_concepts": [
+      "Advanced calculus",
+      "Complex numbers"
+    ],
+    "content_blocks": [
+      {
+        "type": "explanation",
+        "text": "In this system, we see the use of landmark numbers to group and represent a given number.",
+        "block_id": "block_1"
+      },
+      {
+        "type": "example",
+        "text": "For example 324 which equals 100 + 100 + 100 + 10 + 10 + 4 is written as .",
+        "block_id": "block_2"
+      },
+      {
+        "type": "definition",
+        "text": "The Egyptian number system is a base-10 system where each landmark number is 10 times the previous one.",
+        "block_id": "block_3"
+      },
+      {
+        "type": "explanation",
+        "text": "In the Egyptian system, a given number is counted in groups of the landmark numbers, starting from the largest landmark number less than the given number.",
+        "block_id": "block_4"
+      },
+      {
+        "type": "example",
+        "text": "For example, 324 which equals 100 + 100 + 100 + 10 + 10 + 4 is written as .",
+        "block_id": "block_5"
+      }
+    ],
+    "topic_id": "topic_28",
+    "chapter_name": "A STORY OF NUMBERS"
+  },
+  {
+    "topic_name": "Variations on the Egyptian System and the Notion of Base",
+    "unit": "hegp103",
+    "learning_objectives": [
+      "Understand the concept of base-n number system",
+      "Represent numbers in a base-n system",
+      "Identify the landmark numbers in a base-n system"
+    ],
+    "allowed_concepts": [
+      "Base-n number system",
+      "Landmark numbers",
+      "Base-5 system"
+    ],
+    "disallowed_concepts": [
+      "Advanced calculus",
+      "Complex numbers"
+    ],
+    "content_blocks": [
+      {
+        "type": "definition",
+        "text": "A base-n number system is a number system where the first landmark number is 1, and every next landmark number is obtained by multiplying the current landmark number by some fixed number n.",
+        "block_id": "block_1"
+      },
+      {
+        "type": "explanation",
+        "text": "The landmark numbers of a base-n number system are the powers of n starting from n0 = 1, n, n2, n3,...",
+        "block_id": "block_2"
+      },
+      {
+        "type": "example",
+        "text": "For example, the landmark numbers of a base-5 system are 1, 5, 25, 125, 625, 3125, ...",
+        "block_id": "block_3"
+      }
+    ],
+    "topic_id": "topic_29",
+    "chapter_name": "A STORY OF NUMBERS"
+  },
+  {
+    "topic_name": "Advantages of a Base-n System",
+    "unit": "hegp103",
+    "learning_objectives": [
+      "Understand the advantages of a base-n system",
+      "Perform arithmetic operations in a base-n system",
+      "Learn how to perform arithmetic operations using landmark numbers"
+    ],
+    "allowed_concepts": [
+      "Base-n system",
+      "Arithmetic operations",
+      "Landmark numbers"
+    ],
+    "disallowed_concepts": [
+      "Advanced calculus",
+      "Complex numbers"
+    ],
+    "content_blocks": [
+      {
+        "type": "definition",
+        "text": "The advantage of having landmark numbers that are all the powers of a number is that it simplifies arithmetic operations.",
+        "block_id": "block_1"
+      },
+      {
+        "type": "explanation",
+        "text": "For example, adding numbers in a base-n system is similar to adding numbers in the Egyptian system.",
+        "block_id": "block_2"
+      },
+      {
+        "type": "example",
+        "text": "For example, adding 15 and 15 in the Egyptian system gives .",
+        "block_id": "block_3"
+      },
+      {
+        "type": "explanation",
+        "text": "What is the advantage of having landmark numbers that are all the powers of a number? To understand this, let us perform some arithmetic operations using them.",
+        "block_id": "block_4"
+      },
+      {
+        "type": "example",
+        "text": "Example: Add the following Egyptian numerals: Let us find the total number of | and and group them starting from the largest possible landmark number. It has a total of— 15 and 15 |.",
+        "block_id": "block_5"
+      },
+      {
+        "type": "explanation",
+        "text": "Since 10 gives the next landmark number , the sum can be regrouped as— Sum =",
+        "block_id": "block_6"
+      },
+      {
+        "type": "example",
+        "text": "1. Add the following Egyptian numerals: (i) (ii)",
+        "block_id": "block_7"
+      },
+      {
+        "type": "explanation",
+        "text": "Contrast the addition done in a base-n number system with that done in the Roman system. In the Roman system, the grouping and rearranging has to be done carefully as it is not always by the same size that each landmark number has to be grouped to get the next one.",
+        "block_id": "block_8"
+      },
+      {
+        "type": "definition",
+        "text": "The advantage of a number system with a base becomes more evident when we consider multiplication.",
+        "block_id": "block_9"
+      },
+      {
+        "type": "explanation",
+        "text": "How to multiply two numbers in Egyptian numerals? Let us first consider the product of two landmark numbers.",
+        "block_id": "block_10"
+      },
+      {
+        "type": "example",
+        "text": "1. What is any landmark number multiplied by (that is 10)? Find the following products —",
+        "block_id": "block_11"
+      },
+      {
+        "type": "explanation",
+        "text": "Thus, the product of any two landmark numbers is another landmark number!",
+        "block_id": "block_12"
+      },
+      {
+        "type": "example",
+        "text": "Does this property hold true in the base-5 system that we created?",
+        "block_id": "block_13"
+      },
+      {
+        "type": "explanation",
+        "text": "Math Does this hold for any number system with a base?",
+        "block_id": "block_14"
+      },
+      {
+        "type": "example",
+        "text": "Talk What can we conclude about the product of a number and (10), in the Egyptian system?",
+        "block_id": "block_15"
+      },
+      {
+        "type": "explanation",
+        "text": "Will the distributive property hold here? For the same reason that it holds for (a + b) × n, it also holds when one of the numbers has more than 2 terms.",
+        "block_id": "block_16"
+      },
+      {
+        "type": "example",
+        "text": "For example, (a + b + c) × n = an + bn + cn. So, ( + + |) × = ( × ) + ( × ) + (| × ) = + + =",
+        "block_id": "block_17"
+      },
+      {
+        "type": "explanation",
+        "text": "Now find the following products — (i) (ii)",
+        "block_id": "block_18"
+      },
+      {
+        "type": "definition",
+        "text": "What would be a simple rule to multiply a number with ?",
+        "block_id": "block_19"
+      },
+      {
+        "type": "explanation",
+        "text": "As has been seen, a process of multiplying two numbers involves the multiplication of landmark numbers.",
+        "block_id": "block_20"
+      },
+      {
+        "type": "example",
+        "text": "This fact simplifies the process of multiplication.",
+        "block_id": "block_21"
+      },
+      {
+        "type": "explanation",
+        "text": "However, this is not the case with the Roman numerals, which is why multiplication using them is difficult.",
+        "block_id": "block_22"
+      },
+      {
+        "type": "definition",
+        "text": "Thus, a number system whose landmark numbers are powers of a number, i.e., a number system with a base, is efficient not only in number representation but also in its utility in carrying out arithmetic operations.",
+        "block_id": "block_23"
+      },
+      {
+        "type": "explanation",
+        "text": "The idea of a number system with a base was a turning point in the history of the evolution of number systems.",
+        "block_id": "block_24"
+      },
+      {
+        "type": "example",
+        "text": "Our modern Hindu number system is built on this structure.",
+        "block_id": "block_25"
+      },
+      {
+        "type": "explanation",
+        "text": "Abacus that Makes Use of the Decimal System In around the 11th century, even the people still using the Roman numerals started using a calculating device — the abacus — constructed using a decimal system.",
+        "block_id": "block_26"
+      },
+      {
+        "type": "definition",
+        "text": "It was a board with lines, as shown in the Fig. 3.1.",
+        "block_id": "block_27"
+      },
+      {
+        "type": "explanation",
+        "text": "Starting from the line that stood for 1, each successive line stood for a successive power of 10.",
+        "block_id": "block_28"
+      },
+      {
+        "type": "example",
+        "text": "Numbers were represented in it as follows: the given number was first grouped into the landmark numbers (powers of 10), in exactly the same way we have been grouping them so far.",
+        "block_id": "block_29"
+      },
+      {
+        "type": "explanation",
+        "text": "For each power of 10, as many counters were placed on its line as the number of times it occurred in the grouping.",
+        "block_id": "block_30"
+      },
+      {
+        "type": "definition",
+        "text": "The presence of a counter above a line contributed a value of 5.",
+        "block_id": "block_31"
+      },
+      {
+        "type": "example",
+        "text": "For example let us take the number 3426. It can be grouped as",
+        "block_id": "block_32"
+      }
+    ],
+    "topic_id": "topic_30",
+    "chapter_name": "A STORY OF NUMBERS"
+  },
+  {
+    "topic_name": "The Mesopotamian Sexagesimal System",
+    "unit": "hegp103",
+    "learning_objectives": [
+      "Understand the Mesopotamian sexagesimal system and its influence on modern time measurements",
+      "Learn how to represent numbers using the Mesopotamian system"
+    ],
+    "allowed_concepts": [
+      "Place value system",
+      "Positional number system",
+      "Base-60 number system"
+    ],
+    "disallowed_concepts": [
+      "Advanced calculus",
+      "Complex numbers"
+    ],
+    "content_blocks": [
+      {
+        "type": "explanation",
+        "text": "The influence of the Mesopotamian sexagesimal system, also known as the Babylonian number system, can be seen even now in our units of time measurements — 1 hour = 60 minutes and 1 minute = 60 seconds.",
+        "block_id": "block_1"
+      },
+      {
+        "type": "definition",
+        "text": "A positional number system or a place value system is a number system (having a base) that makes use of the position of each symbol in determining the landmark number that it is associated with.",
+        "block_id": "block_2"
+      },
+      {
+        "type": "example",
+        "text": "Let us represent the number 640 in this system. Grouping it into landmark numbers, we see that 640 = (10) × 60 + 40.",
+        "block_id": "block_3"
+      },
+      {
+        "type": "example",
+        "text": "Let us try another number — 7530. 7530 = (2) ×3600 + (5) × 60 + 30",
+        "block_id": "block_4"
+      },
+      {
+        "type": "explanation",
+        "text": "Now, what if we make the representation even more compact by dropping the symbols for the different powers of 60 altogether? This is exactly what the Mesopotamians did!",
+        "block_id": "block_5"
+      },
+      {
+        "type": "explanation",
+        "text": "It does not seem that the Mesopotamians arrived at this idea in the same way we did. Some scholars suggest that the similarity of symbols given to the landmark numbers 1 and 60 in their earlier number system, and an accidental usage of them, might have made them stumble upon this idea.",
+        "block_id": "block_6"
+      },
+      {
+        "type": "example",
+        "text": "1. Represent the following numbers in the Mesopotamian system — (i) 63 (ii) 132 (iii) 200 (iv) 60 (v) 3605",
+        "block_id": "block_7"
+      }
+    ],
+    "topic_id": "topic_31",
+    "chapter_name": "A STORY OF NUMBERS"
+  },
+  {
+    "topic_name": "Representing Numbers in the Mesopotamian System",
+    "unit": "hegp103",
+    "learning_objectives": [
+      "Learn how to represent numbers using the Mesopotamian system",
+      "Understand the concept of place value in the Mesopotamian system"
+    ],
+    "allowed_concepts": [
+      "Place value system",
+      "Positional number system",
+      "Base-60 number system"
+    ],
+    "disallowed_concepts": [
+      "Advanced calculus",
+      "Complex numbers"
+    ],
+    "content_blocks": [
+      {
+        "type": "explanation",
+        "text": "Using and , numbers from 1 to 59 can be represented — 1 2 3 4 5 6 7 8 9 10 11 12 20 30 40 50 59",
+        "block_id": "block_1"
+      },
+      {
+        "type": "example",
+        "text": "Let us represent the number 640 in this system. Grouping it into landmark numbers, we see that 640 = (10) × 60 + 40.",
+        "block_id": "block_2"
+      },
+      {
+        "type": "example",
+        "text": "Let us try another number — 7530. 7530 = (2) ×3600 + (5) × 60 + 30",
+        "block_id": "block_3"
+      }
+    ],
+    "topic_id": "topic_32",
+    "chapter_name": "A STORY OF NUMBERS"
+  },
+  {
+    "topic_name": "Positional Number System",
+    "unit": "hegp103",
+    "learning_objectives": [
+      "Understand the concept of positional number system",
+      "Identify the advantages of positional number system"
+    ],
+    "allowed_concepts": [
+      "Place value system",
+      "Positional notation"
+    ],
+    "disallowed_concepts": [
+      "Advanced calculus",
+      "Complex numbers"
+    ],
+    "content_blocks": [
+      {
+        "type": "definition",
+        "text": "A number system (having a base) that makes use of the position of each symbol in determining the landmark number that it is associated with is called a positional number system or a place value system.",
+        "block_id": "block_1"
+      },
+      {
+        "type": "explanation",
+        "text": "This idea of place value marks the highest point in the history of evolution of number systems, and gives a very elegant solution to the problem of representing the unending sequence of numbers using only a finite number of different symbols!",
+        "block_id": "block_2"
+      },
+      {
+        "type": "example",
+        "text": "Look at the representation of 60. What will be the representation for 3,600?",
+        "block_id": "block_3"
+      }
+    ],
+    "topic_id": "topic_33",
+    "chapter_name": "A STORY OF NUMBERS"
+  },
+  {
+    "topic_name": "Mesopotamian Number System",
+    "unit": "hegp103",
+    "learning_objectives": [
+      "Understand the Mesopotamian number system",
+      "Identify the limitations of the Mesopotamian number system"
+    ],
+    "allowed_concepts": [
+      "Mesopotamian system",
+      "Place value system limitations"
+    ],
+    "disallowed_concepts": [
+      "Advanced calculus",
+      "Complex numbers"
+    ],
+    "content_blocks": [
+      {
+        "type": "definition",
+        "text": "The Mesopotamian system however cannot be considered a fully developed place value system.",
+        "block_id": "block_1"
+      },
+      {
+        "type": "explanation",
+        "text": "It has certain defects that lead to confusion while reading a number.",
+        "block_id": "block_2"
+      },
+      {
+        "type": "example",
+        "text": "Look at the representation of 60. What will be the representation for 3,600?",
+        "block_id": "block_3"
+      }
+    ],
+    "topic_id": "topic_34",
+    "chapter_name": "A STORY OF NUMBERS"
+  },
+  {
+    "topic_name": "Mayan Number System",
+    "unit": "hegp103",
+    "learning_objectives": [
+      "Understand the Mayan number system",
+      "Identify the features of the Mayan number system",
+      "Represent numbers using the Mayan system",
+      "Understand the limitations of the Mayan system"
+    ],
+    "allowed_concepts": [
+      "Mayan system",
+      "Place value notation",
+      "Placeholder symbol for zero"
+    ],
+    "disallowed_concepts": [
+      "Advanced calculus",
+      "Complex numbers"
+    ],
+    "content_blocks": [
+      {
+        "type": "definition",
+        "text": "In Central America, there flourished a civilisation known as the Mayan civilisation that made great intellectual and cultural progress between the 3rd and 10th centuries CE.",
+        "block_id": "block_1"
+      },
+      {
+        "type": "explanation",
+        "text": "They also made use of a placeholder symbol, for the modern-day ‘0’, that looked like a seashell.",
+        "block_id": "block_2"
+      },
+      {
+        "type": "example",
+        "text": "Represent the following numbers using the Mayan system: (i) 77 (ii) 100 (iii) 361 (iv) 721",
+        "block_id": "block_3"
+      },
+      {
+        "type": "definition",
+        "text": "The Mayan system is a number system that uses a dot for 1 and a bar for 5 to denote numbers from 1 to 19.",
+        "block_id": "block_4"
+      },
+      {
+        "type": "explanation",
+        "text": "The symbols associated with different landmark numbers were written one below the other with the lowermost set of symbols corresponding to the number of 1s, the set above corresponding to the number of 20s, the set above to the number of 360s and so on.",
+        "block_id": "block_5"
+      }
+    ],
+    "topic_id": "topic_35",
+    "chapter_name": "A STORY OF NUMBERS"
+  },
+  {
+    "topic_name": "Chinese Number System",
+    "unit": "hegp103",
+    "learning_objectives": [
+      "Understand the Chinese number system",
+      "Identify the features of the Chinese number system",
+      "Recognize the use of rod numerals in the Chinese system"
+    ],
+    "allowed_concepts": [
+      "Chinese system",
+      "Rod-based computation",
+      "Place value notation",
+      "Decimal system (base-10)"
+    ],
+    "disallowed_concepts": [
+      "Advanced calculus",
+      "Complex numbers"
+    ],
+    "content_blocks": [
+      {
+        "type": "definition",
+        "text": "The Chinese used two number systems — a written system for recording quantities, and a system making use of rods for performing computations.",
+        "block_id": "block_1"
+      },
+      {
+        "type": "explanation",
+        "text": "This is like the 0 (zero) we use in our system.",
+        "block_id": "block_2"
+      },
+      {
+        "type": "example",
+        "text": "Thus, zero — the symbol that shows nothingness — is indispensable as a placeholder in a place value system in which numbers are written in an unambiguous manner.",
+        "block_id": "block_3"
+      },
+      {
+        "type": "explanation",
+        "text": "The rod numerals developed in China by at least by 3rd century AD and were used till the 17th century. It was a decimal system (base-10).",
+        "block_id": "block_4"
+      },
+      {
+        "type": "example",
+        "text": "A numeral 2 (Heng) 6 (Zong) 3 (Heng) 4 (Zong) How is this to be read? Landmark number 103 102 10 1 positions = (2) × 103 + (6) × 10² + (3) × 10 + (4) × 1 = 2634",
+        "block_id": "block_5"
+      }
+    ],
+    "topic_id": "topic_36",
+    "chapter_name": "A STORY OF NUMBERS"
+  },
+  {
+    "topic_name": "Hindu Number System",
+    "unit": "hegp103",
+    "learning_objectives": [
+      "Understand the Hindu number system",
+      "Recognize the use of zero as a digit and a number"
+    ],
+    "allowed_concepts": [
+      "Place value notation",
+      "Decimal system (base-10)"
+    ],
+    "disallowed_concepts": [
+      "Advanced calculus",
+      "Complex numbers"
+    ],
+    "content_blocks": [
+      {
+        "type": "definition",
+        "text": "The Hindu number system is a place value system that uses ten symbols 0, 1, 2, 3, 4, 5, 6, 7, 8, 9",
+        "block_id": "block_1"
+      },
+      {
+        "type": "explanation",
+        "text": "The Hindu number system has had a symbol for 0 at least as early as 200 BCE. Because of the use of 0 as a digit, and the use of a single digit in each position, this system does not lead to any kind of ambiguity when reading or writing numerals.",
+        "block_id": "block_2"
+      },
+      {
+        "type": "example",
+        "text": "A numeral 375 How is this to be read? 3 7 5 Landmark number positions 102 10 1 = (3) × 10² + (7) × 10 + (5) × 1 = 375",
+        "block_id": "block_3"
+      }
+    ],
+    "topic_id": "topic_37",
+    "chapter_name": "A STORY OF NUMBERS"
+  },
+  {
+    "topic_name": "Evolution of Ideas in Number Representation",
+    "unit": "hegp103",
+    "learning_objectives": [
+      "Understand the evolution of number representation systems",
+      "Recognize the significance of landmark numbers in a number system"
+    ],
+    "allowed_concepts": [
+      "Number systems",
+      "Landmark numbers",
+      "Place value system"
+    ],
+    "disallowed_concepts": [
+      "Advanced calculus",
+      "Complex numbers"
+    ],
+    "content_blocks": [
+      {
+        "type": "explanation",
+        "text": "of 0 as a digit, and indeed as a number, was a breakthrough that truly changed the world of mathematics and science. In Indian mathematics, indeed, zero was not just used as a placeholder in the place value system, but was also given the status of a number in its own right, on par with other numbers.",
+        "block_id": "block_1"
+      },
+      {
+        "type": "definition",
+        "text": "Landmark numbers are numbers that are easily recognisable and used as reference points for understanding and working with other numbers.",
+        "block_id": "block_2"
+      },
+      {
+        "type": "example",
+        "text": "The ancient Indians likely used base 10 for the Hindu number system because humans have 10 fingers, and so we can use our fingers to count.",
+        "block_id": "block_3"
+      },
+      {
+        "type": "explanation",
+        "text": "A number system whose landmark numbers are the powers of a number is called a base system.",
+        "block_id": "block_4"
+      }
+    ],
+    "topic_id": "topic_38",
+    "chapter_name": "A STORY OF NUMBERS"
+  },
+  {
+    "topic_name": "The Significance of 0 in Number Systems",
+    "unit": "hegp103",
+    "learning_objectives": [
+      "Understand the significance of 0 in number systems",
+      "Recognize the impact of 0 on arithmetic operations"
+    ],
+    "allowed_concepts": [
+      "Number systems",
+      "Zero as a number",
+      "Arithmetic operations"
+    ],
+    "disallowed_concepts": [
+      "Advanced calculus",
+      "Complex numbers"
+    ],
+    "content_blocks": [
+      {
+        "type": "definition",
+        "text": "The arithmetic properties of the number 0 (e.g., that 0 plus any number is the same number, and that 0 times any number is zero) were explicitly used by Aryabhata in his Āryabhaṭīya in 499 CE to compute with and do elaborate scientific computations using Hindu numerals.",
+        "block_id": "block_1"
+      },
+      {
+        "type": "example",
+        "text": "By introducing 0 as a number, along with the negative numbers, Brahmagupta created what in modern terms is called a ring, i.e., a set of numbers that is closed under addition, subtraction, and multiplication.",
+        "block_id": "block_2"
+      }
+    ],
+    "topic_id": "topic_39",
+    "chapter_name": "A STORY OF NUMBERS"
+  },
+  {
+    "topic_name": "The Hindu Number System",
+    "unit": "hegp103",
+    "learning_objectives": [
+      "Understand the Hindu number system",
+      "Recognize the significance of the Hindu number system in modern mathematics"
+    ],
+    "allowed_concepts": [
+      "Hindu number system",
+      "Place value system",
+      "Arithmetic operations"
+    ],
+    "disallowed_concepts": [
+      "Advanced calculus",
+      "Complex numbers"
+    ],
+    "content_blocks": [
+      {
+        "type": "explanation",
+        "text": "The discovery of 0 and the resulting Indian number system is truly one of the greatest, most creative, and most influential inventions of all time — appearing constantly in our daily lives and forming the basis of much of modern science, technology, computing, accounting, surveying, and more.",
+        "block_id": "block_1"
+      },
+      {
+        "type": "example",
+        "text": "The next time you are writing numbers, think about the incredible history behind them and all the deep ideas that went into their discovery!",
+        "block_id": "block_2"
+      }
+    ],
+    "topic_id": "topic_40",
+    "chapter_name": "A STORY OF NUMBERS"
+  },
+  {
+    "topic_name": "Number System",
+    "unit": "hegp103",
+    "learning_objectives": [
+      "To understand the concept of a number system and its importance",
+      "To identify the characteristics of a number system",
+      "To recognize the Hindu number system as a place value system"
+    ],
+    "allowed_concepts": [
+      "Number system",
+      "Place value system",
+      "Positional number system",
+      "Landmark numbers",
+      "Base-n number system"
+    ],
+    "disallowed_concepts": [
+      "Advanced calculus",
+      "Complex numbers"
+    ],
+    "content_blocks": [
+      {
+        "type": "definition",
+        "text": "A standard sequence of objects, names, or written symbols that have a fixed order is called a number system.",
+        "block_id": "block_1"
+      },
+      {
+        "type": "explanation",
+        "text": "The symbols representing numbers in a written number system are called numerals.",
+        "block_id": "block_2"
+      },
+      {
+        "type": "definition",
+        "text": "Landmark numbers are numbers that are easily recognisable and used as reference points for understanding and working with other numbers.",
+        "block_id": "block_3"
+      },
+      {
+        "type": "explanation",
+        "text": "A number system whose landmark numbers are the powers of a number n is referred to as a base-n number system.",
+        "block_id": "block_4"
+      },
+      {
+        "type": "definition",
+        "text": "Number systems having a base that make use of the position of a symbol in determining the landmark number that it is associated with are called positional number systems or place value systems.",
+        "block_id": "block_5"
+      },
+      {
+        "type": "explanation",
+        "text": "Place value representations were used in the Mesopotamian (Babylonian), Mayan, Chinese and Indian civilisations.",
+        "block_id": "block_6"
+      },
+      {
+        "type": "definition",
+        "text": "The system of numerals that we use throughout the world today is the Hindu number system (also sometimes called the Indian number system, or the Hindu-Arabic number system).",
+        "block_id": "block_7"
+      },
+      {
+        "type": "explanation",
+        "text": "It is a place value system with (usually) 10 digits, including the digit 0 which is treated on par with other digits.",
+        "block_id": "block_8"
+      },
+      {
+        "type": "example",
+        "text": "Due to its use of 0 as a number, the system enables the writing of all numbers unambiguously using just finitely many symbols, and also enables efficient computation.",
+        "block_id": "block_9"
+      },
+      {
+        "type": "explanation",
+        "text": "The system originated in India around 2000 years ago, and then spread across the world, and is considered one of human history’s greatest inventions.",
+        "block_id": "block_10"
+      }
+    ],
+    "topic_id": "topic_41",
+    "chapter_name": "A STORY OF NUMBERS"
+  }
+]

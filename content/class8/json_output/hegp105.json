@@ -1,0 +1,1859 @@
+[
+  {
+    "topic_name": "Is This a Multiple Of?",
+    "unit": "hegp105",
+    "learning_objectives": [
+      "Explore the possibility of writing every natural number as a sum of consecutive numbers",
+      "Determine which numbers can be written as the sum of consecutive numbers in more than one way",
+      "Understand the relationship between odd and even numbers in the context of consecutive sums"
+    ],
+    "allowed_concepts": [
+      "Natural numbers",
+      "Consecutive numbers",
+      "Odd and even numbers",
+      "Parity"
+    ],
+    "disallowed_concepts": [
+      "Advanced calculus",
+      "Complex numbers"
+    ],
+    "content_blocks": [
+      {
+        "type": "definition",
+        "text": "Anshu is exploring sums of consecutive numbers. He has written the following —",
+        "block_id": "block_1"
+      },
+      {
+        "type": "explanation",
+        "text": "When one of its signs is switched, its value always increases or decreases by an even number! Let us see why.",
+        "block_id": "block_2"
+      },
+      {
+        "type": "example",
+        "text": "Consider one of the expressions: a + b – c – d. Replacing +b by – b, we get a – b – c – d.",
+        "block_id": "block_3"
+      },
+      {
+        "type": "definition",
+        "text": "odd ± odd = even",
+        "block_id": "block_4"
+      },
+      {
+        "type": "explanation",
+        "text": "We have seen that the parity of a + b and a – b is the same, regardless of the parities of a and b.",
+        "block_id": "block_5"
+      },
+      {
+        "type": "example",
+        "text": "In short, a ± b have the same parity. By the same argument, a ± b + c and a ± b – c have the same parity.",
+        "block_id": "block_6"
+      }
+    ],
+    "topic_id": "topic_1",
+    "chapter_name": "NUMBER PLAY"
+  },
+  {
+    "topic_name": "Sum of Consecutive Numbers",
+    "unit": "hegp105",
+    "learning_objectives": [
+      "Understand the concept of sum of consecutive numbers",
+      "Explore the relationship between consecutive numbers and their sums"
+    ],
+    "allowed_concepts": [
+      "Consecutive numbers",
+      "Sum of consecutive numbers"
+    ],
+    "disallowed_concepts": [
+      "Advanced calculus",
+      "Complex numbers"
+    ],
+    "content_blocks": [
+      {
+        "type": "definition",
+        "text": "Take any 4 consecutive numbers. For example, 3, 4, 5, and 6. Place ‘+’ and ‘–’ signs in between the numbers.",
+        "block_id": "block_1"
+      },
+      {
+        "type": "example",
+        "text": "3 + 4 – 5 + 6 = 8",
+        "block_id": "block_2"
+      },
+      {
+        "type": "explanation",
+        "text": "When 4 consecutive numbers are chosen, no matter how the ‘+’ and ‘–’ signs are placed between them, the resulting expressions always have even parity.",
+        "block_id": "block_3"
+      }
+    ],
+    "topic_id": "topic_2",
+    "chapter_name": "NUMBER PLAY"
+  },
+  {
+    "topic_name": "Parity of Sums",
+    "unit": "hegp105",
+    "learning_objectives": [
+      "Understand the concept of parity of sums",
+      "Explore the relationship between parity of sums and consecutive numbers"
+    ],
+    "allowed_concepts": [
+      "Parity",
+      "Consecutive numbers"
+    ],
+    "disallowed_concepts": [
+      "Advanced calculus",
+      "Complex numbers"
+    ],
+    "content_blocks": [
+      {
+        "type": "definition",
+        "text": "Even numbers have a factor of 2. Negative numbers having a factor 2 are also even numbers, for example, – 2, – 4, – 6, and so on.",
+        "block_id": "block_1"
+      },
+      {
+        "type": "example",
+        "text": "When 4 consecutive numbers are chosen, no matter how the ‘+’ and ‘–’ signs are placed between them, the resulting expressions always have even parity.",
+        "block_id": "block_2"
+      },
+      {
+        "type": "explanation",
+        "text": "We know that odd ± odd = even, even ± even = even, and odd ± even = odd.",
+        "block_id": "block_3"
+      }
+    ],
+    "topic_id": "topic_3",
+    "chapter_name": "NUMBER PLAY"
+  },
+  {
+    "topic_name": "Parity of Expressions",
+    "unit": "hegp105",
+    "learning_objectives": [
+      "Understand the concept of parity and its behavior under different operations",
+      "Identify even and odd numbers using various methods"
+    ],
+    "allowed_concepts": [
+      "odd ± odd = even",
+      "even ± even = even",
+      "odd ± even = odd"
+    ],
+    "disallowed_concepts": [
+      "Advanced calculus",
+      "Complex numbers"
+    ],
+    "content_blocks": [
+      {
+        "type": "definition",
+        "text": "The parity of a number is its property of being even or odd.",
+        "block_id": "block_1"
+      },
+      {
+        "type": "explanation",
+        "text": "If the difference between two numbers is even, can they have different parities? No! So either both are even or both are odd.",
+        "block_id": "block_2"
+      },
+      {
+        "type": "example",
+        "text": "For example, if m = 4 and q = – 9, the expression 4m + 2q becomes 4 × 4 + 2 × (–9) = – 2, which is an even number.",
+        "block_id": "block_3"
+      },
+      {
+        "type": "explanation",
+        "text": "We know 4m is even and 2q is even for any integers m and q. Therefore, their sum will also be even.",
+        "block_id": "block_4"
+      },
+      {
+        "type": "example",
+        "text": "For example, if x = 6, then x2 + 2 = 38, and (ii) if x = 3, then x2 + 2 = 11.",
+        "block_id": "block_5"
+      },
+      {
+        "type": "explanation",
+        "text": "In the expression x2 + 2, x2 is even if x is even, and x2 is odd if x is odd.",
+        "block_id": "block_6"
+      },
+      {
+        "type": "example",
+        "text": "When is the sum a multiple of 4, and when is it not?",
+        "block_id": "block_7"
+      },
+      {
+        "type": "explanation",
+        "text": "Even numbers can be of two types based on the remainders they leave when divided by 4.",
+        "block_id": "block_8"
+      }
+    ],
+    "topic_id": "topic_4",
+    "chapter_name": "NUMBER PLAY"
+  },
+  {
+    "topic_name": "Breaking Even",
+    "unit": "hegp105",
+    "learning_objectives": [
+      "Identify even numbers using various methods",
+      "Understand how parity behaves under different operations"
+    ],
+    "allowed_concepts": [
+      "even numbers",
+      "parity under addition and subtraction"
+    ],
+    "disallowed_concepts": [
+      "Advanced calculus",
+      "Complex numbers"
+    ],
+    "content_blocks": [
+      {
+        "type": "explanation",
+        "text": "We know how to identify even numbers. Without computing them, find out which of the following arithmetic expressions are even.",
+        "block_id": "block_1"
+      },
+      {
+        "type": "example",
+        "text": "43 + 37 672 – 348 4 × 347 × 3 708 – 477",
+        "block_id": "block_2"
+      },
+      {
+        "type": "explanation",
+        "text": "Using our understanding of how parity behaves under different operations, identify which of the following algebraic expressions give an even number for any integer values for the letter-numbers.",
+        "block_id": "block_3"
+      },
+      {
+        "type": "example",
+        "text": "2a + 2b 3g + 5h 4m + 2n 2u – 4v",
+        "block_id": "block_4"
+      },
+      {
+        "type": "explanation",
+        "text": "The expression 4m + 2q will always evaluate to an even number for any integer values of m and q.",
+        "block_id": "block_5"
+      },
+      {
+        "type": "example",
+        "text": "For example, if m = 4 and q = – 9, the expression 4m + 2q becomes 4 × 4 + 2 × (–9) = – 2, which is an even number.",
+        "block_id": "block_6"
+      }
+    ],
+    "topic_id": "topic_5",
+    "chapter_name": "NUMBER PLAY"
+  },
+  {
+    "topic_name": "Pairs to Make Fours",
+    "unit": "hegp105",
+    "learning_objectives": [
+      "Understand the concept of pairs of even numbers",
+      "Identify when the sum of two even numbers is a multiple of 4",
+      "To understand when the sum of two even numbers is divisible by 4",
+      "To identify patterns and rules for even numbers"
+    ],
+    "allowed_concepts": [
+      "pairs of even numbers",
+      "sum of even numbers",
+      "Even numbers",
+      "Multiples of 4",
+      "Remainders when divided by 4"
+    ],
+    "disallowed_concepts": [
+      "Advanced calculus",
+      "Complex numbers"
+    ],
+    "content_blocks": [
+      {
+        "type": "explanation",
+        "text": "Take a pair of even numbers. Add them. Is the sum divisible by 4?",
+        "block_id": "block_1"
+      },
+      {
+        "type": "example",
+        "text": "Try this with different pairs of even numbers.",
+        "block_id": "block_2"
+      },
+      {
+        "type": "explanation",
+        "text": "When is the sum a multiple of 4, and when is it not?",
+        "block_id": "block_3"
+      },
+      {
+        "type": "example",
+        "text": "Is there a general rule or a pattern?",
+        "block_id": "block_4"
+      },
+      {
+        "type": "explanation",
+        "text": "Even numbers can be of two types based on the remainders they leave when divided by 4.",
+        "block_id": "block_5"
+      },
+      {
+        "type": "explanation",
+        "text": "Even numbers that are multiples of 4 leave a remainder of 0 when divided by 4.",
+        "block_id": "block_6"
+      },
+      {
+        "type": "explanation",
+        "text": "Even numbers that are not multiples of 4 leave a remainder 2 when divided by 4.",
+        "block_id": "block_7"
+      }
+    ],
+    "topic_id": "topic_6",
+    "chapter_name": "NUMBER PLAY"
+  },
+  {
+    "topic_name": "Always Giving an Even Number",
+    "unit": "hegp105",
+    "learning_objectives": [
+      "To understand when an expression always gives an even number",
+      "To identify patterns and rules for even numbers"
+    ],
+    "allowed_concepts": [
+      "Even numbers",
+      "Multiples of 4",
+      "Remainders when divided by 4"
+    ],
+    "disallowed_concepts": [
+      "Advanced calculus",
+      "Complex numbers"
+    ],
+    "content_blocks": [
+      {
+        "type": "explanation",
+        "text": "For example, if m = 4 and q = – 9, the expression 4m + 2q becomes 4 × 4 + 2 × (–9) = – 2, which is an even number.",
+        "block_id": "block_1"
+      },
+      {
+        "type": "example",
+        "text": "An example and a non-example for when the expression evaluates to an even number — (i) if x = 6, then x2 + 2 = 38, and (ii) if x = 3, then x 2 + 2 = 11.",
+        "block_id": "block_2"
+      },
+      {
+        "type": "explanation",
+        "text": "Similarly, determine and explain which of the other expressions always give even numbers. Write a couple of examples and non-examples, as appropriate, for each expression.",
+        "block_id": "block_3"
+      }
+    ],
+    "topic_id": "topic_7",
+    "chapter_name": "NUMBER PLAY"
+  },
+  {
+    "topic_name": "When Will Two Even Numbers Add Up to Give a Multiple of 4?",
+    "unit": "hegp105",
+    "learning_objectives": [
+      "To understand when the sum of two even numbers is divisible by 4",
+      "To identify patterns and rules for even numbers"
+    ],
+    "allowed_concepts": [
+      "Even numbers",
+      "Multiples of 4",
+      "Remainders when divided by 4"
+    ],
+    "disallowed_concepts": [
+      "Advanced calculus",
+      "Complex numbers"
+    ],
+    "content_blocks": [
+      {
+        "type": "explanation",
+        "text": "There are three cases to examine: Adding 4p and 4q, Adding 4p and (4q + 2), and Adding (4p + 2) and (4q + 2).",
+        "block_id": "block_1"
+      },
+      {
+        "type": "explanation",
+        "text": "Adding 4p and 4q will always give a multiple of 4.",
+        "block_id": "block_2"
+      },
+      {
+        "type": "explanation",
+        "text": "Adding 4p and (4q + 2) will always give a multiple of 4 because their remainders of 2 add up to 4.",
+        "block_id": "block_3"
+      },
+      {
+        "type": "explanation",
+        "text": "Adding (4p + 2) and (4q + 2) will always give a multiple of 4 because their remainders of 2 add up to 4.",
+        "block_id": "block_4"
+      }
+    ],
+    "topic_id": "topic_8",
+    "chapter_name": "NUMBER PLAY"
+  },
+  {
+    "topic_name": "Factors and Multiples",
+    "unit": "hegp105",
+    "learning_objectives": [
+      "To understand the relationship between factors and multiples",
+      "To identify patterns and rules for factors and multiples"
+    ],
+    "allowed_concepts": [
+      "Factors",
+      "Multiples",
+      "Divisibility"
+    ],
+    "disallowed_concepts": [
+      "Advanced calculus",
+      "Complex numbers"
+    ],
+    "content_blocks": [
+      {
+        "type": "explanation",
+        "text": "We know that the sum of any two multiples of 2 is also a multiple of 2.",
+        "block_id": "block_1"
+      },
+      {
+        "type": "example",
+        "text": "If 8 exactly divides two numbers separately, it must exactly divide their sum.",
+        "block_id": "block_2"
+      },
+      {
+        "type": "explanation",
+        "text": "In general, if a divides M and a divides N, then a divides M + N and a divides M – N.",
+        "block_id": "block_3"
+      }
+    ],
+    "topic_id": "topic_9",
+    "chapter_name": "NUMBER PLAY"
+  },
+  {
+    "topic_name": "Multiples of a Number",
+    "unit": "hegp105",
+    "learning_objectives": [
+      "To understand the concept of multiples of a number",
+      "To identify whether a number is a multiple of another number"
+    ],
+    "allowed_concepts": [
+      "Multiples of a number",
+      "Factors of a number"
+    ],
+    "disallowed_concepts": [
+      "Advanced calculus",
+      "Complex numbers"
+    ],
+    "content_blocks": [
+      {
+        "type": "definition",
+        "text": "If a divides M and a divides N, then a divides M + N and a divides M – N.",
+        "block_id": "block_1"
+      },
+      {
+        "type": "explanation",
+        "text": "A number 8m divisible by 8 is a multiple of 8.",
+        "block_id": "block_2"
+      },
+      {
+        "type": "example",
+        "text": "8 + 16 = 8(1 + 2) = 24.",
+        "block_id": "block_3"
+      },
+      {
+        "type": "definition",
+        "text": "A number 8m = 8a + 8b divisible by 8 can be a sum of two multiples of 8 or a sum of two non-multiples of 8.",
+        "block_id": "block_4"
+      },
+      {
+        "type": "explanation",
+        "text": "If a number is divisible by 7, then all multiples of that number will be divisible by 7.",
+        "block_id": "block_5"
+      },
+      {
+        "type": "example",
+        "text": "72 = 48 + 24.",
+        "block_id": "block_6"
+      },
+      {
+        "type": "definition",
+        "text": "Numbers divisible by 7 will have 7 as a factor.",
+        "block_id": "block_7"
+      },
+      {
+        "type": "explanation",
+        "text": "In general, if A is divisible by k, then all multiples of A are divisible by k.",
+        "block_id": "block_8"
+      },
+      {
+        "type": "example",
+        "text": "28 = (7 × 2) × 2.",
+        "block_id": "block_9"
+      },
+      {
+        "type": "definition",
+        "text": "If a number is divisible by 12, then the number is also divisible by all the factors of 12.",
+        "block_id": "block_10"
+      },
+      {
+        "type": "explanation",
+        "text": "Factors of multiples of 12 will include factors of 12.",
+        "block_id": "block_11"
+      },
+      {
+        "type": "example",
+        "text": "Factors of 24: 1, 2, 3, 4, 6, 8, 12, 24.",
+        "block_id": "block_12"
+      },
+      {
+        "type": "definition",
+        "text": "In general, if A is divisible by k, then A is divisible by all the factors of k.",
+        "block_id": "block_13"
+      },
+      {
+        "type": "explanation",
+        "text": "Numbers divisible by 7k will be divisible by 7 if and only if m is a factor of k.",
+        "block_id": "block_14"
+      },
+      {
+        "type": "example",
+        "text": "42 (7 × 6) is divisible by 7 but it is not divisible by 28 (7 × 4).",
+        "block_id": "block_15"
+      },
+      {
+        "type": "definition",
+        "text": "In general, if A is divisible by k and A is also divisible by m, then A is divisible by the LCM of k and m.",
+        "block_id": "block_16"
+      },
+      {
+        "type": "explanation",
+        "text": "When you add an odd number to an even number we get a multiple of 6.",
+        "block_id": "block_17"
+      },
+      {
+        "type": "example",
+        "text": "(2n) + (2m + 1) = 6j.",
+        "block_id": "block_18"
+      }
+    ],
+    "topic_id": "topic_10",
+    "chapter_name": "NUMBER PLAY"
+  },
+  {
+    "topic_name": "Divisibility Rules",
+    "unit": "hegp105",
+    "learning_objectives": [
+      "Understand the concept of divisibility and remainders",
+      "Apply divisibility rules to determine divisibility and remainders"
+    ],
+    "allowed_concepts": [
+      "Divisibility rules for 2, 3, 4, 5, 6, 9, 36, 24",
+      "Least Common Multiple (LCM)",
+      "Prime factorization"
+    ],
+    "disallowed_concepts": [
+      "Advanced calculus",
+      "Complex numbers"
+    ],
+    "content_blocks": [
+      {
+        "type": "explanation",
+        "text": "In general, if A is divisible by k and A is also divisible by m, then A is divisible by the LCM of k and m. This is because A is a multiple of k and also a multiple of m, so A's prime factorisation should contain the prime factorisation of LCM (k, m).",
+        "block_id": "block_1"
+      },
+      {
+        "type": "example",
+        "text": "We know that multiples of 6 are all even Can I write an even and an odd number as 2n and 2n+1 instead? The sum of an odd number and an even number will be an odd number. Therefore, this statement is never true.",
+        "block_id": "block_2"
+      },
+      {
+        "type": "definition",
+        "text": "Numbers that leave a remainder of 0 when divided by 5 are the multiples of 5. But we want numbers that leave a remainder of 3 when divided by 5. These numbers are 3 more than multiples of 5. Multiples of 5 are of the form 5k. So, numbers that leave a remainder of 3 when divided by 5 are those of the form 5k + 3",
+        "block_id": "block_3"
+      },
+      {
+        "type": "example",
+        "text": "Let us consider another expression, 5k – 2, and see the values it takes for different values of k. Numbers that leave a remainder of 3 when k = 1 2 3 4 5 divided by 5 can also be seen as 2 less than multiples of 5; 5k – 2, where k ≥ 1.",
+        "block_id": "block_4"
+      },
+      {
+        "type": "explanation",
+        "text": "The numbers that leave a remainder of 2 when divided by 3 and a remainder of 2 when divided by 4 can be found by considering the LCM of 3 and 4, which is 12. Therefore, the numbers that leave a remainder of 2 when divided by 3 and a remainder of 2 when divided by 4 are those of the form 12k + 2.",
+        "block_id": "block_5"
+      }
+    ],
+    "topic_id": "topic_11",
+    "chapter_name": "NUMBER PLAY"
+  },
+  {
+    "topic_name": "Consecutive Numbers",
+    "unit": "hegp105",
+    "learning_objectives": [
+      "Understand the concept of consecutive numbers",
+      "Apply the concept of consecutive numbers to solve problems"
+    ],
+    "allowed_concepts": [
+      "Consecutive numbers",
+      "Sum of consecutive numbers"
+    ],
+    "disallowed_concepts": [
+      "Advanced calculus",
+      "Complex numbers"
+    ],
+    "content_blocks": [
+      {
+        "type": "example",
+        "text": "The sum of four consecutive numbers is 34. What are these numbers?",
+        "block_id": "block_1"
+      },
+      {
+        "type": "explanation",
+        "text": "Suppose p is the greatest of five consecutive numbers. Describe the other four numbers in terms of p.",
+        "block_id": "block_2"
+      },
+      {
+        "type": "example",
+        "text": "For each statement below, determine whether it is always true, sometimes true, or never true. Explain your answer. Mention examples and non-examples as appropriate. Justify your claim using algebra.",
+        "block_id": "block_3"
+      }
+    ],
+    "topic_id": "topic_12",
+    "chapter_name": "NUMBER PLAY"
+  },
+  {
+    "topic_name": "Remainders",
+    "unit": "hegp105",
+    "learning_objectives": [
+      "Understand the concept of remainders",
+      "Apply the concept of remainders to solve problems"
+    ],
+    "allowed_concepts": [
+      "Remainders",
+      "Divisibility rules"
+    ],
+    "disallowed_concepts": [
+      "Advanced calculus",
+      "Complex numbers"
+    ],
+    "content_blocks": [
+      {
+        "type": "example",
+        "text": "Find a number that leaves a remainder of 2 when divided by 3 and a remainder of 2 when divided by 4.",
+        "block_id": "block_1"
+      },
+      {
+        "type": "explanation",
+        "text": "The numbers that leave a remainder of 2 when divided by 3 and a remainder of 2 when divided by 4 can be found by considering the LCM of 3 and 4, which is 12. Therefore, the numbers that leave a remainder of 2 when divided by 3 and a remainder of 2 when divided by 4 are those of the form 12k + 2.",
+        "block_id": "block_2"
+      },
+      {
+        "type": "example",
+        "text": "Find a number that leaves a remainder of 2 when divided by 3, a remainder of 3 when divided by 4, and a remainder of 4 when divided by 5.",
+        "block_id": "block_3"
+      }
+    ],
+    "topic_id": "topic_13",
+    "chapter_name": "NUMBER PLAY"
+  },
+  {
+    "topic_name": "Divisibility by 10, 5, and 2",
+    "unit": "hegp105",
+    "learning_objectives": [
+      "Understand the divisibility shortcuts for 10, 5, and 2",
+      "Explain why the divisibility shortcuts work"
+    ],
+    "allowed_concepts": [
+      "Place value",
+      "Multiples of 10"
+    ],
+    "disallowed_concepts": [
+      "Advanced calculus",
+      "Complex numbers"
+    ],
+    "content_blocks": [
+      {
+        "type": "definition",
+        "text": "Divisibility by 10, 5, and 2: If the units digit of a number is ‘0’, then it is divisible by 10.",
+        "block_id": "block_1"
+      },
+      {
+        "type": "explanation",
+        "text": "We can write the general form of a number in the Indian system using a set of letter-numbers. For example, a 5-digit number can be expressed as, edcba denoting e × 10000 + d × 1000 + c × 100 + b × 10 + a.",
+        "block_id": "block_2"
+      },
+      {
+        "type": "example",
+        "text": "For example, in the number 4075, d = 4, c = 0, b = 7, and a = 5.",
+        "block_id": "block_3"
+      },
+      {
+        "type": "explanation",
+        "text": "We know that each place value, with the exception of the units place, is a multiple of 10. So, 10b, 100c, … all will be multiples of 10.",
+        "block_id": "block_4"
+      },
+      {
+        "type": "definition",
+        "text": "Hence, the number will be divisible by 10 if and only if the units digit a is 0.",
+        "block_id": "block_5"
+      }
+    ],
+    "topic_id": "topic_14",
+    "chapter_name": "NUMBER PLAY"
+  },
+  {
+    "topic_name": "A Shortcut for Divisibility by 9",
+    "unit": "hegp105",
+    "learning_objectives": [
+      "Understand the divisibility shortcut for 9",
+      "Explain why the divisibility shortcut works"
+    ],
+    "allowed_concepts": [
+      "Place value",
+      "Multiples of 9"
+    ],
+    "disallowed_concepts": [
+      "Advanced calculus",
+      "Complex numbers"
+    ],
+    "content_blocks": [
+      {
+        "type": "definition",
+        "text": "A Shortcut for Divisibility by 9: Can you say, without actually calculating, which of these numbers are divisible by 9: 999, 909, 900, 90, 990?",
+        "block_id": "block_1"
+      },
+      {
+        "type": "explanation",
+        "text": "All of them.",
+        "block_id": "block_2"
+      },
+      {
+        "type": "example",
+        "text": "Can we say that any number made up of only the digits ‘0’ and ‘9’, in any order, will always be divisible by 9?",
+        "block_id": "block_3"
+      },
+      {
+        "type": "explanation",
+        "text": "Yes, if each digit is either 0 or 9, then each term in its expanded form will be 9 × or 0 × (the ‘ ’ denotes a place value).",
+        "block_id": "block_4"
+      },
+      {
+        "type": "example",
+        "text": "For example, 99009 = 9 × 10000 + 9 × 1000 + 0 × 100 + 0 × 10 + 9 × 1.",
+        "block_id": "block_5"
+      },
+      {
+        "type": "definition",
+        "text": "But this shortcut alone cannot identify all the multiples of 9.",
+        "block_id": "block_6"
+      },
+      {
+        "type": "explanation",
+        "text": "Unlike the numbers 2, 5, and 10, we cannot identify the multiples of 9 by just looking at the unit’s digit.",
+        "block_id": "block_7"
+      },
+      {
+        "type": "example",
+        "text": "99 and 109 are two numbers with 9 as the units digit; but 99 is 9 1 9 1 divisible by 9, while 109 is not.",
+        "block_id": "block_8"
+      },
+      {
+        "type": "definition",
+        "text": "Is 10 divisible by 9? If not, what is the remainder?",
+        "block_id": "block_9"
+      },
+      {
+        "type": "explanation",
+        "text": "Check the divisibility of other multiples of 10 (10, 20, 30, ...) by 9.",
+        "block_id": "block_10"
+      },
+      {
+        "type": "example",
+        "text": "You will notice that for any multiple of 10, the remainder is the same as the number of tens.",
+        "block_id": "block_11"
+      },
+      {
+        "type": "definition",
+        "text": "Similarly, look at the remainder when the multiples of 100 (100, 200, 300, … ) are divided by 9.",
+        "block_id": "block_12"
+      },
+      {
+        "type": "explanation",
+        "text": "What do you notice?",
+        "block_id": "block_13"
+      },
+      {
+        "type": "example",
+        "text": "The remainder is the same as the number of hundreds for any multiple of 100.",
+        "block_id": "block_14"
+      },
+      {
+        "type": "definition",
+        "text": "Using this observation, find the remainder when 427 is divided by 9.",
+        "block_id": "block_15"
+      },
+      {
+        "type": "explanation",
+        "text": "We see that 427 has 4 hundreds; thus, its corresponding remainder (upon division by 9) would be 4.",
+        "block_id": "block_16"
+      },
+      {
+        "type": "example",
+        "text": "427 has 2 tens, and its corresponding remainder would be 2.",
+        "block_id": "block_17"
+      },
+      {
+        "type": "definition",
+        "text": "We have 7 units also remaining.",
+        "block_id": "block_18"
+      },
+      {
+        "type": "explanation",
+        "text": "Adding all the remainders, we get 4 + 2 + 7 = 13.",
+        "block_id": "block_19"
+      }
+    ],
+    "topic_id": "topic_15",
+    "chapter_name": "NUMBER PLAY"
+  },
+  {
+    "topic_name": "Divisibility by 9",
+    "unit": "hegp105",
+    "learning_objectives": [
+      "To understand the concept of divisibility by 9",
+      "To learn a shortcut method for divisibility by 9",
+      "To apply the concept of divisibility by 9 to find remainders",
+      "To understand the divisibility rule for 9",
+      "To apply the divisibility rule for 9 to find whether a number is divisible by 9"
+    ],
+    "allowed_concepts": [
+      "Place value",
+      "Multiples of 9",
+      "Remainder theorem",
+      "Divisibility rules",
+      "Properties of numbers"
+    ],
+    "disallowed_concepts": [
+      "Advanced calculus",
+      "Complex numbers"
+    ],
+    "content_blocks": [
+      {
+        "type": "explanation",
+        "text": "Unlike the numbers 2, 5, and 10, we cannot identify the multiples of 9 by just looking at the unit’s digit.",
+        "block_id": "block_1"
+      },
+      {
+        "type": "example",
+        "text": "99 and 109 are two numbers with 9 as the units digit; but 99 is 9 1 9 1 divisible by 9, while 109 is not.",
+        "block_id": "block_2"
+      },
+      {
+        "type": "explanation",
+        "text": "Is 10 divisible by 9? If not, what is the remainder? Check the divisibility of other multiples of 10 (10, 20, 30, ...) by 9.",
+        "block_id": "block_3"
+      },
+      {
+        "type": "example",
+        "text": "You will notice that for any multiple of 10, the remainder is the same as the number of tens.",
+        "block_id": "block_4"
+      },
+      {
+        "type": "explanation",
+        "text": "Similarly, look at the remainder when the multiples of 100 (100, 200, 300, … ) are divided by 9. What do you notice?",
+        "block_id": "block_5"
+      },
+      {
+        "type": "example",
+        "text": "The remainder is the same as the number of hundreds for any multiple of 100.",
+        "block_id": "block_6"
+      },
+      {
+        "type": "explanation",
+        "text": "Using this observation, find the remainder when 427 is divided by 9.",
+        "block_id": "block_7"
+      },
+      {
+        "type": "example",
+        "text": "We see that 427 has 4 hundreds; thus, its corresponding remainder (upon division by 9) would be 4. 427 has 2 tens, and its corresponding remainder would be 2. We have 7 units also remaining.",
+        "block_id": "block_8"
+      },
+      {
+        "type": "explanation",
+        "text": "A number is divisible by 9 if and only if the sum of its digits is divisible by 9. Also, we can add the digits of a number repeatedly till a single digit is obtained. This single digit is the remainder when the number is divided by 9.",
+        "block_id": "block_9"
+      },
+      {
+        "type": "example",
+        "text": "For example, to find the remainder of 7309 when divided by 9, we can just add all the digits — 7 + 3 + 0 + 9 — to get 19.",
+        "block_id": "block_10"
+      },
+      {
+        "type": "explanation",
+        "text": "This is a multiple of 9 So, we need to just consider this part This means that the number 7309 is 19 more than some multiple of 9.",
+        "block_id": "block_11"
+      },
+      {
+        "type": "example",
+        "text": "The digits 1 and 9 can further be added to get 1 + 9 = 10. Now, we can say that 7309 is 10 more than a multiple of 9. And repeating this step for the number 10, we get the remainder to be 1 + 0 = 1, meaning 7309 is 1 more than a multiple of 9.",
+        "block_id": "block_12"
+      },
+      {
+        "type": "definition",
+        "text": "A number is divisible by 9 if and only if the sum of its digits is divisible by 9.",
+        "block_id": "block_13"
+      },
+      {
+        "type": "explanation",
+        "text": "Also, we can add the digits of a number repeatedly till a single digit is obtained. This single digit is the remainder when the number is divided by 9.",
+        "block_id": "block_14"
+      },
+      {
+        "type": "explanation",
+        "text": "Look at each of the following statements. Which are correct and why?",
+        "block_id": "block_15"
+      },
+      {
+        "type": "example",
+        "text": "(i) If a number is divisible by 9, then the sum of its digits is divisible by 9.",
+        "block_id": "block_16"
+      },
+      {
+        "type": "explanation",
+        "text": "Math Talk (ii) If the sum of the digits of a number is divisible by 9, then the number is divisible by 9.",
+        "block_id": "block_17"
+      },
+      {
+        "type": "example",
+        "text": "(iii) If a number is not divisible by 9, then the sum of its digits is not divisible by 9.",
+        "block_id": "block_18"
+      },
+      {
+        "type": "explanation",
+        "text": "Figure it Out 1. Find, without dividing, whether the following numbers are divisible by 9.",
+        "block_id": "block_19"
+      },
+      {
+        "type": "example",
+        "text": "(i) 123 (ii) 405 (iii) 8888 (iv) 93547 (v) 358095",
+        "block_id": "block_20"
+      },
+      {
+        "type": "explanation",
+        "text": "2. Find the smallest multiple of 9 with no odd digits.",
+        "block_id": "block_21"
+      },
+      {
+        "type": "example",
+        "text": "3. Find the multiple of 9 that is closest to the number 6000.",
+        "block_id": "block_22"
+      },
+      {
+        "type": "explanation",
+        "text": "4. How many multiples of 9 are there between the numbers 4300 and 4400?",
+        "block_id": "block_23"
+      },
+      {
+        "type": "explanation",
+        "text": "A Shortcut for Divisibility by 3 We know that all the multiples of 9 are also multiples of 3.",
+        "block_id": "block_24"
+      },
+      {
+        "type": "example",
+        "text": "That is, if a number is divisible by 9, it will also be divisible by 3. However, there are other multiples of 3 that are not multiples of 9 for example — 15, 33, and 87.",
+        "block_id": "block_25"
+      },
+      {
+        "type": "explanation",
+        "text": "The shortcut to find the divisibility by 3 is similar to the method for 9.",
+        "block_id": "block_26"
+      },
+      {
+        "type": "definition",
+        "text": "A number is divisible by 9 if the sum of its digits is divisible by 9.",
+        "block_id": "block_27"
+      },
+      {
+        "type": "explanation",
+        "text": "If a number is not divisible by 9, then the sum of its digits is not divisible by 9.",
+        "block_id": "block_28"
+      },
+      {
+        "type": "example",
+        "text": "Find, without dividing, whether the following numbers are divisible by 9: (i) 123 (ii) 405 (iii) 8888 (iv) 93547 (v) 358095",
+        "block_id": "block_29"
+      },
+      {
+        "type": "explanation",
+        "text": "The shortcut to find the divisibility by 9 is similar to the method for 3. A number is divisible by 9 if the sum of its digits is divisible by 9.",
+        "block_id": "block_30"
+      }
+    ],
+    "topic_id": "topic_16",
+    "chapter_name": "NUMBER PLAY"
+  },
+  {
+    "topic_name": "Shortcut for Divisibility by 3",
+    "unit": "hegp105",
+    "learning_objectives": [
+      "To understand the shortcut for divisibility by 3",
+      "To apply the shortcut for divisibility by 3 to find whether a number is divisible by 3"
+    ],
+    "allowed_concepts": [
+      "Divisibility rules",
+      "Properties of numbers"
+    ],
+    "disallowed_concepts": [
+      "Advanced calculus",
+      "Complex numbers"
+    ],
+    "content_blocks": [
+      {
+        "type": "definition",
+        "text": "A number is divisible by 3 if the sum of its digits is divisible by 3.",
+        "block_id": "block_1"
+      },
+      {
+        "type": "explanation",
+        "text": "The shortcut to find the divisibility by 3 is similar to the method for 9. A number is divisible by 3 if the sum of its digits is divisible by 3.",
+        "block_id": "block_2"
+      },
+      {
+        "type": "example",
+        "text": "Using these observations, can you tell whether the number 462 is divisible by 11?",
+        "block_id": "block_3"
+      }
+    ],
+    "topic_id": "topic_17",
+    "chapter_name": "NUMBER PLAY"
+  },
+  {
+    "topic_name": "Shortcut for Divisibility by 11",
+    "unit": "hegp105",
+    "learning_objectives": [
+      "To understand the shortcut for divisibility by 11",
+      "To apply the shortcut for divisibility by 11 to find whether a number is divisible by 11",
+      "To learn how to apply the shortcut to find the remainder when a number is divided by 11"
+    ],
+    "allowed_concepts": [
+      "Divisibility rules",
+      "Properties of numbers",
+      "Divisibility by 11",
+      "Place value",
+      "Alternating signs"
+    ],
+    "disallowed_concepts": [
+      "Advanced calculus",
+      "Complex numbers"
+    ],
+    "content_blocks": [
+      {
+        "type": "definition",
+        "text": "A number is divisible by 11 if the difference between the sum of digits at odd places and the sum of digits at even places is 0 or a multiple of 11.",
+        "block_id": "block_1"
+      },
+      {
+        "type": "explanation",
+        "text": "The shortcut for 11 is also based on checking the remainders with place value. Let us see how.",
+        "block_id": "block_2"
+      },
+      {
+        "type": "example",
+        "text": "Steps Purpose Example for the Number 320185",
+        "block_id": "block_3"
+      },
+      {
+        "type": "definition",
+        "text": "A Shortcut for Divisibility by 11 Interestingly, the shortcut for 11 is also based on checking the remainders with place value. Let us see how.",
+        "block_id": "block_4"
+      },
+      {
+        "type": "explanation",
+        "text": "We saw that the place values alternate as 1 more and 1 less than a multiple of 11. Using this observation, Steps Purpose Example for the Number 320185 1. Add the digits of place values which are 1 more (than a multiple of 11), i.e., place values corresponding to 1, 100, 10000, and so on. Total excess, 2 + 1 + 5 = 8.",
+        "block_id": "block_5"
+      },
+      {
+        "type": "explanation",
+        "text": "2. Add the digits of place values which are 1 short (than a multiple of 11), i.e., place values corresponding to 3, 10, 10000, and so on. Total short, 3 + 0 + 8 = 11.",
+        "block_id": "block_6"
+      },
+      {
+        "type": "example",
+        "text": "Steps to follow Example for the number 328105 1. Place alternating ‘+’ and ‘–’ signs before every digit –3 + 2 – 8 + 1 – 0 + 5 2. Evaluate the expression. –3 + 2 – 8 + 1 – 0 + 5 = – 3 3. The result denotes the remainder obtained when the number is divided by 11.",
+        "block_id": "block_7"
+      }
+    ],
+    "topic_id": "topic_18",
+    "chapter_name": "NUMBER PLAY"
+  },
+  {
+    "topic_name": "Divisibility by 6",
+    "unit": "hegp105",
+    "learning_objectives": [
+      "To understand how to check divisibility by 6",
+      "To learn how to apply the shortcut to find the remainder when a number is divided by 6"
+    ],
+    "allowed_concepts": [
+      "Divisibility by 6",
+      "Divisibility by 2",
+      "Divisibility by 3"
+    ],
+    "disallowed_concepts": [
+      "Advanced calculus",
+      "Complex numbers"
+    ],
+    "content_blocks": [
+      {
+        "type": "explanation",
+        "text": "How can we find out if a number is divisible by 6? Will checking its divisibility by its factors 2 and 3 work?",
+        "block_id": "block_1"
+      },
+      {
+        "type": "example",
+        "text": "Use the shortcuts for 2 and 3 on these numbers and divide each number by 6 to verify — 38, 225, 186, 64.",
+        "block_id": "block_2"
+      }
+    ],
+    "topic_id": "topic_19",
+    "chapter_name": "NUMBER PLAY"
+  },
+  {
+    "topic_name": "Divisibility by 24",
+    "unit": "hegp105",
+    "learning_objectives": [
+      "To understand how to check divisibility by 24",
+      "To learn how to apply the shortcut to find the remainder when a number is divided by 24",
+      "Understand why checking divisibility by 4 and 6 does not work for divisibility by 24",
+      "Learn a shortcut to check divisibility by 24"
+    ],
+    "allowed_concepts": [
+      "Divisibility by 24",
+      "Divisibility by 3",
+      "Divisibility by 8",
+      "Prime factorization",
+      "Divisibility rules"
+    ],
+    "disallowed_concepts": [
+      "Advanced calculus",
+      "Complex numbers"
+    ],
+    "content_blocks": [
+      {
+        "type": "explanation",
+        "text": "To check for the divisibility by 24, we can instead check for the divisibility by 3 and divisibility by 8.",
+        "block_id": "block_1"
+      },
+      {
+        "type": "example",
+        "text": "Explain using prime factorisation why checking divisibility by 3 and 8 works for checking divisibility by 24, but checking divisibility by 4 and 6 is not sufficient for checking divisibility by 24.",
+        "block_id": "block_2"
+      },
+      {
+        "type": "explanation",
+        "text": "Determining divisibility by 24 by checking divisibility by 4 and by 6 does not work. For example, the number 12 is divisible by both 4 and 6, but not by 24.",
+        "block_id": "block_3"
+      },
+      {
+        "type": "example",
+        "text": "For example, the number 12 is divisible by both 4 and 6, but not by 24.",
+        "block_id": "block_4"
+      }
+    ],
+    "topic_id": "topic_20",
+    "chapter_name": "NUMBER PLAY"
+  },
+  {
+    "topic_name": "Digital Roots",
+    "unit": "hegp105",
+    "learning_objectives": [
+      "To understand the concept of digital roots",
+      "To learn how to find the digital root of a number",
+      "Understand the concept of digital roots",
+      "Learn how to calculate digital roots"
+    ],
+    "allowed_concepts": [
+      "Digital roots",
+      "Place value",
+      "Arithmetic operations",
+      "Number properties"
+    ],
+    "disallowed_concepts": [
+      "Advanced calculus",
+      "Complex numbers"
+    ],
+    "content_blocks": [
+      {
+        "type": "definition",
+        "text": "Take a number. Add its digits repeatedly till you get a single-digit number. This single-digit number is called the digital root of the number.",
+        "block_id": "block_1"
+      },
+      {
+        "type": "example",
+        "text": "For example, the digital root of the number 489710 will be",
+        "block_id": "block_2"
+      },
+      {
+        "type": "example",
+        "text": "For example, the digital root of the number 489710 will be 2 (4 + 8 + 9 + 7 + 1 + 0 = 29, 2 + 9 = 11, 1 + 1 = 2).",
+        "block_id": "block_3"
+      },
+      {
+        "type": "explanation",
+        "text": "What property do you think this digital root will have? Recall that we did this while finding the divisibility shortcut for 9.",
+        "block_id": "block_4"
+      }
+    ],
+    "topic_id": "topic_21",
+    "chapter_name": "NUMBER PLAY"
+  },
+  {
+    "topic_name": "Divisibility Shortcuts",
+    "unit": "hegp105",
+    "learning_objectives": [
+      "Learn shortcuts to check divisibility by numbers up to 100",
+      "Understand the concept of digital roots in relation to divisibility"
+    ],
+    "allowed_concepts": [
+      "Divisibility rules",
+      "Number properties"
+    ],
+    "disallowed_concepts": [
+      "Advanced calculus",
+      "Complex numbers"
+    ],
+    "content_blocks": [
+      {
+        "type": "explanation",
+        "text": "There are such shortcuts to check divisibility by every number until 100, and for some numbers beyond 100. You may try to understand how these work after learning certain concepts in higher grades.",
+        "block_id": "block_1"
+      }
+    ],
+    "topic_id": "topic_22",
+    "chapter_name": "NUMBER PLAY"
+  },
+  {
+    "topic_name": "Cryptarithms",
+    "unit": "hegp105",
+    "learning_objectives": [
+      "Understand the concept of cryptarithms",
+      "Learn how to solve simple cryptarithms"
+    ],
+    "allowed_concepts": [
+      "Number properties",
+      "Arithmetic operations"
+    ],
+    "disallowed_concepts": [
+      "Advanced calculus",
+      "Complex numbers"
+    ],
+    "content_blocks": [
+      {
+        "type": "example",
+        "text": "ON QR A1 AB ON QR (i) + 1B (ii) + 37 (iii) + ON (iv) + QR",
+        "block_id": "block_1"
+      },
+      {
+        "type": "explanation",
+        "text": "Let us now try solving some cryptarithms involving multiplication.",
+        "block_id": "block_2"
+      },
+      {
+        "type": "example",
+        "text": "PQ × 8 = RS.",
+        "block_id": "block_3"
+      }
+    ],
+    "topic_id": "topic_23",
+    "chapter_name": "NUMBER PLAY"
+  },
+  {
+    "topic_name": "Solving Cryptarithms Involving Multiplication",
+    "unit": "hegp105",
+    "learning_objectives": [
+      "To solve cryptarithms involving multiplication using patterns, properties, and reasoning related to numbers and operations."
+    ],
+    "allowed_concepts": [
+      "Multiplication of numbers",
+      "Properties of numbers",
+      "Reasoning and problem-solving"
+    ],
+    "disallowed_concepts": [
+      "Advanced calculus",
+      "Complex numbers"
+    ],
+    "content_blocks": [
+      {
+        "type": "explanation",
+        "text": "Let us now try solving some cryptarithms involving multiplication.",
+        "block_id": "block_1"
+      },
+      {
+        "type": "example",
+        "text": "(v) PQ × 8 = RS. Guna says, “Oh, this means a 2-digit number multiplied by 8 should give another 2-digit number.",
+        "block_id": "block_2"
+      },
+      {
+        "type": "example",
+        "text": "12 × 8 = 96 fits all the conditions”. Can PQ be 13? Think.",
+        "block_id": "block_3"
+      },
+      {
+        "type": "explanation",
+        "text": "It is not possible because 13 × 8 = 104. For all 2-digit numbers greater than 12, the product with 8 is a 3-digit number.",
+        "block_id": "block_4"
+      },
+      {
+        "type": "example",
+        "text": "(vi) Try this now: GH × H = 9K.",
+        "block_id": "block_5"
+      },
+      {
+        "type": "explanation",
+        "text": "This means a 2-digit number multiplied by a 1-digit number gives another 2-digit number in the 90s.",
+        "block_id": "block_6"
+      },
+      {
+        "type": "example",
+        "text": "11 × 9 = 99, 12 × 8 = 96, 46 × 2 = 92, 24 × 4 = 96, 47 × 2 = 94, 31 × 3 = 93, 16 × 6 = 96.",
+        "block_id": "block_7"
+      },
+      {
+        "type": "example",
+        "text": "(vii) Here is one more: BYE × 6 = RAY.",
+        "block_id": "block_8"
+      },
+      {
+        "type": "explanation",
+        "text": "Anshu says, “Since the product is a 3-digit number, B can’t be 2 or more.",
+        "block_id": "block_9"
+      },
+      {
+        "type": "explanation",
+        "text": "We can solve cryptarithms using patterns, properties, and reasoning related to numbers and operations.",
+        "block_id": "block_10"
+      }
+    ],
+    "topic_id": "topic_24",
+    "chapter_name": "NUMBER PLAY"
+  },
+  {
+    "topic_name": "Finding the Value of a Digit in a Multiple of 9",
+    "unit": "hegp105",
+    "learning_objectives": [
+      "To find the value of a digit in a multiple of 9 using the divisibility rule of 9."
+    ],
+    "allowed_concepts": [
+      "Divisibility rule of 9",
+      "Properties of numbers"
+    ],
+    "disallowed_concepts": [
+      "Advanced calculus",
+      "Complex numbers"
+    ],
+    "content_blocks": [
+      {
+        "type": "example",
+        "text": "1. If 31z5 is a multiple of 9, where z is a digit, what is the value of z?",
+        "block_id": "block_1"
+      },
+      {
+        "type": "explanation",
+        "text": "Explain why there are two answers to this problem.",
+        "block_id": "block_2"
+      }
+    ],
+    "topic_id": "topic_25",
+    "chapter_name": "NUMBER PLAY"
+  },
+  {
+    "topic_name": "Examining a Claim about Remainders",
+    "unit": "hegp105",
+    "learning_objectives": [
+      "To examine a claim about remainders when numbers are divided by 12."
+    ],
+    "allowed_concepts": [
+      "Remainders",
+      "Properties of numbers"
+    ],
+    "disallowed_concepts": [
+      "Advanced calculus",
+      "Complex numbers"
+    ],
+    "content_blocks": [
+      {
+        "type": "example",
+        "text": "2. “I take a number that leaves a remainder of 8 when divided by 12. I take another number which is 4 short of a multiple of 12. Their sum will always be a multiple of 8”, claims Snehal.",
+        "block_id": "block_1"
+      },
+      {
+        "type": "explanation",
+        "text": "Examine his claim and justify your conclusion.",
+        "block_id": "block_2"
+      }
+    ],
+    "topic_id": "topic_26",
+    "chapter_name": "NUMBER PLAY"
+  },
+  {
+    "topic_name": "Exploring the Sum of Two Multiples of 3",
+    "unit": "hegp105",
+    "learning_objectives": [
+      "To explore the sum of two multiples of 3 and determine when it is a multiple of 6."
+    ],
+    "allowed_concepts": [
+      "Multiples of 3",
+      "Properties of numbers"
+    ],
+    "disallowed_concepts": [
+      "Advanced calculus",
+      "Complex numbers"
+    ],
+    "content_blocks": [
+      {
+        "type": "example",
+        "text": "3. When is the sum of two multiples of 3, a multiple of 6 and when is it not?",
+        "block_id": "block_1"
+      },
+      {
+        "type": "explanation",
+        "text": "Explain the different possible cases, and generalise the pattern.",
+        "block_id": "block_2"
+      }
+    ],
+    "topic_id": "topic_27",
+    "chapter_name": "NUMBER PLAY"
+  },
+  {
+    "topic_name": "Examining a Conjecture about Digit Shuffles",
+    "unit": "hegp105",
+    "learning_objectives": [
+      "To examine a conjecture about digit shuffles and determine if it is true for any multiple of 9."
+    ],
+    "allowed_concepts": [
+      "Digit shuffles",
+      "Properties of numbers"
+    ],
+    "disallowed_concepts": [
+      "Advanced calculus",
+      "Complex numbers"
+    ],
+    "content_blocks": [
+      {
+        "type": "example",
+        "text": "4. Sreelatha says, “I have a number that is divisible by 9. If I reverse its digits, it will still be divisible by 9”.",
+        "block_id": "block_1"
+      },
+      {
+        "type": "explanation",
+        "text": "Examine if her conjecture is true for any multiple of 9.",
+        "block_id": "block_2"
+      }
+    ],
+    "topic_id": "topic_28",
+    "chapter_name": "NUMBER PLAY"
+  },
+  {
+    "topic_name": "Finding Possible Pairs of Values for a and b",
+    "unit": "hegp105",
+    "learning_objectives": [
+      "To find possible pairs of values for a and b in a multiple of 18."
+    ],
+    "allowed_concepts": [
+      "Multiples of 18",
+      "Properties of numbers"
+    ],
+    "disallowed_concepts": [
+      "Advanced calculus",
+      "Complex numbers"
+    ],
+    "content_blocks": [
+      {
+        "type": "example",
+        "text": "5. If 48a23b is a multiple of 18, list all possible pairs of values for a and b.",
+        "block_id": "block_1"
+      }
+    ],
+    "topic_id": "topic_29",
+    "chapter_name": "NUMBER PLAY"
+  },
+  {
+    "topic_name": "Finding Possible Pairs of Values for p and q",
+    "unit": "hegp105",
+    "learning_objectives": [
+      "To find possible pairs of values for p and q in a multiple of 44."
+    ],
+    "allowed_concepts": [
+      "Multiples of 44",
+      "Properties of numbers"
+    ],
+    "disallowed_concepts": [
+      "Advanced calculus",
+      "Complex numbers"
+    ],
+    "content_blocks": [
+      {
+        "type": "example",
+        "text": "6. If 3p7q8 is divisible by 44, list all possible pairs of values for p and q.",
+        "block_id": "block_1"
+      }
+    ],
+    "topic_id": "topic_30",
+    "chapter_name": "NUMBER PLAY"
+  },
+  {
+    "topic_name": "Finding Three Consecutive Numbers",
+    "unit": "hegp105",
+    "learning_objectives": [
+      "To find three consecutive numbers such that the first number is a multiple of 2, the second number is a multiple of 3, and the third number is a multiple of 4."
+    ],
+    "allowed_concepts": [
+      "Multiples of 2",
+      "Multiples of 3",
+      "Multiples of 4"
+    ],
+    "disallowed_concepts": [
+      "Advanced calculus",
+      "Complex numbers"
+    ],
+    "content_blocks": [
+      {
+        "type": "example",
+        "text": "7. Find three consecutive numbers such that the first number is a multiple of 2, the second number is a multiple of 3, and the third number is a multiple of 4.",
+        "block_id": "block_1"
+      }
+    ],
+    "topic_id": "topic_31",
+    "chapter_name": "NUMBER PLAY"
+  },
+  {
+    "topic_name": "Writing Multiples of 36",
+    "unit": "hegp105",
+    "learning_objectives": [
+      "To write five multiples of 36 between 45,000 and 47,000."
+    ],
+    "allowed_concepts": [
+      "Multiples of 36"
+    ],
+    "disallowed_concepts": [
+      "Advanced calculus",
+      "Complex numbers"
+    ],
+    "content_blocks": [
+      {
+        "type": "example",
+        "text": "8. Write five multiples of 36 between 45,000 and 47,000.",
+        "block_id": "block_1"
+      }
+    ],
+    "topic_id": "topic_32",
+    "chapter_name": "NUMBER PLAY"
+  },
+  {
+    "topic_name": "Expressing Numbers in Terms of p",
+    "unit": "hegp105",
+    "learning_objectives": [
+      "To express the other four numbers in sequence in terms of p."
+    ],
+    "allowed_concepts": [
+      "Properties of numbers"
+    ],
+    "disallowed_concepts": [
+      "Advanced calculus",
+      "Complex numbers"
+    ],
+    "content_blocks": [
+      {
+        "type": "example",
+        "text": "9. The middle number in the sequence of 5 consecutive even numbers is 5p. Express the other four numbers in sequence in terms of p.",
+        "block_id": "block_1"
+      }
+    ],
+    "topic_id": "topic_33",
+    "chapter_name": "NUMBER PLAY"
+  },
+  {
+    "topic_name": "Writing a 6-Digit Number",
+    "unit": "hegp105",
+    "learning_objectives": [
+      "To write a 6-digit number that is divisible by 15, such that when the digits are reversed, it is divisible by 6."
+    ],
+    "allowed_concepts": [
+      "Divisibility by 15",
+      "Divisibility by 6"
+    ],
+    "disallowed_concepts": [
+      "Advanced calculus",
+      "Complex numbers"
+    ],
+    "content_blocks": [
+      {
+        "type": "example",
+        "text": "10. Write a 6-digit number that it is divisible by 15, such that when the digits are reversed, it is divisible by 6.",
+        "block_id": "block_1"
+      }
+    ],
+    "topic_id": "topic_34",
+    "chapter_name": "NUMBER PLAY"
+  },
+  {
+    "topic_name": "Examining a Conjecture about Multiples of 11",
+    "unit": "hegp105",
+    "learning_objectives": [
+      "To examine a conjecture about multiples of 11 and determine if it is true."
+    ],
+    "allowed_concepts": [
+      "Multiples of 11"
+    ],
+    "disallowed_concepts": [
+      "Advanced calculus",
+      "Complex numbers"
+    ],
+    "content_blocks": [
+      {
+        "type": "example",
+        "text": "11. Deepak claims, “There are some multiples of 11 which, when doubled, are still multiples of 11. But other multiples of 11 don’t remain multiples of 11 when doubled”.",
+        "block_id": "block_1"
+      },
+      {
+        "type": "explanation",
+        "text": "Examine if his conjecture is true; explain your conclusion.",
+        "block_id": "block_2"
+      }
+    ],
+    "topic_id": "topic_35",
+    "chapter_name": "NUMBER PLAY"
+  },
+  {
+    "topic_name": "Determining the Truth of Statements",
+    "unit": "hegp105",
+    "learning_objectives": [
+      "To determine whether the statements below are ‘Always True’, ‘Sometimes True’, or ‘Never True’."
+    ],
+    "allowed_concepts": [
+      "Properties of numbers"
+    ],
+    "disallowed_concepts": [
+      "Advanced calculus",
+      "Complex numbers"
+    ],
+    "content_blocks": [
+      {
+        "type": "example",
+        "text": "12. Determine whether the statements below are ‘Always True’, ‘Sometimes True’, or ‘Never True’.",
+        "block_id": "block_1"
+      }
+    ],
+    "topic_id": "topic_36",
+    "chapter_name": "NUMBER PLAY"
+  },
+  {
+    "topic_name": "Exploring the Sum of Three Consecutive Even Numbers",
+    "unit": "hegp105",
+    "learning_objectives": [
+      "To explore the sum of three consecutive even numbers and determine when it is divisible by 6."
+    ],
+    "allowed_concepts": [
+      "Multiples of 6"
+    ],
+    "disallowed_concepts": [
+      "Advanced calculus",
+      "Complex numbers"
+    ],
+    "content_blocks": [
+      {
+        "type": "example",
+        "text": "12. Determine whether the statements below are ‘Always True’, ‘Sometimes True’, or ‘Never True’.",
+        "block_id": "block_1"
+      }
+    ],
+    "topic_id": "topic_37",
+    "chapter_name": "NUMBER PLAY"
+  },
+  {
+    "topic_name": "Choosing Numbers for the Sum to be Divisible by 3",
+    "unit": "hegp105",
+    "learning_objectives": [
+      "To choose any 3 numbers and determine when their sum is divisible by 3."
+    ],
+    "allowed_concepts": [
+      "Properties of numbers"
+    ],
+    "disallowed_concepts": [
+      "Advanced calculus",
+      "Complex numbers"
+    ],
+    "content_blocks": [
+      {
+        "type": "example",
+        "text": "13. Choose any 3 numbers. When is their sum divisible by 3?",
+        "block_id": "block_1"
+      }
+    ],
+    "topic_id": "topic_38",
+    "chapter_name": "NUMBER PLAY"
+  },
+  {
+    "topic_name": "Examining the Product of Two Consecutive Integers",
+    "unit": "hegp105",
+    "learning_objectives": [
+      "To examine the product of two consecutive integers and determine if it is always a multiple of 2."
+    ],
+    "allowed_concepts": [
+      "Multiples of 2"
+    ],
+    "disallowed_concepts": [
+      "Advanced calculus",
+      "Complex numbers"
+    ],
+    "content_blocks": [
+      {
+        "type": "example",
+        "text": "14. Is the product of two consecutive integers always multiple of 2? Why?",
+        "block_id": "block_1"
+      }
+    ],
+    "topic_id": "topic_39",
+    "chapter_name": "NUMBER PLAY"
+  },
+  {
+    "topic_name": "Divisibility Properties",
+    "unit": "hegp105",
+    "learning_objectives": [
+      "Understand the properties of divisibility",
+      "Apply the properties to solve problems"
+    ],
+    "allowed_concepts": [
+      "Divisibility by 3, 9, 11",
+      "LCM of two numbers"
+    ],
+    "disallowed_concepts": [
+      "Advanced calculus",
+      "Complex numbers"
+    ],
+    "content_blocks": [
+      {
+        "type": "definition",
+        "text": "If a is divisible by b, then all multiples of a are divisible by b.",
+        "block_id": "block_1"
+      },
+      {
+        "type": "definition",
+        "text": "If a is divisible by b, then a is divisible by all the factors of b.",
+        "block_id": "block_2"
+      },
+      {
+        "type": "definition",
+        "text": "If a divides m and a divides n, then a divides m + n and m – n.",
+        "block_id": "block_3"
+      },
+      {
+        "type": "definition",
+        "text": "If a is divisible by b and is also divisible by c, then a is divisible by the LCM of b and c.",
+        "block_id": "block_4"
+      },
+      {
+        "type": "explanation",
+        "text": "We explored and learnt various properties of divisibility—",
+        "block_id": "block_5"
+      },
+      {
+        "type": "explanation",
+        "text": "• If a is divisible by b, then all multiples of a are divisible by b.",
+        "block_id": "block_6"
+      },
+      {
+        "type": "explanation",
+        "text": "• If a is divisible by b, then a is divisible by all the factors of b.",
+        "block_id": "block_7"
+      },
+      {
+        "type": "explanation",
+        "text": "• If a divides m and a divides n, then a divides m + n and m – n.",
+        "block_id": "block_8"
+      },
+      {
+        "type": "explanation",
+        "text": "• If a is divisible by b and is also divisible by c, then a is divisible by the LCM of b and c.",
+        "block_id": "block_9"
+      }
+    ],
+    "topic_id": "topic_40",
+    "chapter_name": "NUMBER PLAY"
+  },
+  {
+    "topic_name": "Shortcuts to Check Divisibility",
+    "unit": "hegp105",
+    "learning_objectives": [
+      "Understand the shortcuts to check divisibility by 3, 9, and 11",
+      "Apply the shortcuts to solve problems"
+    ],
+    "allowed_concepts": [
+      "Divisibility by 3, 9, 11",
+      "Shortcuts to check divisibility"
+    ],
+    "disallowed_concepts": [
+      "Advanced calculus",
+      "Complex numbers"
+    ],
+    "content_blocks": [
+      {
+        "type": "explanation",
+        "text": "We learnt shortcuts to check divisibility by 3, 9 and 11, and why they work.",
+        "block_id": "block_1"
+      }
+    ],
+    "topic_id": "topic_41",
+    "chapter_name": "NUMBER PLAY"
+  },
+  {
+    "topic_name": "Navakankari",
+    "unit": "hegp105",
+    "learning_objectives": [
+      "Understand the rules of Navakankari",
+      "Apply the rules to play the game"
+    ],
+    "allowed_concepts": [
+      "Navakankari rules",
+      "Strategy game"
+    ],
+    "disallowed_concepts": [
+      "Advanced calculus",
+      "Complex numbers"
+    ],
+    "content_blocks": [
+      {
+        "type": "definition",
+        "text": "Navakankari, also known as Sālu Mane Āṭa, Chār-Pār, or Navkakri, is a traditional Indian board game that is the same as ‛Nine Men’s Morris’ or ‛Mills in the West’.",
+        "block_id": "block_1"
+      },
+      {
+        "type": "explanation",
+        "text": "It is a strategy game for two players where the goal is to form lines of three pawns to eliminate the opponent’s pawns or block their movement.",
+        "block_id": "block_2"
+      },
+      {
+        "type": "explanation",
+        "text": "Gameplay: Each player starts with 9 pawns. The players take turns in placing their pawns on the marked intersections. An intersection can have at most one pawn.",
+        "block_id": "block_3"
+      },
+      {
+        "type": "explanation",
+        "text": "Once all the pawns are placed, the players take turns to move one of their pawns to adjacent empty intersections to form lines of three.",
+        "block_id": "block_4"
+      },
+      {
+        "type": "explanation",
+        "text": "A player wins if the opponent has less than 3 pawns or is unable to make a move.",
+        "block_id": "block_5"
+      }
+    ],
+    "topic_id": "topic_42",
+    "chapter_name": "NUMBER PLAY"
+  },
+  {
+    "topic_name": "Making Moves in Games",
+    "unit": "hegp105",
+    "learning_objectives": [
+      "To understand the concept of making moves in games",
+      "To learn how to make strategic moves"
+    ],
+    "allowed_concepts": [
+      "Game theory",
+      "Strategic thinking"
+    ],
+    "disallowed_concepts": [
+      "Advanced calculus",
+      "Complex numbers"
+    ],
+    "content_blocks": [
+      {
+        "type": "explanation",
+        "text": "A move is a step taken in a game. It is a deliberate action taken by a player to change the state of the game.",
+        "block_id": "block_1"
+      },
+      {
+        "type": "example",
+        "text": "For example, in a game of chess, a player can make a move by moving a pawn from one square to another.",
+        "block_id": "block_2"
+      }
+    ],
+    "topic_id": "topic_43",
+    "chapter_name": "NUMBER PLAY"
+  }
+]

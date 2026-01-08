@@ -493,7 +493,7 @@ def build_final_json(all_topics, pdf_filename):
         return merged_topics
 
 
-def process_single_file(text_file_path, pdf_path=None, schema=None):
+def process_single_file(text_file_path, pdf_path=None, schema=None, custom_output_base=None):
     """Process a single text file and convert to JSON."""
     if schema is None:
         print("❌ Schema not provided")
@@ -527,8 +527,13 @@ def process_single_file(text_file_path, pdf_path=None, schema=None):
     final_json = build_final_json(all_topics, pdf_filename)
     
     # Save output - single JSON file
-    output_file = JSON_DIR / f"{text_file_path.stem}.json"
-    JSON_DIR.mkdir(parents=True, exist_ok=True)
+    if custom_output_base:
+         target_dir = Path(custom_output_base) / "json_output"
+    else:
+         target_dir = JSON_DIR
+
+    output_file = target_dir / f"{text_file_path.stem}.json"
+    target_dir.mkdir(parents=True, exist_ok=True)
     
     # Save as array of topics (single file)
     if isinstance(final_json, list):
@@ -544,7 +549,7 @@ def process_single_file(text_file_path, pdf_path=None, schema=None):
     return output_file
 
 
-def process_specific_pdf(pdf_path, schema):
+def process_specific_pdf(pdf_path, schema, custom_output_base=None):
     """Process the specific PDF file and convert to JSON."""
     if not pdf_path.exists():
         print(f"❌ PDF file not found: {pdf_path}")
@@ -573,7 +578,7 @@ def process_specific_pdf(pdf_path, schema):
             return None
     
     try:
-        return process_single_file(text_file, pdf_path, schema)
+        return process_single_file(text_file, pdf_path, schema, custom_output_base=custom_output_base)
     except Exception as e:
         print(f"❌ Error processing {pdf_path.name}: {str(e)}")
         raise

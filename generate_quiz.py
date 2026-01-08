@@ -67,8 +67,11 @@ def generate_quiz_json(topic_data):
     # Use only first 2000 chars of content to avoid context limit
     content_context = "\n".join([b['text'] for b in topic_data['content_blocks']])[:2000]
 
+    top_schema = json.dumps(Quiz.model_json_schema(), indent=2)
+
     prompt = f"""
-    Generate a quiz aligned with the curriculum.
+    Generate a valid JSON object for a quiz aligned with the curriculum.
+    Do NOT return the schema itself. Return an INSTANCE of the schema.
 
     TOPIC: {topic_name}
     CLASS LEVEL: Class 7
@@ -80,20 +83,27 @@ def generate_quiz_json(topic_data):
     CONTEXT (from textbook):
     {content_context}
 
+    Required Fields:
+    - topic: "{topic_name}"
+    - class_level: "Class 7"
+    - difficulty: "Beginner"
+    - duration_minutes: (integer 10-20)
+    - questions: List of at least 5 MCQs.
+
     Return JSON strictly matching this schema:
-    {Quiz.schema_json(indent=2)}
+    {top_schema}
     """
 
     api_key = os.getenv("GROQ_API_KEY")
     client = Groq(api_key=api_key)
     
-    for attempt in range(3):
-        print(f"🔄 Generation Attempt {attempt + 1}/3...")
+    for attempt in range(5):
+        print(f"Generation Attempt {attempt + 1}/5...")
         try:
             completion = client.chat.completions.create(
                 model="llama-3.1-8b-instant",
                 messages=[
-                    {"role": "system", "content": "You are an educational content generator. Output valid JSON only. Strictly follow the Pydantic schema provided."},
+                    {"role": "system", "content": "You are an educational content generator. Output valid JSON only. STRICTLY generate ONLY Multiple Choice Questions (MCQ). Do not include short answer or fill-in-the-blank questions."},
                     {"role": "user", "content": prompt}
                 ],
                 temperature=0.7,
@@ -101,18 +111,21 @@ def generate_quiz_json(topic_data):
             )
             
             raw_json = completion.choices[0].message.content
-            print("🔍 Validating JSON...")
+            print("Validating JSON...")
             quiz_data = json.loads(raw_json)
             quiz = Quiz(**quiz_data)
-            print("✅ Validation Successful!")
+            print("Validation Successful!")
             return quiz
             
         except json.JSONDecodeError:
-            print("❌ Invalid JSON format")
+            print("Invalid JSON format")
+            print(f"Raw received: {raw_json}")
         except ValidationError as e:
-            print(f"❌ Pydantic Validation Failed: {e}")
+            print(f"Pydantic Validation Failed: {e}")
+            print(f"Detailed Error: {e.json()}")
+            print(f"Raw received: {raw_json}")
         except Exception as e:
-            print(f"❌ Error: {e}")
+            print(f"Error: {e}")
             
     raise RuntimeError("Failed to generate valid quiz after 3 attempts")
 
@@ -135,9 +148,6 @@ def create_html(quiz: Quiz):
             opts = "".join([f"<li>{opt}</li>" for opt in q.options])
             q_html += f'<ul class="options">{opts}</ul>'
             ans_text = q.correct
-        else:
-            q_html += '<div style="height: 60px; border: 1px dashed #ccc; margin-top: 10px;"></div>'
-            ans_text = q.answer
             
         q_html += "</div>"
         questions_html.append(q_html)
@@ -159,14 +169,14 @@ def convert_to_pdf(html_content, output_path="quiz.pdf"):
     api_key = os.getenv("PDFSHIFT_API_KEY")
     
     if not api_key:
-        print("⚠️  PDFSHIFT_API_KEY not found. Saving as HTML.")
+        print("PDFSHIFT_API_KEY not found. Saving as HTML.")
         html_path = output_path.replace(".pdf", ".html")
         with open(html_path, "w", encoding="utf-8") as f:
             f.write(html_content)
-        print(f"✅ Saved to {html_path}")
+        print(f"Saved to {html_path}")
         return html_path
 
-    print("🚀 Converting to PDF via PDFShift...")
+    print("Converting to PDF via PDFShift...")
     response = requests.post(
         "https://api.pdfshift.io/v3/convert/pdf",
         auth=("api", api_key),
@@ -176,10 +186,10 @@ def convert_to_pdf(html_content, output_path="quiz.pdf"):
     if response.status_code == 200:
         with open(output_path, "wb") as f:
             f.write(response.content)
-        print(f"✅ Success! Saved to {output_path}")
+        print(f"Success! Saved to {output_path}")
         return output_path
     else:
-        print(f"❌ PDF Generation Failed: {response.text}")
+        print(f"PDF Generation Failed: {response.text}")
         html_path = output_path.replace(".pdf", ".html")
         with open(html_path, "w", encoding="utf-8") as f:
             f.write(html_content)
@@ -187,7 +197,7 @@ def convert_to_pdf(html_content, output_path="quiz.pdf"):
 
 def run_quiz_generator(json_path, output_path, topic_index=0):
     print("="*60)
-    print("🎓 STRICT QUIZ GENERATOR (Pydantic Validated)")
+    print("STRICT QUIZ GENERATOR (Pydantic Validated)")
     print("="*60)
     
     # 1. Load Data
@@ -201,19 +211,37 @@ def run_quiz_generator(json_path, output_path, topic_index=0):
     try:
         quiz = generate_quiz_json(data[topic_index])
         
+        # Save validation JSON
+        json_output_path = output_path.replace('.pdf', '.json')
+        with open(json_output_path, 'w', encoding='utf-8') as f:
+            f.write(quiz.model_dump_json())
+
         # 3. Create HTML
         html = create_html(quiz)
         
         # 4. Generate PDF
-        return convert_to_pdf(html, output_path)
+        pdf_path = convert_to_pdf(html, output_path)
+        
+        return {
+            "pdf_path": pdf_path,
+            "json_path": json_output_path,
+            "data": quiz.model_dump()  # Return raw data for frontend
+        }
         
     except Exception as e:
-        print(f"\n❌ FATAL: {e}")
+        print(f"\nFATAL: {e}")
         return None
 
 if __name__ == "__main__":
-    default_json = "class7/json_output/gegp105.json"
+    # Test with the specific requested chapter
+    default_json = os.path.join("content", "class7", "json_output", "gegp107.json")
+    
     if os.path.exists(default_json):
-        run_quiz_generator(default_json, "quiz.pdf")
+        print(f"Testing Quiz Generation for: {default_json}")
+        run_quiz_generator(default_json, "test_quiz_gegp107.pdf")
     else:
-        print("Default file not found.")
+        print(f"Default file not found: {default_json}")
+        # Fallback to check absolute path if running from different cwd
+        abs_path = os.path.join(os.getcwd(), "class7", "json_output", "gegp107.json")
+        if os.path.exists(abs_path):
+             run_quiz_generator(abs_path, "test_quiz_gegp107.pdf")

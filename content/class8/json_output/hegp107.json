@@ -1,0 +1,1472 @@
+[
+  {
+    "topic_name": "Observing Similarity in Change",
+    "unit": "hegp107",
+    "learning_objectives": [
+      "To understand the concept of similarity in change",
+      "To identify proportional relationships"
+    ],
+    "allowed_concepts": [
+      "Ratios",
+      "Proportional relationships",
+      "Similarity in change"
+    ],
+    "disallowed_concepts": [
+      "Advanced calculus",
+      "Complex numbers"
+    ],
+    "content_blocks": [
+      {
+        "type": "explanation",
+        "text": "We are all familiar with digital images. We often change the size and orientation of these images to suit our needs. Observe the set of images below —",
+        "block_id": "block_1"
+      },
+      {
+        "type": "example",
+        "text": "Images (A, C, and D) look similar, even though they have different sizes.",
+        "block_id": "block_2"
+      },
+      {
+        "type": "explanation",
+        "text": "Why does it look different from the other rectangular images? Talk Can we observe any pattern to answer this question? Perhaps by measuring the rectangles?",
+        "block_id": "block_3"
+      },
+      {
+        "type": "definition",
+        "text": "When we compare image A with C, we notice that the width of C is half that of A. The height is also half of A. Both the width and height have changed by the same factor (through multiplication), 1 in this case.",
+        "block_id": "block_4"
+      },
+      {
+        "type": "explanation",
+        "text": "Since the widths and heights have changed by the same factor, the images look similar.",
+        "block_id": "block_5"
+      },
+      {
+        "type": "example",
+        "text": "Can you check by what factors the width and height of image D change as compared to image A? Are the factors the same?",
+        "block_id": "block_6"
+      },
+      {
+        "type": "definition",
+        "text": "We say that the changes to their widths and heights are proportional.",
+        "block_id": "block_7"
+      }
+    ],
+    "topic_id": "topic_1",
+    "chapter_name": "PROPORTIONAL REASONING-1"
+  },
+  {
+    "topic_name": "Ratios",
+    "unit": "hegp107",
+    "learning_objectives": [
+      "To understand the concept of ratios",
+      "To represent proportional relationships using ratios"
+    ],
+    "allowed_concepts": [
+      "Ratios",
+      "Proportional relationships",
+      "Representing proportional relationships using ratios"
+    ],
+    "disallowed_concepts": [
+      "Advanced calculus",
+      "Complex numbers"
+    ],
+    "content_blocks": [
+      {
+        "type": "explanation",
+        "text": "We use the notion of a ratio to represent such proportional relationships in mathematics.",
+        "block_id": "block_1"
+      },
+      {
+        "type": "example",
+        "text": "The ratio of width to height of image A is 60 : 40.",
+        "block_id": "block_2"
+      },
+      {
+        "type": "definition",
+        "text": "In a ratio of the form a : b, we can say that for every ‘a’ units of the first quantity, there are ‘b’ units of the second quantity.",
+        "block_id": "block_3"
+      }
+    ],
+    "topic_id": "topic_2",
+    "chapter_name": "PROPORTIONAL REASONING-1"
+  },
+  {
+    "topic_name": "Ratios in their Simplest Form",
+    "unit": "hegp107",
+    "learning_objectives": [
+      "To understand the concept of ratios in their simplest form",
+      "To reduce ratios to their simplest form",
+      "To reduce ratios to their simplest form by dividing the terms by their HCF.",
+      "To compare ratios by reducing them to their simplest form."
+    ],
+    "allowed_concepts": [
+      "Ratios in their simplest form",
+      "Reducing ratios to their simplest form",
+      "HCF",
+      "Ratios",
+      "Simplest Form"
+    ],
+    "disallowed_concepts": [
+      "Advanced calculus",
+      "Complex numbers"
+    ],
+    "content_blocks": [
+      {
+        "type": "explanation",
+        "text": "We can reduce ratios to their simplest form by dividing the terms by their HCF.",
+        "block_id": "block_1"
+      },
+      {
+        "type": "example",
+        "text": "In image A, the terms are 60 and 40. What is the HCF of 60 and 40? It is 20. Dividing the terms by 20, we get the ratio of image A to be 3 : 2 in its simplest form.",
+        "block_id": "block_2"
+      },
+      {
+        "type": "definition",
+        "text": "We can say that the ratios of images A and D are proportional as well.",
+        "block_id": "block_3"
+      },
+      {
+        "type": "example",
+        "text": "The ratio of image D is 90 : 60. Dividing both terms by 30 (HCF of 90 and 60), we get the simplest form to be 3 : 2. So the ratios of images A and D are proportional as well.",
+        "block_id": "block_4"
+      }
+    ],
+    "topic_id": "topic_3",
+    "chapter_name": "PROPORTIONAL REASONING-1"
+  },
+  {
+    "topic_name": "Proportional Ratios",
+    "unit": "hegp107",
+    "learning_objectives": [
+      "To understand what it means for two ratios to be proportional.",
+      "To use the '::' symbol to indicate that two ratios are proportional."
+    ],
+    "allowed_concepts": [
+      "Proportional Ratios",
+      "HCF"
+    ],
+    "disallowed_concepts": [
+      "Advanced calculus",
+      "Complex numbers"
+    ],
+    "content_blocks": [
+      {
+        "type": "definition",
+        "text": "When two ratios are the same in their simplest forms, we say that the ratios are in proportion, or that the ratios are proportional.",
+        "block_id": "block_1"
+      },
+      {
+        "type": "explanation",
+        "text": "We use the ‘::’ symbol to indicate that they are proportional. So a : b :: c : d indicates that the ratios a : b and c : d are proportional.",
+        "block_id": "block_2"
+      },
+      {
+        "type": "example",
+        "text": "Thus, 60 : 40 :: 30 : 20 and 60 : 40 :: 90 : 60.",
+        "block_id": "block_3"
+      }
+    ],
+    "topic_id": "topic_4",
+    "chapter_name": "PROPORTIONAL REASONING-1"
+  },
+  {
+    "topic_name": "Problem Solving with Proportional Reasoning",
+    "unit": "hegp107",
+    "learning_objectives": [
+      "To use proportional reasoning to solve problems.",
+      "To find the factor of change in a ratio."
+    ],
+    "allowed_concepts": [
+      "Proportional Reasoning",
+      "Factor of Change"
+    ],
+    "disallowed_concepts": [
+      "Advanced calculus",
+      "Complex numbers"
+    ],
+    "content_blocks": [
+      {
+        "type": "explanation",
+        "text": "To maintain the same sweetness, the ratio of the number of glasses of lemonade to the number of spoons of sugar should be proportional.",
+        "block_id": "block_1"
+      },
+      {
+        "type": "example",
+        "text": "We can model this problem as — 6 : 10 :: 18 : ? We know that each term in the ratio must change by the same factor, for the ratios to be proportional.",
+        "block_id": "block_2"
+      },
+      {
+        "type": "example",
+        "text": "The first term has increased from 6 to 18. To find the factor of change, we can divide 18 by 6 to get 3. Proportional Reasoning-1",
+        "block_id": "block_3"
+      }
+    ],
+    "topic_id": "topic_5",
+    "chapter_name": "PROPORTIONAL REASONING-1"
+  },
+  {
+    "topic_name": "Comparing Ratios",
+    "unit": "hegp107",
+    "learning_objectives": [
+      "To compare ratios by reducing them to their simplest form.",
+      "To determine if two ratios are proportional."
+    ],
+    "allowed_concepts": [
+      "Ratios",
+      "Simplest Form",
+      "Proportional"
+    ],
+    "disallowed_concepts": [
+      "Advanced calculus",
+      "Complex numbers"
+    ],
+    "content_blocks": [
+      {
+        "type": "explanation",
+        "text": "The ratio in Nitin’s case is 60 : 3, i.e., 20 : 1 (in its simplest form). The ratio in Hari’s case is 40 : 2, i.e., 20 : 1 (in its simplest form).",
+        "block_id": "block_1"
+      },
+      {
+        "type": "example",
+        "text": "Since both ratios are proportional, the walls are equally strong. Nitin should not worry!",
+        "block_id": "block_2"
+      }
+    ],
+    "topic_id": "topic_6",
+    "chapter_name": "PROPORTIONAL REASONING-1"
+  },
+  {
+    "topic_name": "Understanding Proportional Reasoning",
+    "unit": "hegp107",
+    "learning_objectives": [
+      "Understand the concept of proportional reasoning",
+      "Identify proportional relationships in real-life situations"
+    ],
+    "allowed_concepts": [
+      "Ratios and proportions",
+      "Similarity and congruence"
+    ],
+    "disallowed_concepts": [
+      "Advanced calculus",
+      "Complex numbers"
+    ],
+    "content_blocks": [
+      {
+        "type": "example",
+        "text": "6 : 10 :: 18 : 30. So, she should use 30 spoons of sugar to make 18 glasses of lemonade with the same sweetness as earlier.",
+        "block_id": "block_1"
+      },
+      {
+        "type": "explanation",
+        "text": "In Nitin and Hari’s case, we should compare the ratio of the length of the wall to the bags of cement used by each of them and see whether they are proportional.",
+        "block_id": "block_2"
+      },
+      {
+        "type": "example",
+        "text": "The ratio in Nitin’s case is 60 : 3, i.e., 20 : 1 (in its simplest form). The ratio in Hari’s case is 40 : 2, i.e., 20 : 1 (in its simplest form).",
+        "block_id": "block_3"
+      },
+      {
+        "type": "example",
+        "text": "Example 4: In my school, there are 5 teachers and 170 students. The ratio of teachers to students in my school is 5 : 170. Count the number of teachers and students in your school. What is the ratio of teachers to students in your school? Write it below.",
+        "block_id": "block_4"
+      },
+      {
+        "type": "example",
+        "text": "Example 5: Measure the width and height (to the nearest cm) of the blackboard in your classroom. What is the ratio of width to height of the blackboard?",
+        "block_id": "block_5"
+      },
+      {
+        "type": "example",
+        "text": "Example 6: When Neelima was 3 years old, her mother’s age was 10 times her age. What is the ratio of Neelima’s age to her mother’s age? What would be the ratio of their ages when Neelima is 12 years old? Would it remain the same?",
+        "block_id": "block_6"
+      },
+      {
+        "type": "example",
+        "text": "Example 7: Fill in the missing numbers for the following ratios that are proportional to 14 : 21.",
+        "block_id": "block_7"
+      },
+      {
+        "type": "explanation",
+        "text": "When we add (or subtract) the same number from the terms of a ratio, the ratio changes and is not necessarily proportional to the original ratio.",
+        "block_id": "block_8"
+      },
+      {
+        "type": "example",
+        "text": "Filter coffee is a beverage made by mixing coffee decoction with milk. Manjunath usually mixes 15 mL of coffee decoction with 35 mL of milk to make one cup of filter coffee in his coffee shop.",
+        "block_id": "block_9"
+      }
+    ],
+    "topic_id": "topic_7",
+    "chapter_name": "PROPORTIONAL REASONING-1"
+  },
+  {
+    "topic_name": "Proportional Reasoning",
+    "unit": "hegp107",
+    "learning_objectives": [
+      "To understand the concept of proportional reasoning",
+      "To apply proportional reasoning to solve problems",
+      "To use cross multiplication to find the unknown quantity"
+    ],
+    "allowed_concepts": [
+      "Equivalent ratios",
+      "Cross multiplication",
+      "Proportional reasoning"
+    ],
+    "disallowed_concepts": [
+      "Advanced calculus",
+      "Complex numbers"
+    ],
+    "content_blocks": [
+      {
+        "type": "definition",
+        "text": "Proportional reasoning is the ability to understand and apply the concept of proportionality to solve problems.",
+        "block_id": "block_1"
+      },
+      {
+        "type": "explanation",
+        "text": "To solve problems involving proportionality, we can model two proportional ratios using algebraic notation as a : b :: c : d.",
+        "block_id": "block_2"
+      },
+      {
+        "type": "example",
+        "text": "Example 8: For the mid-day meal in a school with 120 students, the cook usually makes 15 kg of rice. On a rainy day, only 80 students came to school. How many kilograms of rice should the cook make so that the food is not wasted?",
+        "block_id": "block_3"
+      },
+      {
+        "type": "explanation",
+        "text": "We can find the unknown quantity by using cross multiplication, which states that ad = bc.",
+        "block_id": "block_4"
+      },
+      {
+        "type": "example",
+        "text": "Example 9: A car travels 90 km in 150 minutes. If it continues at the same speed, what distance will it cover in 4 hours?",
+        "block_id": "block_5"
+      },
+      {
+        "type": "explanation",
+        "text": "We can model this proportion as 150 : 90 :: 240 : x and use cross multiplication to find the unknown quantity.",
+        "block_id": "block_6"
+      },
+      {
+        "type": "example",
+        "text": "Example 10: A small farmer in Himachal Pradesh sells each 200 g packet of tea for ₹200. A large estate in Meghalaya sells each 1 kg packet of tea for ₹800.",
+        "block_id": "block_7"
+      }
+    ],
+    "topic_id": "topic_8",
+    "chapter_name": "PROPORTIONAL REASONING-1"
+  },
+  {
+    "topic_name": "Proportional Reasoning with Ratios",
+    "unit": "hegp107",
+    "learning_objectives": [
+      "To understand the concept of proportional reasoning with ratios",
+      "To apply the rule of three to solve problems involving ratios"
+    ],
+    "allowed_concepts": [
+      "Equivalent ratios",
+      "Cross multiplication",
+      "Proportional reasoning"
+    ],
+    "disallowed_concepts": [
+      "Advanced calculus",
+      "Complex numbers"
+    ],
+    "content_blocks": [
+      {
+        "type": "explanation",
+        "text": "Is this the right way to formulate the question? No, because 150 is in minutes, but 4 is in hours. The second ratio should use the same units for time as the first ratio. Since 4 hours is 240 minutes, the right form is 150 : 90 :: 240 : ?",
+        "block_id": "block_1"
+      },
+      {
+        "type": "example",
+        "text": "How can you find the distance covered in 240 minutes? Discuss with your classmates and find the answer using different strategies.",
+        "block_id": "block_2"
+      },
+      {
+        "type": "explanation",
+        "text": "We can model this proportion as 150 : 90 :: 240 : x. By cross multiplication, we get 150 × x = 240 × 90",
+        "block_id": "block_3"
+      },
+      {
+        "type": "example",
+        "text": "Therefore, x = . 48 3 240 × 90 = = 144. The distance covered by the car in 4 hours is 144 km.",
+        "block_id": "block_4"
+      },
+      {
+        "type": "example",
+        "text": "Example 10: A small farmer in Himachal Pradesh sells each 200 g packet of tea for ₹200. A large estate in Meghalaya sells each 1 kg packet of tea for ₹800. Are the weight-to-price ratios in both places proportional?",
+        "block_id": "block_5"
+      },
+      {
+        "type": "explanation",
+        "text": "The ratio of weight to price of the Himachal tea is 200 : 200. What is the weight to price ratio of the Meghalaya tea? Is it 1 : 800? This would not be appropriate, because we considered the weight in grams in the case of Himachal.",
+        "block_id": "block_6"
+      },
+      {
+        "type": "example",
+        "text": "So, the weight to price ratio is 1000 : 800 in Meghalaya after we convert the weight to grams.",
+        "block_id": "block_7"
+      },
+      {
+        "type": "explanation",
+        "text": "To check if the ratios are proportional, we need to see if both ratios are the same in their simplest forms.",
+        "block_id": "block_8"
+      },
+      {
+        "type": "example",
+        "text": "The Himachal tea ratio in its simplest form is 1 : 1. The Meghalaya tea ratio in its simplest form is 5 : 4. So, the ratios are not proportional.",
+        "block_id": "block_9"
+      },
+      {
+        "type": "example",
+        "text": "Which tea is more expensive? Why? Note to the Teacher: Encourage a discussion on the more expensive tea, how they came to their conclusions and what the reasons for that tea being more expensive could be.",
+        "block_id": "block_10"
+      },
+      {
+        "type": "explanation",
+        "text": "To answer the question as to which tea is more expensive, we should compare the price of tea for the same weight in both places.",
+        "block_id": "block_11"
+      },
+      {
+        "type": "example",
+        "text": "What is the price of 1 kg of tea from Meghalaya? It is ₹800. In Himachal, if 200 g of tea costs rupees 200, what is the cost of 1 kg of tea?",
+        "block_id": "block_12"
+      },
+      {
+        "type": "example",
+        "text": "Let us say that the price of 1 kg of tea is x rupees. 200 g is of 1 kg. So, × x = 200. Multiplying both sides by 5, we get × x × 5 = 200 × 5",
+        "block_id": "block_13"
+      },
+      {
+        "type": "example",
+        "text": "× x × 5 = 1000. x = 1000. So, the cost of 1 kg of tea is ₹800 in Meghalaya and ₹1,000 in Himachal Pradesh.",
+        "block_id": "block_14"
+      },
+      {
+        "type": "example",
+        "text": "Therefore, the tea from Himachal Pradesh is more expensive.",
+        "block_id": "block_15"
+      }
+    ],
+    "topic_id": "topic_9",
+    "chapter_name": "PROPORTIONAL REASONING-1"
+  },
+  {
+    "topic_name": "Sharing Counters in Different Ratios",
+    "unit": "hegp107",
+    "learning_objectives": [
+      "To understand the concept of sharing counters in different ratios",
+      "To identify the ratio of counters when shared equally and unequally"
+    ],
+    "allowed_concepts": [
+      "Ratios",
+      "Sharing counters in different ratios"
+    ],
+    "disallowed_concepts": [
+      "Advanced calculus",
+      "Complex numbers"
+    ],
+    "content_blocks": [
+      {
+        "type": "definition",
+        "text": "When we divide a certain number of counters between two people in different ways, we can observe that the ratio of the counters with each person can be different.",
+        "block_id": "block_1"
+      },
+      {
+        "type": "explanation",
+        "text": "If we divide the counters equally, the ratio of the counters with each person is 1:1. However, if we divide them unequally, the ratio can be different, such as 5:7.",
+        "block_id": "block_2"
+      },
+      {
+        "type": "example",
+        "text": "For instance, if we have 12 counters and want to share them in the ratio of 3:1, one person can get 9 counters and the other person can get 3 counters.",
+        "block_id": "block_3"
+      },
+      {
+        "type": "explanation",
+        "text": "We can also represent the ratio of counters as a fraction, such as 9:3 or 3:1. This shows that the ratio of counters is the same as the ratio of the number of counters with each person.",
+        "block_id": "block_4"
+      }
+    ],
+    "topic_id": "topic_10",
+    "chapter_name": "PROPORTIONAL REASONING-1"
+  },
+  {
+    "topic_name": "Activity 2: Creating a Table for Shampoo Containers",
+    "unit": "hegp107",
+    "learning_objectives": [
+      "To understand the concept of proportionality between volume and price of shampoo containers",
+      "To create a table to compare the ratios of volume and price of different shampoo containers"
+    ],
+    "allowed_concepts": [
+      "Proportionality",
+      "Ratios"
+    ],
+    "disallowed_concepts": [
+      "Advanced calculus",
+      "Complex numbers"
+    ],
+    "content_blocks": [
+      {
+        "type": "definition",
+        "text": "Proportionality refers to the relationship between two quantities that are in the same ratio.",
+        "block_id": "block_1"
+      },
+      {
+        "type": "example",
+        "text": "For example, if the volume of a sachet of shampoo is 6 mL and its price is ₹2, and the volume of a small bottle is 180 mL and its price is ₹154, we can compare the ratios of volume and price to determine if they are proportional.",
+        "block_id": "block_2"
+      },
+      {
+        "type": "explanation",
+        "text": "To determine if the ratios are proportional, we can calculate the ratio of the volume of the sachet to the small bottle and the ratio of their prices. If the ratios are equal, then the volume and price are proportional.",
+        "block_id": "block_3"
+      }
+    ],
+    "topic_id": "topic_11",
+    "chapter_name": "PROPORTIONAL REASONING-1"
+  },
+  {
+    "topic_name": "Activity 3: Sharing Counters in Different Ways",
+    "unit": "hegp107",
+    "learning_objectives": [
+      "To understand the concept of sharing counters in different ways",
+      "To identify the ratio of counters when shared in different ways"
+    ],
+    "allowed_concepts": [
+      "Ratios",
+      "Sharing counters in different ways"
+    ],
+    "disallowed_concepts": [
+      "Advanced calculus",
+      "Complex numbers"
+    ],
+    "content_blocks": [
+      {
+        "type": "definition",
+        "text": "When we share counters in different ways, we can observe that the ratio of the counters with each person can be different.",
+        "block_id": "block_1"
+      },
+      {
+        "type": "example",
+        "text": "For instance, if we have 12 counters and want to share them in the ratio of 3:1, one person can get 9 counters and the other person can get 3 counters.",
+        "block_id": "block_2"
+      },
+      {
+        "type": "explanation",
+        "text": "We can also represent the ratio of counters as a fraction, such as 9:3 or 3:1. This shows that the ratio of counters is the same as the ratio of the number of counters with each person.",
+        "block_id": "block_3"
+      }
+    ],
+    "topic_id": "topic_12",
+    "chapter_name": "PROPORTIONAL REASONING-1"
+  },
+  {
+    "topic_name": "Sharing Counters in a Specified Ratio",
+    "unit": "hegp107",
+    "learning_objectives": [
+      "To understand the concept of sharing counters in a specified ratio",
+      "To learn how to divide a quantity in a specified ratio"
+    ],
+    "allowed_concepts": [
+      "Ratios and proportions",
+      "Division of quantities in a specified ratio"
+    ],
+    "disallowed_concepts": [
+      "Advanced calculus",
+      "Complex numbers"
+    ],
+    "content_blocks": [
+      {
+        "type": "explanation",
+        "text": "The ratio of the counters of your partner to yours is 5 : 7. Now, if you want to share the counters between the two of you in the ratio of 3 : 1, how many counters would each of you get?",
+        "block_id": "block_1"
+      },
+      {
+        "type": "example",
+        "text": "One way to share the counters in the ratio of 3 : 1 is as follows — 1. Your partner takes 3 counters and you take 1 counter. There are now 8 counters left. 2. Your partner takes 3 more counters and you take 1 more counter. There are now 4 counters left. 3. Your partner takes 3 more counters and you take 1 more counter. There are no more counters left. So, your partner gets 9 counters in total and you get 3 counters.",
+        "block_id": "block_2"
+      },
+      {
+        "type": "explanation",
+        "text": "When we divide 12 counters in the ratio of 3 : 1 between two people, one gets 9 counters and the other gets 3 counters.",
+        "block_id": "block_3"
+      },
+      {
+        "type": "definition",
+        "text": "The ‛whole’ is 12 Sharing 12 The ‛whole’ is 4 (= 3 + 1) 3 : 1 in the ratio 3 : 1 and 12 is 3 times 4 × 3 × 3 The ‛parts’ are 9 : 3 3 times the ratio 3 : 1",
+        "block_id": "block_4"
+      },
+      {
+        "type": "example",
+        "text": "Now, if you want to share 42 counters between the two of you in the ratio of 4 : 3, how will you do it?",
+        "block_id": "block_5"
+      },
+      {
+        "type": "explanation",
+        "text": "You need to divide 42 into groups such that your partner gets 4 groups and you get 3 groups. What is the size of each group?",
+        "block_id": "block_6"
+      },
+      {
+        "type": "example",
+        "text": "If your partner gets 4 groups and you get 3 groups, the total number of groups is 7. So, the size of each group is 42 ÷ 7 = 6.",
+        "block_id": "block_7"
+      },
+      {
+        "type": "explanation",
+        "text": "Multiplying the number of groups by the size of each group, your partner gets 24 counters and you get 18 counters, when you share 42 counters in the ratio of 4 : 3.",
+        "block_id": "block_8"
+      },
+      {
+        "type": "definition",
+        "text": "42 The ‛whole’ is 42 Sharing 42 The ‛whole’ is 7 (= 4 + 3) 4 : 3 in the ratio 4 : 3 and 42 is 6 times 7 × 6 × 6 The ‛parts’ are 24 : 18 6 times the ratio 4 : 3",
+        "block_id": "block_9"
+      },
+      {
+        "type": "explanation",
+        "text": "In general, when we want to divide a quantity, say x, in the ratio m: n, we do the following: 1. We need to split x into groups such that it can be divided into two parts where the first part has m groups and the second part has n groups. 2. But what is the size of each group? This can be found out by dividing x by the number of groups. The number of groups are m + n. So, the size of each group is x . m + n 3. So, the first part has m × x objects and the second part has n × x m + n m + n objects.",
+        "block_id": "block_10"
+      },
+      {
+        "type": "example",
+        "text": "Thus, if we want to divide a quantity x in the ratio of m: n, then the parts will be m × x and n × x . We see that m + n m + n m × x : n × x :: m : n. m + n m + n",
+        "block_id": "block_11"
+      },
+      {
+        "type": "example",
+        "text": "Example 11: Prashanti and Bhuvan started a food cart business near their school. Prashanti invested ₹75,000 and Bhuvan invested ₹25,000. At the end of the first month, they gained a profit of ₹4,000. They decided that they would share the profit in the same ratio as that of their investment. What is each person’s share of the profit?",
+        "block_id": "block_12"
+      },
+      {
+        "type": "example",
+        "text": "The ratio of their investment is 75000 : 25000. Reducing this ratio to its simplest form, we get 3 : 1. 3 + 1 is 4 and dividing the profit of 4000 by 4, we get 1000. So, Prashanti’s share is 3 × 1000 and Bhuvan’s share is 1 × 1000. So, Prashanti would get ₹3,000 and Bhuvan would get ₹1,000 of the profit.",
+        "block_id": "block_13"
+      },
+      {
+        "type": "example",
+        "text": "Example 12: A mixture of 40 kg contains sand and cement in the ratio of 3 : 1. How much cement should be added to the mixture to make the ratio of sand to cement 5 : 2?",
+        "block_id": "block_14"
+      },
+      {
+        "type": "example",
+        "text": "Let us find the quantity of sand and cement in the original mixture. The ratio is 3 : 1 and the total weight is 40 kg. So, the weight of sand is × 40 = 30 kg. (3 + 1) The weight of cement is × 40 = 10 kg. (3 + 1) The weight of sand is the same in the new mixture. It remains 30. But the new ratio of sand to cement is 5 : 2. So the question is, 5 : 2 :: 30 : ?",
+        "block_id": "block_15"
+      },
+      {
+        "type": "example",
+        "text": "If the ratio is 5 : 2, then the second term is times the first term. Since the new ratio is equivalent to 5 : 2, the second term in the new ratio should also be 2 times of 30. 2 × 30 = 12. The new mixture should have 12 kg of cement if the ratio of sand to cement is to be 5 : 2. There is 10 kg of cement already.",
+        "block_id": "block_16"
+      }
+    ],
+    "topic_id": "topic_13",
+    "chapter_name": "PROPORTIONAL REASONING-1"
+  },
+  {
+    "topic_name": "Sharing Profit",
+    "unit": "hegp107",
+    "learning_objectives": [
+      "To understand the concept of sharing profit in the ratio of their investments.",
+      "To apply the concept of sharing profit in real-life scenarios."
+    ],
+    "allowed_concepts": [
+      "Ratio and proportion",
+      "Sharing profit"
+    ],
+    "disallowed_concepts": [
+      "Advanced calculus",
+      "Complex numbers"
+    ],
+    "content_blocks": [
+      {
+        "type": "definition",
+        "text": "Hanti’s share is 3 × 1000 and Bhuvan’s share is 1 × 1000.",
+        "block_id": "block_1"
+      },
+      {
+        "type": "explanation",
+        "text": "So, Prashanti would get ₹3,000 and Bhuvan would get ₹1,000 of the profit.",
+        "block_id": "block_2"
+      },
+      {
+        "type": "example",
+        "text": "Example 12: A mixture of 40 kg contains sand and cement in the ratio of 3 : 1. How much cement should be added to the mixture to make the ratio of sand to cement 5 : 2?",
+        "block_id": "block_3"
+      },
+      {
+        "type": "explanation",
+        "text": "The weight of sand is × 40 = 30 kg. (3 + 1)",
+        "block_id": "block_4"
+      },
+      {
+        "type": "explanation",
+        "text": "The weight of cement is × 40 = 10 kg. (3 + 1)",
+        "block_id": "block_5"
+      },
+      {
+        "type": "example",
+        "text": "If the ratio is 5 : 2, then the second term is times the first term. Since the new ratio is equivalent to 5 : 2, the second term in the new ratio should also be 2 times of 30.",
+        "block_id": "block_6"
+      },
+      {
+        "type": "explanation",
+        "text": "The new mixture should have 12 kg of cement if the ratio of sand to cement is to be 5 : 2.",
+        "block_id": "block_7"
+      },
+      {
+        "type": "example",
+        "text": "There is 10 kg of cement already. So, we need to add 2 kg of cement to the original mixture.",
+        "block_id": "block_8"
+      }
+    ],
+    "topic_id": "topic_14",
+    "chapter_name": "PROPORTIONAL REASONING-1"
+  },
+  {
+    "topic_name": "Mixtures and Ratios",
+    "unit": "hegp107",
+    "learning_objectives": [
+      "To understand the concept of mixtures and ratios.",
+      "To apply the concept of mixtures and ratios in real-life scenarios."
+    ],
+    "allowed_concepts": [
+      "Mixtures and ratios",
+      "Proportional reasoning"
+    ],
+    "disallowed_concepts": [
+      "Advanced calculus",
+      "Complex numbers"
+    ],
+    "content_blocks": [
+      {
+        "type": "example",
+        "text": "Example 12: A mixture of 40 kg contains sand and cement in the ratio of 3 : 1. How much cement should be added to the mixture to make the ratio of sand to cement 5 : 2?",
+        "block_id": "block_1"
+      },
+      {
+        "type": "explanation",
+        "text": "The weight of sand is × 40 = 30 kg. (3 + 1)",
+        "block_id": "block_2"
+      },
+      {
+        "type": "explanation",
+        "text": "The weight of cement is × 40 = 10 kg. (3 + 1)",
+        "block_id": "block_3"
+      },
+      {
+        "type": "example",
+        "text": "If the ratio is 5 : 2, then the second term is times the first term. Since the new ratio is equivalent to 5 : 2, the second term in the new ratio should also be 2 times of 30.",
+        "block_id": "block_4"
+      },
+      {
+        "type": "explanation",
+        "text": "The new mixture should have 12 kg of cement if the ratio of sand to cement is to be 5 : 2.",
+        "block_id": "block_5"
+      },
+      {
+        "type": "example",
+        "text": "There is 10 kg of cement already. So, we need to add 2 kg of cement to the original mixture.",
+        "block_id": "block_6"
+      }
+    ],
+    "topic_id": "topic_15",
+    "chapter_name": "PROPORTIONAL REASONING-1"
+  },
+  {
+    "topic_name": "Unit Conversions",
+    "unit": "hegp107",
+    "learning_objectives": [
+      "To understand the concept of unit conversions.",
+      "To apply the concept of unit conversions in real-life scenarios."
+    ],
+    "allowed_concepts": [
+      "Unit conversions",
+      "Proportional reasoning"
+    ],
+    "disallowed_concepts": [
+      "Advanced calculus",
+      "Complex numbers"
+    ],
+    "content_blocks": [
+      {
+        "type": "definition",
+        "text": "1 metre = 3.281 feet",
+        "block_id": "block_1"
+      },
+      {
+        "type": "definition",
+        "text": "1 square metre = 10.764 square feet",
+        "block_id": "block_2"
+      },
+      {
+        "type": "definition",
+        "text": "1 acre = 43,560 square feet",
+        "block_id": "block_3"
+      },
+      {
+        "type": "definition",
+        "text": "1 hectare = 10,000 square metres",
+        "block_id": "block_4"
+      },
+      {
+        "type": "definition",
+        "text": "1 hectare = 2.471 acres",
+        "block_id": "block_5"
+      },
+      {
+        "type": "definition",
+        "text": "1 millilitre (mL) = 1 cubic centimetre (cc)",
+        "block_id": "block_6"
+      },
+      {
+        "type": "definition",
+        "text": "1 litre = 1,000 mL or 1,000 cc",
+        "block_id": "block_7"
+      },
+      {
+        "type": "definition",
+        "text": "Temperature conversion between Fahrenheit and Celsius is a bit more complicated.",
+        "block_id": "block_8"
+      },
+      {
+        "type": "definition",
+        "text": "0oC = 32 oF",
+        "block_id": "block_9"
+      },
+      {
+        "type": "definition",
+        "text": "Fahrenheit = × Celsius + 32",
+        "block_id": "block_10"
+      },
+      {
+        "type": "definition",
+        "text": "Celsius = × (Fahrenheit–32)",
+        "block_id": "block_11"
+      },
+      {
+        "type": "example",
+        "text": "For example, 25 oC is 77 oF.",
+        "block_id": "block_12"
+      }
+    ],
+    "topic_id": "topic_16",
+    "chapter_name": "PROPORTIONAL REASONING-1"
+  },
+  {
+    "topic_name": "Ratios and Proportions",
+    "unit": "hegp107",
+    "learning_objectives": [
+      "To understand the concept of ratios and proportions.",
+      "To apply the concept of ratios and proportions in real-life scenarios."
+    ],
+    "allowed_concepts": [
+      "Ratios and proportions",
+      "Proportional reasoning"
+    ],
+    "disallowed_concepts": [
+      "Advanced calculus",
+      "Complex numbers"
+    ],
+    "content_blocks": [
+      {
+        "type": "example",
+        "text": "Example 12: A mixture of 40 kg contains sand and cement in the ratio of 3 : 1. How much cement should be added to the mixture to make the ratio of sand to cement 5 : 2?",
+        "block_id": "block_1"
+      },
+      {
+        "type": "explanation",
+        "text": "The weight of sand is × 40 = 30 kg. (3 + 1)",
+        "block_id": "block_2"
+      },
+      {
+        "type": "explanation",
+        "text": "The weight of cement is × 40 = 10 kg. (3 + 1)",
+        "block_id": "block_3"
+      },
+      {
+        "type": "example",
+        "text": "If the ratio is 5 : 2, then the second term is times the first term. Since the new ratio is equivalent to 5 : 2, the second term in the new ratio should also be 2 times of 30.",
+        "block_id": "block_4"
+      },
+      {
+        "type": "explanation",
+        "text": "The new mixture should have 12 kg of cement if the ratio of sand to cement is to be 5 : 2.",
+        "block_id": "block_5"
+      },
+      {
+        "type": "example",
+        "text": "There is 10 kg of cement already. So, we need to add 2 kg of cement to the original mixture.",
+        "block_id": "block_6"
+      }
+    ],
+    "topic_id": "topic_17",
+    "chapter_name": "PROPORTIONAL REASONING-1"
+  },
+  {
+    "topic_name": "Mixing Paints",
+    "unit": "hegp107",
+    "learning_objectives": [
+      "To understand the concept of mixing paints.",
+      "To apply the concept of mixing paints in real-life scenarios."
+    ],
+    "allowed_concepts": [
+      "Mixing paints",
+      "Proportional reasoning"
+    ],
+    "disallowed_concepts": [
+      "Advanced calculus",
+      "Complex numbers"
+    ],
+    "content_blocks": [
+      {
+        "type": "example",
+        "text": "Blue and yellow paints are mixed in the ratio of 3 : 5 to produce green paint. To produce 40 mL of green paint, how much of these two colours are needed?",
+        "block_id": "block_1"
+      },
+      {
+        "type": "example",
+        "text": "To make the paint a lighter shade of green, I added 20 mL of yellow to the mixture. What is the new ratio of blue and yellow in the paint?",
+        "block_id": "block_2"
+      }
+    ],
+    "topic_id": "topic_18",
+    "chapter_name": "PROPORTIONAL REASONING-1"
+  },
+  {
+    "topic_name": "Mixing Rice and Urad Dal",
+    "unit": "hegp107",
+    "learning_objectives": [
+      "To understand the concept of mixing rice and urad dal.",
+      "To apply the concept of mixing rice and urad dal in real-life scenarios."
+    ],
+    "allowed_concepts": [
+      "Mixing rice and urad dal",
+      "Proportional reasoning"
+    ],
+    "disallowed_concepts": [
+      "Advanced calculus",
+      "Complex numbers"
+    ],
+    "content_blocks": [
+      {
+        "type": "example",
+        "text": "To make soft idlis, you need to mix rice and urad dal in the ratio of 2 : 1. If you need 6 cups of this mixture to make idlis tomorrow morning, how many cups of rice and urad dal will you need?",
+        "block_id": "block_1"
+      }
+    ],
+    "topic_id": "topic_19",
+    "chapter_name": "PROPORTIONAL REASONING-1"
+  },
+  {
+    "topic_name": "Mixing Orange Juice and Apple Juice",
+    "unit": "hegp107",
+    "learning_objectives": [
+      "To understand the concept of mixing orange juice and apple juice.",
+      "To apply the concept of mixing orange juice and apple juice in real-life scenarios."
+    ],
+    "allowed_concepts": [
+      "Mixing orange juice and apple juice",
+      "Proportional reasoning"
+    ],
+    "disallowed_concepts": [
+      "Advanced calculus",
+      "Complex numbers"
+    ],
+    "content_blocks": [
+      {
+        "type": "example",
+        "text": "Anagh mixes 600 mL of orange juice with 900 mL of apple juice to make a fruit drink. Write the ratio of orange juice to apple juice in its simplest form.",
+        "block_id": "block_1"
+      }
+    ],
+    "topic_id": "topic_20",
+    "chapter_name": "PROPORTIONAL REASONING-1"
+  },
+  {
+    "topic_name": "Buses and Students",
+    "unit": "hegp107",
+    "learning_objectives": [
+      "To understand the concept of buses and students.",
+      "To apply the concept of buses and students in real-life scenarios."
+    ],
+    "allowed_concepts": [
+      "Buses and students",
+      "Proportional reasoning"
+    ],
+    "disallowed_concepts": [
+      "Advanced calculus",
+      "Complex numbers"
+    ],
+    "content_blocks": [
+      {
+        "type": "example",
+        "text": "Last year, we hired 3 buses for the school trip. We had a total of 162 students and teachers who went on that trip and all the buses were full. This year we have 204 students. How many buses will we need? Will all the buses be full?",
+        "block_id": "block_1"
+      }
+    ],
+    "topic_id": "topic_21",
+    "chapter_name": "PROPORTIONAL REASONING-1"
+  },
+  {
+    "topic_name": "Crowded Cities",
+    "unit": "hegp107",
+    "learning_objectives": [
+      "To understand the concept of crowded cities.",
+      "To apply the concept of crowded cities in real-life scenarios."
+    ],
+    "allowed_concepts": [
+      "Crowded cities",
+      "Proportional reasoning"
+    ],
+    "disallowed_concepts": [
+      "Advanced calculus",
+      "Complex numbers"
+    ],
+    "content_blocks": [
+      {
+        "type": "example",
+        "text": "The area of Delhi is 1,484 sq. km and the area of Mumbai is 550 sq. km. The population of Delhi is approximately 30 million and that of Mumbai is 20 million people. Which city is more crowded? Why do you say so?",
+        "block_id": "block_1"
+      }
+    ],
+    "topic_id": "topic_22",
+    "chapter_name": "PROPORTIONAL REASONING-1"
+  },
+  {
+    "topic_name": "Crane Height",
+    "unit": "hegp107",
+    "learning_objectives": [
+      "To understand the concept of crane height.",
+      "To apply the concept of crane height in real-life scenarios."
+    ],
+    "allowed_concepts": [
+      "Crane height",
+      "Proportional reasoning"
+    ],
+    "disallowed_concepts": [
+      "Advanced calculus",
+      "Complex numbers"
+    ],
+    "content_blocks": [
+      {
+        "type": "example",
+        "text": "A crane of height 155 cm has its neck and the rest of its body in the ratio 4 : 6. For your height, if your neck and the rest of the body also had this ratio, how tall would your neck be?",
+        "block_id": "block_1"
+      }
+    ],
+    "topic_id": "topic_23",
+    "chapter_name": "PROPORTIONAL REASONING-1"
+  },
+  {
+    "topic_name": "Saffron and Niskas",
+    "unit": "hegp107",
+    "learning_objectives": [
+      "To understand the concept of saffron and niskas.",
+      "To apply the concept of saffron and niskas in real-life scenarios."
+    ],
+    "allowed_concepts": [
+      "Saffron and niskas",
+      "Proportional reasoning"
+    ],
+    "disallowed_concepts": [
+      "Advanced calculus",
+      "Complex numbers"
+    ],
+    "content_blocks": [
+      {
+        "type": "example",
+        "text": "‘If 2 palas of saffron costs niskas, O expert businessman! tell me quickly what quantity of saffron can be bought for 9 niskas?’",
+        "block_id": "block_1"
+      }
+    ],
+    "topic_id": "topic_24",
+    "chapter_name": "PROPORTIONAL REASONING-1"
+  },
+  {
+    "topic_name": "Harmain's Age",
+    "unit": "hegp107",
+    "learning_objectives": [
+      "To understand the concept of Harmain's age.",
+      "To apply the concept of Harmain's age in real-life scenarios."
+    ],
+    "allowed_concepts": [
+      "Harmain's age",
+      "Proportional reasoning"
+    ],
+    "disallowed_concepts": [
+      "Advanced calculus",
+      "Complex numbers"
+    ],
+    "content_blocks": [
+      {
+        "type": "example",
+        "text": "Harmain is a 1-year-old girl. Her elder brother is 5 years old. What will be Harmain’s age when the ratio of her age to her brother’s age is 1 : 2?",
+        "block_id": "block_1"
+      }
+    ],
+    "topic_id": "topic_25",
+    "chapter_name": "PROPORTIONAL REASONING-1"
+  },
+  {
+    "topic_name": "Comparing the Crowding of Cities",
+    "unit": "hegp107",
+    "learning_objectives": [
+      "To compare the crowding of cities using their areas and populations.",
+      "To understand the concept of population density."
+    ],
+    "allowed_concepts": [
+      "Population density",
+      "Area of cities"
+    ],
+    "disallowed_concepts": [
+      "Advanced calculus",
+      "Complex numbers"
+    ],
+    "content_blocks": [
+      {
+        "type": "explanation",
+        "text": "The area of Delhi is 1,484 sq. km and the area of Mumbai is 550 sq. km. The population of Delhi is approximately 30 million and that of Mumbai is 20 million people.",
+        "block_id": "block_1"
+      },
+      {
+        "type": "example",
+        "text": "Which city is more crowded? Why do you say so?",
+        "block_id": "block_2"
+      }
+    ],
+    "topic_id": "topic_26",
+    "chapter_name": "PROPORTIONAL REASONING-1"
+  },
+  {
+    "topic_name": "Ratio of Neck and Body Height",
+    "unit": "hegp107",
+    "learning_objectives": [
+      "To understand the concept of ratio and proportion.",
+      "To apply the concept of ratio and proportion to real-life situations."
+    ],
+    "allowed_concepts": [
+      "Ratio and proportion"
+    ],
+    "disallowed_concepts": [
+      "Advanced calculus",
+      "Complex numbers"
+    ],
+    "content_blocks": [
+      {
+        "type": "definition",
+        "text": "A crane of height 155 cm has its neck and the rest of its body in the ratio 4 : 6.",
+        "block_id": "block_1"
+      },
+      {
+        "type": "example",
+        "text": "For your height, if your neck and the rest of the body also had this ratio, how tall would your neck be?",
+        "block_id": "block_2"
+      }
+    ],
+    "topic_id": "topic_27",
+    "chapter_name": "PROPORTIONAL REASONING-1"
+  },
+  {
+    "topic_name": "Ancient Problem from Lilavati",
+    "unit": "hegp107",
+    "learning_objectives": [
+      "To understand the concept of ratio and proportion in ancient times.",
+      "To apply the concept of ratio and proportion to solve problems."
+    ],
+    "allowed_concepts": [
+      "Ratio and proportion"
+    ],
+    "disallowed_concepts": [
+      "Advanced calculus",
+      "Complex numbers"
+    ],
+    "content_blocks": [
+      {
+        "type": "explanation",
+        "text": "‘If 2 palas of saffron costs niskas, O expert businessman! tell me quickly what quantity of saffron can be bought for 9 niskas?’",
+        "block_id": "block_1"
+      },
+      {
+        "type": "example",
+        "text": "Let us try an ancient problem from Lilavati.",
+        "block_id": "block_2"
+      }
+    ],
+    "topic_id": "topic_28",
+    "chapter_name": "PROPORTIONAL REASONING-1"
+  },
+  {
+    "topic_name": "Ratio of Ages",
+    "unit": "hegp107",
+    "learning_objectives": [
+      "To understand the concept of ratio and proportion.",
+      "To apply the concept of ratio and proportion to real-life situations."
+    ],
+    "allowed_concepts": [
+      "Ratio and proportion"
+    ],
+    "disallowed_concepts": [
+      "Advanced calculus",
+      "Complex numbers"
+    ],
+    "content_blocks": [
+      {
+        "type": "example",
+        "text": "Harmain is a 1-year-old girl. Her elder brother is 5 years old. What will be Harmain’s age when the ratio of her age to her brother’s age is 1 : 2?",
+        "block_id": "block_1"
+      }
+    ],
+    "topic_id": "topic_29",
+    "chapter_name": "PROPORTIONAL REASONING-1"
+  },
+  {
+    "topic_name": "Mass of Gold and Water",
+    "unit": "hegp107",
+    "learning_objectives": [
+      "To understand the concept of mass and density.",
+      "To apply the concept of mass and density to real-life situations."
+    ],
+    "allowed_concepts": [
+      "Mass and density"
+    ],
+    "disallowed_concepts": [
+      "Advanced calculus",
+      "Complex numbers"
+    ],
+    "content_blocks": [
+      {
+        "type": "explanation",
+        "text": "The mass of equal volumes of gold and water are in the ratio 37 : 2.",
+        "block_id": "block_1"
+      },
+      {
+        "type": "example",
+        "text": "If 1 litre of water is 1 kg in mass, what is the mass of 1 litre of gold?",
+        "block_id": "block_2"
+      }
+    ],
+    "topic_id": "topic_30",
+    "chapter_name": "PROPORTIONAL REASONING-1"
+  },
+  {
+    "topic_name": "Manure for Farming",
+    "unit": "hegp107",
+    "learning_objectives": [
+      "To understand the concept of ratio and proportion.",
+      "To apply the concept of ratio and proportion to real-life situations."
+    ],
+    "allowed_concepts": [
+      "Ratio and proportion"
+    ],
+    "disallowed_concepts": [
+      "Advanced calculus",
+      "Complex numbers"
+    ],
+    "content_blocks": [
+      {
+        "type": "example",
+        "text": "It is good farming practice to apply 10 tonnes of cow manure for 1 acre of land. A farmer is planning to grow tomatoes in a plot of size 200 ft by 500 ft. How much manure should he buy?",
+        "block_id": "block_1"
+      }
+    ],
+    "topic_id": "topic_31",
+    "chapter_name": "PROPORTIONAL REASONING-1"
+  },
+  {
+    "topic_name": "Time to Fill a Bucket",
+    "unit": "hegp107",
+    "learning_objectives": [
+      "To understand the concept of ratio and proportion.",
+      "To apply the concept of ratio and proportion to real-life situations."
+    ],
+    "allowed_concepts": [
+      "Ratio and proportion"
+    ],
+    "disallowed_concepts": [
+      "Advanced calculus",
+      "Complex numbers"
+    ],
+    "content_blocks": [
+      {
+        "type": "example",
+        "text": "A tap takes 15 seconds to fill a mug of water. The volume of the mug is 500 mL. How much time does the same tap take to fill a bucket of water if the bucket has a 10-litre capacity?",
+        "block_id": "block_1"
+      }
+    ],
+    "topic_id": "topic_32",
+    "chapter_name": "PROPORTIONAL REASONING-1"
+  },
+  {
+    "topic_name": "Cost of Land",
+    "unit": "hegp107",
+    "learning_objectives": [
+      "To understand the concept of ratio and proportion.",
+      "To apply the concept of ratio and proportion to real-life situations."
+    ],
+    "allowed_concepts": [
+      "Ratio and proportion"
+    ],
+    "disallowed_concepts": [
+      "Advanced calculus",
+      "Complex numbers"
+    ],
+    "content_blocks": [
+      {
+        "type": "example",
+        "text": "One acre of land costs ₹15,00,000. What is the cost of 2,400 square feet of the same land?",
+        "block_id": "block_1"
+      }
+    ],
+    "topic_id": "topic_33",
+    "chapter_name": "PROPORTIONAL REASONING-1"
+  },
+  {
+    "topic_name": "Time to Plough a Field",
+    "unit": "hegp107",
+    "learning_objectives": [
+      "To understand the concept of ratio and proportion.",
+      "To apply the concept of ratio and proportion to real-life situations."
+    ],
+    "allowed_concepts": [
+      "Ratio and proportion"
+    ],
+    "disallowed_concepts": [
+      "Advanced calculus",
+      "Complex numbers"
+    ],
+    "content_blocks": [
+      {
+        "type": "example",
+        "text": "A tractor can plough the same area of a field 4 times faster than a pair of oxen. A farmer wants to plough his 20-acre field. A pair of oxen takes 6 hours to plough an acre of land. How much time would it take if the farmer used a pair of oxen to plough the field? How much time would it take him if he decides to use a tractor instead?",
+        "block_id": "block_1"
+      }
+    ],
+    "topic_id": "topic_34",
+    "chapter_name": "PROPORTIONAL REASONING-1"
+  },
+  {
+    "topic_name": "Cost of Metals in a Coin",
+    "unit": "hegp107",
+    "learning_objectives": [
+      "To understand the concept of ratio and proportion.",
+      "To apply the concept of ratio and proportion to real-life situations."
+    ],
+    "allowed_concepts": [
+      "Ratio and proportion"
+    ],
+    "disallowed_concepts": [
+      "Advanced calculus",
+      "Complex numbers"
+    ],
+    "content_blocks": [
+      {
+        "type": "example",
+        "text": "The ₹10 coin is an alloy of copper and nickel called ‘cupro-nickel’. Copper and nickel are mixed in a 3 : 1 ratio to get this alloy. The mass of the coin is 7.74 grams. If the cost of copper is ₹906 per kg and the cost of nickel is ₹1,341 per kg, what is the cost of these metals in a ₹10 coin?",
+        "block_id": "block_1"
+      }
+    ],
+    "topic_id": "topic_35",
+    "chapter_name": "PROPORTIONAL REASONING-1"
+  },
+  {
+    "topic_name": "Ratios and Proportional Reasoning",
+    "unit": "hegp107",
+    "learning_objectives": [
+      "To understand the concept of ratios and proportional reasoning.",
+      "To apply the concept of ratios and proportional reasoning to real-life situations."
+    ],
+    "allowed_concepts": [
+      "Ratios and proportional reasoning"
+    ],
+    "disallowed_concepts": [
+      "Advanced calculus",
+      "Complex numbers"
+    ],
+    "content_blocks": [
+      {
+        "type": "definition",
+        "text": "Ratios in the form of a : b indicate that for every ‘a’ unit of the first quantity, there are ‘b’ units of the second quantity.",
+        "block_id": "block_1"
+      },
+      {
+        "type": "definition",
+        "text": "Two ratios — a : b and c : d — are proportional (written a : b :: c : d) if their terms change by the same factor, i.e., if ad = bc.",
+        "block_id": "block_2"
+      },
+      {
+        "type": "definition",
+        "text": "If x is divided into two parts in the ratio m : n, then the quantity of the first part is m × x and the quantity of the second part is n × x.",
+        "block_id": "block_3"
+      }
+    ],
+    "topic_id": "topic_36",
+    "chapter_name": "PROPORTIONAL REASONING-1"
+  },
+  {
+    "topic_name": "Binairo Puzzle",
+    "unit": "hegp107",
+    "learning_objectives": [
+      "To understand the concept of ratios and proportional reasoning.",
+      "To apply the concept of ratios and proportional reasoning to real-life situations."
+    ],
+    "allowed_concepts": [
+      "Ratios and proportional reasoning"
+    ],
+    "disallowed_concepts": [
+      "Advanced calculus",
+      "Complex numbers"
+    ],
+    "content_blocks": [
+      {
+        "type": "explanation",
+        "text": "Binairo, also known as Takuzu, is a logic puzzle with simple rules.",
+        "block_id": "block_1"
+      },
+      {
+        "type": "example",
+        "text": "The task is to fill cells in such a way that: 1. Each row and each column must contain an equal number of horizontal and vertical lines. 2. More than two horizontal or vertical lines can’t be adjacent. 3. Each row is unique. Each column is unique.",
+        "block_id": "block_2"
+      }
+    ],
+    "topic_id": "topic_37",
+    "chapter_name": "PROPORTIONAL REASONING-1"
+  },
+  {
+    "topic_name": "Binairo Puzzles",
+    "unit": "hegp107",
+    "learning_objectives": [
+      "To understand the concept of Binairo puzzles and their unique properties.",
+      "To learn how to solve Binairo puzzles using proportional reasoning."
+    ],
+    "allowed_concepts": [
+      "Proportional reasoning",
+      "Unique rows and columns"
+    ],
+    "disallowed_concepts": [
+      "Advanced calculus",
+      "Complex numbers"
+    ],
+    "content_blocks": [
+      {
+        "type": "definition",
+        "text": "Binairo puzzles are a type of puzzle where the task is to fill cells in a grid such that each row and each column contains an equal number of horizontal and vertical lines.",
+        "block_id": "block_1"
+      },
+      {
+        "type": "explanation",
+        "text": "The rest of the cells are empty. The task is to fill cells in such a way that: 1. Each row and each column must contain an equal number of horizontal and vertical lines. 2. More than two horizontal or vertical lines can’t be adjacent. 3. Each row is unique. Each column is unique.",
+        "block_id": "block_2"
+      },
+      {
+        "type": "example",
+        "text": "Solve the following Binairo puzzles: Dot Grid Dot Grid",
+        "block_id": "block_3"
+      }
+    ],
+    "topic_id": "topic_38",
+    "chapter_name": "PROPORTIONAL REASONING-1"
+  }
+]
