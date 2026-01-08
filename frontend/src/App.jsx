@@ -321,7 +321,7 @@ const DashboardView = ({ setPhase, selectedFile, selectedTopicIndex, setSelected
               disabled={!selectedType}
               className={`btn-primary text-lg px-8 py-3 ${!selectedType && 'opacity-50 cursor-not-allowed'}`}
             >
-              Generate Content &nbsp; ✨
+              Generate Content &nbsp; 
             </button>
           </div>
         </motion.div>
@@ -374,6 +374,26 @@ const ResultsView = ({ selectedType, selectedFile, selectedTopicIndex, generatio
       ) : generationResult?.type === 'quiz' ? (
         <div className="w-full">
           <Quiz data={generationResult.data.data} />
+        </div>
+      ) : generationResult?.type === 'resources' ? (
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mb-8">
+          {generationResult.data.map((vid, i) => (
+            <div key={i} className="bg-white rounded-xl shadow-sm border border-slate-100 overflow-hidden hover:shadow-md transition-shadow">
+              <div className="relative pt-[56.25%] bg-black">
+                <iframe
+                  src={`https://www.youtube.com/embed/${vid.id}`}
+                  className="absolute inset-0 w-full h-full"
+                  title={vid.title}
+                  allowFullScreen
+                />
+              </div>
+              <div className="p-4">
+                <h4 className="font-bold text-slate-800 text-sm line-clamp-2 mb-2" title={vid.title}>{vid.title}</h4>
+                <p className="text-xs text-slate-500 line-clamp-2">{vid.description}</p>
+                <a href={`https://www.youtube.com/watch?v=${vid.id}`} target="_blank" rel="noopener noreferrer" className="text-xs text-teal-600 mt-2 inline-block hover:underline">Watch on YouTube ↗</a>
+              </div>
+            </div>
+          ))}
         </div>
       ) : generationResult?.type === 'video' ? (
         <div className="flex flex-col items-center gap-6">
@@ -582,6 +602,7 @@ function App() {
         case 'practice': endpoint = '/generate/practice'; break;
         case 'flashcards': endpoint = '/generate/flashcards'; break;
         case 'video': endpoint = '/generate/video'; break;
+        case 'resources': endpoint = '/generate/resources'; break;
         default: throw new Error("Unknown type");
       }
       const payload = {

@@ -1,0 +1,71 @@
+{
+  "topic": "Measurement and Units",
+  "cards": [
+    {
+      "front": "What is a unit of measurement?",
+      "back": "A standard quantity used to express the size of an object or the amount of a substance.",
+      "type": "definition"
+    },
+    {
+      "front": "Why do we need different units of measurement?",
+      "back": "To express exact measures and for precision, especially when dealing with smaller objects.",
+      "type": "concept"
+    },
+    {
+      "front": "What is the length of the pencil in the figure?",
+      "back": "3 units, which can also be read as 3 units and 4 one-tenths, i.e., (3 \u00d7 1) + 4 \u00d7 units.",
+      "type": "example"
+    },
+    {
+      "front": "How do we measure the length of an object?",
+      "back": "By comparing it to a known length standard, such as a ruler or scale.",
+      "type": "definition"
+    },
+    {
+      "front": "Why is it important to choose the right-size screw?",
+      "back": "To ensure that the pieces fit together properly and the object is assembled correctly.",
+      "type": "concept"
+    },
+    {
+      "front": "What is a scale?",
+      "back": "A measurement tool used to measure the length of an object in units of measurement.",
+      "type": "definition"
+    },
+    {
+      "front": "How do we convert units of measurement?",
+      "back": "By multiplying or dividing by the conversion factor.",
+      "type": "concept"
+    },
+    {
+      "front": "What is a fractional unit?",
+      "back": "A unit of measurement expressed as a fraction, such as 1/2 or 3/4.",
+      "type": "definition"
+    },
+    {
+      "front": "How do we measure the length of a small object?",
+      "back": "By using smaller units of measurement, such as millimeters or centimeters.",
+      "type": "definition"
+    },
+    {
+      "front": "Why do we need to make use of smaller units of measurement?",
+      "back": "To measure exact lengths and for precision, especially when dealing with small objects.",
+      "type": "concept"
+    },
+    {
+      "front": "What is the length of the pen in the figure?",
+      "back": "To be measured using a scale and written in centimeters.",
+      "type": "example"
+    },
+    {
+      "front": "How do we write measurements in fractional units?",
+      "back": "By expressing the length as a fraction, such as (3 \u00d7 1) + 4 \u00d7 units.",
+      "type": "definition"
+    },
+    {
+      "front": "What is the length of the sharpener in the figure?",
+      "back": "To be measured using a scale and written in centimeters.",
+      "type": "example"
+    }
+  ],
+  "verification_status": "skipped"
+}

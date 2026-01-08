@@ -23,7 +23,7 @@ load_dotenv()
 
 def generate_cards(json_data, topic_index=0):
     """Generate high-quality flashcards using LLM"""
-    print("🤖 Synthesizing flashcards...")
+    print(" Synthesizing flashcards...")
     
     topic = json_data[topic_index]
     topic_name = topic['topic_name']
@@ -69,7 +69,7 @@ def generate_cards(json_data, topic_index=0):
 
 def run_flashcard_generator(json_path, output_path=None, topic_index=0):
     print("="*60)
-    print("🃏 FLASHCARD GENERATOR")
+    print(" FLASHCARD GENERATOR")
     print("="*60)
     
     # 1. Load Data
@@ -84,7 +84,7 @@ def run_flashcard_generator(json_path, output_path=None, topic_index=0):
     # 2. Generate
     result = generate_cards(data, topic_index)
     cards = result.get('cards', [])
-    print(f"✅ Generated {len(cards)} cards.")
+    print(f" Generated {len(cards)} cards.")
     
     # 3. No Verification needed for flashcards as per user request
     result['verification_status'] = "skipped"
@@ -97,7 +97,7 @@ def run_flashcard_generator(json_path, output_path=None, topic_index=0):
     with open(output_path, 'w', encoding='utf-8') as f:
         json.dump(result, f, indent=2)
         
-    print(f"\n💾 Saved to {output_path}")
+    print(f"\n Saved to {output_path}")
     return output_path
 
 if __name__ == "__main__":

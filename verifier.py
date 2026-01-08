@@ -26,7 +26,7 @@ class ContentVerifier:
     def __init__(self):
         api_key = os.getenv("GEMINI_API_KEY")
         if not api_key:
-            print("⚠️  Warning: GEMINI_API_KEY not found. Verification layer is disabled.")
+            print("Warning: GEMINI_API_KEY not found. Verification layer is disabled.")
             self.enabled = False
         else:
             genai.configure(api_key=api_key)
@@ -36,7 +36,7 @@ class ContentVerifier:
             self.model_name = "Unknown"
             
             try:
-                print("🔍 Scanning available Gemini models...")
+                print("Scanning available Gemini models...")
                 for m in genai.list_models():
                     if 'generateContent' in m.supported_generation_methods:
                         print(f"   - Found: {m.name}")
@@ -45,14 +45,14 @@ class ContentVerifier:
                         break
                 
                 if not self.model:
-                    print("⚠️  No suitable Gemini model found. Verification disabled.")
+                    print("No suitable Gemini model found. Verification disabled.")
                     self.enabled = False
                 else:
-                    print(f"✅ targeted model: {self.model_name}")
+                    print(f"targeted model: {self.model_name}")
                     self.enabled = True
                     
             except Exception as e:
-                print(f"⚠️  Model discovery failed: {e}")
+                print(f"Model discovery failed: {e}")
                 self.enabled = False
 
     def verify(self, source_context: str, generated_content: str | dict, context_name: str = "Content"):
@@ -63,7 +63,7 @@ class ContentVerifier:
         if not self.enabled:
             return {"score": 100, "status": "SKIPPED", "feedback": "Verifier disabled (no API key)"}
 
-        print(f"\n🔍 Verifying {context_name} with Gemini Probe ({self.model_name})...")
+        print(f"\nVerifying {context_name} with Gemini Probe ({self.model_name})...")
 
         # Convert dict to string if needed
         if isinstance(generated_content, dict):
@@ -116,18 +116,18 @@ class ContentVerifier:
         color = "✅" if score >= 85 else "⚠️" if score >= 70 else "❌"
         
         print("\n" + "="*40)
-        print(f"🛡️  VERIFICATION REPORT: {context_name}")
+        print(f"  VERIFICATION REPORT: {context_name}")
         print(f"{color} Trust Score: {score}/100")
         
         if result.get('hallucination_found'):
-            print("👻 HALLUCINATION DETECTED")
+            print(" HALLUCINATION DETECTED")
         if result.get('bias_found'):
-            print("⚖️  BIAS DETECTED")
+            print("BIAS DETECTED")
             
-        print(f"📝 Reason: {result.get('reason')}")
+        print(f"Reason: {result.get('reason')}")
         
         if result.get('flagged_issues'):
-            print("🚩 Issues:")
+            print("Issues:")
             for issue in result['flagged_issues']:
                 print(f"   - {issue}")
         print("="*40 + "\n")

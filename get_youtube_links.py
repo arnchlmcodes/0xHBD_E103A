@@ -29,10 +29,10 @@ def search_youtube(query, api_key, max_results=5):
     Returns a list of video dictionaries.
     """
     if not api_key:
-        print("❌ Error: YOUTUBE_API_KEY not found in .env file.")
+        print("Error: YOUTUBE_API_KEY not found in .env file.")
         return []
 
-    print(f"🔍 Searching YouTube for: '{query}'...")
+    print(f"Searching YouTube for: '{query}'...")
     
     url = "https://www.googleapis.com/youtube/v3/search"
     params = {
@@ -69,10 +69,10 @@ def search_youtube(query, api_key, max_results=5):
         return videos
 
     except requests.exceptions.HTTPError as e:
-        print(f"❌ YouTube API Error: {e}")
+        print(f" YouTube API Error: {e}")
         return []
     except Exception as e:
-        print(f"❌ Unexpected Error: {e}")
+        print(f" Unexpected Error: {e}")
         return []
 
 def get_videos_for_topic(json_path, topic_index):
@@ -80,14 +80,14 @@ def get_videos_for_topic(json_path, topic_index):
     Load a topic from JSON and fetch relevant videos.
     """
     if not os.path.exists(json_path):
-        print(f"❌ File not found: {json_path}")
+        print(f"File not found: {json_path}")
         return
 
     with open(json_path, 'r', encoding='utf-8') as f:
         data = json.load(f)
 
     if topic_index >= len(data):
-        print(f"❌ Topic index {topic_index} out of range.")
+        print(f" Topic index {topic_index} out of range.")
         return
 
     topic = data[topic_index]
@@ -103,7 +103,7 @@ def get_videos_for_topic(json_path, topic_index):
 
 def main():
     print("="*60)
-    print("📺 YouTube Educational Video Fetcher")
+    print(" YouTube Educational Video Fetcher")
     print("="*60)
     
     topic_name, videos = get_videos_for_topic(JSON_PATH, TOPIC_INDEX)

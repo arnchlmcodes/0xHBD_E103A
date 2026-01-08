@@ -200,7 +200,9 @@ async def generate_plan(request: GenerateRequest):
     try:
         final_path = run_teaching_plan_generator(str(json_path), str(output_path), request.topic_index)
         if final_path:
-            return {"status": "success", "file_url": f"/download/{output_filename}", "filename": output_filename}
+            # Determine correct filename based on return path (pdf or html)
+            actual_filename = os.path.basename(final_path)
+            return {"status": "success", "file_url": f"/download/{actual_filename}", "filename": actual_filename}
         else:
             raise HTTPException(status_code=500, detail="Generation failed")
     except Exception as e:
@@ -281,6 +283,33 @@ async def generate_practice(request: GenerateRequest):
         else:
             raise HTTPException(status_code=500, detail="PDF Creation failed")
             
+    except Exception as e:
+        raise HTTPException(status_code=500, detail=str(e))
+
+@app.post("/generate/resources")
+async def generate_resources(request: GenerateRequest):
+    """Fetch YouTube Resources"""
+    json_path = get_json_path(request.filename)
+    if not json_path.exists():
+        raise HTTPException(status_code=404, detail="File not found")
+        
+    try:
+        with open(json_path, 'r', encoding='utf-8') as f:
+            data = json.load(f)
+            
+        if isinstance(data, dict):
+            data = [data]
+            
+        topic = data[request.topic_index]
+        topic_name = topic.get('topic_name', 'Mathematics')
+        
+        # Import dynamically to avoid top-level issues if env missing
+        from get_youtube_links import search_youtube
+        
+        query = f"{topic_name} mathematics explanation for students"
+        videos = search_youtube(query, max_results=6)
+        
+        return {"status": "success", "data": videos}
     except Exception as e:
         raise HTTPException(status_code=500, detail=str(e))
 

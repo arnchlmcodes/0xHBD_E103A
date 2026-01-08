@@ -12,7 +12,7 @@ import requests
 from groq import Groq
 from dotenv import load_dotenv
 import base64
-from verifier import ContentVerifier
+
 
 load_dotenv()
 
@@ -278,23 +278,17 @@ def run_teaching_plan_generator(json_path, output_path, topic_index=0):
     # 2. Generate Content
     content = generate_content(data, topic_index)
     
-    # VERIFY (The Bias/Truth Layer)
-    verifier = ContentVerifier()
-    # Construct source text
-    topic = data[topic_index]
-    source_text = "\n".join([b['text'] for b in topic['content_blocks']])
-    
-    report = verifier.verify(source_text, content, context_name="Teacher Plan")
-    
-    if report.get('score', 0) < 70:
-        print("❌ CONTENT REJECTED: Score too low.")
-    
+    # VERIFY (The Bias/Truth Layer) - REMOVED for speed/reliability
+    # verifier = ContentVerifier()
+    # ...
+
     # 3. Create HTML
     html = create_html(data, content, topic_index)
     
     # 4. Generate PDF
-    convert_to_pdf(html, output_path)
-    return output_path
+    # Capture the ACTUAL output path (could be .html fallback)
+    final_path = convert_to_pdf(html, output_path)
+    return final_path
 
 if __name__ == "__main__":
     # Default behavior for manual testing

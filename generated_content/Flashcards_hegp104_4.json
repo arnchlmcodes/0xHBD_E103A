@@ -1,0 +1,61 @@
+{
+  "topic": "Intersection of Diagonals",
+  "cards": [
+    {
+      "front": "What are diagonals of a rectangle?",
+      "back": "Diagonals of a rectangle are lines connecting opposite vertices.",
+      "type": "definition"
+    },
+    {
+      "front": "What is the intersection point of diagonals?",
+      "back": "The intersection point of diagonals is their midpoint.",
+      "type": "definition"
+    },
+    {
+      "front": "Why do diagonals intersect at their midpoints?",
+      "back": "Diagonals intersect at their midpoints due to congruence of triangles.",
+      "type": "concept"
+    },
+    {
+      "front": "Which triangles should we consider to find the relation between OA and OC?",
+      "back": "We should consider triangles OAB and OCD.",
+      "type": "concept"
+    },
+    {
+      "front": "Which triangles should we consider to find the relation between OB and OD?",
+      "back": "We should consider triangles OBC and OAD.",
+      "type": "concept"
+    },
+    {
+      "front": "What is the property of OAB and OCD triangles?",
+      "back": "OAB and OCD triangles are congruent right triangles.",
+      "type": "definition"
+    },
+    {
+      "front": "What is the property of OBC and OAD triangles?",
+      "back": "OBC and OAD triangles are congruent right triangles.",
+      "type": "definition"
+    },
+    {
+      "front": "Why are OAB and OCD triangles congruent?",
+      "back": "OAB and OCD triangles are congruent because they have equal sides and equal angles.",
+      "type": "concept"
+    },
+    {
+      "front": "Why are OBC and OAD triangles congruent?",
+      "back": "OBC and OAD triangles are congruent because they have equal sides and equal angles.",
+      "type": "concept"
+    },
+    {
+      "front": "What is the relationship between OA and OC?",
+      "back": "OA = OC.",
+      "type": "example"
+    },
+    {
+      "front": "What is the relationship between OB and OD?",
+      "back": "OB = OD.",
+      "type": "example"
+    }
+  ],
+  "verification_status": "skipped"
+}

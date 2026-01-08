@@ -23,7 +23,7 @@ load_dotenv()
 
 def generate_spec_with_llm(json_data, topic_index=0):
     """Generate visual spec for Manim using Groq"""
-    print("🤖 Designing animation storyboard...")
+    print("Designing animation storyboard...")
     
     topic = json_data[topic_index]
     topic_name = topic['topic_name']
@@ -87,37 +87,37 @@ def generate_spec_with_llm(json_data, topic_index=0):
 def generate_narration_audio():
     """Generate TTS narration from lesson spec - THIS HAPPENS FIRST"""
     print("\n" + "="*60)
-    print("🎙️ STEP 1: GENERATING NARRATION AUDIO")
+    print(" STEP 1: GENERATING NARRATION AUDIO")
     print("="*60)
-    print("⚡ This creates audio segments with precise timing data")
-    print("   The video will sync to these audio timings!")
+    print("  This creates audio segments with precise timing data")
+    print("  The video will sync to these audio timings!")
     
     try:
         tts_gen = TTSGenerator()
         audio_path, duration = tts_gen.generate_full_narration(use_edge_tts=True)
-        print(f"\n✅ Narration audio generated: {audio_path}")
+        print(f"\nNarration audio generated: {audio_path}")
         print(f"   Duration: {duration:.2f} seconds")
         print(f"   Timing data: narration_full_timing.json")
         return audio_path, duration
     except Exception as e:
-        print(f"\n❌ TTS generation failed: {e}")
+        print(f"\n TTS generation failed: {e}")
         print("   Falling back to gTTS...")
         try:
             tts_gen = TTSGenerator()
             audio_path, duration = tts_gen.generate_full_narration(use_edge_tts=False)
-            print(f"\n✅ Narration audio generated (gTTS): {audio_path}")
+            print(f"\    Narration audio generated (gTTS): {audio_path}")
             return audio_path, duration
         except Exception as e2:
-            print(f"\n❌ All TTS methods failed: {e2}")
+            print(f"\    All TTS methods failed: {e2}")
             return None, None
 
 def run_manim_synchronized():
     """Run Manim with synchronized timing in YouTube Shorts format"""
     print("\n" + "="*60)
-    print("🎬 STEP 2: RENDERING SYNCHRONIZED ANIMATION")
+    print("STEP 2: RENDERING SYNCHRONIZED ANIMATION")
     print("="*60)
-    print("📱 Resolution: 1920x1080 (16:9 Landscape)")
-    print("🎯 Syncing: Animation timing matches audio segments")
+    print("  Resolution: 1920x1080 (16:9 Landscape)")
+    print("  Syncing: Animation timing matches audio segments")
     print("(This might take a minute)")
     
     # Landscape dimensions with synchronized engine
@@ -131,30 +131,30 @@ def run_manim_synchronized():
     
     try:
         result = subprocess.run(cmd, check=True, capture_output=True, text=True)
-        print("\n✅ Synchronized Animation Rendered!")
+        print("\n Synchronized Animation Rendered!")
         video_path = "media/videos/manim_engine_synchronized/1080p30/SynchronizedLesson.mp4"
-        print(f"📁 Video saved to: {video_path}")
-        print("📱 Format: Landscape 16:9 ready!")
-        print("🎯 Timing: Perfectly synced with audio!")
+        print(f"Video saved to: {video_path}")
+        print("  Format: Landscape 16:9 ready!")
+        print("  Timing: Perfectly synced with audio!")
         return video_path
     except subprocess.CalledProcessError as e:
-        print(f"\n❌ Manim Failed: {e}")
+        print(f"Manim Failed: {e}")
         print("--- STDERR ---")
         print(e.stderr)
         if "ffmpeg" in e.stderr.lower():
-            print("\n🚨 CRITICAL: FFmpeg is missing!")
+            print("\nCRITICAL: FFmpeg is missing!")
             print("To fix: Install FFmpeg from https://ffmpeg.org/download.html and add it to your PATH.")
         return None
     except FileNotFoundError:
-        print("\n❌ Command not found.")
+        print("Command not found.")
         return None
 
 def merge_video_and_audio(video_path, audio_path):
     """Merge synchronized video with narration audio"""
     print("\n" + "="*60)
-    print("🎞️ STEP 3: MERGING VIDEO AND AUDIO")
+    print(" STEP 3: MERGING VIDEO AND AUDIO")
     print("="*60)
-    print("🔗 Combining synchronized video with narration track")
+    print(" Combining synchronized video with narration track")
     
     output_path = "final_video_with_narration.mp4"
     
@@ -166,17 +166,17 @@ def merge_video_and_audio(video_path, audio_path):
     )
     
     if success:
-        print(f"\n🎉 FINAL SYNCHRONIZED VIDEO READY: {output_path}")
-        print("📱 Format: YouTube Shorts (1080x1920)")
-        print("🎯 Audio-Visual Sync: Perfect!")
+        print(f"\nFINAL SYNCHRONIZED VIDEO READY: {output_path}")
+        print("  Format: YouTube Shorts (1080x1920)")
+        print("  Audio-Visual Sync: Perfect!")
         return output_path
     else:
-        print("\n❌ Merge failed")
+        print("\nMerge failed")
         return None
 
 def run_video_generator(json_path, output_dir, topic_index=0, custom_filename=None):
     print("="*60)
-    print("🎥 AI EDUCATIONAL ANIMATOR WITH SYNCHRONIZED NARRATION")
+    print("  AI EDUCATIONAL ANIMATOR WITH SYNCHRONIZED NARRATION")
     print("="*60)
     
     # Ensure output dir exists
@@ -184,7 +184,7 @@ def run_video_generator(json_path, output_dir, topic_index=0, custom_filename=No
     
     try:
         # 1. Load Data
-        print("\n📖 Loading curriculum data...")
+        print("\     Loading curriculum data...")
         with open(json_path, 'r', encoding='utf-8') as f:
             data = json.load(f)
         
@@ -195,7 +195,7 @@ def run_video_generator(json_path, output_dir, topic_index=0, custom_filename=No
             
         # 2. Generate Spec
         print("\n" + "="*60)
-        print("📝 GENERATING ANIMATION SPECIFICATION")
+        print("  GENERATING ANIMATION SPECIFICATION")
         print("="*60)
         spec_json = generate_spec_with_llm(data, topic_index)
         
@@ -206,7 +206,7 @@ def run_video_generator(json_path, output_dir, topic_index=0, custom_filename=No
         spec_path = "lesson_spec.json"
         with open(spec_path, "w", encoding="utf-8") as f:
             f.write(spec_json)
-        print("💾 Saved storyboard to lesson_spec.json")
+        print("  Saved storyboard to lesson_spec.json")
         
         # 3. Generate Narration Audio
         # pass explicitly if needed, but current function generate_narration_audio() seems self-contained?
@@ -244,7 +244,7 @@ def run_video_generator(json_path, output_dir, topic_index=0, custom_filename=No
             raise Exception("Merge returned no path")
             
     except Exception as e:
-        print(f"❌ Video Generation Failed: {e}")
+        print(f"Video Generation Failed: {e}")
         return None
 
 if __name__ == "__main__":

@@ -1,31 +1,43 @@
 {
-  "title": "Number Play",
-   "subtitle": "Exploring Parity and Sums",
+  "title": "Arithmetic Expressions",
+   "subtitle": "Understanding and Evaluating Mathematical Phrases",
    "sections": [
       {
+         "type": "definition",
+         "term": "Arithmetic Expression",
+         "text": "A mathematical phrase with a value, using numbers, variables, and operations"
+      },
+      {
          "type": "bullet_list",
-         "heading": "What are Even and Odd Numbers?",
-         "items": [
-            "An even number can be arranged in pairs without any leftovers.",
-            "An odd number is one more than a collection of pairs."
-         ]
+         "heading": "Key Properties of Arithmetic Expressions",
+         "items": ["Use numbers, variables, and operations (+, -, ×, ÷)", "Evaluate to a specific value", "Can be simplified or rewritten"]
       },
       {
          "type": "process",
          "steps": [
-            "Step 1: Identify if a number is even or odd.",
-            "Step 2: Determine if the number of numbers added is even or odd.",
-            "Step 3: Consider the parity of the sum."
+            "Write down the expression",
+            "Identify and follow the order of operations",
+            "Evaluate the expression using the order of operations"
          ]
       },
       {
-         "type": "analogy",
-         "concept": "Parity of Sums",
-         "analogy": "Pairing Shoes"
+         "type": "bullet_list",
+         "heading": "Example Expressions and their Values",
+         "items": [
+            "13 + 2 = 15",
+            "5 × 25 = 125",
+            "30 + 5 × 4 = 50",
+            "67 – 19 = 48",
+            "67 – 20 = 47"
+         ]
       },
       {
-         "type": "statement",
-         "text": "Adding any even number of odd numbers will result in an even number, but adding an odd number of odd numbers will result in an odd number."
+         "type": "bullet_list",
+         "heading": "Comparing Expressions",
+         "items": [
+            "1023 + 125 = 1148 > 1022 + 128 = 1150",
+            "113 – 25 = 88 < 112 – 24 = 88"
+         ]
       }
    ]
 }

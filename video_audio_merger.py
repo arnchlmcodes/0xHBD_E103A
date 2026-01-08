@@ -61,12 +61,12 @@ class VideoAudioMerger:
             result = subprocess.run(cmd, capture_output=True, text=True, check=True)
             return float(result.stdout.strip())
         except Exception as e:
-            print(f"⚠️ Could not get audio duration: {e}")
+            print(f"Could not get audio duration: {e}")
             return None
     
     def merge_simple(self):
         """Simple merge: replace video audio with narration"""
-        print("🎬 Merging video and audio...")
+        print(" Merging video and audio...")
         
         if not self.check_ffmpeg():
             return False
@@ -76,11 +76,11 @@ class VideoAudioMerger:
         audio_duration = self.get_audio_duration()
         
         if video_duration and audio_duration:
-            print(f"📹 Video duration: {video_duration:.2f}s")
-            print(f"🎵 Audio duration: {audio_duration:.2f}s")
+            print(f"Video duration: {video_duration:.2f}s")
+            print(f"Audio duration: {audio_duration:.2f}s")
             
             if abs(video_duration - audio_duration) > 2.0:
-                print(f"⚠️ Warning: Duration mismatch of {abs(video_duration - audio_duration):.2f}s")
+                print(f"Warning: Duration mismatch of {abs(video_duration - audio_duration):.2f}s")
         
         # FFmpeg command to merge
         cmd = [
@@ -104,10 +104,10 @@ class VideoAudioMerger:
                 text=True,
                 check=True
             )
-            print(f"✅ Video with audio created: {self.output_path}")
+            print(f"Video with audio created: {self.output_path}")
             return True
         except subprocess.CalledProcessError as e:
-            print(f"❌ FFmpeg merge failed!")
+            print(f"FFmpeg merge failed!")
             print("STDERR:", e.stderr)
             return False
     
@@ -122,15 +122,15 @@ class VideoAudioMerger:
         audio_duration = self.get_audio_duration()
         
         if not video_duration or not audio_duration:
-            print("⚠️ Could not determine durations, using simple merge")
+            print("Could not determine durations, using simple merge")
             return self.merge_simple()
         
         # Calculate speed factor
         speed_factor = video_duration / audio_duration
         
-        print(f"📹 Video duration: {video_duration:.2f}s")
-        print(f"🎵 Audio duration: {audio_duration:.2f}s")
-        print(f"⚡ Speed adjustment: {speed_factor:.2f}x")
+        print(f"Video duration: {video_duration:.2f}s")
+        print(f"Audio duration: {audio_duration:.2f}s")
+        print(f"Speed adjustment: {speed_factor:.2f}x")
         
         if 0.9 <= speed_factor <= 1.1:
             # Close enough, use simple merge
@@ -154,7 +154,7 @@ class VideoAudioMerger:
             subprocess.run(cmd_adjust, capture_output=True, text=True, check=True)
             print("✓ Video speed adjusted")
         except subprocess.CalledProcessError as e:
-            print(f"❌ Speed adjustment failed: {e.stderr}")
+            print(f"Speed adjustment failed: {e.stderr}")
             return False
         
         # Step 2: Merge adjusted video with audio
@@ -172,7 +172,7 @@ class VideoAudioMerger:
         
         try:
             subprocess.run(cmd_merge, capture_output=True, text=True, check=True)
-            print(f"✅ Synchronized video created: {self.output_path}")
+            print(f"Synchronized video created: {self.output_path}")
             
             # Clean up temp file
             if os.path.exists(temp_video):
@@ -180,7 +180,7 @@ class VideoAudioMerger:
             
             return True
         except subprocess.CalledProcessError as e:
-            print(f"❌ Merge failed: {e.stderr}")
+            print(f"Merge failed: {e.stderr}")
             return False
 
 
@@ -202,6 +202,6 @@ if __name__ == "__main__":
     if os.path.exists(video) and os.path.exists(audio):
         merge_video_audio(video, audio, "final_video_with_narration.mp4")
     else:
-        print("⚠️ Video or audio file not found")
+        print(" Video or audio file not found")
         print(f"Video: {video} - {'✓' if os.path.exists(video) else '✗'}")
         print(f"Audio: {audio} - {'✓' if os.path.exists(audio) else '✗'}")

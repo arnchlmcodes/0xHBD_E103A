@@ -1,0 +1,56 @@
+{
+  "topic": "Distance Between Saplings",
+  "cards": [
+    {
+      "front": "What is the distance between two saplings?",
+      "back": "The distance between two saplings is a measure of how far apart they are, in this case, m.",
+      "type": "definition"
+    },
+    {
+      "front": "Why do we need to measure the distance between saplings?",
+      "back": "We need to measure the distance to determine the total distance between the first and last sapling.",
+      "type": "concept"
+    },
+    {
+      "front": "What is the distance between the first and second saplings?",
+      "back": "The distance between the first and second saplings is m.",
+      "type": "definition"
+    },
+    {
+      "front": "What is the distance between the second and third saplings?",
+      "back": "The distance between the second and third saplings is m.",
+      "type": "definition"
+    },
+    {
+      "front": "What is the distance between the third and fourth saplings?",
+      "back": "The distance between the third and fourth saplings is m.",
+      "type": "definition"
+    },
+    {
+      "front": "What is the total distance between the first and last saplings if the distance between two saplings is m?",
+      "back": "To find the total distance, add m three times, since there are three gaps between the saplings, which is 3m.",
+      "type": "problem"
+    },
+    {
+      "front": "What if the distance between two saplings changes to 2m? What is the new total distance?",
+      "back": "Add 2m three times, which is 6m.",
+      "type": "problem"
+    },
+    {
+      "front": "Why is it important to consider the distance between saplings?",
+      "back": "Considering the distance helps us understand how far apart the saplings are, which is crucial for their growth and maintenance.",
+      "type": "concept"
+    },
+    {
+      "front": "Solve: If the distance between two saplings is 5m, what is the total distance between the first and last sapling?",
+      "back": "Add 5m three times, which is 15m.",
+      "type": "problem"
+    },
+    {
+      "front": "Draw a rough diagram with four saplings and the distance between them as 4m. What is the total distance between the first and last sapling?",
+      "back": "Add 4m three times, which is 12m.",
+      "type": "problem"
+    }
+  ],
+  "verification_status": "skipped"
+}
