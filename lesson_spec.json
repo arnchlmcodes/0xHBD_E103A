@@ -1,0 +1,33 @@
+{
+  "title": "Multiplication of Fractions",
+   "subtitle": "Understanding the Basics",
+   "sections": [
+      {
+         "type": "definition",
+         "term": "Multiplication of Fractions",
+         "text": "Combining two or more fractions with multiplication"
+      },
+      {
+         "type": "bullet_list",
+         "heading": "Key Properties",
+         "items": [
+            "Multiplying numerators and denominators separately",
+            "Simplifying the result to its lowest terms",
+            "Using area of a rectangle to understand multiplication of fractions"
+         ]
+      },
+      {
+         "type": "analogy",
+         "concept": "Multiplication of Fractions",
+         "analogy": "Finding total distance covered in a race"
+      },
+      {
+         "type": "process",
+         "steps": [
+            "Divide the multiplicand by the denominator",
+            "Multiply the result by the numerator",
+            "Simplify the result to its lowest terms"
+         ]
+      }
+   ]
+}
