@@ -1,0 +1,72 @@
+{
+  "topic": "Letter-Numbers and Algebraic Expressions",
+  "cards": [
+    {
+      "front": "What are letter-numbers?",
+      "back": "Letters such as a and s that are used to represent numbers are called letter-numbers.",
+      "type": "definition"
+    },
+    {
+      "front": "What are algebraic expressions?",
+      "back": "Mathematical expressions containing letter-numbers, such as the expression a + 3, are called algebraic expressions.",
+      "type": "definition"
+    },
+    {
+      "front": "If Aftab\u2019s age = Shabnam\u2019s age + 3 and a is 23, what is Shabnam\u2019s age?",
+      "back": "Shabnam\u2019s age = 23 + 3 = 26.",
+      "type": "problem"
+    },
+    {
+      "front": "Why does the algebraic expression a = s \u2013 3 mean 3 less than s?",
+      "back": "Because we are subtracting 3 from s to get Aftab\u2019s age.",
+      "type": "concept"
+    },
+    {
+      "front": "How many matchsticks are needed for 2 L\u2019s?",
+      "back": "2 \u00d7 2 = 4 matchsticks.",
+      "type": "problem"
+    },
+    {
+      "front": "Every L needs 2 matchsticks. What is the formula for the number of matchsticks needed?",
+      "back": "Number of matchsticks = 2 \u00d7 Number of L\u2019s.",
+      "type": "concept"
+    },
+    {
+      "front": "If Aftab\u2019s age is represented by the letter a, what does the algebraic expression a = s \u2013 3 represent?",
+      "back": "Aftab\u2019s age is 3 years less than Shabnam\u2019s age.",
+      "type": "problem"
+    },
+    {
+      "front": "What is the definition of algebraic expression?",
+      "back": "A mathematical expression containing letter-numbers.",
+      "type": "definition"
+    },
+    {
+      "front": "If Aftab\u2019s age is 25 and Shabnam\u2019s age is denoted by the letter s, what is the algebraic expression to find Aftab\u2019s age?",
+      "back": "s = 25 + 3, or s \u2013 3 = 25.",
+      "type": "problem"
+    },
+    {
+      "front": "What is the relationship between the number of L\u2019s and the number of matchsticks needed?",
+      "back": "The number of matchsticks needed is 2 times the number of L\u2019s.",
+      "type": "concept"
+    },
+    {
+      "front": "If 3 L\u2019s are needed, what is the number of matchsticks required?",
+      "back": "3 \u00d7 2 = 6 matchsticks.",
+      "type": "problem"
+    }
+  ],
+  "verification_status": "verified",
+  "verification_report": {
+    "score": 70,
+    "hallucination_found": true,
+    "bias_found": false,
+    "reason": "The content generally aligns with the trusted source, but contains two instances of factual contradiction or inaccuracy, and one instance of an incomplete definition.",
+    "flagged_issues": [
+      "Card 3: The front of the card states the premise 'Aftab\u2019s age = Shabnam\u2019s age + 3'. This directly contradicts the problem setup in the trusted source which states 'Shabnam\u2019s age = Aftab\u2019s age + 3'. The back of the card, however, correctly solves the problem based on the trusted source's original premise, creating an inconsistency between the front and back of the card.",
+      "Card 8: The definition for 'algebraic expression' in the back is incomplete. The trusted source explicitly includes an example ('such as the expression a + 3') as part of its definition, which is omitted in the generated content.",
+      "Card 9: The question asks for the 'algebraic expression to find Aftab\u2019s age'. The back's answer 's = 25 + 3' represents Shabnam's age, not Aftab's age, given Aftab's age is 25. While 's \u2013 3 = 25' is correct for Aftab's age in relation to Shabnam's, the inclusion of the first part makes the answer partially inaccurate to the question asked."
+    ]
+  }
+}

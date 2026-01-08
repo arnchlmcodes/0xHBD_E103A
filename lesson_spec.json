@@ -1,32 +1,32 @@
 {
-  "title": "Multiplication of Fractions",
-   "subtitle": "Understanding the Basics",
+  "title": "Expressions with Variables",
+   "subtitle": "Real-World Applications",
    "sections": [
       {
          "type": "definition",
-         "term": "Multiplication of Fractions",
-         "text": "Combining two or more fractions with multiplication"
+         "term": "Expression with Variables",
+         "text": "An algebraic expression with a variable"
       },
       {
          "type": "bullet_list",
-         "heading": "Key Properties",
+         "heading": "Real-World Applications",
          "items": [
-            "Multiplying numerators and denominators separately",
-            "Simplifying the result to its lowest terms",
-            "Using area of a rectangle to understand multiplication of fractions"
+            "Representing costs of items",
+            "Modeling real-world situations",
+            "Solving problems in science and engineering"
          ]
       },
       {
          "type": "analogy",
-         "concept": "Multiplication of Fractions",
-         "analogy": "Finding total distance covered in a race"
+         "concept": "2x + 3",
+         "analogy": "Cost of 2 apples and 3 bananas"
       },
       {
          "type": "process",
          "steps": [
-            "Divide the multiplicand by the denominator",
-            "Multiply the result by the numerator",
-            "Simplify the result to its lowest terms"
+            "Identify the variable and constants",
+            "Determine the operation (addition, subtraction, etc.)",
+            "Simplify the expression"
          ]
       }
    ]

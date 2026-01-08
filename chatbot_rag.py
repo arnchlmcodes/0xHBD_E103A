@@ -10,7 +10,7 @@ load_dotenv()
 
 class MathBuddyChatbot:
     """
-    Standalone RAG Chatbot for Class 7 Mathematics
+    Standalone RAG Chatbot for Curriculum
     Uses SmartQA (Vector DB) for context retrieval and Groq LLM for answer generation.
     """
     
@@ -106,14 +106,14 @@ class MathBuddyChatbot:
             # Relevance Threshold
             if relevance < 0.45:
                  return {
-                    'answer': "I'm sorry, I couldn't find any relevant information in the current curriculum to answer your question. I am strictly limited to the provided Class 7 Mathematics textbooks.",
+                    'answer': "I'm sorry, I couldn't find any relevant information in the current curriculum to answer your question. I am strictly limited to the provided curriculum material.",
                     'chapter': 'None',
                     'relevance': relevance,
                     'sources': []
                 }
             
             # Step 2: Prepare Prompt for LLM
-            system_prompt = """You are a specialized AI assistant for Class 7 Mathematics.
+            system_prompt = """You are a specialized AI assistant for the uploaded curriculum.
             
             CRITICAL RULES:
             1. You function purely as a text-extraction and explanation engine for the provided context.
@@ -127,7 +127,7 @@ class MathBuddyChatbot:
             history_context = "\n".join([f"{msg['role'].upper()}: {msg['content']}" for msg in self.chat_history[-6:]])
             
             user_prompt = f"""
-            CONTEXT FROM CLASS 7 TEXTBOOK (Chapter: {chapter_name}):
+            CONTEXT FROM CURRICULUM (Chapter: {chapter_name}):
             {context_text}
             
             CONVERSATION HISTORY:

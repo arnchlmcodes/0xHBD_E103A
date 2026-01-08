@@ -1,0 +1,6 @@
+
+--- Video Gen Request ---
+Requested Filename: gegp102.json
+Resolved Path: C:\Users\Lenovo\Desktop\machsss\class7\json_output\gegp102.json
+Exists: True
+Starting run_video_generator...

@@ -16,15 +16,16 @@ from verifier import ContentVerifier
 load_dotenv()
 
 # Configuration
-JSON_PATH = "class7/json_output/gegp105.json"
-TOPIC_INDEX = 0
-GROQ_API_KEY = os.getenv("GROQ_API_KEY")
+# Removed global hardcoded paths
+# JSON_PATH = "class7/json_output/gegp105.json"
+# TOPIC_INDEX = 0
+# GROQ_API_KEY = os.getenv("GROQ_API_KEY")
 
-def generate_cards(json_data):
+def generate_cards(json_data, topic_index=0):
     """Generate high-quality flashcards using LLM"""
     print("🤖 Synthesizing flashcards...")
     
-    topic = json_data[TOPIC_INDEX]
+    topic = json_data[topic_index]
     topic_name = topic['topic_name']
     content_text = "\n".join([b['text'] for b in topic['content_blocks']])
     
@@ -52,7 +53,8 @@ def generate_cards(json_data):
     }}
     """
     
-    client = Groq(api_key=GROQ_API_KEY)
+    api_key = os.getenv("GROQ_API_KEY")
+    client = Groq(api_key=api_key)
     completion = client.chat.completions.create(
         model="llama-3.1-8b-instant",
         messages=[
@@ -65,18 +67,22 @@ def generate_cards(json_data):
     
     return json.loads(completion.choices[0].message.content)
 
-def main():
+def run_flashcard_generator(json_path, output_path=None, topic_index=0):
     print("="*60)
     print("🃏 FLASHCARD GENERATOR")
     print("="*60)
     
     # 1. Load Data
-    with open(JSON_PATH, 'r', encoding='utf-8') as f:
+    with open(json_path, 'r', encoding='utf-8') as f:
         data = json.load(f)
-        topic = data[TOPIC_INDEX]
+    
+    if isinstance(data, dict):
+        data = [data]
+        
+    topic = data[topic_index]
         
     # 2. Generate
-    result = generate_cards(data)
+    result = generate_cards(data, topic_index)
     cards = result.get('cards', [])
     print(f"✅ Generated {len(cards)} cards.")
     
@@ -91,7 +97,6 @@ def main():
     
     if report.get('score', 0) < 70:
         print("❌ CARDS REJECTED: Score too low.")
-        # We save them anyway marked as 'rejected' for debug
         result['verification_status'] = "rejected"
     else:
         result['verification_status'] = "verified"
@@ -99,14 +104,19 @@ def main():
     result['verification_report'] = report
     
     # 4. Save
-    # Derive filename from input JSON (e.g. gegp105.json -> gegp105_flashcards.json)
-    input_stem = os.path.splitext(os.path.basename(JSON_PATH))[0]
-    output_filename = f"{input_stem}_flashcards.json"
+    if not output_path:
+        input_stem = os.path.splitext(os.path.basename(json_path))[0]
+        output_path = f"{input_stem}_flashcards.json"
     
-    with open(output_filename, 'w', encoding='utf-8') as f:
+    with open(output_path, 'w', encoding='utf-8') as f:
         json.dump(result, f, indent=2)
         
-    print(f"\n💾 Saved to {output_filename}")
+    print(f"\n💾 Saved to {output_path}")
+    return output_path
 
 if __name__ == "__main__":
-    main()
+    default_json = "class7/json_output/gegp105.json"
+    if os.path.exists(default_json):
+        run_flashcard_generator(default_json)
+    else:
+        print("Default file not found.")

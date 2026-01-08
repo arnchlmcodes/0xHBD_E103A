@@ -17,10 +17,8 @@ from pydantic import ValidationError
 load_dotenv()
 
 # Configuration
-JSON_PATH = "class7/json_output/gegp105.json"
-TOPIC_INDEX = 0  # First topic: Parallel and Intersecting Lines
-PDFSHIFT_API_KEY = os.getenv("PDFSHIFT_API_KEY")
-GROQ_API_KEY = os.getenv("GROQ_API_KEY")
+# JSON_PATH and TOPIC_INDEX removed for API usage
+# API keys will be loaded from environment within functions
 
 HTML_TEMPLATE = """
 <!DOCTYPE html>
@@ -46,7 +44,7 @@ HTML_TEMPLATE = """
     <div class="header">
         <h1>{{topic}}</h1>
         <div class="meta">
-            Class: {{class_level}} • Difficulty: {{difficulty}} • Time: {{duration}} mins
+            Class: {{class_level}} &bull; Difficulty: {{difficulty}} &bull; Time: {{duration}} mins
         </div>
     </div>
 
@@ -86,7 +84,8 @@ def generate_quiz_json(topic_data):
     {Quiz.schema_json(indent=2)}
     """
 
-    client = Groq(api_key=GROQ_API_KEY)
+    api_key = os.getenv("GROQ_API_KEY")
+    client = Groq(api_key=api_key)
     
     for attempt in range(3):
         print(f"🔄 Generation Attempt {attempt + 1}/3...")
@@ -127,7 +126,7 @@ def create_html(quiz: Quiz):
         q_html = f"""
         <div class="question">
             <div class="question-meta">
-                Q{i} • {q.blooms_level} • {q.type.upper()}
+                Q{i} &bull; {q.blooms_level} &bull; {q.type.upper()}
             </div>
             <div class="q-text">{q.question}</div>
         """
@@ -155,52 +154,66 @@ def create_html(quiz: Quiz):
     
     return html
 
-def convert_to_pdf(html_content):
+def convert_to_pdf(html_content, output_path="quiz.pdf"):
     """Convert to PDF"""
-    if not PDFSHIFT_API_KEY:
+    api_key = os.getenv("PDFSHIFT_API_KEY")
+    
+    if not api_key:
         print("⚠️  PDFSHIFT_API_KEY not found. Saving as HTML.")
-        with open("quiz.html", "w", encoding="utf-8") as f:
+        html_path = output_path.replace(".pdf", ".html")
+        with open(html_path, "w", encoding="utf-8") as f:
             f.write(html_content)
-        print("✅ Saved to quiz.html")
-        return
+        print(f"✅ Saved to {html_path}")
+        return html_path
 
     print("🚀 Converting to PDF via PDFShift...")
     response = requests.post(
         "https://api.pdfshift.io/v3/convert/pdf",
-        auth=("api", PDFSHIFT_API_KEY),
+        auth=("api", api_key),
         json={"source": html_content, "landscape": False}
     )
 
     if response.status_code == 200:
-        with open("quiz.pdf", "wb") as f:
+        with open(output_path, "wb") as f:
             f.write(response.content)
-        print("✅ Success! Saved to quiz.pdf")
+        print(f"✅ Success! Saved to {output_path}")
+        return output_path
     else:
         print(f"❌ PDF Generation Failed: {response.text}")
-        with open("quiz.html", "w", encoding="utf-8") as f:
+        html_path = output_path.replace(".pdf", ".html")
+        with open(html_path, "w", encoding="utf-8") as f:
             f.write(html_content)
+        return html_path
 
-def main():
+def run_quiz_generator(json_path, output_path, topic_index=0):
     print("="*60)
     print("🎓 STRICT QUIZ GENERATOR (Pydantic Validated)")
     print("="*60)
     
     # 1. Load Data
-    with open(JSON_PATH, 'r', encoding='utf-8') as f:
+    with open(json_path, 'r', encoding='utf-8') as f:
         data = json.load(f)
+        
+    if isinstance(data, dict):
+        data = [data]
     
     # 2. Generate Valid Quiz
     try:
-        quiz = generate_quiz_json(data[TOPIC_INDEX])
+        quiz = generate_quiz_json(data[topic_index])
         
         # 3. Create HTML
         html = create_html(quiz)
         
         # 4. Generate PDF
-        convert_to_pdf(html)
+        return convert_to_pdf(html, output_path)
         
     except Exception as e:
         print(f"\n❌ FATAL: {e}")
+        return None
 
 if __name__ == "__main__":
-    main()
+    default_json = "class7/json_output/gegp105.json"
+    if os.path.exists(default_json):
+        run_quiz_generator(default_json, "quiz.pdf")
+    else:
+        print("Default file not found.")

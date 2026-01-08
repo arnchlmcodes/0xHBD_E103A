@@ -17,15 +17,15 @@ from video_audio_merger import merge_video_audio
 load_dotenv()
 
 # Configuration
-JSON_PATH = "class7/json_output/gegp108.json"
-TOPIC_INDEX = 0 
-GROQ_API_KEY = os.getenv("GROQ_API_KEY")
+# Global constants removed for API flexibility
+# JSON_PATH and TOPIC_INDEX are passed as arguments
+# API keys are loaded from environment variables
 
-def generate_spec_with_llm(json_data):
+def generate_spec_with_llm(json_data, topic_index=0):
     """Generate visual spec for Manim using Groq"""
     print("🤖 Designing animation storyboard...")
     
-    topic = json_data[TOPIC_INDEX]
+    topic = json_data[topic_index]
     topic_name = topic['topic_name']
     objectives = "\n".join([f"- {obj}" for obj in topic['learning_objectives']])
     content = "\n".join([b['text'] for b in topic['content_blocks']])[:2000]
@@ -70,7 +70,8 @@ def generate_spec_with_llm(json_data):
     Make it visual, simple, and educational. Use 3-5 sections max.
     """
     
-    client = Groq(api_key=GROQ_API_KEY)
+    api_key = os.getenv("GROQ_API_KEY")
+    client = Groq(api_key=api_key)
     completion = client.chat.completions.create(
         model="llama-3.1-8b-instant",
         messages=[
@@ -115,14 +116,14 @@ def run_manim_synchronized():
     print("\n" + "="*60)
     print("🎬 STEP 2: RENDERING SYNCHRONIZED ANIMATION")
     print("="*60)
-    print("📱 Resolution: 1080x1920 (9:16 YouTube Shorts)")
+    print("📱 Resolution: 1920x1080 (16:9 Landscape)")
     print("🎯 Syncing: Animation timing matches audio segments")
     print("(This might take a minute)")
     
-    # YouTube Shorts dimensions with synchronized engine
+    # Landscape dimensions with synchronized engine
     cmd = [
         sys.executable, "-m", "manim",
-        "--resolution", "1080,1920",  # Portrait mode
+        "--resolution", "1920,1080",  # Landscape mode
         "--fps", "30",  # Smooth 30fps
         "manim_engine_synchronized.py",  # Use synchronized version
         "SynchronizedLesson"
@@ -131,9 +132,9 @@ def run_manim_synchronized():
     try:
         result = subprocess.run(cmd, check=True, capture_output=True, text=True)
         print("\n✅ Synchronized Animation Rendered!")
-        video_path = "media/videos/manim_engine_synchronized/1920p30/SynchronizedLesson.mp4"
+        video_path = "media/videos/manim_engine_synchronized/1080p30/SynchronizedLesson.mp4"
         print(f"📁 Video saved to: {video_path}")
-        print("📱 Format: YouTube Shorts ready!")
+        print("📱 Format: Landscape 16:9 ready!")
         print("🎯 Timing: Perfectly synced with audio!")
         return video_path
     except subprocess.CalledProcessError as e:
@@ -173,65 +174,79 @@ def merge_video_and_audio(video_path, audio_path):
         print("\n❌ Merge failed")
         return None
 
-def main():
+def run_video_generator(json_path, output_dir, topic_index=0):
     print("="*60)
     print("🎥 AI EDUCATIONAL ANIMATOR WITH SYNCHRONIZED NARRATION")
     print("="*60)
-    print("🎯 NEW: Audio-driven timing for perfect synchronization!")
     
-    # 1. Load Data
-    print("\n📖 Loading curriculum data...")
-    with open(JSON_PATH, 'r', encoding='utf-8') as f:
-        data = json.load(f)
-    print(f"✓ Loaded: {JSON_PATH}")
+    # Ensure output dir exists
+    os.makedirs(output_dir, exist_ok=True)
+    
+    try:
+        # 1. Load Data
+        print("\n📖 Loading curriculum data...")
+        with open(json_path, 'r', encoding='utf-8') as f:
+            data = json.load(f)
         
-    # 2. Generate Spec
-    print("\n" + "="*60)
-    print("📝 GENERATING ANIMATION SPECIFICATION")
-    print("="*60)
-    spec_json = generate_spec_with_llm(data)
-    
-    # Save spec for Manim to read
-    with open("lesson_spec.json", "w", encoding="utf-8") as f:
-        f.write(spec_json)
-    print("💾 Saved storyboard to lesson_spec.json")
-    
-    # Display spec preview
-    spec = json.loads(spec_json)
-    print(f"\n📋 Spec Preview:")
-    print(f"   Title: {spec.get('title', 'N/A')}")
-    print(f"   Subtitle: {spec.get('subtitle', 'N/A')}")
-    print(f"   Sections: {len(spec.get('sections', []))}")
-    
-    # 3. Generate Narration Audio FIRST (with timing data)
-    audio_path, audio_duration = generate_narration_audio()
-    
-    if not audio_path:
-        print("\n❌ Cannot proceed without audio - synchronization requires audio timing data")
-        return
-    
-    # 4. Render Synchronized Video (using audio timing data)
-    video_path = run_manim_synchronized()
-    
-    if not video_path:
-        print("\n❌ Video rendering failed. Cannot proceed to merge.")
-        return
-    
-    # 5. Merge Synchronized Video and Audio
-    final_video = merge_video_and_audio(video_path, audio_path)
-    
-    if final_video:
+        if isinstance(data, dict):
+            data = [data]
+            
+        print(f"✓ Loaded: {json_path}")
+            
+        # 2. Generate Spec
         print("\n" + "="*60)
-        print("✨ COMPLETE! ✨")
+        print("📝 GENERATING ANIMATION SPECIFICATION")
         print("="*60)
-        print(f"📹 Final video: {final_video}")
-        print(f"📱 Format: YouTube Shorts (1080x1920)")
-        print(f"🎵 Audio: {audio_path}")
-        print(f"📊 Timing data: narration_full_timing.json")
-        print(f"🎯 Synchronization: Perfect audio-visual sync!")
-        print("\n🎬 Your synchronized educational video is ready for YouTube Shorts!")
-    else:
-        print("\n⚠️ Process completed with errors. Check the logs above.")
+        spec_json = generate_spec_with_llm(data, topic_index)
+        
+        # Save spec for Manim to read (needs to be in local dir or passed explicitly)
+        # Manim script reads 'lesson_spec.json' by default usually, let's keep it there or update manim script
+        # For safety in concurrent env, ideally we pass contents, but for MVP file is okay if serialized.
+        # We will write to current working dir where manim runs.
+        spec_path = "lesson_spec.json"
+        with open(spec_path, "w", encoding="utf-8") as f:
+            f.write(spec_json)
+        print("💾 Saved storyboard to lesson_spec.json")
+        
+        # 3. Generate Narration Audio
+        # pass explicitly if needed, but current function generate_narration_audio() seems self-contained?
+        # It calls TTSGenerator. We need to check if TTSGenerator needs arguments. 
+        # It relies on 'lesson_spec.json' existing.
+        audio_path, audio_duration = generate_narration_audio()
+        
+        if not audio_path:
+            raise Exception("Cannot proceed without audio")
+        
+        # 4. Render Synchronized Video
+        video_path = run_manim_synchronized()
+        
+        if not video_path:
+            raise Exception("Video rendering failed")
+        
+        # 5. Merge
+        final_video_name = f"Video_{os.path.basename(json_path).replace('.json','')}_{topic_index}.mp4"
+        final_video_dest = os.path.join(output_dir, final_video_name)
+        
+        # The merge function currently writes to "final_video_with_narration.mp4"
+        # We need to move it or call merge with destination
+        merged_path = merge_video_and_audio(video_path, audio_path)
+        
+        if merged_path and os.path.exists(merged_path):
+            import shutil
+            shutil.move(merged_path, final_video_dest)
+            print(f"🎉 Moved final video to: {final_video_dest}")
+            return final_video_dest
+        else:
+            raise Exception("Merge returned no path")
+            
+    except Exception as e:
+        print(f"❌ Video Generation Failed: {e}")
+        return None
 
 if __name__ == "__main__":
-    main()
+    # Default test
+    default_json = "class7/json_output/gegp108.json"
+    if os.path.exists(default_json):
+        run_video_generator(default_json, "generated_content")
+    else:
+        print("Default file not found")

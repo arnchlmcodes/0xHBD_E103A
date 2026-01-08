@@ -2,31 +2,31 @@
   {
     "section": "title",
     "audio_file": "audio_segments\\segment_00_title.mp3",
-    "audio_duration": 5.112,
+    "audio_duration": 5.712,
     "animation_duration": 4.0
   },
   {
     "section": "definition_0",
     "audio_file": "audio_segments\\segment_01_definition_0.mp3",
-    "audio_duration": 6.48,
+    "audio_duration": 5.88,
     "animation_duration": 4.5
   },
   {
     "section": "bullet_list_1",
     "audio_file": "audio_segments\\segment_02_bullet_list_1.mp3",
-    "audio_duration": 14.304,
+    "audio_duration": 11.208,
     "animation_duration": 6.5
   },
   {
     "section": "analogy_2",
     "audio_file": "audio_segments\\segment_03_analogy_2.mp3",
-    "audio_duration": 5.208,
+    "audio_duration": 4.296,
     "animation_duration": 5.0
   },
   {
     "section": "process_3",
     "audio_file": "audio_segments\\segment_04_process_3.mp3",
-    "audio_duration": 9.648,
+    "audio_duration": 7.104,
     "animation_duration": 9.0
   },
   {
